@@ -1,0 +1,302 @@
+% Präambel
+\documentclass[11pt,a4paper,oneside, 
+liststotoc, 					% Tabellen- und Abbildungsverzeichnis ins Inhaltsverzeichnis
+bibtotoc,						% Literaturverzeichnis ins Inhaltsverzeichnis aufnehmen
+titlepage, 						% Titlepage-Umgebung statt \maketitle
+headsepline, 					% horizontale Linie unter Kolumnentitel
+%abstracton,					% Überschrift beim Abstract einschalten, Abstract muss dazu in {abstract}-Umgebung stehen
+%DIV11,							% auskommentieren, um den Seitenspiegel zu vergrößern
+BCOR6mm,						% Bindekorrektur, die den Seitenspiegel um 6mm nach rechts verschiebt,
+]{scrreprt}			
+\usepackage{ucs} 				% Dokument in utf8-Codierung schreiben und speichern
+\usepackage[utf8x]{inputenc} 	% ermöglicht die direkte Eingabe von Umlauten
+\usepackage[english]{babel} 	% deutsche Trennungsregeln und Übersetzung der festcodierten Überschriften
+\usepackage[T1]{fontenc} 		% Ausgabe aller zeichen in einer T1-Codierung (wichtig für die Ausgabe von Umlauten!)
+\usepackage{graphicx}  			% Einbinden von Grafiken erlauben
+%\usepackage{amsmath}
+%\usepackage{amsfonts}
+%\usepackage{amssymb}
+\usepackage{mathpazo} 			% Einstellung der verwendeten Schriftarten
+\usepackage{textcomp} 			% zum Einsatz von Eurozeichen u. a. Symbolen
+\usepackage{listings}			% Datstellung von Quellcode mit den Umgebungen {lstlisting}, \lstinline und \lstinputlisting
+\usepackage{xcolor} 			% einfache Verwendung von Farben in nahezu allen Farbmodellen
+\usepackage[intoc]{nomencl} 	% zur Erstellung des Abkürzungsberzeichnisses
+\usepackage{fancyhdr}			% Zusatzpaket zur Gestaltung von Fuß und Kopfzeilen
+\usepackage{listing}
+\usepackage{setspace}
+\usepackage{nameref}
+
+% -----------------------------------------------------------------------------------------------------------------
+% Zum Aktualisieren des Abkürzungsverzeichnisses bitte auf der Kommandozeile folgenden Befehl aufrufen :
+%  makeindex Bachelorarbeit.nlo -s nomencl.ist -o Bachelorarbeit.nls
+% -----------------------------------------------------------------------------------------------------------------
+
+% Hier die persönlichen Daten eingeben:
+
+\newcommand{\titel}{Assistenzsystem für Quadrocopter}
+\newcommand{\untertitel}{}
+\newcommand{\arbeit}{Studienarbeit}
+\newcommand{\studiengang}{Angewandte Informatik}
+\newcommand{\autor}{Christoph Meise}
+\newcommand{\matrikelnr}{4050853}
+\newcommand{\kurs}{TINF14B2}
+\newcommand{\firma}{SAP SE}
+\newcommand{\abgabe}{09.19.2016}
+\newcommand{\betreuerdhbw}{Markus Strand}\newcommand{\betreuerfirma}{Andreas Wendel}
+
+\newcommand{\jahr}{2016}			% für Angabe im Copyright-Vermerk der Titelseite
+
+% Abkürzungen
+\newcommand{\ua}{\mbox{u.\,a.\ }}
+\newcommand{\zB}{\mbox{z.\,B.\ }}
+\newcommand{\bs}{$\backslash$}
+
+\renewcommand{\nomname}{List of Abbreviations}
+
+% -------------------------------------------------------------------------------------------
+% Definition der Kopf- und Fußzeilen
+\lhead{}								% Kopf links
+\chead{}								% Kopf mitte
+\rhead{\sffamily{\titel}}				% Kopf rechts
+\lfoot{}								% Fuß links
+\cfoot{\sffamily{\thepage}}				% Fuß mitte
+\rfoot{\sffamily{\autor}}				% Fuß rechts
+\renewcommand{\headrulewidth}{0.4pt}	% Liniendicke Kopf
+\renewcommand{\footrulewidth}{0.4pt}	% Liniendicke Fuß
+
+\makeatletter
+\newcommand*{\currentname}{\@currentlabelname}
+\makeatother
+
+
+
+\makenomenclature							% Abkürzungsverzeichnis erstellen
+\input{Inhalt/abkuerzungen}					% Datei mit Abkürzungen laden
+
+% -------------------------------------------------------------------------------------------
+%                     Beginn des Dokumenteninhalts
+% -------------------------------------------------------------------------------------------
+\begin{document}
+\begin{spacing}{1.5}
+\setcounter{secnumdepth}{3}					% Nummerierungstiefe fürs Inhaltsverzeichnis
+\setcounter{tocdepth}{3}
+\sffamily									% für die Titelei serifenlose Schrift verwenden
+
+% ------------------------------ Titelei -----------------------------------------------------
+
+\include{Inhalt/titelseite} 				% erzeugt die Titelseite
+\pagenumbering{Roman}						% große, römische Seitenzahlen für Titelei
+\include{Inhalt/erklaerung} 				% Einbinden der eidestattlichen Erklärung
+\include{Inhalt/abstract}   				% Einbinden des Abstracts
+
+\tableofcontents							% Erzeugen des Inhalsverzeichnisses
+\clearpage
+\printnomenclature[2.0cm]					% Erzeugen des Abkürzungsverzeichnisses
+\clearpage
+\begingroup
+\let\clearpage\relax
+%\listoflistings								% Erzeugen des Abbildungsverzeichnisses 
+\listoffigures
+\endgroup
+%\listoftables 								% Erzeugen des Tabellenverzeichnisses
+\pagebreak
+
+% --------------------------------------------------------------------------------------------
+%                    Inhalt der Bachelorarbeit
+%---------------------------------------------------------------------------------------------
+\pagenumbering{arabic}						% arabische Seitenzahlen für den Hauptteil
+\pagestyle{fancy}					
+\rmfamily
+
+\include{Inhalt/einleitung}
+\include{Inhalt/vorlagen}
+%\include{Inhalt/hauptteil}
+\include{Inhalt/implementation}
+\include{Inhalt/Evaluation}
+%\include{Inhalt/zusammenfassung}
+
+\bibliography{references} 
+\bibliographystyle{ieeetr}
+
+
+% ---------------------------- Literaturverzeichnis ----------------------------------------------
+% \begin{thebibliography}{999999}
+% 
+% \bibitem[1]{company} SAP offical website: \emph{SAP Company Information}, 2016.
+% http://go.sap.com/corporate/en/company.html, \emph{visited: 08.22.2016}.
+% \bibitem[2]{beacon1} Dejan Jurejevcic: \emph{IoT tech deep-dive: The rise of
+% beacon technology}, 09.03.2015.
+% https://iot-analytics.com/rise-of-beacon-technology/ \emph{visited: 08.22.2016}.
+% \bibitem[3]{beacon2} Agnieszka Gasiorek: \emph{What Are Beacons & How Do They
+% Work?}, 09.25.2014. https://kontakt.io/blog/infographic-beacons/, \emph{visited:
+% 08.22.2016}.
+% \bibitem[4]{usasmart} Monica Anderson: \emph{Technology Device Ownership: 2015},
+% 10.29.2015.
+% http://www.pewinternet.org/2015/10/29/technology-device-ownership-2015/,
+% \emph{visited:
+% 08.15.2016}.
+% \bibitem[5]{iottech} Louis Columbus: \emph{Roundup Of Internet of Things
+% Forecasts And Market Estimates, 2015}, 12.27.2015.
+% http://www.forbes.com/sites/louiscolumbus/2015/12/27/roundup-of-internet-of-things-forecasts-and-market-estimates-2015/#739d8de148a0,
+% \emph{visited:
+% 08.23.2016}.
+% \bibitem[6]{gsma} Sylwia Kechiche: \emph{Cellular M2M forecasts: unlocking
+% growth}, 02.06.2015.
+% https://www.gsmaintelligence.com/research/2015/02/cellular-m2m-forecasts-unlocking-growth/457/,
+% \emph{visited:08.23.2016}.
+% \bibitem[7]{sapranking} Truffle Capital: \emph{European software vendors ranking
+% 2015}, 12.31.2015.
+% http://www.truffle100.com/2015/ranking.php, \emph{visited:08.24.2016}. 
+% \bibitem[8]{sapnewsm2m} SAP News: \emph{Ericsson and SAP Announce New
+% Combination of Cloud-Based Machine-to-Machine Solutions to Enhance Enterprise
+% Efficiency}, 02.25.2013.
+% http://news.sap.com/ericsson-and-sap-announce-new-combination-of-cloud-based-machine-to-machine-solutions-to-enhance-enterprise-efficiency/,
+% \emph{visited:08.17.2016}.
+% \bibitem[9]{sapgocm} SAP Connected Manufacturing: \emph{Manufacturing Execution
+% System (MES)}, unknown date.
+% http://go.sap.com/product/enterprise-management/execution-mes.html,
+% \emph{visited:08.16.2016}.
+% \bibitem[10]{sapgoain} SAP Asset Intelligence Network: \emph{Seamlessly connect
+% machines and business - with our asset intelligence repository}, unknown date.
+% http://go.sap.com/germany/product/plm/asset-intelligence-network.product-capabilities.html,
+% \emph{visited:08.16.2016}.
+% \bibitem[11]{sapgolns} SAP Asset Intelligence Network: \emph{Seamlessly connect
+% machines and business - with our asset intelligence repository}, unknown date.
+% http://go.sap.com/solution/lob/supply-chain/logistics-network.html,
+% \emph{visited:08.16.2016}.
+% \bibitem[12]{hanaacid} Jim Gray: \emph{The Transaction Concept:
+% Virtues and Limitations}, 06.1981.
+% http://research.microsoft.com/en-us/um/people/gray/papers/theTransactionConcept.pdf,
+% \emph{visited:08.17.2016}.
+% \bibitem[13]{hana2} Franz Faerber, Sand Kyun Cha, Juergen Primsch, Christof
+% Bornhoevd, Stefan Sigg, Wolfgang Lehner: \emph{SAP HANA Database - Data
+% Management for Modern Business Applications}, 12.04.2011.
+% ACM SIGMOD Record Volume 40 Issue 4, ACM New York, pp. 45-51.
+% \bibitem[14]{sapiotstrats} Holger Mueller: \emph{First Take - SAP's IoT Strategy
+% becomes clearer\ldots}, 01.28.2015.
+% http://enswmu.blogspot.de/2015/01/first-take-saps-iot-strategy-becomes.html,
+% \emph{visited:08.18.2016}.
+% \bibitem[15]{hcpoff} SAP HANA Cloud Platform: \emph{What is SAP HANA Cloud
+% Platform?}, unknown date.
+% https://hcp.sap.com/index.html, \emph{visited:08.18.2016}.
+% \bibitem[16]{hcpdocs} Developer Guide: \emph{SAP HANA Cloud Platform},
+% 07.29.2016.
+% https://help.hana.ondemand.com/help/frameset.htm, \emph{visited: 08.18.2016}.
+% \bibitem[17]{sapvi} SAP Vehicle Insights: \emph{SAP Vehicle Insights: Create new
+% business models with connected car analytics}, unknown date.
+% http://go.sap.com/product/analytics/vehicle-insights.html,
+% \emph{visited:08.18.2016}.
+% \bibitem[18]{vidocs} Benjamin Graf, Ralf Ehret: \emph{Architecture Concept SAP
+% Vehicle Insights}, 05.20.2015. Internal product documentation.
+% \bibitem[19]{websocket1} Michael Carter: \emph{[whatwg] TCPConnection feedback},
+% 06.2008.
+% https://lists.w3.org/Archives/Public/public-whatwg-archive/2008Jun/0165.html,
+% \emph{visited:08.18.2016}.
+% \bibitem[20]{websocketbook} Andrew Lombardi: \emph{WebSocket: Lightweight
+% Client-Server }, 04.09.2015.
+% Mystic Coders, LLC 2015, O'Reilly Media,  1st printing, pp.9-17.
+% \bibitem[21]{w3cwebsocket} Ion Hickson: \emph{The WebSocket API}, 09.29.2011.
+% https://www.w3.org/TR/2011/WD-websockets-20110929/, \emph{visited:08.19.2016}.
+% \bibitem[22]{firefoxws} Mozilla Developer Network MDN: \emph{Writing WebSocket
+% servers}, 08.03.2016.
+% https://developer.mozilla.org/en-US/docs/Web/API/WebSockets\_API/Writing\_WebSocket\_servers,
+% \emph{visited:08.19.2016}.
+% \bibitem[23] {nodebook} Brad Dayley: \emph{Node.js, MongoDB, and AngularJS Web
+% Development}, 12.2014.
+% Addison-Wesley Longman, Inc, Pearson Education Inc 2014, 2nd printing.
+% \bibitem[24]{sapandnode} Graham Robinson: \emph{SAP makes strong commitment to
+% Node.js}, 10.25.2015.
+% http://scn.sap.com/community/developer-center/hana/blog/2015/10/25/sap-endorses-nodejs,
+% \emph{visited:08.19.2016}.
+% 
+% \bibitem[25]{sybase} SYBASE Infocenter: \emph{AppBuilder 1.0}, 11.2013.
+% http://infocenter.sybase.com/help/index.jsp?topic=/
+% com.sybase.infocenter.appbuilder.1.0/doc/html/title.html, \emph{visited:08.19.2016}.
+% 
+% \bibitem[26]{connectionStackOF} Stack Overflow Question: \emph{HTTP headers in
+% Websockets client API}, 12.2010.
+% http://stackoverflow.com/questions/4361173/http-headers-in-websockets-client-api,
+% \emph{visited:08.19.2016}.
+% \bibitem[27]{connectionHTML} HTML Documentation: \emph{HTML Living Standard},
+% 08.24.2016.
+% https://html.spec.whatwg.org/multipage/comms.html#network, 
+% \emph{visited:08.19.2016}.
+% 
+% \bibitem[28]{webstatistic} Web Archive: \emph{Internet Statistics}, 08.25.2016.
+% https://web.archive.org/web/20130914042638/
+% http://stats.areppim.com/stats/stats\_internetxfcst.htm, \emph{visited:08.19.2016}.
+% \bibitem[29] {angularbook} Rodrigo Branas: \emph{AngularJS Essentials}, 08.2014.
+% Packt Publishing Ltd., 1st printing, pp. 32-35.
+% \bibitem[30] {angularbook2} Sandeep Panda: \emph{AngularJS: Novice to Ninja},
+% 2014. SitePoint Pty. Ltd., 1st printing, p. 12.
+% \bibitem[31]{angulardocs} AngularJS Developer Guide: \emph{Data Binding},
+% 08.02.2016.
+% https://docs.angularjs.org/guide/databinding, \emph{visited:08.23.2016}.
+% \bibitem[32]{oracledocs} Oracle Javax documentation: \emph{Package
+% javax.websocket}, unknown date.
+% https://docs.oracle.com/javaee/7/api/javax/websocket/package-summary.html,
+% \emph{visited:08.23.2016}.
+% \bibitem[33]{javaanno} Andrey Redko: \emph{Java Annotation Processors},
+% 09.18.2015.
+% https://www.javacodegeeks.com/2015/09/java-annotation-processors.html,
+% \emph{visited:08.25.2016}.
+% \bibitem[34] {singletonbook} James William Cooper: \emph{Java Design Patterns: A Tutorial},
+% 04.2000. Addison-Wesley Longman, Inc, 2nd printing, p. 42. 
+% \bibitem[35] {javabook2} S.G. Ganesh, Hari Kiran Kumar, Tushar Sharma:
+% \emph{Oracle Certified Professional Java SE 8 Programmer Exam 1Z0-809}, 2016.
+% Apress, 1st printing, p. 39.
+% \bibitem[36]{hcpsupportdocs} SAP HANA Cloud Documentation: \emph{Supported Java
+% APIs}, 07.29.2016.
+% https://help.hana.ondemand.com/help/
+% frameset.htm?e836a95cbb571014b3c4c422837fcde4.html, \emph{visited:08.19.2016}.
+% 
+% \bibitem[37]{gsma2} GSM Association: \emph{Understanding the Internet of Things
+% (IoT)}, 07.2014.
+% http://www.gsma.com/connectedliving/wp-content/uploads/2014/08/cl\_iot\_wp\_07\_14.pdf,
+% \emph{visited:08.16.2016}.
+% \bibitem[38]{javaconcurrency} Jeff Friesen: \emph{Java 101: Java concurrency
+% without the pain, Part 1}, 06.19.2013.
+% http://www.javaworld.com/article/2078809/java-concurrency/java-concurrency-java-101-the-next-generation-java-concurrency-without-the-pain-part-1.html,
+% \emph{visited:08.25.2016}.
+% \bibitem[39] {javamemoryleak} Stacy Joines, Ruth Willenborg, Ken Hygh:
+% \emph{Performance Analysis for Java Web Sites}, 09.2002.
+% Addison-Wesley Longman, Inc, 1st printing, p. 115, Memory Leaks ll. 3-4.
+% \bibitem[40]{intel} Intel: \emph{A Guide to the Internet of Things}, unknown
+% date.
+% http://www.intel.com/content/www/us/en/internet-of-things/infographics/guide-to-iot.html,
+% \emph{visited:08.16.2016}.
+% \bibitem[41]{gartner} Rob van der Meulen, Janessa Rivera: \emph{Gartner Says By
+% 2020, a Quarter Billion Connected Vehicles Will Enable New In-Vehicle Services
+% and Automated Driving Capabilities}, 01.26.2015. 
+% http://www.gartner.com/newsroom/id/2970017, \emph{visited:09.07.2016}.
+% \bibitem[42]{autonom} Local Motors: \emph{Olli Your Friendly Neighborhood
+% Mobility Solution}, unknown date.
+% https://localmotors.com/olli/, \emph{visited:09.07.2016}. 
+% 
+% 
+% 
+% % books and papers
+% 
+% 
+% 
+% 
+% 
+% 
+% 
+% 
+% 
+% %von  S-115 #Memory Leaks
+% 
+% 
+% 
+% \end{thebibliography}
+
+% ------------------------------- Anhang ---------------------------------------------------------
+
+\begin{appendix}
+\clearpage
+\pagenumbering{Roman}						% römische Seitenzahlen für Anhang
+\end{appendix}
+
+\end{spacing}
+\end{document}

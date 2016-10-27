@@ -1,0 +1,17 @@
+\select@language {english}
+\contentsline {chapter}{\nonumberline Ehrenw{\"o}rtliche Erkl{\"a}rung}{I}
+\contentsline {chapter}{\nonumberline List of Figures}{V}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Motivation}{2}
+\contentsline {section}{\numberline {1.2}Structure}{3}
+\contentsline {chapter}{\numberline {2}Fundamentals}{4}
+\contentsline {section}{\numberline {2.1}Internet of Things}{4}
+\contentsline {subsection}{\numberline {2.1.1}Digitizing businesses with IoT}{4}
+\contentsline {chapter}{\numberline {3}Software Architecture}{5}
+\contentsline {section}{\numberline {3.1}Requirements}{5}
+\contentsline {section}{\numberline {3.2}Implementation}{5}
+\contentsline {subsection}{\numberline {3.2.1}Actual Setup}{5}
+\contentsline {subsection}{\numberline {3.2.2}WebSockets}{6}
+\contentsline {chapter}{\numberline {4}Evaluation}{7}
+\contentsline {section}{\numberline {4.1}User Experience}{7}
+\contentsline {section}{\numberline {4.2}Conclusion}{7}
