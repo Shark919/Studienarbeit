@@ -8,78 +8,10 @@
 
 
 \pagestyle{plain}
-\chapter{Introduction}
+\chapter{Einleitung}
 \label{cha:Introduction}
 
-SAP is a multinational corporation that develops enterprise software to manage
-business operations and customer relations. \cite{company} The company is
-headquartered in Walldorf, Germany with the nearby location St. Leon Rot. As a
-result the site is distributed among 27 buildings which are partially not within
-walking distance.
-Therefore a shuttle service is offered in order to simplify traveling between
-the offices.
-\newline The service currently works similar to public transportation:
-the shuttles have a strict schedule as well as designated stops.
-Furthermore it is possible to request a shuttle at the reception in some
-buildings.
-The drivers are therefore called by telephone and may dynamically adjust their
-routes if they are available. \newline Even though this is a plausible concept,
-it is to be taken into consideration that it is currently barely ever used as it
-is too inconvenient for most people.
-Despite this, the otherwise strict schedule causes a number of significant
-problems such as long waiting times. Thereby it is highly ineffective that the
-drivers are heading towards stops where possibly no one is waiting.
-Moreover, if many people are simultaneously looking for a shuttle and additional
-ones are necessary, the drivers have to autonomously communicate with each other
-to make enough cars available. As a consequence, this process can be very
-time-consuming for the passengers.
-\newline 
-
 \section{Motivation}
-The objective of this study is to investigate the possible effects of an
-extension of the shuttle services with smart devices and IoT solutions. This
-process involves the use of the Internet of Things concept by connecting the
-cars, drivers and passengers with smart devices such as sensors and smartphone
-applications.
-\newline One of those devices is a beacon installed in the interior of the
-shuttles as well as in waiting areas in each building. A Beacon is a small
-wireless device continuously transmitting a basic radio signal. Most commonly
-this signal is picked up by nearby smartphones using Bluetooth Low Energy
-technology. \cite{beacon1}\cite{beacon2} Moreover, technical data like current
-speed, acceleration or fuel consumption are constantly being sent to the SAP
-Vehicle Insights backend in real time which is explained in section \ref{SAPVI}.
-The transmission is realized with a small device that is attached to the
-Controller Area Network \emph{(CAN)} bus interface of the cars. This dongle
-sends the data over a mobile Internet connection.
-\newline The shuttles shall be solicited with the passenger application sending
-a request to the backend. There it is processed and forwarded to the driver
-showing him where he may pick them up.
-In order to have an overview and to administrate the workflow, a real-time
-dashboard is to be developed with current User Interface \emph{(UI)}
-technologies.
-The data that is gathered by the different devices is persitent in a database
-and may be analyzed in the backend. As a result, the extrapolated information
-could help to optimized the shuttle service, possibly leading towards lower
-waiting times, reduced distances driven and a lower fuel consumption overall.
-\newline
 
-\section{Structure}
-This paper is composed of three chapters. The first section describes
-the fundamental principles of the Internet of Things. Moreover it examines SAPs
-IoT strategy and its components that are important for the further course of
-this thesis. \newline The following section is introducing technical as well as
-non-technical requirements. Moreover it involves the design and implementation
-of the architecture for the Proof of Concept \emph{(PoC)}. In this context, the
-decisions for and against the utilization of software structures and elements
-are justified.
-\newline The next chapter is comprised of the realization of the Java interface
-which evaluates the stability and therefore the applicability of this component.
-Based on that, the implementation details are elucidated extensively. Notably,
-this section also explains how the component has been tested, validating that it
-is reasonable to use it as a core element in the architecture.
-\newline The last part outlines this paper in order to analyze and evaluate the
-results. As a conclusion this chapter contains a prospect on how shuttles
-services may be further optimized in the future. It also includes a reflection
-about the advantages the digital transformation offers in comparison to the
-existing model in order to measure to which extend the architecture is
-practical.
+
+\section{Aufbau}
