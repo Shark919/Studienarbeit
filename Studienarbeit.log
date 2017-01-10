@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  27 OCT 2016 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  7 JAN 2017 12:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -657,13 +657,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--40
  [4
 
 
-]
+] [5]
 No file Studienarbeit.nls.
 (./Studienarbeit.lof)
 \tf@lof=\write5
 \openout5 = `Studienarbeit.lof'.
 
- [5
+ [6
 
 
 ]
@@ -671,39 +671,23 @@ No file Studienarbeit.nls.
 
  (./Inhalt/einleitung.tex
 chapter 1.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 15.
+(c:/texlive/2016/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 16.
 
-LaTeX Warning: Citation `company' on page 1 undefined on input line 15.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--37
-
- []
-
-
-LaTeX Warning: Citation `beacon1' on page 1 undefined on input line 48.
+(c:/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)) [1
 
 
-LaTeX Warning: Citation `beacon2' on page 1 undefined on input line 48.
-
-
-LaTeX Warning: Reference `SAPVI' on page 1 undefined on input line 50.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--65
-
- []
-
-[1
-
-
-]) [2] [3]
+]
 \openout2 = `Inhalt/vorlagen.aux'.
 
- (./Inhalt/vorlagen.tex
+
+(./Inhalt/vorlagen.tex
 chapter 2.
-) [4
+) [2
 
 
 
@@ -712,23 +696,16 @@ chapter 2.
 
  (./Inhalt/implementation.tex
 chapter 3.
-[5
+[3
 
 
 
-] <Bilder/jMeterReal.png, id=54, 452.28975pt x 291.489pt>
-File: Bilder/jMeterReal.png Graphic file (type png)
-
-<use Bilder/jMeterReal.png>
-Package pdftex.def Info: Bilder/jMeterReal.png used on input line 39.
-(pdftex.def)             Requested size: 316.60066pt x 204.0409pt.
-) [6 <./Bilder/jMeterReal.png>]
+]) [4]
 \openout2 = `Inhalt/Evaluation.aux'.
 
-
-(./Inhalt/Evaluation.tex
+ (./Inhalt/Evaluation.tex
 chapter 4.
-) [7
+) [5
 
 
 
@@ -740,37 +717,33 @@ No file Studienarbeit.bbl.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 8084 strings out of 493013
- 125471 string characters out of 6136992
- 282086 words of memory out of 5000000
- 11415 multiletter control sequences out of 15000+600000
- 25971 words of font info for 52 fonts, out of 8000000 for 9000
+ 8319 strings out of 493013
+ 128102 string characters out of 6136992
+ 280997 words of memory out of 5000000
+ 11648 multiletter control sequences out of 15000+600000
+ 23523 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,11n,66p,8899b,710s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2016/texmf-dist/fon
 ts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2016/texmf-dist/fonts/type1/
-public/cm-super/sfcc1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-
-super/sfsi1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss
-1000.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb><
-c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive
-/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2016/texm
-f-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2016/texmf-dist/fon
-ts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/p
-ublic/cm-super/sfsx1440.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-s
-uper/sfsx1728.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx2
-074.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/tex
-live/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2016/texmf
--dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Studienarbeit.pdf (13 pages, 305643 bytes).
+public/mathpazo/fplmr.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-sup
+er/sfcc1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsi109
+5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/
+texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb><c:/texlive/20
+16/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2016/texmf-d
+ist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2016/texmf-dist/fonts/
+type1/public/cm-super/sfsx1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publ
+ic/cm-super/sfsx1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-supe
+r/sfsx1440.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1728
+.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/t
+exlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on Studienarbeit.pdf (12 pages, 261539 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
