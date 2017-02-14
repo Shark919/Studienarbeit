@@ -10,7 +10,7 @@
 \pagestyle{plain}
 \chapter{Einleitung}
 \label{cha:Introduction}
-
+%Christoph
 Autonomes Fahren, Machine Learning und Industrie 4.0. Hinter diesen aktuellen Themen steckt das Ziel, Abläufe und Zusammenhänge kontinuierlich zu automatisieren und für den Menschen zu vereinfachen. Das Thema der Automation kann vor allem in der Interaktion zwischen Mensch und Maschine hilfreich sein. Auf Grund der geringen Kosten und der hohen Anwendungsvielfalt bieten sich vor allem Drohnen für die Forschung zu Automation in der Robotik an. \newline
 Mit Modellen ab 30 und bis zu mehreren tausend Euro gibt es Ausführungen für nahezu jeden Anwendungsfall. Meist mit mehreren Sensoren und Kameras ausgestattet, stellen sie nicht nur Spielzeug dar, sondern sind essentiell für reale Anwendungsgebiete. \newline
 So werden heute schon Drohnen genutzt, um Katastrophengebiete und Kriegsregionen aus sicheren Standorten aufzuklären, oder um die Feuerwehr bei der Branderkundung und Menschensuche zu unterstützen. \newline
@@ -18,19 +18,27 @@ Natürlich können sie auch genutzt werden, um alltägliche Probleme zu lösen, 
 Da diese große Zahl an Drohnen nicht mehr manuell gesteuert werden kann, müssen sich diese größtenteils autonom bewegen. Dabei treten eine Vielzahl von komplexen Problemen auf, wie das zurechtfinden in einem unbekannten Raum und die Objekterkennung. \newline
 Außerdem ist bei Fluggeräten das Problem, dass die verwendete Ausrüstung tendenziell leicht und klein sein muss, damit die Flugeigenschaften nicht eingeschränkt werden bzw. die Drohne nicht zu groß wird. \newline
 Im Umfang dieser Arbeit soll eine Vorstufe zum autonomen Fliegen betrachtet werden: ein Assistenzsystem für den manuellen Flug. Dies ist Vergleichbar mit den Assistenzsystemen in PKWs, bei denen ein Tempomat, Licht- und Regensensoren oder Spurhalteassistenten den Fahrer unterstützen, jedoch das Fahren nicht abnehmen. \newline
-Das Ziel besteht darin, dass die Drohne aktiv die Umgebung auswertet und dabei Objekte wie Türen, oder Wände erkennt. Der Unterschied zu bereits bestehenden Projekten in diesem Themengebiet besteht darin, dass nur eine einzelne monokulare Kamera verwendet werden soll, anstatt das externe Tiefenbildkameras montiert werden. \newline
-Anhand der Tiefenbilder soll die Drohne anschließend in der Lage sein, entgegen der Entscheidungen des Nutzers zu fliegen, um somit beispielsweise Kollisionen zu vermeiden. \newline
-Dies soll die Drohne weiterhin auch in einer vollständig simulierten Umgebung können.
+
 
 
 \section{Motivation}
+%Christoph
+Das Ziel besteht darin, dass die Drohne aktiv die Umgebung auswertet und dabei Objekte wie Türen, oder Wände erkennt. Der Unterschied zu bereits bestehenden Projekten in diesem Themengebiet besteht darin, dass nur eine einzelne monokulare Kamera verwendet werden soll, anstatt das externe Tiefenbildkameras montiert werden. \newline
+Dadurch trifft man auf eine Vielzahl von komplexen Problemen, welche im weiteren Verlauf dieser Arbeit dargestellt werden. Auf der anderen Seite könnte man dadurch teure Hardware sparen und somit auch auf andere Projekte anwenden. \newline
+Anhand der Tiefenbilder soll die Drohne anschließend in der Lage sein, entgegen der Entscheidungen des Nutzers zu fliegen, um somit beispielsweise Kollisionen zu vermeiden. \newline
+Da das Problem nur durch die integrierte Hardware gelöst werden soll, kann nur auf einfache mittelmäßige Kameras zurückgegriffen werden, welche nach Vorne und zum Boden gerichtet sind.
+Dies soll die Drohne weiterhin auch in einer vollständig simulierten Umgebung können.
+
 
 %state of the art nicht vergessen
-- vorhandene Drohne semiautonom fliegen lassen
--> Assistenzsystem für Nutzer => Drohne erkennt Wände / Türen und hilft beim lenken
-- Problematik der Hardware => nur Kamera nach unten und vorne vorhanden
-- da jeweils nur eine "Normale" Kamera kein Tiefenbild vorhanden
--> nutzen des Projekts "REMODE" von Davide Scaramuzza um aus einzelbildern Tiefenbilder zu generieren
 
 
 \section{Aufbau}
+%Christoph
+Diese Studienarbeit besteht aus 3 Kapiteln. Im ersten Abschnitt der Arbeit sollen die Grundlagen erklärt werden. Zuerst wird dabei die genutzte Drohne und deren Spezifikationen dargestellt. \newline
+Anschließend wird das Software Framework Roboter Operating System \emph{(ROS)} eingeführt, welches ein Hauptbestandteil der Projektarchitektur ausmacht.\newline
+Im weiteren Verlauf wird dann die Simulationsumgebung beschrieben, da das Projekt sowohl unter realen Bedingungen, als auch in einer simulierten Welt soll. 
+Im letzten Teil dieses Kapitels wird die später verwendete Fuzzylogik erklärt. \newline
+Der zweite Abschnitt dieser Arbeit umfasst die Software Architektur. Hierbei sollen sowohl die Anforderungen an das Projekt, als auch die Implementierungstechnischen Spezifikationen dargelegt werden.
+Im dritten Teil besteht aus dem erzielten Ergebnis, sowie aus dem Ausblick für weitere Betrachtungen dieser Problematik.
+
