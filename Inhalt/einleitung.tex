@@ -11,22 +11,21 @@
 \chapter{Einleitung}
 \label{cha:Introduction}
 
-- Zeitalter der Drohnen bla bla
+Autonomes Fahren, Machine Learning und Industrie 4.0. Hinter diesen aktuellen Themen steckt das Ziel, Abläufe und Zusammenhänge kontinuierlich zu automatisieren und für den Menschen zu vereinfachen. Das Thema der Automation kann vor allem in der Interaktion zwischen Mensch und Maschine hilfreich sein. Auf Grund der geringen Kosten und der hohen Anwendungsvielfalt bieten sich vor allem Drohnen für die Forschung zu Automation in der Robotik an. \newline
+Mit Modellen ab 30 und bis zu mehreren tausend Euro gibt es Ausführungen für nahezu jeden Anwendungsfall. Meist mit mehreren Sensoren und Kameras ausgestattet, stellen sie nicht nur Spielzeug dar, sondern sind essentiell für reale Anwendungsgebiete. \newline
+So werden heute schon Drohnen genutzt, um Katastrophengebiete und Kriegsregionen aus sicheren Standorten aufzuklären, oder um die Feuerwehr bei der Branderkundung und Menschensuche zu unterstützen. \newline
+Natürlich können sie auch genutzt werden, um alltägliche Probleme zu lösen, wie die schnelle und direkte Lieferung von Paketen. \newline
+Da diese große Zahl an Drohnen nicht mehr manuell gesteuert werden kann, müssen sich diese größtenteils autonom bewegen. Dabei treten eine Vielzahl von komplexen Problemen auf, wie das zurechtfinden in einem unbekannten Raum und die Objekterkennung. \newline
+Außerdem ist bei Fluggeräten das Problem, dass die verwendete Ausrüstung tendenziell leicht und klein sein muss, damit die Flugeigenschaften nicht eingeschränkt werden bzw. die Drohne nicht zu groß wird. \newline
+Im Umfang dieser Arbeit soll eine Vorstufe zum autonomen Fliegen betrachtet werden: ein Assistenzsystem für den manuellen Flug. Dies ist Vergleichbar mit den Assistenzsystemen in PKWs, bei denen ein Tempomat, Licht- und Regensensoren oder Spurhalteassistenten den Fahrer unterstützen, jedoch das Fahren nicht abnehmen. \newline
+Das Ziel besteht darin, dass die Drohne aktiv die Umgebung auswertet und dabei Objekte wie Türen, oder Wände erkennt. Der Unterschied zu bereits bestehenden Projekten in diesem Themengebiet besteht darin, dass nur eine einzelne monokulare Kamera verwendet werden soll, anstatt das externe Tiefenbildkameras montiert werden. \newline
+Anhand der Tiefenbilder soll die Drohne anschließend in der Lage sein, entgegen der Entscheidungen des Nutzers zu fliegen, um somit beispielsweise Kollisionen zu vermeiden. \newline
+Dies soll die Drohne weiterhin auch in einer vollständig simulierten Umgebung können.
 
-- Drohnen schon ab 30€ bis zu mehreren tausend Euro
-- nicht nur Spielzeug, reale Anwendungsgebiete
--> Erkundung in Katastrophen / Kriegsregionen
--> Feuerwehr Branderkundung und Menschensuche
--> Lieferung von Paketen etc. etc.
-
-- Schritt von fliegen zu fliegen lassen
-- in Robotik Kernproblem sich in Umgebung autonom zurechtzufinden
-- Problematik von Gewicht -> keine schweren high end Geräte möglich
-- meist Tiefenbildkameras; Bilder werden dann ausgewertet
-- Möglichkeit der Schwarmintelligenz
 
 \section{Motivation}
 
+%state of the art nicht vergessen
 - vorhandene Drohne semiautonom fliegen lassen
 -> Assistenzsystem für Nutzer => Drohne erkennt Wände / Türen und hilft beim lenken
 - Problematik der Hardware => nur Kamera nach unten und vorne vorhanden
