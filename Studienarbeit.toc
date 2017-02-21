@@ -12,16 +12,16 @@
 \contentsline {section}{\numberline {2.5}Kinect}{5}
 \contentsline {chapter}{\numberline {3}Software Architektur}{6}
 \contentsline {section}{\numberline {3.1}Anforderungen}{6}
-\contentsline {section}{\numberline {3.2}\IeC {\"U}berblick}{6}
-\contentsline {section}{\numberline {3.3}Implementation}{6}
-\contentsline {subsection}{\numberline {3.3.1}Kamerakalibrierung}{7}
-\contentsline {subsection}{\numberline {3.3.2}SVO}{7}
-\contentsline {subsection}{\numberline {3.3.3}REMODE}{7}
-\contentsline {subsection}{\numberline {3.3.4}Featureerkennung}{7}
-\contentsline {subsection}{\numberline {3.3.5}Kinect}{7}
-\contentsline {subsection}{\numberline {3.3.6}Architektur/Aufbau}{7}
-\contentsline {subsection}{\numberline {3.3.7}Die einzelnen ROS Nodes}{7}
-\contentsline {chapter}{\numberline {4}Evaluation}{8}
-\contentsline {section}{\numberline {4.1}Ergebnis}{8}
-\contentsline {section}{\numberline {4.2}Ausblick}{8}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{9}
+\contentsline {section}{\numberline {3.2}\IeC {\"U}berblick}{7}
+\contentsline {section}{\numberline {3.3}Implementation}{7}
+\contentsline {subsection}{\numberline {3.3.1}Semi-Direct Monocular Visual Odometry - SVO}{8}
+\contentsline {subsection}{\numberline {3.3.2}Regularized Monocular Depth Estimation - REMODE}{9}
+\contentsline {subsection}{\numberline {3.3.3}Kamerakalibrierung}{9}
+\contentsline {subsection}{\numberline {3.3.4}Featureerkennung}{10}
+\contentsline {subsection}{\numberline {3.3.5}Kinect}{10}
+\contentsline {subsection}{\numberline {3.3.6}Architektur/Aufbau}{10}
+\contentsline {subsection}{\numberline {3.3.7}Die einzelnen ROS Nodes}{10}
+\contentsline {chapter}{\numberline {4}Evaluation}{11}
+\contentsline {section}{\numberline {4.1}Ergebnis}{11}
+\contentsline {section}{\numberline {4.2}Ausblick}{11}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{12}
