@@ -33,7 +33,7 @@ In diesem Abschnitt wird beschrieben, wie Drohne aus den Bildern der Kamera Info
 
 Eine Grundanforderung an das Projekt ist die Nutzung einer nicht modifizierten AR.Drone. Dadurch entsteht die Problematik, dass man keine Tiefenbildkamera nutzen kann, um in Echtzeit Tiefenbilder zu generieren. Die Drohne ist lediglich mit einer monokularen \footnote{Monokular ist die Bezeichnung für Kameras mit einer einzelnen Linse} Frontkamera ausgestattet. \newline
 Um Tiefeinformationen aus den Bildern einer solchen Kamera zu gewinnen, wird eine Szene aus verschiedenen Perspektiven aufgenommen. Anschließend gibt es unterschiedliche Ansätze um aus den aufeinanderfolgenden Bildern Kamerapositionen und Umgebungsstrukturen zu ermitteln. \newline
-Der aktuelle Standard sind Feature basierte Methoden. Diese versuchen die wichtigsten Merkmale eines Bildes, die Features, zu extrahieren. Mit Hilfe von Feature Deskriptor Algorithmen werden Vektoren mit Informationen zu invarianten Features berechnet, welche als Fingerabdruck für diese Merkmale fungiert. \newline
+Der aktuelle Standard zur Bestimmung der Kamerapostion sind Feature basierte Methoden. Diese versuchen die wichtigsten Merkmale eines Bildes, die Features, zu extrahieren. Mit Hilfe von Feature Deskriptor Algorithmen werden Vektoren mit Informationen zu invarianten Features berechnet, welche als Fingerabdruck für diese Merkmale fungiert. \newline
 Aufeinanderfolgende Bilder werden dann mit Hilfe dieser Feature Deskriptoren abgeglichen und sowohl Kamerabewegungen, als auch Strukturen werden rekonstruiert. Zur Optimierung sind abschließend die ermittelten Kamerapositionen anzugleichen. Dies geschieht mit Hilfe von Algorithmen zur Minimierung des Reprojektionsfehlers. \footnote{Reprojektionsfehler sind geometrische Fehler die im Zusammenhang zwischen abgebildeten und berechneten Bildpunkten entstehen.} 
 \newline
 %\cite{} https://en.wikipedia.org/wiki/Reprojection_error
@@ -46,14 +46,36 @@ Dadurch müssen Features nur extrahiert werden, wenn diese noch nicht auf einem 
 Diese Eigenschaften sind für die Anforderungen der Studienarbeit essentiell, da die Drohne sich sehr schnell bewegen kann und somit in möglichst kurzer Zeit neue Bilder auswerten muss. Das beschrieben Verfahren minimiert damit die Auswirkungen der typischen Probleme von Drohnen. Diese sind vorwiegend die niedrige Texturierung, welche in Innenräumen auftreten kann, sowie kameraspezifische Probleme wie Bewegungsunschärfe und der Verlust des Kamerafokus.
 
 
+\subsection{Kamerakalibrierung}
+Ein Grundproblem der Bildverarbeitung ist die Verzerrung des Bildes. 
+Da die Bestimmung der Kameraposition möglichst genau sein soll, muss die Kamera vorher kalibriert werden. \newline
+Hierbei unterstützt SVO drei Kamera Modelle: ATAN, Pinhole und Ocam. \cite{svo_cameracalibration} \newline
+Das ATAN Modell basiert auf dem \textit{Field of View \emph{(FOV)}} Verzerrungsmodell "Straight lines have to be straight [...]" von Devernay und Faugeras.\newline %cite https://hal.inria.fr/inria-00267247/document
+Der Vorteil dieser Kalibrierungsmethode ist, dass die Projektion des Bildes schneller berechnet werden kann. % cite https://github.com/uzh-rpg/rpg_svo/wiki/Camera-Calibration
+
+Das Modell vernachlässigt jedoch tangentiale Verzeichnung, welche auftritt, wenn optische und mechanische Bestandteile des Objektivs, sowie der CCD-Sensor 
+\footnote{CCD steht für \emph{charge-coupled device}, was übersetzt ladungsgekoppeltes Bauteil bedeutet. Dieses lichtempfindliche elektronische Bauteil wird zur Bildaufnahme verwendet.} 
+nicht perfekt zueinander ausgerichtet sind. % cite http://www.aishack.in/tutorials/major-physical-defects-cameras/
+
+Weiterhin sollte die Kamera mit einem globalem Shutter ausgestattet sein, um die Feature Extraktion bei Bewegungen zu gewährleisten. Kameras mit Global-Shutter-CMOS  
+\footnote{CMOS steht für \emph{Complementary metal-oxide-semiconductor} und ist ein spezieller Halbleiter der zur Bildaufnahme verwendet wird.} % cite https://de.wikipedia.org/wiki/Complementary_metal-oxide-semiconductor
+Sensoren und CCD-Sensoren nehmen Bild nicht zeilen- und spaltenweise, sondern vollständig auf und sind daher geeignet. \newline
+
+Die Drohne besitzt eine sehr einfache Kamera mit einem CMOS Sensor, wodurch sowohl tangentiale Verzerrung, als auch der Rolling-Shutter-Effekt auftreten können. \newline
+%cite https://dspace.cvut.cz/bitstream/handle/10467/66885/F3-DP-2017-Pahorecky-Petr-priloha-ARDrone_Developer_Guide.pdf?sequence=-1&isAllowed=y
+
+Eine weitere unterstützte Kalibrierungsmethode ist das Pinhole Modell.
+Hierbei handelt es sich um den aktuellen Standard in OpenCV \footnote{"OpenCV is the leading open source library for computer vision, image processing and machine learning, and now features GPU acceleration for real-time operation."} %cite https://developer.nvidia.com/opencv
+und ROS.
+
+
+
 \subsection{Regularized Monocular Depth Estimation - REMODE}
 
 
 
-\subsection{Kamerakalibrierung}
-Ein Grundproblem der Bildverarbeitung ist die Verzerrung des Bildes. Da aus eingehenden Bildern Features erkannt werden sollen und aus diesen darüber hinaus Abstände berechnet werden, ist es essentiell, dass die Kamera richtig kalibriert ist. \newline
-Hierbei unterstützt SVO drei Kamera Modelle: ATAN, Pinhole und Ocam. \cite{svo_cameracalibration} \newline
-Das ATAN Model basiert auf dem \textit{Field of View \emph{(FOV)}} Verzerrungsmodell. 
+
+
 
 
 
