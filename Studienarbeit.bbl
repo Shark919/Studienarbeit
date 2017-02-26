@@ -5,6 +5,12 @@
   2016.
 \newblock visited: 01.22.2017.
 
+\bibitem{realtimecode}
+``{Realtime code in ROS}.''
+  \url{http://www.willowgarage.com/blog/2009/06/10/orocos-rtt-and-ros-integrated},
+  2016.
+\newblock visited: 01.22.2017.
+
 \bibitem{svo_cameracalibration}
 {Robotics and Perception Group}, ``{Camera Calibration}.''
   \url{https://github.com/uzh-rpg/rpg_svo/wiki/Camera-Calibration}, 2014.
