@@ -52,21 +52,51 @@ Da die Bestimmung der Kameraposition möglichst genau sein soll, muss die Kamera
 Hierbei unterstützt SVO drei Kamera Modelle: ATAN, Pinhole und Ocam. \cite{svo_cameracalibration} \newline
 Das ATAN Modell basiert auf dem \textit{Field of View \emph{(FOV)}} Verzerrungsmodell "Straight lines have to be straight [...]" von Devernay und Faugeras.\newline %cite https://hal.inria.fr/inria-00267247/document
 Der Vorteil dieser Kalibrierungsmethode ist, dass die Projektion des Bildes schneller berechnet werden kann. % cite https://github.com/uzh-rpg/rpg_svo/wiki/Camera-Calibration
-
 Das Modell vernachlässigt jedoch tangentiale Verzeichnung, welche auftritt, wenn optische und mechanische Bestandteile des Objektivs, sowie der CCD-Sensor 
 \footnote{CCD steht für \emph{charge-coupled device}, was übersetzt ladungsgekoppeltes Bauteil bedeutet. Dieses lichtempfindliche elektronische Bauteil wird zur Bildaufnahme verwendet.} 
 nicht perfekt zueinander ausgerichtet sind. % cite http://www.aishack.in/tutorials/major-physical-defects-cameras/
-
 Weiterhin sollte die Kamera mit einem globalem Shutter ausgestattet sein, um die Feature Extraktion bei Bewegungen zu gewährleisten. Kameras mit Global-Shutter-CMOS  
 \footnote{CMOS steht für \emph{Complementary metal-oxide-semiconductor} und ist ein spezieller Halbleiter der zur Bildaufnahme verwendet wird.} % cite https://de.wikipedia.org/wiki/Complementary_metal-oxide-semiconductor
 Sensoren und CCD-Sensoren nehmen Bild nicht zeilen- und spaltenweise, sondern vollständig auf und sind daher geeignet. \newline
-
 Die Drohne besitzt eine sehr einfache Kamera mit einem CMOS Sensor, wodurch sowohl tangentiale Verzerrung, als auch der Rolling-Shutter-Effekt auftreten können. \newline
 %cite https://dspace.cvut.cz/bitstream/handle/10467/66885/F3-DP-2017-Pahorecky-Petr-priloha-ARDrone_Developer_Guide.pdf?sequence=-1&isAllowed=y
-
 Eine weitere unterstützte Kalibrierungsmethode ist das Pinhole Modell.
-Hierbei handelt es sich um den aktuellen Standard in OpenCV \footnote{"OpenCV is the leading open source library for computer vision, image processing and machine learning, and now features GPU acceleration for real-time operation."} %cite https://developer.nvidia.com/opencv
-und ROS.
+Hierbei handelt es sich um den aktuellen Standard in OpenCV \footnote{``OpenCV is the leading open source library for computer vision, image processing and machine learning, and now features GPU acceleration for real-time operation.''} %cite https://developer.nvidia.com/opencv
+und ROS. Hierbei gibt es fünf Parameter der Verzerrung, welche für die Kalibrierung bestimmt werden müssen:
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.7]{Bilder/distortion.png}
+ 	\label{fig:distortion}
+\end{figure}
+
+OpenCV betrachtet dabei radiale und tangentiale Faktoren. Die Formel für radialen Faktoren ist folgende:
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.7]{Bilder/radialFactors.png}
+	\label{fig:radial}
+\end{figure}
+
+Hierbei wird aus einem alten Bildpunkt $(x,y)$ des Eingabebildes die korrigierte Position $x_{corrected} y_{corrected}$ bestimmt. \newline
+Die Berechnung der tangentialen Verzerrung erfolgt durch die Formel:
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.7]{Bilder/tangentialFactors.png}
+	\label{fig:radial}
+\end{figure}
+
+Abschließend werden die Einheiten angepasst:
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.7]{Bilder/matrixEquation.png}
+	\label{fig:radial}
+\end{figure}
+
+Dabei entspricht $f_x$ und $f_y$ der Brennweite der Linse und $c_x$, sowie $c_y$ beschreiben die optische Bildmitte in Pixelkoordinaten. \newline
+% cite http://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html
 
 
 
