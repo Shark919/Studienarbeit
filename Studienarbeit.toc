@@ -7,22 +7,24 @@
 \contentsline {chapter}{\numberline {2}Grundlagen}{4}
 \contentsline {section}{\numberline {2.1}AR.Drone 2.0}{4}
 \contentsline {section}{\numberline {2.2}ROS}{5}
-\contentsline {section}{\numberline {2.3}Simulation}{5}
-\contentsline {section}{\numberline {2.4}Fuzzylogik}{5}
-\contentsline {section}{\numberline {2.5}Kinect}{5}
-\contentsline {chapter}{\numberline {3}Software Architektur}{6}
-\contentsline {section}{\numberline {3.1}Anforderungen}{6}
-\contentsline {section}{\numberline {3.2}\IeC {\"U}berblick}{7}
-\contentsline {section}{\numberline {3.3}Bildverarbeitung}{7}
-\contentsline {subsection}{\numberline {3.3.1}Semi-Direct Monocular Visual Odometry - SVO}{7}
-\contentsline {subsection}{\numberline {3.3.2}Kamerakalibrierung}{9}
-\contentsline {subsection}{\numberline {3.3.3}Regularized Monocular Depth Estimation - REMODE}{10}
-\contentsline {section}{\numberline {3.4}Bildverarbeitung}{10}
-\contentsline {subsection}{\numberline {3.4.1}Featureerkennung}{10}
-\contentsline {subsection}{\numberline {3.4.2}Kinect}{10}
-\contentsline {subsection}{\numberline {3.4.3}Die einzelnen ROS Nodes}{10}
-\contentsline {subsection}{\numberline {3.4.4}Architektur}{10}
-\contentsline {chapter}{\numberline {4}Evaluation}{11}
-\contentsline {section}{\numberline {4.1}Ergebnis}{11}
-\contentsline {section}{\numberline {4.2}Ausblick}{11}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{12}
+\contentsline {subsection}{\numberline {2.2.1}Allgemeines}{5}
+\contentsline {subsection}{\numberline {2.2.2}ROS Nodes}{5}
+\contentsline {section}{\numberline {2.3}Simulation}{7}
+\contentsline {section}{\numberline {2.4}Fuzzylogik}{7}
+\contentsline {section}{\numberline {2.5}Kinect}{7}
+\contentsline {chapter}{\numberline {3}Software Architektur}{8}
+\contentsline {section}{\numberline {3.1}Anforderungen}{8}
+\contentsline {section}{\numberline {3.2}\IeC {\"U}berblick}{9}
+\contentsline {section}{\numberline {3.3}Bildverarbeitung}{9}
+\contentsline {subsection}{\numberline {3.3.1}Semi-Direct Monocular Visual Odometry - SVO}{9}
+\contentsline {subsection}{\numberline {3.3.2}Kamerakalibrierung}{11}
+\contentsline {subsection}{\numberline {3.3.3}Regularized Monocular Depth Estimation - REMODE}{12}
+\contentsline {section}{\numberline {3.4}Bildverarbeitung}{12}
+\contentsline {subsection}{\numberline {3.4.1}Featureerkennung}{12}
+\contentsline {subsection}{\numberline {3.4.2}Kinect}{12}
+\contentsline {subsection}{\numberline {3.4.3}Die einzelnen ROS Nodes}{12}
+\contentsline {subsection}{\numberline {3.4.4}Architektur}{12}
+\contentsline {chapter}{\numberline {4}Evaluation}{13}
+\contentsline {section}{\numberline {4.1}Ergebnis}{13}
+\contentsline {section}{\numberline {4.2}Ausblick}{13}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{14}
