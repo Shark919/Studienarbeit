@@ -31,46 +31,50 @@ In diesem Abschnitt wird beschrieben, wie Drohne aus den Bildern der Kamera Info
 \subsection{Semi-Direct Monocular Visual Odometry - SVO}
 
 
-Eine Grundanforderung an das Projekt ist die Nutzung einer nicht modifizierten AR.Drone. Dadurch entsteht die Problematik, dass man keine Tiefenbildkamera nutzen kann, um in Echtzeit Tiefenbilder zu generieren. Die Drohne ist lediglich mit einer monokularen \footnote{Monokular ist die Bezeichnung für Kameras mit einer einzelnen Linse} Frontkamera ausgestattet. \newline
-Um Tiefeinformationen aus den Bildern einer solchen Kamera zu gewinnen, wird eine Szene aus verschiedenen Perspektiven aufgenommen. Anschließend gibt es unterschiedliche Ansätze um aus den aufeinanderfolgenden Bildern Kamerapositionen und Umgebungsstrukturen zu ermitteln. \newline
-Der aktuelle Standard zur Bestimmung der Kamerapostion sind Feature basierte Methoden. Diese versuchen die wichtigsten Merkmale eines Bildes, die Features, zu extrahieren. Mit Hilfe von Feature Deskriptor Algorithmen werden Vektoren mit Informationen zu invarianten Features berechnet, welche als Fingerabdruck für diese Merkmale fungiert. \newline
-Aufeinanderfolgende Bilder werden dann mit Hilfe dieser Feature Deskriptoren abgeglichen und sowohl Kamerabewegungen, als auch Strukturen werden rekonstruiert. Zur Optimierung sind abschließend die ermittelten Kamerapositionen anzugleichen. Dies geschieht mit Hilfe von Algorithmen zur Minimierung des Reprojektionsfehlers. \footnote{Reprojektionsfehler sind geometrische Fehler die im Zusammenhang zwischen abgebildeten und berechneten Bildpunkten entstehen.} 
+Eine Grundanforderung an das Projekt ist die Nutzung einer nicht modifizierten AR.Drone. Dadurch entsteht die Problematik, dass keine Tiefenbildkamera genutzt werden kann, um in Echtzeit Tiefenbilder zu erhalten. Die Drohne ist lediglich mit einer monokularen \footnote{Monokular ist die Bezeichnung für Kameras mit einer einzelnen Linse} Frontkamera ausgestattet. \newline
+Um Tiefeninformationen aus den Bildern einer solchen Kamera zu gewinnen, wird eine Szene aus verschiedenen Perspektiven aufgenommen. Anschließend gibt es unterschiedliche Ansätze um aus den aufeinanderfolgenden Bildern Kamerapositionen und Umgebungsstrukturen zu ermitteln. \newline
+Feature basierte Ansätze sind der aktuelle Standard zur Berechnung der Kamerapostion. Diese versuchen die wichtigsten Merkmale eines Bildes, die Features, zu extrahieren. Mit Hilfe von Feature Deskriptor Algorithmen werden Vektoren mit Informationen zu invarianten Bildbereichen berechnet. Diese Vektoren verhalten sich wie ein einzigartiger Fingerabdruck, der die Merkmale repräsentiert. \newline
+Aufeinanderfolgende Bilder werden dann mit Hilfe dieser Deskriptoren abgeglichen und sowohl Kamerabewegungen, als auch Strukturen werden rekonstruiert. Zur Optimierung sind abschließend die ermittelten Kamerapositionen anzugleichen. Dies geschieht mit Hilfe von Algorithmen zur Minimierung des Reprojektionsfehlers. \footnote{Reprojektionsfehler sind geometrische Fehler die im Zusammenhang zwischen abgebildeten und berechneten Bildpunkten entstehen.} 
 \newline
 %\cite{} https://en.wikipedia.org/wiki/Reprojection_error
 %Bilder dazu hier einfügen
-Ein weiterer Ansatz ist die direkte Methode. Hierbei werden die Features nicht über Deskriptor Algorithmen bestimmt, sondern das Problem wird über die Intensitäten der Pixel gelöst. Bei einem Graustufenbild kann entspricht diese Intensität der Helligkeit von Bildbereichen. \newline
+Ein weiterer Ansatz ist die direkte Methode. Hierbei werden die Features nicht über Deskriptor Algorithmen bestimmt, sondern das Problem wird über die Intensitäten der Pixel gelöst. Bei einem Graustufenbild entspricht diese Intensität der Helligkeit von Bildbereichen. \newline
 Somit kann bei der Rekonstruktion im Gegensatz zum Feature basierten Ansatz auch die Richtung der Gradienten von Intensitäten genutzt werden. Dadurch funktioniert diese Methode auch bei Bildern mit sehr wenig Textur, Bewegungsunschärfe und fehlerhaftem Kamerafokus. \newline
-Das für diese Arbeit relevante Vorgehen kombiniert die Vorteile der beschriebenen Methoden. Die Semi direkte Odometrie %footnote dazu
-verwendet einen Algorithmus der ebenfalls auf Feature Zusammenhängen basiert. Diese werden jedoch implizit direkten Bewegungsabschätzung bezogen, anstatt explizit durch Algorithmen mit Feature Deskriptoren berechnet zu werden. \newline
-Dadurch müssen Features nur extrahiert werden, wenn diese noch nicht auf einem der vorherigen Bildern vorhanden war. Insgesamt ist dieser Ansatz somit schnell, da wenig Berechnungen pro Bild stattfinden und auf Grund Verwendung der Intensitätsgradienten sehr genau und robust. \newline
-Diese Eigenschaften sind für die Anforderungen der Studienarbeit essentiell, da die Drohne sich sehr schnell bewegen kann und somit in möglichst kurzer Zeit neue Bilder auswerten muss. Das beschrieben Verfahren minimiert damit die Auswirkungen der typischen Probleme von Drohnen. Diese sind vorwiegend die niedrige Texturierung, welche in Innenräumen auftreten kann, sowie kameraspezifische Probleme wie Bewegungsunschärfe und der Verlust des Kamerafokus.
+Das für diese Arbeit relevante Vorgehen kombiniert die Vorteile der beschriebenen Methoden. Die semi-direkte Odometrie %footnote dazu
+verwendet einen Algorithmus der ebenfalls auf Zusammenhängen von Features basiert. Diese werden jedoch implizit aus einer direkten Bewegungsabschätzung bezogen, anstatt explizit durch Algorithmen mit Feature Deskriptoren berechnet zu werden. \newline
+Dadurch müssen Features nur extrahiert werden, wenn diese noch nicht auf einem der vorherigen Bildern vorhanden waren. Insgesamt ist dieser Ansatz somit schnell, da wenig Berechnungen pro Bild stattfinden und auf Grund der Verwendung von Intensitätsgradienten äußerst genau und robust. \newline
+Diese Eigenschaften sind für die Anforderungen der Studienarbeit essentiell, da die Drohne sich sehr schnell bewegen kann und somit in möglichst kurzer Zeit neue Bilder auswerten muss. Das beschrieben Verfahren minimiert damit die Auswirkungen der typischen Probleme von Drohnen. Diese sind einerseits die niedrige Texturierung der Umgebung, welche hauptsächlich in Innenräumen auftritt und andererseits kameraspezifische Probleme wie Bewegungsunschärfe und der Verlust des Kamerafokus.
 
 
 \subsection{Kamerakalibrierung}
 Ein Grundproblem der Bildverarbeitung ist die Verzerrung des Bildes. 
-Da die Bestimmung der Kameraposition möglichst genau sein soll, muss die Kamera vorher kalibriert werden. \newline
-Hierbei unterstützt SVO drei Kamera Modelle: ATAN, Pinhole und Ocam. \cite{svo_cameracalibration} \newline
+Da die Bestimmung der Kameraposition möglichst genau sein soll, muss die Kamera vorher kalibriert werden. Dies bedeutet, dass Ungenauigkeiten der Linse erkannt und softwareseitig ausgeglichen werden. Dafür werden die intrinsischen Parameter der Kamera bestimmt \newline
+
+\subsubsection*{Kalibrierungsmodelle}
+Hierbei unterstützt SVO drei Kamera Modelle: ATAN, Ocam und Lochkamera. \cite{svo_cameracalibration} \newline
 Das ATAN Modell basiert auf dem \textit{Field of View \emph{(FOV)}} Verzerrungsmodell "Straight lines have to be straight [...]" von Devernay und Faugeras.\newline %cite https://hal.inria.fr/inria-00267247/document
-Der Vorteil dieser Kalibrierungsmethode ist, dass die Projektion des Bildes schneller berechnet werden kann. % cite https://github.com/uzh-rpg/rpg_svo/wiki/Camera-Calibration
-Das Modell vernachlässigt jedoch tangentiale Verzeichnung, welche auftritt, wenn optische und mechanische Bestandteile des Objektivs, sowie der CCD-Sensor 
+Der Vorteil dieser Kalibrierungsmethode ist die äußerst schnelle Berechnung der Projektion des Bildes. % cite https://github.com/uzh-rpg/rpg_svo/wiki/Camera-Calibration
+Das Modell vernachlässigt jedoch tangentiale Verzeichnung, welche auftritt, wenn optische und mechanische Bestandteile des Objektives, sowie der CCD-Sensor 
 \footnote{CCD steht für \emph{charge-coupled device}, was übersetzt ladungsgekoppeltes Bauteil bedeutet. Dieses lichtempfindliche elektronische Bauteil wird zur Bildaufnahme verwendet.} 
 nicht perfekt zueinander ausgerichtet sind. % cite http://www.aishack.in/tutorials/major-physical-defects-cameras/
-Weiterhin sollte die Kamera mit einem globalem Shutter ausgestattet sein, um die Feature Extraktion bei Bewegungen zu gewährleisten. Kameras mit Global-Shutter-CMOS  
+Weiterhin sollte die Kamera mit einem globalem Shutter ausgestattet sein, um die Extraktion von Bildmerkmalen bei Bewegungen zu gewährleisten. Kameras mit Global-Shutter-CMOS  
 \footnote{CMOS steht für \emph{Complementary metal-oxide-semiconductor} und ist ein spezieller Halbleiter der zur Bildaufnahme verwendet wird.} % cite https://de.wikipedia.org/wiki/Complementary_metal-oxide-semiconductor
-Sensoren und CCD-Sensoren nehmen Bild nicht zeilen- und spaltenweise, sondern vollständig auf und sind daher geeignet. \newline
-Die Drohne besitzt eine sehr einfache Kamera mit einem CMOS Sensor, wodurch sowohl tangentiale Verzerrung, als auch der Rolling-Shutter-Effekt auftreten können. \newline
+Sensoren und CCD-Sensoren nehmen Bild nicht zeilen- und spaltenweise, sondern vollständig auf und sind daher für das Verfahren geeignet. \newline
+Die Drohne besitzt eine veraltete und günstige Kamera mit einem CMOS Sensor, wodurch sowohl tangentiale Verzerrung, als auch der Rolling-Shutter-Effekt auftreten können. \newline
 %cite https://dspace.cvut.cz/bitstream/handle/10467/66885/F3-DP-2017-Pahorecky-Petr-priloha-ARDrone_Developer_Guide.pdf?sequence=-1&isAllowed=y
-Eine weitere unterstützte Kalibrierungsmethode ist das Pinhole Modell.
+Daher ist das ATAN Modell zwar eine der besten Kalibrierungsmethoden für teure Hochleistungskameras, jedoch ist es für die Betrachtungen dieser Arbeit nicht optimal. \newline
+Der zweite Ansatz zur Kalibrierung ist das Ocam Modell von Davide Scaramuzza. Diese Methode sollte für Kameras mit sehr weitem Sichtfeld, oder omnidirektionalen Kameras genutzt werden. Damit ist es für die Drohne nicht geeignet. \newline
+Die dritte unterstützte Kalibrierungsmethode ist das Modell der Lochkamera.
 Hierbei handelt es sich um den aktuellen Standard in OpenCV \footnote{``OpenCV is the leading open source library for computer vision, image processing and machine learning, and now features GPU acceleration for real-time operation.''} %cite https://developer.nvidia.com/opencv
-und ROS. Hierbei gibt es fünf Parameter der Verzerrung, welche für die Kalibrierung bestimmt werden müssen:
+und ROS. Hierbei wird die Verzerrung mit Hilfe von fünf intrinsischen Parametern beschrieben, welche im Rahmen der Kalibrierung bestimmt werden müssen.
 
 \begin{figure}[ht]
 	\centering
 	\includegraphics[scale=0.7]{Bilder/distortion.png}
- 	\label{fig:distortion}
+	\label{fig:distortion}
 \end{figure}
 
-OpenCV betrachtet dabei radiale und tangentiale Faktoren. Die Formel für radialen Faktoren ist folgende:
+OpenCV betrachtet dabei radiale und tangentiale Faktoren. Die Formel für radiale Verzeichnung ist die Folgende:
 
 \begin{figure}[ht]
 	\centering
@@ -97,8 +101,18 @@ Abschließend werden die Einheiten angepasst:
 
 Dabei entspricht $f_x$ und $f_y$ der Brennweite der Linse und $c_x$, sowie $c_y$ beschreiben die optische Bildmitte in Pixelkoordinaten. \newline
 % cite http://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html
+Dieser Ansatz ist der einfachste und funktioniert grundsätzlich mit jeder Kamera.
 
+\subsubsection*{Umsetzung der Kalibrierung}
+Um die intrinsischen Parameter der Kamera zu bestimmen, wird ein bekanntes Bild oder Muster aufgenommen. Dazu wird ein Vergleich zwischen den theoretischen und tatsächlichen Abmessungen angestellt. Hierzu wird meist ein einfaches Schachbrettmuster genutzt, welches im möglichst vielen verschiedenen Perspektiven aufgenommen wird. Bei der realen Drohne wird dazu das Muster ausgedruckt, bei der Simulation muss hingegen ein muss ein solches Objekt in die Welt eingefügt werden. Da die Kamera in der Simulation ohnehin keine intrinsischen Fehler aufweisen sollte, kann auf eine Kalibrierung verzichtet werden. \newline
 
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.4]{Bilder/calibrationChecker.png}
+	\label{fig:calibrationChecker}
+\end{figure}
+
+Die Kalibrierung wurde mit dem frei verfügbaren ROS Node \textit{camera\_calibration} umgesetzt. Das Ergebnis ist abhängig von der Anzahl der Perspektiven und der Qualität der Aufnahmen. Aufgegeben wird dann die List der Parameter, die für das Lochkamera Modell notwendig sind.
 
 \subsection{Regularized Monocular Depth Estimation - REMODE}
 
