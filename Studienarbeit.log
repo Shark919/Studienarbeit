@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  3 MAR 2017 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  12 MAR 2017 20:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -451,7 +451,7 @@ LaTeX Warning: Label `fig:radial' multiply defined.
 LaTeX Warning: Label `fig:radial' multiply defined.
 
 
-LaTeX Warning: Label `Bildverarbeitung' multiply defined.
+LaTeX Warning: Label `fig:radial' multiply defined.
 
 ) (./Inhalt/Evaluation.aux))
 \openout1 = `Studienarbeit.aux'.
@@ -780,12 +780,20 @@ File: Bilder/calibrationChecker.png Graphic file (type png)
 <use Bilder/calibrationChecker.png>
 Package pdftex.def Info: Bilder/calibrationChecker.png used on input line 111.
 (pdftex.def)             Requested size: 309.14952pt x 224.03302pt.
- [13 <./Bilder/matrixEquation.png> <./Bilder/calibrationChecker.png>]) [14]
+ [13 <./Bilder/matrixEquation.png> <./Bilder/calibrationChecker.png>]
+<Bilder/REMODE_overview.jpg, id=97, 338.26375pt x 263.98625pt>
+File: Bilder/REMODE_overview.jpg Graphic file (type jpg)
+
+<use Bilder/REMODE_overview.jpg>
+Package pdftex.def Info: Bilder/REMODE_overview.jpg used on input line 136.
+(pdftex.def)             Requested size: 236.78299pt x 184.78911pt.
+ [14 <./Bilder/REMODE_overview.jpg>]) [15]
 \openout2 = `Inhalt/Evaluation.aux'.
 
- (./Inhalt/Evaluation.tex
+
+(./Inhalt/Evaluation.tex
 chapter 4.
-) [15
+) [16
 
 
 
@@ -800,7 +808,7 @@ Underfull \hbox (badness 1902) in paragraph at lines 9--13
 ww . willowgarage . com / blog / 2009 / 06 / 10 /
  []
 
-) [16
+) [17
 
 
 ] (./Studienarbeit.aux (./Inhalt/titelseite.aux) (./Inhalt/erklaerung.aux) (./I
@@ -814,13 +822,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8573 strings out of 493013
- 132164 string characters out of 6136992
- 285631 words of memory out of 5000000
- 11869 multiletter control sequences out of 15000+600000
+ 8578 strings out of 493013
+ 132306 string characters out of 6136992
+ 285657 words of memory out of 5000000
+ 11873 multiletter control sequences out of 15000+600000
  39902 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,11n,66p,8899b,712s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,12n,66p,8899b,712s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2016/texmf-dist/fon
 ts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2016/texmf-dist/fonts/type1/
@@ -839,10 +847,10 @@ texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/20
 ist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2016/texmf-dist/fonts/
 type1/urw/palatino/uplr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palat
 ino/uplri8a.pfb>
-Output written on Studienarbeit.pdf (23 pages, 670108 bytes).
+Output written on Studienarbeit.pdf (24 pages, 712126 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 170 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

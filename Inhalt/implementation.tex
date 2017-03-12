@@ -116,17 +116,39 @@ Die Kalibrierung wurde mit dem frei verfügbaren ROS Node \textit{camera\_calibr
 
 \subsection{Regularized Monocular Depth Estimation - REMODE}
 
+%todo Remode ausformulieren
+
+tiefenbilder und Tiefenkarten von einzelner bewegenden Kamera bestimmen
+
+Problem wird seit mehr als 20 Jahren erarbeitet, bekannt als SFM (structure from motion) in Bildverarbeitung und SLAM () in Robotik
+
+berechnung in echtzeit auf pixelbasis
+
+live feedback wie hoch die Fehlerrate und Genauigkeit der bestimmten Tiefeninformationen ist
+
+Nutzung des opensource projects REMODE - Implementation basierend auf dem Paper von Matia Pizzoli, Christian Forster und Davide Scaramuzza
+
+kombiniert Bayes Tiefenschätzungen basierend auf der Artbeit von [19] und neueste Entwicklungen in Konvexoptimierung
 
 
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.7]{Bilder/REMODE_overview.jpg}
+	\label{fig:radial}
+\end{figure}
 
+starre Transformation eines Körpers Tk,r 
+Kamerapositionen Ir und Ik mit den Kamerazentren Cr und Ck
+Aktuelle Schätzung eines Punktes der Szene rP auf der epipolaren fläche
+Varianz von einem Pixel auf der epipolaren Linie durch e strich und u strich als T2 = () siehe arbeit
 
+genaue implementationsdetails können im Paper (quelle) nachgeschaut werden - übersteigen aufgrund der hohen mathematischen und bildverarbeitungstechnischen Komplexität den Umfang dieser Arbeit
 
+zusammenspiel von SVO und REMODE für handelsüblichen Laptop mit CPU und GPU geeignet
+SVO läuft komplett auf CPU, REMODE mit GPU auf Nvidia CUDA (footnote)
+Implemtation von REMODE setzt auf eine durchschnittliche Bewegung der Kamera um 0.0038 meter pro sekunde, durchschnittliche
+Tiefe von 1 meter und berechnungszeit von 3.3 ms pro Bild
 
-
-\section{Bildverarbeitung}
-\label{Bildverarbeitung}
-
-\subsection{Featureerkennung}
 \subsection{Kinect}
 %Max
 \subsection{Die einzelnen ROS Nodes}
@@ -139,11 +161,13 @@ Die Kalibrierung wurde mit dem frei verfügbaren ROS Node \textit{camera\_calibr
 %Bild der Drohne http://lightspots.ch/images/ARdronebw.png
 %Bild vom Typ https://img.clipartfox.com/d02b01c31b79dd51b6c2c6a2a5db5985_stop-help-vector-art-outstretched-arm-clipart_416-416.jpeg
 %Bild von kinect https://d3nevzfk7ii3be.cloudfront.net/igi/DtuTZhDHRWaOirBm.large
-%\begin{figure}[ht]
-%	\centering
-%	\includegraphics[scale=0.7]{Bilder/jMeterReal.png}
-%	\caption[Testing with jMeter]{jMeter testing}
-% 	\label{fig:testing}
-%\end{figure}
 
 
+
+%hab ich mal hinzugefügt - vielleicht kommen wir ja soweit
+%falls nicht, sollten wir trotzdem eine Betrachtung reinschreiben, ist immerhin Ziel der Arbeit lol
+\section{Assistenzsystem}
+
+\subsection{Abgrenzung}
+
+\subsection{Implementierungsvorschlag}

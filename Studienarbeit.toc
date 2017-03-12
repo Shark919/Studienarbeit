@@ -19,12 +19,13 @@
 \contentsline {subsection}{\numberline {3.3.1}Semi-Direct Monocular Visual Odometry - SVO}{9}
 \contentsline {subsection}{\numberline {3.3.2}Kamerakalibrierung}{11}
 \contentsline {subsection}{\numberline {3.3.3}Regularized Monocular Depth Estimation - REMODE}{14}
-\contentsline {section}{\numberline {3.4}Bildverarbeitung}{14}
-\contentsline {subsection}{\numberline {3.4.1}Featureerkennung}{14}
-\contentsline {subsection}{\numberline {3.4.2}Kinect}{14}
-\contentsline {subsection}{\numberline {3.4.3}Die einzelnen ROS Nodes}{14}
-\contentsline {subsection}{\numberline {3.4.4}Architektur}{14}
-\contentsline {chapter}{\numberline {4}Evaluation}{15}
-\contentsline {section}{\numberline {4.1}Ergebnis}{15}
-\contentsline {section}{\numberline {4.2}Ausblick}{15}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{16}
+\contentsline {subsection}{\numberline {3.3.4}Kinect}{15}
+\contentsline {subsection}{\numberline {3.3.5}Die einzelnen ROS Nodes}{15}
+\contentsline {subsection}{\numberline {3.3.6}Architektur}{15}
+\contentsline {section}{\numberline {3.4}Assistenzsystem}{15}
+\contentsline {subsection}{\numberline {3.4.1}Abgrenzung}{15}
+\contentsline {subsection}{\numberline {3.4.2}Implementierungsvorschlag}{15}
+\contentsline {chapter}{\numberline {4}Evaluation}{16}
+\contentsline {section}{\numberline {4.1}Ergebnis}{16}
+\contentsline {section}{\numberline {4.2}Ausblick}{16}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{17}
