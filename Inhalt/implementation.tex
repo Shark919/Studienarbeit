@@ -118,9 +118,11 @@ Die Kalibrierung wurde mit dem frei verfügbaren ROS Node \textit{camera\_calibr
 
 %todo Remode ausformulieren
 
-tiefenbilder und Tiefenkarten von einzelner bewegenden Kamera bestimmen
+Im vorherigen Abschnitt wurde beschrieben, wie anhand von aufeinanderfolgenden Bildern die Position der Kamera im Raum bestimmt werden kann. Dieses Problem wird seit mehr als 20 Jahren untersucht und wird als Structure From Motion \emph{SFM} in der Bildverarbeitung und Simultaneous Localization and Mapping \emph{SLAM} in der Robotik bezeichnet. \newline
+%Smith, R.C.; Cheeseman, P. (1986). "On the Representation and Estimation of Spatial Uncertainty" (PDF). The International Journal of Robotics Research. 5 (4): 56–68. 
+Um den Nutzer aktiv bei der Steuerung der Drohne zu unterstützen werden jedoch Tiefeninformationen benötigt. Dazu müssen Tiefenbilder und Tiefenkarten (footnote) aus den Bildern der monokularen Kamera bestimmt werden. \newline
+Für diesen Schritt gibt es unterschiedliche Ansätze. Der State of the Art ist die Tiefenschätzung mit Hilfe der 
 
-Problem wird seit mehr als 20 Jahren erarbeitet, bekannt als SFM (structure from motion) in Bildverarbeitung und SLAM () in Robotik
 
 berechnung in echtzeit auf pixelbasis
 
