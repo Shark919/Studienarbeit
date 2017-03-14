@@ -6,32 +6,20 @@
 
 Im Folgenden sollen die Anforderungen an die Studienarbeit festgelegt werden. \newline
 Ein Hauptbestandteil der Arbeit besteht darin, ein Vorgängerprojekt mit einer AR.Drone 2.0 in das ROS Framework zu portieren.
-Dies beinhaltet eine Modularisierung der Projektbestandteile in ROS Nodes. Ziel soll sein, den Quadrocopter mit Hilfe einer Kinect und Gestenerkennung steuern zu können. Anzumerken ist, dass ROS nur unter UNIX basierten Betriebssystemen läuft und das bestehende Projekt Libraries verwendet, welche nur unter Windows verfügbar sind. \newline
-Eine weitere Vorgabe besteht darin, dass man neben der realen Drohne jegliche Funktionalität auch in einer Simulation laufen soll. \newline
+Dies beinhaltet eine Modularisierung der Projektbestandteile in ROS Nodes. Weiterhin läuft ROS nur unter UNIX basierten Betriebssystemen läuft und das bestehende Projekt Libraries verwendet, welche nur unter Windows verfügbar sind. \newline
+Ziel soll sein, den Quadrocopter mit Hilfe einer Kinect und Gestenerkennung steuern zu können. Diese soll mit Hilfe einer Kinect Stereo Kamera von Microsoft umgesetzt werden. So soll der Nutzer beispielsweise mit einer Bewegung von beiden ausgestreckten Armen nach oben die Drohne starten, steigen, senken und landen lassen können. \newline
+Eine weitere Vorgabe besteht darin, dass man neben der realen Drohne jegliche Funktionalität auch in einer Simulation laufen soll.
 Somit kann man für Präsentationen, in denen der Flug einer Drohne nicht möglich ist, den Quadrocopter in einer frei gestaltbaren simulierten Umgebung fliegen lassen. \newline
-Ein weiterer Bestandteil dieser Arbeit besteht darin, Ansätze und Limitationen der Implementierung eines Assistenzsystems zu testen und zu bewerten. Dafür soll ein externes Projekt, zur Gewinnung von Tiefenbildern aus einer monokularen Kamera, in die Projektumgebung integriert werden. Hierbei soll es wiederum möglich sein, dass die Videostream sowohl von der realen, als auch von der simulierten Drohne gesendet werden kann. \newline
-Es soll dabei ermittelt werden, ob die Nutzung der Software für den Anwendungszweck praktikabel und sinnvoll ist.
-
-%hier weitermachen, wenn man weiß wie weit wir tatsächlich kommen #wahrscheinlichsindwirzublöd #forschung>implementierung
-
-%	-> Wände / Türen erkennen
-%	-> aktives eingreifen der Drohne in das Geschehen -> Kollisionsvermeidung
-
-
-\section{Überblick}
-\label{Überblick}
-
+Ein weiterer Bestandteil dieser Arbeit besteht darin, Ansätze und Limitationen der Implementierung eines Assistenzsystems zu testen und zu bewerten. Um dieses Vorhaben umzusetzen sollen externe Projekte und Abhandlungen zur Extraktion von Tiefeninformationen genutzt werden. Diese werden aus mehreren aufeinanderfolgenden Bildern einer monokularen Kamera \footnote{Monokular ist die Bezeichnung für Kameras mit einer einzelnen Linse} bestimmt. Hierbei soll es wiederum möglich sein, dass der Videostream sowohl von der realen, als auch von der simulierten Drohne gesendet werden kann. Es soll dabei ermittelt werden, ob die Nutzung der externen Arbeiten für den Anwendungszweck praktikabel und sinnvoll ist. \newline
+Das Ziel der Arbeit ist anschließend herauszufinden, wie man mit den Tiefeninformationen die manuelle Steuerung der Drohne durch eine Person mit Hilfe von Assistenzfunktionen unterstützen kann. Ein Anwendungsbeispiel ist hierbei das sichere Fliegen durch ein Hindernis wie eine offene Tür, oder das verhindern von Kollisionen mit Objekten in der Umgebung. \newline%
+\newpage
 \section{Bildverarbeitung}
 \label{Bildverarbeitung}
-In diesem Abschnitt wird beschrieben, wie Drohne aus den Bildern der Kamera Informationen gewinnen kann, die später für die Betrachtung des Assistenzsystems relevant sind. 
-%-> errechnung von bewegungen + tiefenbildanalyse
-%basierend auf paper Christian Forster, Matia Pizzoli, Davide Scaramuzza
-%In diesem Abschnitt soll die technische Ausführung beschrieben werden.
+In diesem Abschnitt wird beschrieben, wie die Position der Kamera im Raum bestimmt werden kann, um anschließend aus aufeinanderfolgenden Aufnahmen Tiefeninformationen zu gewinnen. Die beschriebenen Implementierungen beziehen sich dabei auf die Arbeit von Christian Forster, Matia Pizzoli und Davide Scaramuzza, welche ihre Abhandlungen zum Thema zusammen mit dem Programmcode frei zugänglich gemacht haben.
 
 \subsection{Semi-Direct Monocular Visual Odometry - SVO}
 
-
-Eine Grundanforderung an das Projekt ist die Nutzung einer nicht modifizierten AR.Drone. Dadurch entsteht die Problematik, dass keine Tiefenbildkamera genutzt werden kann, um in Echtzeit Tiefenbilder zu erhalten. Die Drohne ist lediglich mit einer monokularen \footnote{Monokular ist die Bezeichnung für Kameras mit einer einzelnen Linse} Frontkamera ausgestattet. \newline
+Eine Grundanforderung an das Projekt ist die Nutzung einer nicht modifizierten AR.Drone. Dadurch entsteht die Problematik, dass keine Tiefenbildkamera genutzt werden kann, um in Echtzeit Tiefenbilder zu erhalten. Die Drohne ist lediglich mit einer monokularen Frontkamera ausgestattet. \newline
 Um Tiefeninformationen aus den Bildern einer solchen Kamera zu gewinnen, wird eine Szene aus verschiedenen Perspektiven aufgenommen. Anschließend gibt es unterschiedliche Ansätze um aus den aufeinanderfolgenden Bildern Kamerapositionen und Umgebungsstrukturen zu ermitteln. \newline
 Feature basierte Ansätze sind der aktuelle Standard zur Berechnung der Kamerapostion. Diese versuchen die wichtigsten Merkmale eines Bildes, die Features, zu extrahieren. Mit Hilfe von Feature Deskriptor Algorithmen werden Vektoren mit Informationen zu invarianten Bildbereichen berechnet. Diese Vektoren verhalten sich wie ein einzigartiger Fingerabdruck, der die Merkmale repräsentiert. \newline
 Aufeinanderfolgende Bilder werden dann mit Hilfe dieser Deskriptoren abgeglichen und sowohl Kamerabewegungen, als auch Strukturen werden rekonstruiert. Zur Optimierung sind abschließend die ermittelten Kamerapositionen anzugleichen. Dies geschieht mit Hilfe von Algorithmen zur Minimierung des Reprojektionsfehlers. \footnote{Reprojektionsfehler sind geometrische Fehler die im Zusammenhang zwischen abgebildeten und berechneten Bildpunkten entstehen.} 
@@ -44,7 +32,6 @@ Das für diese Arbeit relevante Vorgehen kombiniert die Vorteile der beschrieben
 verwendet einen Algorithmus der ebenfalls auf Zusammenhängen von Features basiert. Diese werden jedoch implizit aus einer direkten Bewegungsabschätzung bezogen, anstatt explizit durch Algorithmen mit Feature Deskriptoren berechnet zu werden. \newline
 Dadurch müssen Features nur extrahiert werden, wenn diese noch nicht auf einem der vorherigen Bildern vorhanden waren. Insgesamt ist dieser Ansatz somit schnell, da wenig Berechnungen pro Bild stattfinden und auf Grund der Verwendung von Intensitätsgradienten äußerst genau und robust. \newline
 Diese Eigenschaften sind für die Anforderungen der Studienarbeit essentiell, da die Drohne sich sehr schnell bewegen kann und somit in möglichst kurzer Zeit neue Bilder auswerten muss. Das beschrieben Verfahren minimiert damit die Auswirkungen der typischen Probleme von Drohnen. Diese sind einerseits die niedrige Texturierung der Umgebung, welche hauptsächlich in Innenräumen auftritt und andererseits kameraspezifische Probleme wie Bewegungsunschärfe und der Verlust des Kamerafokus.
-
 
 \subsection{Kamerakalibrierung}
 Ein Grundproblem der Bildverarbeitung ist die Verzerrung des Bildes. 
@@ -116,22 +103,14 @@ Die Kalibrierung wurde mit dem frei verfügbaren ROS Node \textit{camera\_calibr
 
 \subsection{Regularized Monocular Depth Estimation - REMODE}
 
-%todo Remode ausformulieren
-
 Im vorherigen Abschnitt wurde beschrieben, wie anhand von aufeinanderfolgenden Bildern die Position der Kamera im Raum bestimmt werden kann. Dieses Problem wird seit mehr als 20 Jahren untersucht und wird als Structure From Motion \emph{SFM} in der Bildverarbeitung und Simultaneous Localization and Mapping \emph{SLAM} in der Robotik bezeichnet. \newline
 %Smith, R.C.; Cheeseman, P. (1986). "On the Representation and Estimation of Spatial Uncertainty" (PDF). The International Journal of Robotics Research. 5 (4): 56–68. 
 Um den Nutzer aktiv bei der Steuerung der Drohne zu unterstützen werden jedoch Tiefeninformationen benötigt. Dazu müssen Tiefenbilder und Tiefenkarten (footnote) aus den Bildern der monokularen Kamera bestimmt werden. \newline
-Für diesen Schritt gibt es unterschiedliche Ansätze. Der State of the Art ist die Tiefenschätzung mit Hilfe der 
-
-
-berechnung in echtzeit auf pixelbasis
-
-live feedback wie hoch die Fehlerrate und Genauigkeit der bestimmten Tiefeninformationen ist
-
-Nutzung des opensource projects REMODE - Implementation basierend auf dem Paper von Matia Pizzoli, Christian Forster und Davide Scaramuzza
-
-kombiniert Bayes Tiefenschätzungen basierend auf der Artbeit von [19] und neueste Entwicklungen in Konvexoptimierung
-
+Für diesen Schritt gibt es unterschiedliche Ansätze. Der State of the Art ist die Berechnung mit Hilfe des Bayes-Schätzers. Dabei handelt es sich um eine Schätzfunktion in der mathematischen Statistik, welche eventuell vorhandenes Vorwissen bei der Schätzung eines Parameters berücksichtigt. Dabei wird in der bayesschen Statistik das initiale Vorwissen mit Hilfe der A-priori-Verteilung modelliert, die bedingte Wahrscheinlichkeit des Parameters unter Betrachtung dieses Vorwissens mit der A-posteriori-Verteilung. \newline
+%http://www.mathematik.uni-ulm.de/stochastik/lehre/ss04/statistik1/skript/node26.html
+Im Umfang dieser Arbeit wird die Forschung und Implementierung des Projekts Regularized Monocular Depth Estimation \emph{REMODE} genutzt. In dieser Ausarbeitung von Matia Pizzoli, Christian Forster und Davide Scaramuzza wird die bayessche Schätzung mit neusten Entwicklungen in der Konvexoptimierung verbunden. Hierbei stützen sie ihre Forschungen auf die Ergebnisse von G. Vogiatzis und C. Hernandez und ihrer Abhandlung mit dem Titel ''Video-based, real-time multi-view stereo`` von 2011. \newline
+REMODE ermöglicht eine Berechnung der Tiefeninformationen in Echtzeit und auf Pixelbasis. Weiterhin ist die aktuelle Genauigkeit und Fehlerrate im Vergleich zur Realität zu jeder Zeit sichtbar. \newline
+Im Folgenden wird der grundsätzliche Ansatz der Implementierung skizziert. Die genauen Details übersteigen dabei auf Grund der hohen Komplexität den Umfang dieser Arbeit.
 
 \begin{figure}[ht]
 	\centering
@@ -139,21 +118,17 @@ kombiniert Bayes Tiefenschätzungen basierend auf der Artbeit von [19] und neues
 	\label{fig:radial}
 \end{figure}
 
-starre Transformation eines Körpers Tk,r 
-Kamerapositionen Ir und Ik mit den Kamerazentren Cr und Ck
-Aktuelle Schätzung eines Punktes der Szene rP auf der epipolaren fläche
-Varianz von einem Pixel auf der epipolaren Linie durch e strich und u strich als T2 = () siehe arbeit
-
-genaue implementationsdetails können im Paper (quelle) nachgeschaut werden - übersteigen aufgrund der hohen mathematischen und bildverarbeitungstechnischen Komplexität den Umfang dieser Arbeit
-
-zusammenspiel von SVO und REMODE für handelsüblichen Laptop mit CPU und GPU geeignet
-SVO läuft komplett auf CPU, REMODE mit GPU auf Nvidia CUDA (footnote)
-Implemtation von REMODE setzt auf eine durchschnittliche Bewegung der Kamera um 0.0038 meter pro sekunde, durchschnittliche
-Tiefe von 1 meter und berechnungszeit von 3.3 ms pro Bild
-
+In der Übersicht sieht man die beiden Kamerapositionen Ir und Ik mit den zugehörigen Kamerazentren Cr und Ck. Die Positionen im Raum dieser Kameras wurden im vorherigen Schritt mit Hilfe von SVO ermittelt. Tk,r zeigt dabei die starre Transformation der Kamerabilder. \newline
+Der Punkt rP ist die aktuelle Schätzung der Position eines Punktes auf den epipolaren Flächen.
+Die Varianz der Abweichung von einem Pixel auf der epipolaren Linie durch estrich und ustrich wird berechnet mit der Gleichung tkquadr.
+Mit Hilfe der oben angesprochenen mathematischen und statistischen Auswertungen kann nun die Tiefe eines Punktes rP approximiert werden. \newline
+Das Zusammenspiel von SVO und REMODE funktioniert flüssig auf handelsüblichen Laptops mit CPU und GPU. Dabei läuft SVO komplett auf dem Prozessort und REMODE läuft unter Verwendung des Frameworks NVIDIA CUDA (footnote) auf dem Grafikchip des Rechners. \newline
+Die Implementation setzt auf eine durchschnittliche Bewegung der Kamera von 0.0038 Meter pro Sekunde und einer mittleren Tiefe von einem Meter bei einer Berechnungszeit von 3.3 ms pro Bild.
+\newpage
+\section{Implementierung}
 \subsection{Kinect}
 %Max
-\subsection{Die einzelnen ROS Nodes}
+\subsection{ROS Nodes}
 %Beide
 \subsection{Architektur}
 %Beide
@@ -168,8 +143,26 @@ Tiefe von 1 meter und berechnungszeit von 3.3 ms pro Bild
 
 %hab ich mal hinzugefügt - vielleicht kommen wir ja soweit
 %falls nicht, sollten wir trotzdem eine Betrachtung reinschreiben, ist immerhin Ziel der Arbeit lol
+\newpage
 \section{Assistenzsystem}
+Im Kapitel \ref{Bildverarbeitung} wurde der Prozess beschrieben, wie aus den monokularen Aufnahmen der Frontkamera der Drohen Tiefenbilder ermittelt werden können. Aufbauend darauf soll nun erarbeitet werden, wie man aus diesen Informationen ein grundlegendes Assistenzsystem implementieren könnte.
+
 
 \subsection{Abgrenzung}
+Die Tiefenbilder die REMODE erstellt werden in Form von sogenannten Punktwolken, bzw. Point Clouds über ein ROS Topic verschickt. Diese Punktwolken sind eine Menge von Punkten in einem Vektorraum, welche jeweils durch ihre Raumkoordinaten beschrieben sind. Bei zweidimensionalen Bilder entspricht dies einem X und einem Y Wert, welcher die Position des Punktes im Bild beschreibt. Im Gegensatz dazu wird im dreidimensionalen Raum jeder Punkt noch durch ein weiteres Attribut gekennzeichnet, die relative Tiefe im Bezug zur Kamera. \newline
+Die Folgende Darstellung zeigt ein Beispiel für ein von REMODE berechnetes Bild.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.5]{Bilder/REMODE.jpg}
+	\label{fig:REMODE}
+\end{figure}
+
+Wie zuvor beschrieben, ist ein einfacher Anwendungsfall das fliegen durch Hindernisse wie offene Türen. Dabei stößt man in der Bildverarbeitung auf eine Reihe von Herausforderungen. \newline
+Einerseits hat sich nach einer langen Testphase ergeben, dass SVO und REMODE für die Gegebenen Bedingungen nicht optimal sind. Problematisch ist dabei sowohl die niedrige Qualität der Tiefenbilder, als auch die hohe Zeit die zwischen der Bewegung der Drohne und der Berechnung der Tiefenpunktwolke vergehen kann. Weiterhin ist SVO sehr instabil und es kommt sehr oft zu Abbrüchen. \newline
+
+
+
+Um ein Objekt wie eine Tür zu erkennen, muss man in der Punktwolke entweder nach Abmessungen oder Formen suchen, oder man vergleicht die Daten mit einer Referenzpunktwolke von einem ähnlichen Objekt. 
 
 \subsection{Implementierungsvorschlag}

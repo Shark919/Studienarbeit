@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  12 MAR 2017 20:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  14 MAR 2017 22:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -718,7 +718,7 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 File: Bilder/pubsub1.jpg Graphic file (type jpg)
 
 <use Bilder/pubsub1.jpg>
-Package pdftex.def Info: Bilder/pubsub1.jpg used on input line 23.
+Package pdftex.def Info: Bilder/pubsub1.jpg used on input line 25.
 (pdftex.def)             Requested size: 352.53969pt x 154.40079pt.
  [5] [6 <./Bilder/pubsub1.jpg>]) [7]
 \openout2 = `Inhalt/implementation.aux'.
@@ -727,9 +727,14 @@ Package pdftex.def Info: Bilder/pubsub1.jpg used on input line 23.
 (./Inhalt/implementation.tex
 chapter 3.
 
-Overfull \hbox (14.89157pt too wide) in paragraph at lines 7--14
+Overfull \hbox (14.89157pt too wide) in paragraph at lines 7--15
 \T1/ppl/m/n/10.95 Ein Haupt-be-stand-teil der Ar-beit be-steht dar-in, ein Vor-
 gän-ger-pro-jekt mit ei-ner AR.Drone
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--15
+
  []
 
 [8
@@ -737,63 +742,85 @@ gän-ger-pro-jekt mit ei-ner AR.Drone
 
 
 ] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
+Overfull \hbox (0.7007pt too wide) in paragraph at lines 18--19
+\T1/ppl/m/n/10.95 fen-in-for-ma-tio-nen zu ge-win-nen. Die be-schrie-be-nen Im-
+ple-men-tie-run-gen be-zie-hen sich
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
-[10] [11] <Bilder/distortion.png, id=78, 260.47313pt x 15.05624pt>
+[11] [12] <Bilder/distortion.png, id=82, 260.47313pt x 15.05624pt>
 File: Bilder/distortion.png Graphic file (type png)
 
 <use Bilder/distortion.png>
-Package pdftex.def Info: Bilder/distortion.png used on input line 73.
+Package pdftex.def Info: Bilder/distortion.png used on input line 60.
 (pdftex.def)             Requested size: 182.32994pt x 10.53929pt.
 
-<Bilder/radialFactors.png, id=79, 213.79875pt x 36.88782pt>
+<Bilder/radialFactors.png, id=83, 213.79875pt x 36.88782pt>
 File: Bilder/radialFactors.png Graphic file (type png)
 
 <use Bilder/radialFactors.png>
-Package pdftex.def Info: Bilder/radialFactors.png used on input line 81.
+Package pdftex.def Info: Bilder/radialFactors.png used on input line 68.
 (pdftex.def)             Requested size: 149.6581pt x 25.82127pt.
 
-<Bilder/tangentialFactors.png, id=80, 222.8325pt x 37.64063pt>
+<Bilder/tangentialFactors.png, id=84, 222.8325pt x 37.64063pt>
 File: Bilder/tangentialFactors.png Graphic file (type png)
 
 <use Bilder/tangentialFactors.png>
-Package pdftex.def Info: Bilder/tangentialFactors.png used on input line 90.
+Package pdftex.def Info: Bilder/tangentialFactors.png used on input line 77.
 (pdftex.def)             Requested size: 155.98167pt x 26.34824pt.
 
-<Bilder/matrixEquation.png, id=81, 146.04562pt x 50.43843pt>
+<Bilder/matrixEquation.png, id=85, 146.04562pt x 50.43843pt>
 File: Bilder/matrixEquation.png Graphic file (type png)
 
 <use Bilder/matrixEquation.png>
-Package pdftex.def Info: Bilder/matrixEquation.png used on input line 98.
+Package pdftex.def Info: Bilder/matrixEquation.png used on input line 85.
 (pdftex.def)             Requested size: 102.23122pt x 35.30664pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-[12 <./Bilder/distortion.png> <./Bilder/radialFactors.png> <./Bilder/tangential
-Factors.png>] <Bilder/calibrationChecker.png, id=90, 772.8875pt x 560.0925pt>
+[13 <./Bilder/distortion.png> <./Bilder/radialFactors.png> <./Bilder/tangential
+Factors.png>] <Bilder/calibrationChecker.png, id=93, 772.8875pt x 560.0925pt>
 File: Bilder/calibrationChecker.png Graphic file (type png)
 
 <use Bilder/calibrationChecker.png>
-Package pdftex.def Info: Bilder/calibrationChecker.png used on input line 111.
+Package pdftex.def Info: Bilder/calibrationChecker.png used on input line 98.
 (pdftex.def)             Requested size: 309.14952pt x 224.03302pt.
- [13 <./Bilder/matrixEquation.png> <./Bilder/calibrationChecker.png>]
-<Bilder/REMODE_overview.jpg, id=97, 338.26375pt x 263.98625pt>
+ [14 <./Bilder/matrixEquation.png> <./Bilder/calibrationChecker.png>] [15]
+<Bilder/REMODE_overview.jpg, id=103, 338.26375pt x 263.98625pt>
 File: Bilder/REMODE_overview.jpg Graphic file (type jpg)
 
 <use Bilder/REMODE_overview.jpg>
-Package pdftex.def Info: Bilder/REMODE_overview.jpg used on input line 136.
+Package pdftex.def Info: Bilder/REMODE_overview.jpg used on input line 117.
 (pdftex.def)             Requested size: 236.78299pt x 184.78911pt.
- [14 <./Bilder/REMODE_overview.jpg>]) [15]
+
+Overfull \hbox (6.08853pt too wide) in paragraph at lines 121--127
+\T1/ppl/m/n/10.95 Die Im-ple-men-ta-ti-on setzt auf ei-ne durch-schnitt-li-che 
+Be-we-gung der Ka-me-ra von 0.0038
+ []
+
+[16 <./Bilder/REMODE_overview.jpg>] [17] [18]
+<Bilder/REMODE.jpg, id=114, 516.42938pt x 289.58188pt>
+File: Bilder/REMODE.jpg Graphic file (type jpg)
+ <use Bilder/REMODE.jpg>
+Package pdftex.def Info: Bilder/REMODE.jpg used on input line 157.
+(pdftex.def)             Requested size: 258.21405pt x 144.79057pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
+
+ []
+
+[19 <./Bilder/REMODE.jpg>]) [20]
 \openout2 = `Inhalt/Evaluation.aux'.
 
-
-(./Inhalt/Evaluation.tex
+ (./Inhalt/Evaluation.tex
 chapter 4.
-) [16
+) [21
 
 
 
@@ -808,7 +835,7 @@ Underfull \hbox (badness 1902) in paragraph at lines 9--13
 ww . willowgarage . com / blog / 2009 / 06 / 10 /
  []
 
-) [17
+) [22
 
 
 ] (./Studienarbeit.aux (./Inhalt/titelseite.aux) (./Inhalt/erklaerung.aux) (./I
@@ -822,13 +849,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8578 strings out of 493013
- 132306 string characters out of 6136992
- 285657 words of memory out of 5000000
- 11873 multiletter control sequences out of 15000+600000
+ 8583 strings out of 493013
+ 132404 string characters out of 6136992
+ 285661 words of memory out of 5000000
+ 11877 multiletter control sequences out of 15000+600000
  39902 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,12n,66p,8899b,712s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,11n,66p,8900b,712s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2016/texmf-dist/fon
 ts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2016/texmf-dist/fonts/type1/
@@ -847,10 +874,10 @@ texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/20
 ist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2016/texmf-dist/fonts/
 type1/urw/palatino/uplr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palat
 ino/uplri8a.pfb>
-Output written on Studienarbeit.pdf (24 pages, 712126 bytes).
+Output written on Studienarbeit.pdf (29 pages, 749533 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
+ 187 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
