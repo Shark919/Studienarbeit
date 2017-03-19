@@ -18,7 +18,7 @@ Das Ziel der Arbeit ist anschließend herauszufinden, wie man mit den Tiefeninfo
 In diesem Abschnitt wird beschrieben, wie die Position der Kamera im Raum bestimmt werden kann, um anschließend aus aufeinanderfolgenden Aufnahmen Tiefeninformationen zu gewinnen. Die beschriebenen Implementierungen beziehen sich dabei auf die Arbeit von Christian Forster, Matia Pizzoli und Davide Scaramuzza, welche ihre Abhandlungen zum Thema zusammen mit dem Programmcode frei zugänglich gemacht haben.
 
 \subsection{Semi-Direct Monocular Visual Odometry - SVO}
-
+%Christoph
 Eine Grundanforderung an das Projekt ist die Nutzung einer nicht modifizierten AR.Drone. Dadurch entsteht die Problematik, dass keine Tiefenbildkamera genutzt werden kann, um in Echtzeit Tiefenbilder zu erhalten. Die Drohne ist lediglich mit einer monokularen Frontkamera ausgestattet. \newline
 Um Tiefeninformationen aus den Bildern einer solchen Kamera zu gewinnen, wird eine Szene aus verschiedenen Perspektiven aufgenommen. Anschließend gibt es unterschiedliche Ansätze um aus den aufeinanderfolgenden Bildern Kamerapositionen und Umgebungsstrukturen zu ermitteln. \newline
 Feature basierte Ansätze sind der aktuelle Standard zur Berechnung der Kamerapostion. Diese versuchen die wichtigsten Merkmale eines Bildes, die Features, zu extrahieren. Mit Hilfe von Feature Deskriptor Algorithmen werden Vektoren mit Informationen zu invarianten Bildbereichen berechnet. Diese Vektoren verhalten sich wie ein einzigartiger Fingerabdruck, der die Merkmale repräsentiert. \newline
@@ -34,6 +34,7 @@ Dadurch müssen Features nur extrahiert werden, wenn diese noch nicht auf einem 
 Diese Eigenschaften sind für die Anforderungen der Studienarbeit essentiell, da die Drohne sich sehr schnell bewegen kann und somit in möglichst kurzer Zeit neue Bilder auswerten muss. Das beschrieben Verfahren minimiert damit die Auswirkungen der typischen Probleme von Drohnen. Diese sind einerseits die niedrige Texturierung der Umgebung, welche hauptsächlich in Innenräumen auftritt und andererseits kameraspezifische Probleme wie Bewegungsunschärfe und der Verlust des Kamerafokus.
 
 \subsection{Kamerakalibrierung}
+%Christoph
 Ein Grundproblem der Bildverarbeitung ist die Verzerrung des Bildes. 
 Da die Bestimmung der Kameraposition möglichst genau sein soll, muss die Kamera vorher kalibriert werden. Dies bedeutet, dass Ungenauigkeiten der Linse erkannt und softwareseitig ausgeglichen werden. Dafür werden die intrinsischen Parameter der Kamera bestimmt \newline
 
@@ -102,7 +103,7 @@ Um die intrinsischen Parameter der Kamera zu bestimmen, wird ein bekanntes Bild 
 Die Kalibrierung wurde mit dem frei verfügbaren ROS Node \textit{camera\_calibration} umgesetzt. Das Ergebnis ist abhängig von der Anzahl der Perspektiven und der Qualität der Aufnahmen. Aufgegeben wird dann die List der Parameter, die für das Lochkamera Modell notwendig sind.
 
 \subsection{Regularized Monocular Depth Estimation - REMODE}
-
+%Christoph
 Im vorherigen Abschnitt wurde beschrieben, wie anhand von aufeinanderfolgenden Bildern die Position der Kamera im Raum bestimmt werden kann. Dieses Problem wird seit mehr als 20 Jahren untersucht und wird als Structure From Motion \emph{SFM} in der Bildverarbeitung und Simultaneous Localization and Mapping \emph{SLAM} in der Robotik bezeichnet. \newline
 %Smith, R.C.; Cheeseman, P. (1986). "On the Representation and Estimation of Spatial Uncertainty" (PDF). The International Journal of Robotics Research. 5 (4): 56–68. 
 Um den Nutzer aktiv bei der Steuerung der Drohne zu unterstützen werden jedoch Tiefeninformationen benötigt. Dazu müssen Tiefenbilder und Tiefenkarten (footnote) aus den Bildern der monokularen Kamera bestimmt werden. \newline
@@ -118,12 +119,18 @@ Im Folgenden wird der grundsätzliche Ansatz der Implementierung skizziert. Die 
 	\label{fig:radial}
 \end{figure}
 
-In der Übersicht sieht man die beiden Kamerapositionen Ir und Ik mit den zugehörigen Kamerazentren Cr und Ck. Die Positionen im Raum dieser Kameras wurden im vorherigen Schritt mit Hilfe von SVO ermittelt. Tk,r zeigt dabei die starre Transformation der Kamerabilder. \newline
-Der Punkt rP ist die aktuelle Schätzung der Position eines Punktes auf den epipolaren Flächen.
+In der Übersicht sieht man die beiden Kamerapositionen $I_r$ und $I_k$ mit den zugehörigen Kamerazentren $C_r$ und $C_k$. Die Positionen im Raum dieser Kameras wurden im vorherigen Schritt mit Hilfe von SVO ermittelt. $T_k,r$ zeigt dabei die starre Transformation der Kamerabilder. \newline
+Der Punkt $r_P$ ist die aktuelle Schätzung der Position eines Punktes auf den epipolaren Flächen.
 Die Varianz der Abweichung von einem Pixel auf der epipolaren Linie durch estrich und ustrich wird berechnet mit der Gleichung tkquadr.
-Mit Hilfe der oben angesprochenen mathematischen und statistischen Auswertungen kann nun die Tiefe eines Punktes rP approximiert werden. \newline
-Das Zusammenspiel von SVO und REMODE funktioniert flüssig auf handelsüblichen Laptops mit CPU und GPU. Dabei läuft SVO komplett auf dem Prozessort und REMODE läuft unter Verwendung des Frameworks NVIDIA CUDA (footnote) auf dem Grafikchip des Rechners. \newline
+Mit Hilfe der oben angesprochenen mathematischen und statistischen Auswertungen kann nun die Tiefe eines Punktes $r_P$ approximiert werden. \newline
+Das Zusammenspiel von SVO und REMODE ist für handelsüblichen Laptops mit CPU und GPU ausgelegt. Dabei läuft SVO komplett auf dem Prozessor und REMODE verwendet das Framework NVIDIA CUDA, (footnote) was auf den Grafikchip des Rechners zugreift. \newline
 Die Implementation setzt auf eine durchschnittliche Bewegung der Kamera von 0.0038 Meter pro Sekunde und einer mittleren Tiefe von einem Meter bei einer Berechnungszeit von 3.3 ms pro Bild.
+
+\subsection{Performanceprobleme}
+\label{performanceprobleme}
+%hier mal vollkommen auslassen über alle performanceissues
+
+
 \newpage
 \section{Implementierung}
 \subsection{Kinect}
@@ -140,16 +147,25 @@ Die Implementation setzt auf eine durchschnittliche Bewegung der Kamera von 0.00
 %Bild von kinect https://d3nevzfk7ii3be.cloudfront.net/igi/DtuTZhDHRWaOirBm.large
 
 
-
-%hab ich mal hinzugefügt - vielleicht kommen wir ja soweit
-%falls nicht, sollten wir trotzdem eine Betrachtung reinschreiben, ist immerhin Ziel der Arbeit lol
 \newpage
 \section{Assistenzsystem}
 Im Kapitel \ref{Bildverarbeitung} wurde der Prozess beschrieben, wie aus den monokularen Aufnahmen der Frontkamera der Drohen Tiefenbilder ermittelt werden können. Aufbauend darauf soll nun erarbeitet werden, wie man aus diesen Informationen ein grundlegendes Assistenzsystem implementieren könnte.
 
 
 \subsection{Abgrenzung}
-Die Tiefenbilder die REMODE erstellt werden in Form von sogenannten Punktwolken, bzw. Point Clouds über ein ROS Topic verschickt. Diese Punktwolken sind eine Menge von Punkten in einem Vektorraum, welche jeweils durch ihre Raumkoordinaten beschrieben sind. Bei zweidimensionalen Bilder entspricht dies einem X und einem Y Wert, welcher die Position des Punktes im Bild beschreibt. Im Gegensatz dazu wird im dreidimensionalen Raum jeder Punkt noch durch ein weiteres Attribut gekennzeichnet, die relative Tiefe im Bezug zur Kamera. \newline
+%Christoph
+Die Tiefenbilder die REMODE erstellt sind in Form von sogenannten Punktwolken, bzw. Point Clouds über ein ROS Topic verschickt. Diese Punktwolken sind eine Menge von Punkten in einem Vektorraum, welche jeweils durch ihre Raumkoordinaten in einem dreidimensionalen kartesischen Koordinatensystem beschrieben sind. Somit ist jedes Element im Datensatz durch die Attribute $X$, $Y$ und $Z$ gekennzeichnet. \newline
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.5]{Bilder/pointcloud_1.jpg}
+	\label{fig:pointcloud}
+\end{figure}
+
+Die Darstellung zeigt beispielhaft die Visualisierung einer Punktwolke. Dabei entscheidet die Helligkeit der Punkte über die relative Tiefe in Bezug zur Kamera. Der Vektorraum $V \in \mathbb{R}^3$ mit den entsprechenden Datenpunkten wird über ROS Topics in einem Intervall von wenigen Sekunden übertragen.\newline
+%cite https://student.myvectorworks.net/public_newsletters/2016/07/6/StudenPortal-eNL_Detail_content2.html?utm_campaign=newsletteredu&utm_source=image&utm_medium=portal&utm_content=2
+%cite http://whatis.techtarget.com/definition/point-cloud
+Wie zuvor beschrieben, ist ein einfacher Anwendungsfall das Fliegen durch Hindernisse wie offene Türen. Dabei stößt man in der Bildverarbeitung auf eine Reihe von Herausforderungen. Wie in \ref{performanceprobleme} beschrieben, sind SVO und REMODE nicht optimal für den Anwendungsfall dieser Arbeit. Dabei treten Probleme schon beidem ersten Schritt zum Assistenzsystem auf, die Analyse des Tiefenbildes. Dabei ist sowohl die niedrige Qualität der Tiefenbilder problematisch, als auch die hohe Zeit die zwischen der Bewegung der Drohne und der Berechnung der Tiefenpunktwolke vergehen kann. \newline
 Die Folgende Darstellung zeigt ein Beispiel für ein von REMODE berechnetes Bild.
 
 \begin{figure}[ht]
@@ -158,11 +174,15 @@ Die Folgende Darstellung zeigt ein Beispiel für ein von REMODE berechnetes Bild
 	\label{fig:REMODE}
 \end{figure}
 
-Wie zuvor beschrieben, ist ein einfacher Anwendungsfall das fliegen durch Hindernisse wie offene Türen. Dabei stößt man in der Bildverarbeitung auf eine Reihe von Herausforderungen. \newline
-Einerseits hat sich nach einer langen Testphase ergeben, dass SVO und REMODE für die Gegebenen Bedingungen nicht optimal sind. Problematisch ist dabei sowohl die niedrige Qualität der Tiefenbilder, als auch die hohe Zeit die zwischen der Bewegung der Drohne und der Berechnung der Tiefenpunktwolke vergehen kann. Weiterhin ist SVO sehr instabil und es kommt sehr oft zu Abbrüchen. \newline
+Dabei wird ersichtlich, das der grundlegende Kontext für einen menschlichen Betrachter verständlich ist - in diesem Fall sind dies zwei Häuser mit einer schmalen Lücke als Zwischenraum. Dabei sind genaue Texturen stark reduziert und teilweise verloren gegangen. Weiterhin sind Objektränder zum Teil von einem leichten hellen Schimmer umgeben, welcher in der Bildanalyse zu Problemen führen kann.
+Um an diesem Punkt ein Objekt wie eine Tür, bzw. den Zwischenraum zu erkennen, gibt es verschiedene Ansätze, um die Punktwolke zu analysieren.
+Eine Möglichkeit ist das suchen nach definierten Abmessungen, Abständen und Formen. Es ist auch möglich, die Daten mit einer Referenzpunktwolke von einem ähnlichen Objekt abzugleichen. \newline
+Für beide Ansätze sind komplexe mathematische Berechnungen und Bildverarbeitungskenntnisse notwendig. Für dieses Problem gibt es das OpenSource Projekt Point Cloud Library \emph{PCL}. Dabei handelt es sich um ein Open Source Projekt zur 2D und 3D Bild-, sowie Punktwolkenverarbeitung. %cite http://pointclouds.org/
+Dabei stellt die Programmbibliothek zahlreiche Algorithmen bereit, die z.B. bei der Filterung, Segmentierung und Visualisierung helfen. Dabei verfügt das Robot Operating System außerdem eine Schnittstelle zur PCL, wodurch sie sich bestens in die Projektumgebung dieser Arbeit integrieren lässt. \newline
 
-
-
-Um ein Objekt wie eine Tür zu erkennen, muss man in der Punktwolke entweder nach Abmessungen oder Formen suchen, oder man vergleicht die Daten mit einer Referenzpunktwolke von einem ähnlichen Objekt. 
 
 \subsection{Implementierungsvorschlag}
+%beide
+%http://pointclouds.org/documentation/tutorials/correspondence_grouping.php
+%vielleicht könnte das einigermaßen klappen
+%falls wir nicht mehr dazu kommen wenigstens theoretische betrachtung, ob das funktionieren könnte + integration in unsere Architektur

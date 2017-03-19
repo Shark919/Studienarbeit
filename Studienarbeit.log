@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  14 MAR 2017 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  15 MAR 2017 19:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -436,6 +436,17 @@ LaTeX Info: Redefining \pageref on input line 355.
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks21
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 \@nomenclaturefile=\write3
 \openout3 = `Studienarbeit.nlo'.
 
@@ -456,26 +467,26 @@ LaTeX Warning: Label `fig:radial' multiply defined.
 ) (./Inhalt/Evaluation.aux))
 \openout1 = `Studienarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 86.
 
 (c:/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 85.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 86.
 
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -490,12 +501,12 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 \scratchbox=\box30
 \nofMPsegments=\count103
 \nofMParguments=\count104
-\everyMPshowfont=\toks21
+\everyMPshowfont=\toks22
 \MPscratchCnt=\count105
 \MPscratchDim=\dimen113
 \MPnumerator=\count106
 \makeMPintoPDFobject=\count107
-\everyMPtoPDFconversion=\toks22
+\everyMPtoPDFconversion=\toks23
 ) (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -530,7 +541,7 @@ e
 ))
 \big@size=\dimen114
 \c@lstlisting=\count108
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 89.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 90.
 
 (c:/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -572,6 +583,19 @@ LaTeX Font Info:    Try loading font information for OT1+zplm on input line 13.
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 13.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 13.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 13.
+
 <Bilder/logo_dhbw.jpg, id=2, 86.9649pt x 44.3256pt>
 File: Bilder/logo_dhbw.jpg Graphic file (type jpg)
  <use Bilder/logo_dhbw.jpg>
@@ -690,14 +714,14 @@ No file Studienarbeit.nls.
  (./Inhalt/einleitung.tex
 chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--21
+Underfull \hbox (badness 10000) in paragraph at lines 14--22
 
  []
 
 [1
 
 
-] [2]) [3]
+] [2]) [3] [4]
 \openout2 = `Inhalt/vorlagen.aux'.
 
  (./Inhalt/vorlagen.tex
@@ -709,23 +733,35 @@ LaTeX Font Info:    Try loading font information for TS1+ppl on input line 9.
 
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-) [4
+) [5
 
 
 
 ]
-<Bilder/pubsub1.jpg, id=54, 503.63156pt x 220.57407pt>
+<Bilder/pubsub1.jpg, id=57, 503.63156pt x 220.57407pt>
 File: Bilder/pubsub1.jpg Graphic file (type jpg)
 
 <use Bilder/pubsub1.jpg>
 Package pdftex.def Info: Bilder/pubsub1.jpg used on input line 25.
 (pdftex.def)             Requested size: 352.53969pt x 154.40079pt.
- [5] [6 <./Bilder/pubsub1.jpg>]) [7]
+ [6] [7 <./Bilder/pubsub1.jpg>]) [8]
 \openout2 = `Inhalt/implementation.aux'.
 
 
 (./Inhalt/implementation.tex
 chapter 3.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 13.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 13.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 13.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 13.
 
 Overfull \hbox (14.89157pt too wide) in paragraph at lines 7--15
 \T1/ppl/m/n/10.95 Ein Haupt-be-stand-teil der Ar-beit be-steht dar-in, ein Vor-
@@ -737,90 +773,120 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--15
 
  []
 
-[8
+[9
 
 
 
-] [9]
+] [10]
 Overfull \hbox (0.7007pt too wide) in paragraph at lines 18--19
 \T1/ppl/m/n/10.95 fen-in-for-ma-tio-nen zu ge-win-nen. Die be-schrie-be-nen Im-
 ple-men-tie-run-gen be-zie-hen sich
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
 
-[11] [12] <Bilder/distortion.png, id=82, 260.47313pt x 15.05624pt>
+[12] [13] <Bilder/distortion.png, id=85, 260.47313pt x 15.05624pt>
 File: Bilder/distortion.png Graphic file (type png)
 
 <use Bilder/distortion.png>
-Package pdftex.def Info: Bilder/distortion.png used on input line 60.
+Package pdftex.def Info: Bilder/distortion.png used on input line 61.
 (pdftex.def)             Requested size: 182.32994pt x 10.53929pt.
 
-<Bilder/radialFactors.png, id=83, 213.79875pt x 36.88782pt>
+<Bilder/radialFactors.png, id=86, 213.79875pt x 36.88782pt>
 File: Bilder/radialFactors.png Graphic file (type png)
 
 <use Bilder/radialFactors.png>
-Package pdftex.def Info: Bilder/radialFactors.png used on input line 68.
+Package pdftex.def Info: Bilder/radialFactors.png used on input line 69.
 (pdftex.def)             Requested size: 149.6581pt x 25.82127pt.
 
-<Bilder/tangentialFactors.png, id=84, 222.8325pt x 37.64063pt>
+<Bilder/tangentialFactors.png, id=87, 222.8325pt x 37.64063pt>
 File: Bilder/tangentialFactors.png Graphic file (type png)
 
 <use Bilder/tangentialFactors.png>
-Package pdftex.def Info: Bilder/tangentialFactors.png used on input line 77.
+Package pdftex.def Info: Bilder/tangentialFactors.png used on input line 78.
 (pdftex.def)             Requested size: 155.98167pt x 26.34824pt.
 
-<Bilder/matrixEquation.png, id=85, 146.04562pt x 50.43843pt>
+<Bilder/matrixEquation.png, id=88, 146.04562pt x 50.43843pt>
 File: Bilder/matrixEquation.png Graphic file (type png)
 
 <use Bilder/matrixEquation.png>
-Package pdftex.def Info: Bilder/matrixEquation.png used on input line 85.
+Package pdftex.def Info: Bilder/matrixEquation.png used on input line 86.
 (pdftex.def)             Requested size: 102.23122pt x 35.30664pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
-[13 <./Bilder/distortion.png> <./Bilder/radialFactors.png> <./Bilder/tangential
-Factors.png>] <Bilder/calibrationChecker.png, id=93, 772.8875pt x 560.0925pt>
+[14 <./Bilder/distortion.png> <./Bilder/radialFactors.png> <./Bilder/tangential
+Factors.png>] <Bilder/calibrationChecker.png, id=96, 772.8875pt x 560.0925pt>
 File: Bilder/calibrationChecker.png Graphic file (type png)
 
 <use Bilder/calibrationChecker.png>
-Package pdftex.def Info: Bilder/calibrationChecker.png used on input line 98.
+Package pdftex.def Info: Bilder/calibrationChecker.png used on input line 99.
 (pdftex.def)             Requested size: 309.14952pt x 224.03302pt.
- [14 <./Bilder/matrixEquation.png> <./Bilder/calibrationChecker.png>] [15]
-<Bilder/REMODE_overview.jpg, id=103, 338.26375pt x 263.98625pt>
+ [15 <./Bilder/matrixEquation.png> <./Bilder/calibrationChecker.png>] [16]
+<Bilder/REMODE_overview.jpg, id=106, 338.26375pt x 263.98625pt>
 File: Bilder/REMODE_overview.jpg Graphic file (type jpg)
 
 <use Bilder/REMODE_overview.jpg>
-Package pdftex.def Info: Bilder/REMODE_overview.jpg used on input line 117.
+Package pdftex.def Info: Bilder/REMODE_overview.jpg used on input line 118.
 (pdftex.def)             Requested size: 236.78299pt x 184.78911pt.
 
-Overfull \hbox (6.08853pt too wide) in paragraph at lines 121--127
+Overfull \hbox (6.08853pt too wide) in paragraph at lines 122--128
 \T1/ppl/m/n/10.95 Die Im-ple-men-ta-ti-on setzt auf ei-ne durch-schnitt-li-che 
 Be-we-gung der Ka-me-ra von 0.0038
  []
 
-[16 <./Bilder/REMODE_overview.jpg>] [17] [18]
-<Bilder/REMODE.jpg, id=114, 516.42938pt x 289.58188pt>
-File: Bilder/REMODE.jpg Graphic file (type jpg)
- <use Bilder/REMODE.jpg>
-Package pdftex.def Info: Bilder/REMODE.jpg used on input line 157.
-(pdftex.def)             Requested size: 258.21405pt x 144.79057pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--163
+[17 <./Bilder/REMODE_overview.jpg>] [18] [19]
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
-[19 <./Bilder/REMODE.jpg>]) [20]
+<Bilder/pointcloud_1.jpg, id=117, 694.595pt x 459.7175pt>
+File: Bilder/pointcloud_1.jpg Graphic file (type jpg)
+
+<use Bilder/pointcloud_1.jpg>
+Package pdftex.def Info: Bilder/pointcloud_1.jpg used on input line 161.
+(pdftex.def)             Requested size: 347.29665pt x 229.85818pt.
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 165
+.
+
+(c:/texlive/2016/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
+)
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 168.
+
+
+LaTeX Warning: Reference `performanceprobleme' on page 20 undefined on input li
+ne 168.
+
+[20 <./Bilder/pointcloud_1.jpg>]
+<Bilder/REMODE.jpg, id=121, 516.42938pt x 289.58188pt>
+File: Bilder/REMODE.jpg Graphic file (type jpg)
+ <use Bilder/REMODE.jpg>
+Package pdftex.def Info: Bilder/REMODE.jpg used on input line 173.
+(pdftex.def)             Requested size: 258.21405pt x 144.79057pt.
+
+Overfull \hbox (1.30318pt too wide) in paragraph at lines 177--182
+\T1/ppl/m/n/10.95 tungs-kennt-nis-se not-wen-dig. Für die-ses Pro-blem gibt es 
+das Open-Sour-ce Pro-jekt Point
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--182
+
+ []
+
+[21 <./Bilder/REMODE.jpg>]) [22]
 \openout2 = `Inhalt/Evaluation.aux'.
 
  (./Inhalt/Evaluation.tex
 chapter 4.
-) [21
+) [23
 
 
 
@@ -835,7 +901,7 @@ Underfull \hbox (badness 1902) in paragraph at lines 9--13
 ww . willowgarage . com / blog / 2009 / 06 / 10 /
  []
 
-) [22
+) [24
 
 
 ] (./Studienarbeit.aux (./Inhalt/titelseite.aux) (./Inhalt/erklaerung.aux) (./I
@@ -845,15 +911,18 @@ nhalt/abstract.aux) (./Inhalt/einleitung.aux) (./Inhalt/vorlagen.aux)
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8583 strings out of 493013
- 132404 string characters out of 6136992
- 285661 words of memory out of 5000000
- 11877 multiletter control sequences out of 15000+600000
- 39902 words of font info for 83 fonts, out of 8000000 for 9000
+ 8893 strings out of 493013
+ 135937 string characters out of 6136992
+ 286242 words of memory out of 5000000
+ 12171 multiletter control sequences out of 15000+600000
+ 44150 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,11n,66p,8900b,712s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
@@ -861,23 +930,24 @@ ive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2016/texmf-dist/fon
 ts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2016/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fpl
-mr.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb><c:
-/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb><c:/texlive/2
-016/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2016/texmf-
-dist/fonts/type1/public/cm-super/sfss1095.pfb><c:/texlive/2016/texmf-dist/fonts
-/type1/public/cm-super/sfss1440.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pub
-lic/cm-super/sfsx1000.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-sup
-er/sfsx1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx120
-0.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/
-texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/20
-16/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2016/texmf-d
-ist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2016/texmf-dist/fonts/
-type1/urw/palatino/uplr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palat
-ino/uplri8a.pfb>
-Output written on Studienarbeit.pdf (29 pages, 749533 bytes).
+mbb.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb><c:/t
+exlive/2016/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb><c:/texlive/201
+6/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb><c:/texlive/2016/texmf-di
+st/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2016/texmf-dist/fonts/t
+ype1/public/cm-super/sfss1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
+c/cm-super/sfss1440.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super
+/sfsx1000.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1095.
+pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/te
+xlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2016
+/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2016/texmf-dis
+t/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2016/texmf-dist/fonts/ty
+pe1/public/cm-super/sftt1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/pa
+latino/uplb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
+fb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on Studienarbeit.pdf (31 pages, 1087799 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
+ 203 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
