@@ -16,4 +16,14 @@
   \url{https://github.com/uzh-rpg/rpg_svo/wiki/Camera-Calibration}, 2014.
 \newblock visited: 02.19.2017.
 
+\bibitem{airsim}
+{Shital Shah and Debadeepta Dey and Chris Lovett and Ashish Kapoor},
+  ``{Microsoft AirSim}.'' \url{https://github.com/Microsoft/AirSim}, 2017.
+\newblock visited: 03.16.2017.
+
+\bibitem{airsimpaper}
+S.~Shah, D.~Dey, C.~Lovett, and A.~Kapoor, ``{A}erial {I}nformatics and
+  {R}obotics platform,'' Tech. Rep. {M}{S}{R}-{T}{R}-2017-9, Microsoft
+  Research, 2017.
+
 \end{thebibliography}

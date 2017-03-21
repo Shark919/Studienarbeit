@@ -38,6 +38,9 @@ Durch diese Modularität ist einfacher Komponenten und Funktionalitäten sowohl 
 % wäre noch ein guter filler und könnte man mit erwähnen - wäre hier in deinem Teil mit drin
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Software Qualität}
+Um die Qualität der Anwendung zu sichern wird Catkin Build anstelle des veralteten rosbuild verwendet. Bei Catkin sind Pakete der atomare Bestandteil der Anwendung.
+%TODO%http://wiki.ros.org/catkin_or_rosbuild 
 
 \section{Simulation}
 Da es besonders beim Flug von Quadrocoptern schnell zu Schäden kommen kann und das sowohl  in langen Ausfallzeiten, als auch zu erhöhten Materialkosten führen. Speziell beim Test von autonomen Verhalten ist der Test der Features in realer Umgebung somit mit hohem Risiko verbunden. Um dies zu vermeiden ist die Simulation von Quadrocoptern und verschiedener Umgebungen unabdingbar. Ebenfalls erleichtert eine simulierte Version der Drohne die Entwicklung, da sie nicht immer physikalisch vorhanden sein muss. Dabei ist es allerdings notwendig, insbesondere
@@ -58,5 +61,5 @@ ein eigenständiges Ubuntupaket und benötigt de facto kein ROS.
 
 
 \section{Kinect}
-Um Gesten des Benutzers zur erkennen und entsprechend auszuwerten wird der visuelle Sensor Microsoft Kinect verwendet. Normalerweise wird er zur Steuerung der Videospiel Konsole Xbox360/Xbox One verwendet. Das System ist in der Lage Tiefenbilder zu erstellen, besitzt sowohl eine 1080p Farbkamera, als auch einen Infrarotsensor und mithilfe mehrere Mikrofone Sprache und Bewegung im Raum zu erkennen. 
+Um Gesten des Benutzers zur erkennen und entsprechend auszuwerten wird der visuelle Sensor Microsoft Kinect verwendet. Normalerweise wird er zur Steuerung der Videospiel Konsole Xbox360/Xbox One verwendet. Das System ist in der Lage Tiefenbilder zu erstellen, besitzt sowohl eine 1080p Farbkamera, als auch einen Infrarotsensor und mithilfe mehrere Mikrofone Sprache und Bewegung im Raum zu erkennen. Anhand der verschiedenen Kameraeingaben ist es möglich den Körper von bis zu 2 Nutzern zu erkennen und auch entsprechend zu verfolgen. Für Windows stellt Microsoft ein entsprechendes Software Development Kit (SDK) zur Verfügung um die Benutzung der Funktionalität zu vereinfachen.
 %Max

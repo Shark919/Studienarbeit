@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.8)  21 MAR 2017 10:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.8)  21 MAR 2017 17:49
 entering extended mode
 **Studienarbeit.tex
 (C:\Users\D062367\git\Studienarbeit\Studienarbeit.tex
@@ -851,14 +851,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--182
 [22 <C:/Users/D062367/git/Studienarbeit/Bilder/REMODE.jpg>]) [23]
 (C:\Users\D062367\git\Studienarbeit\Inhalt/Evaluation.tex
 chapter 4.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 9.
-
-LaTeX Warning: Citation `airsim' on page 24 undefined on input line 9.
-
-
-LaTeX Warning: Citation `airsimpaper' on page 24 undefined on input line 9.
-
 )
 Overfull \hbox (1.35762pt too wide) in paragraph at lines 9--122
 \T1/ppl/m/n/10.95 ver-an-lagt und bie-ten kei-ne pro-gram-ma-ti-sche Schnitt-st
@@ -910,24 +902,21 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8580 strings out of 493921
- 133047 string characters out of 3145272
- 275045 words of memory out of 3000000
- 11635 multiletter control sequences out of 15000+200000
- 44150 words of font info for 100 fonts, out of 3000000 for 9000
+ 8576 strings out of 493921
+ 133002 string characters out of 3145272
+ 275053 words of memory out of 3000000
+ 11633 multiletter control sequences out of 15000+200000
+ 42701 words of font info for 98 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  54i,11n,66p,8898b,712s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ectt1095.pk>{C:/Users/D062367/Documents/Latex/fonts/enc/dvips/fontname/8r.enc
-} <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecsx1200.pk> <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
+0\ectt1095.pk> <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecsx1200.pk>{C:/Users/D062367/Documents/Latex/fonts/enc/dvips/fon
+tname/8r.enc} <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
 en\ec\dpi600\ecsx1095.pk> <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\l
 jfour\jknappen\ec\dpi600\eccc1095.pk> <C:\Users\D062367\AppData\Local\MiKTeX\2.
 9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsi1095.pk> <C:\Users\D062367\AppData\Loc
@@ -944,12 +933,11 @@ a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Users/D06
 /Documents/Latex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/D062367/Do
 cuments/Latex/fonts/type1/public/mathpazo/fplmbb.pfb><C:/Users/D062367/Document
 s/Latex/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/D062367/Documents/Latex
-/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/D062367/Documents/Latex/fonts/ty
-pe1/urw/palatino/uplr8a.pfb><C:/Users/D062367/Documents/Latex/fonts/type1/urw/p
-alatino/uplri8a.pfb>
-Output written on Studienarbeit.pdf (33 pages, 1041176 bytes).
+/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/D062367/Documents/Latex/fonts/ty
+pe1/urw/palatino/uplri8a.pfb>
+Output written on Studienarbeit.pdf (33 pages, 1035297 bytes).
 PDF statistics:
- 570 PDF objects out of 1000 (max. 8388607)
+ 569 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
