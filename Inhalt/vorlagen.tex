@@ -40,8 +40,16 @@ Durch diese Modularität ist einfacher Komponenten und Funktionalitäten sowohl 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Simulation}
-Da es besonders beim Flug von Quadrocoptern schnell zu Schäden kommen kann und das sowohl  in langen Ausfallzeiten, als auch zu erhöhten Materialkosten führen. Speziell beim Test von autonomen Verhalten ist der Test der Features in realer Umgebung somit mit hohem Risiko verbunden. Um dies zu vermeiden ist die Simulation von Quadrocoptern und verschiedener Umgebungen unabdingbar. Ebenfalls erleichtert eine simulierte Version der Drohne die Entwicklung, da sie nicht immer physikalisch vorhanden sein muss. Dabei ist es allerdings notwendig, insbesondere bei Bilddaten, dass die reale Situation möglichst realitätsnah abgebildet wird, sodass das Verhalten im realen Umfeld entsprechend ähnlich ist. \newline
-Durch die Integration von ROS kommt die Simulationsumgebung Gazebo als Bestandteil mit. Anfänglich handelte es sich um ein ROS Paket, mittlerweile ist es allerdings ein eigenständiges Ubuntupaket und benötigt de facto kein ROS.
+Da es besonders beim Flug von Quadrocoptern schnell zu Schäden kommen kann und das sowohl  in langen Ausfallzeiten, als auch zu erhöhten Materialkosten führen. Speziell beim Test von autonomen Verhalten ist der Test der Features in realer Umgebung somit mit hohem Risiko verbunden. Um dies zu vermeiden ist die Simulation von Quadrocoptern und verschiedener Umgebungen unabdingbar. Ebenfalls erleichtert eine simulierte Version der Drohne die Entwicklung, da sie nicht immer physikalisch vorhanden sein muss. Dabei ist es allerdings notwendig, insbesondere
+bei Bilddaten, dass die reale Situation möglichst realitätsnah abgebildet wird, sodass
+das Verhalten im realen Umfeld entsprechend ähnlich ist. Insbesondere bei der
+Verarbeitung von Kameradaten ist es allerdings abzuwägen ob Ergebnisse in der Simulation
+mit Resultaten in realen Umgebungen vergleichbar sind, da die simulierten
+Bilddaten in der Regel eher steril sind.\newline
+Durch die Integration von ROS kommt die Simulationsumgebung Gazebo als Bestandteil
+mit. Anfänglich handelte es sich um ein ROS Paket, mittlerweile ist es allerdings
+ein eigenständiges Ubuntupaket und benötigt de facto kein ROS. 
+
 %Max
 
 \section{Fuzzylogik}
