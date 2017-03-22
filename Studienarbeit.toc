@@ -8,10 +8,11 @@
 \contentsline {section}{\numberline {2.1}AR.Drone 2.0}{5}
 \contentsline {section}{\numberline {2.2}ROS}{6}
 \contentsline {subsection}{\numberline {2.2.1}Allgemeines}{6}
-\contentsline {subsection}{\numberline {2.2.2}ROS Nodes}{6}
+\contentsline {subsection}{\numberline {2.2.2}ROS Nodes}{7}
+\contentsline {subsection}{\numberline {2.2.3}Software Qualit\IeC {\"a}t}{8}
 \contentsline {section}{\numberline {2.3}Simulation}{8}
-\contentsline {section}{\numberline {2.4}Fuzzylogik}{8}
-\contentsline {section}{\numberline {2.5}Kinect}{8}
+\contentsline {section}{\numberline {2.4}Fuzzylogik}{9}
+\contentsline {section}{\numberline {2.5}Kinect}{9}
 \contentsline {chapter}{\numberline {3}Software Architektur}{10}
 \contentsline {section}{\numberline {3.1}Anforderungen}{10}
 \contentsline {section}{\numberline {3.2}Bildverarbeitung}{12}
@@ -20,9 +21,10 @@
 \contentsline {subsection}{\numberline {3.2.3}Regularized Monocular Depth Estimation - REMODE}{17}
 \contentsline {subsection}{\numberline {3.2.4}Performanceprobleme}{19}
 \contentsline {section}{\numberline {3.3}Implementierung}{20}
-\contentsline {subsection}{\numberline {3.3.1}Kinect}{20}
-\contentsline {subsection}{\numberline {3.3.2}ROS Nodes}{20}
-\contentsline {subsection}{\numberline {3.3.3}Architektur}{20}
+\contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{20}
+\contentsline {subsection}{\numberline {3.3.2}Kinect}{20}
+\contentsline {subsection}{\numberline {3.3.3}ROS Nodes}{20}
+\contentsline {subsection}{\numberline {3.3.4}Architektur}{20}
 \contentsline {section}{\numberline {3.4}Assistenzsystem}{21}
 \contentsline {subsection}{\numberline {3.4.1}Abgrenzung}{21}
 \contentsline {subsection}{\numberline {3.4.2}Implementierungsvorschlag}{23}
