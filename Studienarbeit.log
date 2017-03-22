@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.1.25)  22 MAR 2017 13:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.1.25)  22 MAR 2017 14:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -419,22 +419,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 
 
 Writing nomenclature file Studienarbeit.nlo
-(./Inhalt/abkuerzungen.tex) (./Studienarbeit.aux (./Inhalt/titelseite.aux)
-(./Inhalt/erklaerung.aux) (./Inhalt/abstract.aux) (./Inhalt/einleitung.aux)
-(./Inhalt/vorlagen.aux) (./Inhalt/implementation.aux
-
-LaTeX Warning: Label `fig:radial' multiply defined.
-
-
-LaTeX Warning: Label `fig:radial' multiply defined.
-
-
-LaTeX Warning: Label `fig:pinhole' multiply defined.
-
-
-LaTeX Warning: Label `fig:radial' multiply defined.
-
-) (./Inhalt/Evaluation.aux))
+(./Inhalt/abkuerzungen.tex) (./Studienarbeit.aux (./Inhalt/titelseite.aux))
 \openout1 = `Studienarbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
@@ -671,7 +656,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--40
 
  [5]
 No file Studienarbeit.nls.
-(./Studienarbeit.lof)
+(./Studienarbeit.lof
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
+
+
+LaTeX Warning: Citation `dronepicture' on page VI undefined on input line 5.
+
+
+LaTeX Warning: Citation `lochkamera' on page VI undefined on input line 9.
+
+
+LaTeX Warning: Citation `remode3d' on page VI undefined on input line 10.
+
+)
 \tf@lof=\write5
 \openout5 = `Studienarbeit.lof'.
 
@@ -696,11 +694,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--22
 
  (./Inhalt/vorlagen.tex
 chapter 2.
-<Bilder/ar_drone.png, id=52, 602.25pt x 322.95656pt>
+
+LaTeX Warning: Citation `drone' on page 5 undefined on input line 6.
+
+<Bilder/ar_drone.png, id=53, 602.25pt x 322.95656pt>
 File: Bilder/ar_drone.png Graphic file (type png)
  <use Bilder/ar_drone.png>
 Package pdftex.def Info: Bilder/ar_drone.png used on input line 10.
 (pdftex.def)             Requested size: 301.12425pt x 161.47787pt.
+
+
+LaTeX Warning: Citation `dronepicture' on page 5 undefined on input line 11.
+
+
+LaTeX Warning: Citation `dronepicture' on page 5 undefined on input line 11.
 
 (c:/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
@@ -709,12 +716,19 @@ LaTeX Font Info:    Try loading font information for TS1+ppl on input line 18.
 
 (c:/texlive/2015/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-) [5
+)
+
+LaTeX Warning: Reference `ROS' on page 5 undefined on input line 19.
+
+[5
 
 
 
- <./Bilder/ar_drone.png>] [6] <Bilder/pubsub1.jpg, id=65, 503.63156pt x 220.574
-07pt>
+ <./Bilder/ar_drone.png>]
+
+LaTeX Warning: Citation `realtimecode' on page 6 undefined on input line 27.
+
+[6] <Bilder/pubsub1.jpg, id=66, 503.63156pt x 220.57407pt>
 File: Bilder/pubsub1.jpg Graphic file (type jpg)
 
 <use Bilder/pubsub1.jpg>
@@ -759,7 +773,7 @@ Overfull \hbox (0.7007pt too wide) in paragraph at lines 18--19
 ple-men-tie-run-gen be-zie-hen sich
  []
 
-<Bilder/SVO.jpg, id=81, 514.92375pt x 293.095pt>
+<Bilder/SVO.jpg, id=82, 514.92375pt x 293.095pt>
 File: Bilder/SVO.jpg Graphic file (type jpg)
  <use Bilder/SVO.jpg>
 Package pdftex.def Info: Bilder/SVO.jpg used on input line 39.
@@ -776,35 +790,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
-[14 <./Bilder/SVO.jpg>] <Bilder/pinhole.png, id=92, 401.5pt x 274.02374pt>
-File: Bilder/pinhole.png Graphic file (type png)
+[14 <./Bilder/SVO.jpg>]
 
-<use Bilder/pinhole.png>
+LaTeX Warning: Citation `svo_cameracalibration' on page 15 undefined on input l
+ine 54.
+
+<Bilder/pinhole.png, id=93, 401.5pt x 274.02374pt>
+File: Bilder/pinhole.png Graphic file (type png)
+ <use Bilder/pinhole.png>
 Package pdftex.def Info: Bilder/pinhole.png used on input line 71.
 (pdftex.def)             Requested size: 200.7495pt x 137.01154pt.
- [15]
-<Bilder/distortion.png, id=96, 260.47313pt x 15.05624pt>
+
+
+LaTeX Warning: Citation `lochkamera' on page 15 undefined on input line 73.
+
+
+LaTeX Warning: Citation `lochkamera' on page 15 undefined on input line 73.
+
+[15] <Bilder/distortion.png, id=97, 260.47313pt x 15.05624pt>
 File: Bilder/distortion.png Graphic file (type png)
 
 <use Bilder/distortion.png>
 Package pdftex.def Info: Bilder/distortion.png used on input line 82.
 (pdftex.def)             Requested size: 182.32994pt x 10.53929pt.
 
-<Bilder/radialFactors.png, id=97, 213.79875pt x 36.88782pt>
+<Bilder/radialFactors.png, id=98, 213.79875pt x 36.88782pt>
 File: Bilder/radialFactors.png Graphic file (type png)
 
 <use Bilder/radialFactors.png>
 Package pdftex.def Info: Bilder/radialFactors.png used on input line 90.
 (pdftex.def)             Requested size: 149.6581pt x 25.82127pt.
  [16 <./Bilder/pinhole.png> <./Bilder/distortion.png>] <Bilder/tangentialFactor
-s.png, id=104, 222.8325pt x 37.64063pt>
+s.png, id=105, 222.8325pt x 37.64063pt>
 File: Bilder/tangentialFactors.png Graphic file (type png)
 
 <use Bilder/tangentialFactors.png>
 Package pdftex.def Info: Bilder/tangentialFactors.png used on input line 99.
 (pdftex.def)             Requested size: 155.98167pt x 26.34824pt.
 
-<Bilder/matrixEquation.png, id=105, 146.04562pt x 50.43843pt>
+<Bilder/matrixEquation.png, id=106, 146.04562pt x 50.43843pt>
 File: Bilder/matrixEquation.png Graphic file (type png)
 
 <use Bilder/matrixEquation.png>
@@ -815,7 +839,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
-<Bilder/calibrationChecker.png, id=106, 772.8875pt x 560.0925pt>
+<Bilder/calibrationChecker.png, id=107, 772.8875pt x 560.0925pt>
 File: Bilder/calibrationChecker.png Graphic file (type png)
 
 <use Bilder/calibrationChecker.png>
@@ -828,14 +852,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--135
  []
 
 [18 <./Bilder/calibrationChecker.png>]
-<Bilder/remode_3dmodel.jpg, id=118, 1841.88126pt x 921.4425pt>
+<Bilder/remode_3dmodel.jpg, id=119, 1841.88126pt x 921.4425pt>
 File: Bilder/remode_3dmodel.jpg Graphic file (type jpg)
 
 <use Bilder/remode_3dmodel.jpg>
 Package pdftex.def Info: Bilder/remode_3dmodel.jpg used on input line 138.
 (pdftex.def)             Requested size: 405.21513pt x 202.71797pt.
- [19 <./Bilder/remode_3dmodel.jpg>]
-<Bilder/REMODE_overview.jpg, id=122, 338.26375pt x 263.98625pt>
+
+
+LaTeX Warning: Citation `remode3d' on page 19 undefined on input line 140.
+
+
+LaTeX Warning: Citation `remode3d' on page 19 undefined on input line 140.
+
+[19 <./Bilder/remode_3dmodel.jpg>]
+<Bilder/REMODE_overview.jpg, id=123, 338.26375pt x 263.98625pt>
 File: Bilder/REMODE_overview.jpg Graphic file (type jpg)
 
 <use Bilder/REMODE_overview.jpg>
@@ -853,11 +884,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--159
  []
 
 [20 <./Bilder/REMODE_overview.jpg>]
+
+LaTeX Warning: Citation `svodocs' on page 21 undefined on input line 172.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 166--173
 
  []
 
-[21] [22] <Bilder/architecture.jpg, id=132, 845.0772pt x 597.432pt>
+[21] [22] <Bilder/architecture.jpg, id=133, 845.0772pt x 597.432pt>
 File: Bilder/architecture.jpg Graphic file (type jpg)
 
 <use Bilder/architecture.jpg>
@@ -869,12 +904,17 @@ Overfull \hbox (16.23215pt too wide) in paragraph at lines 189--191
  []
 
 [23]
+
+LaTeX Warning: Reference `Bildverarbeitung' on page 24 undefined on input line 
+201.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
 [24 <./Bilder/architecture.jpg>]
-<Bilder/pointcloud_1.jpg, id=140, 694.595pt x 459.7175pt>
+<Bilder/pointcloud_1.jpg, id=141, 694.595pt x 459.7175pt>
 File: Bilder/pointcloud_1.jpg Graphic file (type jpg)
 
 <use Bilder/pointcloud_1.jpg>
@@ -885,11 +925,15 @@ LaTeX Font Info:    Try loading font information for U+fplmbb on input line 214
 
 (c:/texlive/2015/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-) [25 <./Bilder/pointcloud_1.jpg>] <Bilder/REMODE.jpg, id=145, 516.42938pt x 28
-9.58188pt>
-File: Bilder/REMODE.jpg Graphic file (type jpg)
+)
 
-<use Bilder/REMODE.jpg>
+LaTeX Warning: Reference `performanceprobleme' on page 25 undefined on input li
+ne 217.
+
+[25 <./Bilder/pointcloud_1.jpg>]
+<Bilder/REMODE.jpg, id=146, 516.42938pt x 289.58188pt>
+File: Bilder/REMODE.jpg Graphic file (type jpg)
+ <use Bilder/REMODE.jpg>
 Package pdftex.def Info: Bilder/REMODE.jpg used on input line 222.
 (pdftex.def)             Requested size: 258.21405pt x 144.79057pt.
 
@@ -908,8 +952,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--231
 
  (./Inhalt/Evaluation.tex
 chapter 4.
-)
-Overfull \hbox (1.35762pt too wide) in paragraph at lines 9--122
+! You can't use `macro parameter character #' in horizontal mode.
+l.7 ...rung, die Gestensteuerung der Drohne von C#
+                                                   unter Windows auf C++ unt...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Citation `airsim' on page 28 undefined on input line 12.
+
+
+LaTeX Warning: Citation `airsimpaper' on page 28 undefined on input line 12.
+
+
+Overfull \hbox (1.35762pt too wide) in paragraph at lines 12--15
 \T1/ppl/m/n/10.95 ver-an-lagt und bie-ten kei-ne pro-gram-ma-ti-sche Schnitt-st
 el-le, wes-halb sie für den Zweck
  []
@@ -918,7 +976,7 @@ el-le, wes-halb sie für den Zweck
 
 
 
-] [29] (./Studienarbeit.bbl
+]) [29] (./Studienarbeit.bbl
 chapter without number
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 5.
 (c:/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -964,15 +1022,18 @@ https : / / github . com / uzh-[]rpg / rpg _ svo /
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 8542 strings out of 493054
- 125618 string characters out of 6138327
- 251866 words of memory out of 5000000
- 11798 multiletter control sequences out of 15000+600000
- 42701 words of font info for 98 fonts, out of 8000000 for 9000
+ 8527 strings out of 493054
+ 125259 string characters out of 6138327
+ 248977 words of memory out of 5000000
+ 11793 multiletter control sequences out of 15000+600000
+ 44150 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,11n,66p,1408b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
@@ -992,12 +1053,12 @@ xlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2015
 /texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2015/texmf-dis
 t/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2015/texmf-dist/fonts/ty
 pe1/public/cm-super/sftt1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/pa
-latino/uplr8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.
-pfb>
-Output written on Studienarbeit.pdf (38 pages, 1980110 bytes).
+latino/uplb8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
+fb><c:/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on Studienarbeit.pdf (38 pages, 1991264 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
+ 234 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
