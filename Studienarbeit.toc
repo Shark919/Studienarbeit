@@ -10,28 +10,28 @@
 \contentsline {subsection}{\numberline {2.2.1}Allgemeines}{6}
 \contentsline {subsection}{\numberline {2.2.2}Design Prinzipien}{7}
 \contentsline {subsection}{\numberline {2.2.3}ROS Nodes}{8}
-\contentsline {subsection}{\numberline {2.2.4}Software Qualit\IeC {\"a}t}{9}
-\contentsline {section}{\numberline {2.3}Simulation}{9}
-\contentsline {section}{\numberline {2.4}Fuzzylogik}{10}
-\contentsline {section}{\numberline {2.5}Kinect}{10}
-\contentsline {chapter}{\numberline {3}Software Architektur}{11}
-\contentsline {section}{\numberline {3.1}Anforderungen}{11}
-\contentsline {section}{\numberline {3.2}Bildverarbeitung}{13}
-\contentsline {subsection}{\numberline {3.2.1}Semi-Direct Monocular Visual Odometry - SVO}{13}
-\contentsline {subsection}{\numberline {3.2.2}Kamerakalibrierung}{15}
-\contentsline {subsection}{\numberline {3.2.3}Regularized Monocular Depth Estimation - REMODE}{19}
-\contentsline {subsection}{\numberline {3.2.4}Performanceprobleme}{22}
-\contentsline {section}{\numberline {3.3}Implementierung}{24}
-\contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{24}
-\contentsline {subsection}{\numberline {3.3.2}Kinect}{24}
-\contentsline {subsection}{\numberline {3.3.3}ROS Nodes}{24}
-\contentsline {subsection}{\numberline {3.3.4}Architektur}{24}
-\contentsline {section}{\numberline {3.4}Assistenzsystem}{25}
-\contentsline {subsection}{\numberline {3.4.1}Abgrenzung}{25}
-\contentsline {subsection}{\numberline {3.4.2}Implementierungsvorschlag}{28}
-\contentsline {chapter}{\numberline {4}Evaluation}{29}
-\contentsline {section}{\numberline {4.1}Ergebnis}{29}
-\contentsline {section}{\numberline {4.2}Ausblick}{30}
-\contentsline {subsection}{\numberline {4.2.1}Andere Simulatoren}{30}
-\contentsline {subsection}{\numberline {4.2.2}Assistenzsystem}{30}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{31}
+\contentsline {subsection}{\numberline {2.2.4}Software Qualit\IeC {\"a}t}{10}
+\contentsline {section}{\numberline {2.3}Simulation}{10}
+\contentsline {section}{\numberline {2.4}Fuzzylogik}{11}
+\contentsline {section}{\numberline {2.5}Kinect}{11}
+\contentsline {chapter}{\numberline {3}Software Architektur}{12}
+\contentsline {section}{\numberline {3.1}Anforderungen}{12}
+\contentsline {section}{\numberline {3.2}Bildverarbeitung}{14}
+\contentsline {subsection}{\numberline {3.2.1}Semi-Direct Monocular Visual Odometry - SVO}{14}
+\contentsline {subsection}{\numberline {3.2.2}Kamerakalibrierung}{16}
+\contentsline {subsection}{\numberline {3.2.3}Regularized Monocular Depth Estimation - REMODE}{20}
+\contentsline {subsection}{\numberline {3.2.4}Performanceprobleme}{23}
+\contentsline {section}{\numberline {3.3}Implementierung}{25}
+\contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{25}
+\contentsline {subsection}{\numberline {3.3.2}Kinect}{25}
+\contentsline {subsection}{\numberline {3.3.3}ROS Nodes}{25}
+\contentsline {subsection}{\numberline {3.3.4}Architektur}{25}
+\contentsline {section}{\numberline {3.4}Assistenzsystem}{26}
+\contentsline {subsection}{\numberline {3.4.1}Abgrenzung}{26}
+\contentsline {subsection}{\numberline {3.4.2}Implementierungsvorschlag}{29}
+\contentsline {chapter}{\numberline {4}Evaluation}{30}
+\contentsline {section}{\numberline {4.1}Ergebnis}{30}
+\contentsline {section}{\numberline {4.2}Ausblick}{31}
+\contentsline {subsection}{\numberline {4.2.1}Andere Simulatoren}{31}
+\contentsline {subsection}{\numberline {4.2.2}Assistenzsystem}{31}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{32}
