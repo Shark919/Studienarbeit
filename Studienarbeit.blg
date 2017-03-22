@@ -10,36 +10,36 @@ A level-1 auxiliary file: Inhalt/implementation.aux
 A level-1 auxiliary file: Inhalt/Evaluation.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
-You've used 8 entries,
+You've used 9 entries,
             1876 wiz_defined-function locations,
-            519 strings with 4702 characters,
-and the built_in function-call counts, 1043 in all, are:
-= -- 106
-> -- 27
+            523 strings with 4830 characters,
+and the built_in function-call counts, 1161 in all, are:
+= -- 119
+> -- 28
 < -- 1
-+ -- 14
++ -- 15
 - -- 6
-* -- 49
-:= -- 143
-add.period$ -- 15
-call.type$ -- 8
-change.case$ -- 8
+* -- 55
+:= -- 155
+add.period$ -- 17
+call.type$ -- 9
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 35
-empty$ -- 139
+cite$ -- 9
+duplicate$ -- 39
+empty$ -- 157
 format.name$ -- 6
-if$ -- 271
+if$ -- 304
 int.to.chr$ -- 0
-int.to.str$ -- 8
+int.to.str$ -- 9
 missing$ -- 0
-newline$ -- 34
+newline$ -- 38
 num.names$ -- 3
-pop$ -- 49
+pop$ -- 56
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 22
+skip$ -- 25
 stack$ -- 0
 substring$ -- 0
 swap$ -- 1
@@ -49,5 +49,5 @@ top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 3
-width$ -- 9
-write$ -- 76
+width$ -- 10
+write$ -- 85

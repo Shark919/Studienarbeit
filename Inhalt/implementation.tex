@@ -135,7 +135,7 @@ REMODE erfüllt den Zweck, mit Hilfe der gewonnenen Informationen ein dreidimens
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[scale=0.2]{Bilder/remode_3dmodel.jpg}
+	\includegraphics[scale=0.22]{Bilder/remode_3dmodel.jpg}
 	\label{fig:pinhole}
 	\caption{REMODE 3D-Modell, Flug über Trümmer \cite{remode3d}}
 \end{figure}
@@ -163,6 +163,14 @@ Die Implementation setzt auf eine durchschnittliche Bewegung der Kamera von 0.00
 \label{performanceprobleme}
 %hier mal vollkommen auslassen über alle performanceissues
 
+Trotz der Nutzung neuster Methoden und Techniken zur Berechnung der Kamerapositionen und Tiefenbilder, gibt es Probleme hinsichtlich der Performance. Dabei ist das Hauptproblem die Differenz im verfolgten Ziel zwischen dieser Arbeit und der Implementierung von SVO und REMODE. \newline
+Der Hauptanwendungszweck ist ein langsamer, stetiger Flug einer Drohne über ein Gebiet. Dabei zeigt die aufnehmende Kamera nach unten und hat sowohl eine sehr hohe Qualität, als auch ein großes Sichtfeld von mehr als 110 Grad. Die Bewegungen der Drohne sind nur nach seitlich, nach vorne und nach hinten, nicht jedoch um die eigene Achse. Somit wird sicher gestellt, dass immer genügend Referenzfeatures vorhanden sind, damit zu jedem Zeitpunkt die Position der Kamera bekannt ist. \newline
+Im Gegensatz dazu sind die Anforderungen der Arbeit stark abweichend. So ist sowohl die Qualität, als auch die Verarbeitung der Kamera minderwertig. Auch das Blickfeld ist mit 90 Grad deutlich zu klein, wodurch weniger Features auf einem Bild Platz finden. \newline
+Dadurch, dass die Kamera nach vorne und nicht nach unten gerichtet ist, treten weitere Komplikationen auf. Gleiche Bewegungen verursachen somit größere Änderungen am Bild, wodurch mehr Berechnungen notwendig werden und somit die Fehleranfälligkeit steigt. Vor allem Drehbewegungen um die eigene Achse sorgen für erhebliche Änderungen und führen meist zum Abbruch von SVO. \newline
+Auch die Kalibrierung der Kamera der realen Drohne war auf Grund der schlechten Qualität schwierig. So konnte der Richtwert des Reprojektionsfehlers von rund 0,1 Pixel nicht erreicht werden, sondern lag eher bei 0,3 Pixel. \newline
+Bei Tests in Innenräumen mit der AR.Drone konnte SVO nicht mehr als 50 Features finden. Um jedoch die Position der Kamera zu bestimmten, sind mehr als 100 Features notwendig.
+Diese Beobachtungen aus den Testläufen decken sich mit den Hinweisen zur Performance in der Projektdokumentation\cite{svodocs}. \newline
+
 
 \newpage
 \section{Implementierung}
@@ -176,7 +184,12 @@ Es bestand eine nicht modularisierte, schlecht dokumentierte CSharp Dokumentatio
 \subsection{Architektur}
 %Beide
 
-
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.5]{Bilder/architecture.jpg}
+	\label{fig:architecture}
+	\caption{Übersicht zur Softwarearchitektur}
+\end{figure}
 
 %Bild der Drohne http://lightspots.ch/images/ARdronebw.png
 %Bild vom Typ https://img.clipartfox.com/d02b01c31b79dd51b6c2c6a2a5db5985_stop-help-vector-art-outstretched-arm-clipart_416-416.jpeg
