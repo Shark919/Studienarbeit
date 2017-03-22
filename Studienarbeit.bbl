@@ -1,7 +1,22 @@
 \begin{thebibliography}{1}
 
-\bibitem{abc}
-``{haha}.'' \url{https://www.google.com/}, 2016.
+\bibitem{dronepicture}
+``{Parrot AR.Drone}.''
+  \url{https://www.parrot.com/fr/sites/default/files/styles/product_teaser_hightlight/public/parrot_ar_drone_gps_edition.png?itok=0shlzcXW},
+  2017.
+\newblock visited: 01.22.2017.
+
+\bibitem{lochkamera}
+``{Lochkamera Prinzip}.''
+  \url{https://en.wikipedia.org/wiki/Pinhole_camera_model#/media/File:Pinhole-camera.svg},
+  2017.
+\newblock visited: 03.22.2017.
+
+\bibitem{remode3d}
+``{Lochkamera Prinzip}.''
+  \url{https://github.com/uzh-rpg/rpg_open_remode/wiki/Run-Using-SVO}, Dec.
+  2015.
+\newblock visited: 02.15.2017.
 
 \bibitem{drone}
 ``{Parrot AR.Drone}.'' \url{https://de.wikipedia.org/wiki/Parrot_AR.Drone},

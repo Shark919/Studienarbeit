@@ -30,8 +30,20 @@ Ein weiterer Ansatz ist die direkte Methode. Hierbei werden die Features nicht �
 Somit kann bei der Rekonstruktion im Gegensatz zum Feature basierten Ansatz auch die Richtung der Gradienten von Intensitäten genutzt werden. Dadurch funktioniert diese Methode auch bei Bildern mit sehr wenig Textur, Bewegungsunschärfe und fehlerhaftem Kamerafokus. \newline
 Das für diese Arbeit relevante Vorgehen kombiniert die Vorteile der beschriebenen Methoden. Die semi-direkte Odometrie %footnote dazu
 verwendet einen Algorithmus der ebenfalls auf Zusammenhängen von Features basiert. Diese werden jedoch implizit aus einer direkten Bewegungsabschätzung bezogen, anstatt explizit durch Algorithmen mit Feature Deskriptoren berechnet zu werden. \newline
-Dadurch müssen Features nur extrahiert werden, wenn diese noch nicht auf einem der vorherigen Bildern vorhanden waren. Insgesamt ist dieser Ansatz somit schnell, da wenig Berechnungen pro Bild stattfinden und auf Grund der Verwendung von Intensitätsgradienten äußerst genau und robust. \newline
-Diese Eigenschaften sind für die Anforderungen der Studienarbeit essentiell, da die Drohne sich sehr schnell bewegen kann und somit in möglichst kurzer Zeit neue Bilder auswerten muss. Das beschrieben Verfahren minimiert damit die Auswirkungen der typischen Probleme von Drohnen. Diese sind einerseits die niedrige Texturierung der Umgebung, welche hauptsächlich in Innenräumen auftritt und andererseits kameraspezifische Probleme wie Bewegungsunschärfe und der Verlust des Kamerafokus.
+Dadurch müssen Features nur extrahiert werden, wenn diese noch nicht auf einem der vorherigen Bildern vorhanden waren. \newline
+Insgesamt ist dieser Ansatz sehr schnell, da wenig Berechnungen pro Bild stattfinden und auf Grund der Verwendung von Intensitätsgradienten äußerst genau und robust. \newline
+Diese Eigenschaften sind für die Anforderungen der Studienarbeit essentiell, da die Drohne sich sehr schnell bewegen kann und somit in möglichst kurzer Zeit neue Bilder auswerten muss. Das beschrieben Verfahren minimiert damit die Auswirkungen der typischen Probleme von Drohnen. Diese sind einerseits die niedrige Texturierung der Umgebung, welche hauptsächlich in Innenräumen auftritt und andererseits kameraspezifische Probleme wie Bewegungsunschärfe und der Verlust des Kamerafokus. \newline
+Im Folgenden zeigt die Abbildung wie die Nutzung von SVO in der Praxis aussieht.
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.7]{Bilder/SVO.jpg}
+	\label{fig:svo}
+	\caption{Semi-Direct Monocular Visual Odometry im Simulator}
+\end{figure}
+
+Hierbei stammt das Kamerabild von einer Drohne im Simulator Gazebo in einer frei verfügbaren Testwelt mit einigen Gebäuden. Die grünen Punkte sind die Features, die SVO anhand der beschriebenen Strategie ermittelt hat. \newline
+Die Anzahl der aktuell gefundenen Features kann dabei stark variieren. Diese Schwankung entsteht hauptsächlich durch die unterschiedliche Texturierung und Anzahl der Kanten von Objekte in der Umgebung. \newline
+Weiterhin kann auch die Kamera selbst ein Grund für eine geringe Anzahl gefundener Features sein. Gründe und Lösungen dafür werden im Folgenden beschrieben.
 
 \subsection{Kamerakalibrierung}
 %Christoph
@@ -52,8 +64,17 @@ Die Drohne besitzt eine veraltete und günstige Kamera mit einem CMOS Sensor, wo
 %cite https://dspace.cvut.cz/bitstream/handle/10467/66885/F3-DP-2017-Pahorecky-Petr-priloha-ARDrone_Developer_Guide.pdf?sequence=-1&isAllowed=y
 Daher ist das ATAN Modell zwar eine der besten Kalibrierungsmethoden für teure Hochleistungskameras, jedoch ist es für die Betrachtungen dieser Arbeit nicht optimal. \newline
 Der zweite Ansatz zur Kalibrierung ist das Ocam Modell von Davide Scaramuzza. Diese Methode sollte für Kameras mit sehr weitem Sichtfeld, oder omnidirektionalen Kameras genutzt werden. Damit ist es für die Drohne nicht geeignet. \newline
-Die dritte unterstützte Kalibrierungsmethode ist das Modell der Lochkamera.
-Hierbei handelt es sich um den aktuellen Standard in OpenCV \footnote{``OpenCV is the leading open source library for computer vision, image processing and machine learning, and now features GPU acceleration for real-time operation.''} %cite https://developer.nvidia.com/opencv
+Die dritte unterstützte Kalibrierungsmethode ist das Modell der \textit{Lochkamera}, bzw. auf Englisch \textit{Pinhole Model}.
+Der Name und das zugrunde liegende Prinzip basieren, wie der Name es sagt, auf der Lochkamera. Die Abbildung zeigt die grundsätzliche Funktionsweise. \newline
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.5]{Bilder/pinhole.png}
+	\label{fig:pinhole}
+	\caption{Prinzip der Lochkamera \cite{lochkamera}}
+\end{figure}
+
+Die Darstellung zeigt, dass bei der Lochkamera Licht durch eine kleine Öffnung in einen kleinen Hohlkörper fällt. Dadurch entsteht auf der Rückseite ein auf dem Kopf stehendes Bild. \newline
+Bei dem Pinhole Model handelt es sich um den aktuellen Standard in OpenCV \footnote{``OpenCV is the leading open source library for computer vision, image processing and machine learning, and now features GPU acceleration for real-time operation.''} %cite https://developer.nvidia.com/opencv
 und ROS. Hierbei wird die Verzerrung mit Hilfe von fünf intrinsischen Parametern beschrieben, welche im Rahmen der Kalibrierung bestimmt werden müssen.
 
 \begin{figure}[ht]
@@ -110,6 +131,16 @@ Um den Nutzer aktiv bei der Steuerung der Drohne zu unterstützen werden jedoch 
 Für diesen Schritt gibt es unterschiedliche Ansätze. Der State of the Art ist die Berechnung mit Hilfe des Bayes-Schätzers. Dabei handelt es sich um eine Schätzfunktion in der mathematischen Statistik, welche eventuell vorhandenes Vorwissen bei der Schätzung eines Parameters berücksichtigt. Dabei wird in der bayesschen Statistik das initiale Vorwissen mit Hilfe der A-priori-Verteilung modelliert, die bedingte Wahrscheinlichkeit des Parameters unter Betrachtung dieses Vorwissens mit der A-posteriori-Verteilung. \newline
 %http://www.mathematik.uni-ulm.de/stochastik/lehre/ss04/statistik1/skript/node26.html
 Im Umfang dieser Arbeit wird die Forschung und Implementierung des Projekts Regularized Monocular Depth Estimation \emph{REMODE} genutzt. In dieser Ausarbeitung von Matia Pizzoli, Christian Forster und Davide Scaramuzza wird die bayessche Schätzung mit neusten Entwicklungen in der Konvexoptimierung verbunden. Hierbei stützen sie ihre Forschungen auf die Ergebnisse von G. Vogiatzis und C. Hernandez und ihrer Abhandlung mit dem Titel ''Video-based, real-time multi-view stereo`` von 2011. \newline
+REMODE erfüllt den Zweck, mit Hilfe der gewonnenen Informationen ein dreidimensionales Modell des Raumes zu erstellen. Die Abbildung zeigt ein Beispiel dazu, welches von den Entwicklern verbreitet wurde. \newline
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.2]{Bilder/remode_3dmodel.jpg}
+	\label{fig:pinhole}
+	\caption{REMODE 3D-Modell, Flug über Trümmer \cite{remode3d}}
+\end{figure}
+
+Die Darstellung zeigt ein 3D Modell eines Trümmerhaufens, welches mit Hilfe der aufeinanderfolgenden Einzelbildern generiert wurde. Die Visualisierung erfolgte mit dem Standard 3D Visualisierungstool für ROS, genannt \textit{RVIZ}. \newline
 REMODE ermöglicht eine Berechnung der Tiefeninformationen in Echtzeit und auf Pixelbasis. Weiterhin ist die aktuelle Genauigkeit und Fehlerrate im Vergleich zur Realität zu jeder Zeit sichtbar. \newline
 Im Folgenden wird der grundsätzliche Ansatz der Implementierung skizziert. Die genauen Details übersteigen dabei auf Grund der hohen Komplexität den Umfang dieser Arbeit.
 
@@ -124,7 +155,9 @@ Der Punkt $r_P$ ist die aktuelle Schätzung der Position eines Punktes auf den e
 Die Varianz der Abweichung von einem Pixel auf der epipolaren Linie durch estrich und ustrich wird berechnet mit der Gleichung tkquadr.
 Mit Hilfe der oben angesprochenen mathematischen und statistischen Auswertungen kann nun die Tiefe eines Punktes $r_P$ approximiert werden. \newline
 Das Zusammenspiel von SVO und REMODE ist für handelsüblichen Laptops mit CPU und GPU ausgelegt. Dabei läuft SVO komplett auf dem Prozessor und REMODE verwendet das Framework NVIDIA CUDA, (footnote) was auf den Grafikchip des Rechners zugreift. \newline
-Die Implementation setzt auf eine durchschnittliche Bewegung der Kamera von 0.0038 Meter pro Sekunde und einer mittleren Tiefe von einem Meter bei einer Berechnungszeit von 3.3 ms pro Bild.
+Die Implementation setzt auf eine durchschnittliche Bewegung der Kamera von 0.0038 Meter pro Sekunde und einer mittleren Tiefe von einem Meter bei einer Berechnungszeit von 3.3 ms pro Bild. \newline
+
+
 
 \subsection{Performanceprobleme}
 \label{performanceprobleme}

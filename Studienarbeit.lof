@@ -2,8 +2,11 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Parrot AR.DRONE 2.0 Elite Edition \cite {abc}}}{5}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Parrot AR.DRONE 2.0 Elite Edition \cite {dronepicture}}}{5}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Publish-Subscribe Pattern}}{8}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Semi-Direct Monocular Visual Odometry im Simulator}}{14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Prinzip der Lochkamera \cite {lochkamera}}}{16}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces REMODE 3D-Modell, Flug \IeC {\"u}ber Tr\IeC {\"u}mmer \cite {remode3d}}}{19}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

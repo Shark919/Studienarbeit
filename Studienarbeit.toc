@@ -18,18 +18,18 @@
 \contentsline {section}{\numberline {3.2}Bildverarbeitung}{12}
 \contentsline {subsection}{\numberline {3.2.1}Semi-Direct Monocular Visual Odometry - SVO}{12}
 \contentsline {subsection}{\numberline {3.2.2}Kamerakalibrierung}{14}
-\contentsline {subsection}{\numberline {3.2.3}Regularized Monocular Depth Estimation - REMODE}{17}
-\contentsline {subsection}{\numberline {3.2.4}Performanceprobleme}{19}
-\contentsline {section}{\numberline {3.3}Implementierung}{20}
-\contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{20}
-\contentsline {subsection}{\numberline {3.3.2}Kinect}{20}
-\contentsline {subsection}{\numberline {3.3.3}ROS Nodes}{20}
-\contentsline {subsection}{\numberline {3.3.4}Architektur}{20}
-\contentsline {section}{\numberline {3.4}Assistenzsystem}{21}
-\contentsline {subsection}{\numberline {3.4.1}Abgrenzung}{21}
-\contentsline {subsection}{\numberline {3.4.2}Implementierungsvorschlag}{23}
-\contentsline {chapter}{\numberline {4}Evaluation}{24}
-\contentsline {section}{\numberline {4.1}Ergebnis}{24}
-\contentsline {section}{\numberline {4.2}Ausblick}{24}
-\contentsline {subsection}{\numberline {4.2.1}Andere Simulatoren}{24}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{26}
+\contentsline {subsection}{\numberline {3.2.3}Regularized Monocular Depth Estimation - REMODE}{18}
+\contentsline {subsection}{\numberline {3.2.4}Performanceprobleme}{21}
+\contentsline {section}{\numberline {3.3}Implementierung}{22}
+\contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{22}
+\contentsline {subsection}{\numberline {3.3.2}Kinect}{22}
+\contentsline {subsection}{\numberline {3.3.3}ROS Nodes}{22}
+\contentsline {subsection}{\numberline {3.3.4}Architektur}{22}
+\contentsline {section}{\numberline {3.4}Assistenzsystem}{23}
+\contentsline {subsection}{\numberline {3.4.1}Abgrenzung}{23}
+\contentsline {subsection}{\numberline {3.4.2}Implementierungsvorschlag}{25}
+\contentsline {chapter}{\numberline {4}Evaluation}{26}
+\contentsline {section}{\numberline {4.1}Ergebnis}{26}
+\contentsline {section}{\numberline {4.2}Ausblick}{26}
+\contentsline {subsection}{\numberline {4.2.1}Andere Simulatoren}{26}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{28}
