@@ -87,14 +87,14 @@ Da die realistische Simulation einer Drohne sehr umfangreich ist wird das ROS Pa
  \begin{figure}[ht]
  	\centering
  	\includegraphics[scale=0.9]{Bilder/real_structure.png}
- 	\caption[Programmstruktur mit dem realen Quadrocopter]{Programmstruktur mit dem realen Quadrocopter}
+ 	\caption[Programmstruktur mit dem realen Quadrocopter]{Programmstruktur mit dem realen Quadrocopter \cite{real_structure}}
  	
  \end{figure}
  Es ist auch möglich sowohl den Quadrocopter real zu steuern, als auch gleichzeitig in der Simulation. Das ermöglicht einen direkten Vergleich zwischen simulierten und realen Ergebnisse, vorausgesetzt, dass die simulierte Umgebung der echten annähernd entspricht.
   \begin{figure}[ht]
   	\centering
   	\includegraphics[scale=1.0]{Bilder/sim_structure.png}
-  	\caption[Programmstruktur unter Verwendung von Gazebo]{Programmstruktur unter Verwendung von Gazebo}
+  	\caption[Programmstruktur unter Verwendung von Gazebo]{Programmstruktur unter Verwendung von Gazebo \cite{sim_structure}}
   	
   \end{figure} %Max
 Die Steuerung der Drohne, wird bei dem Package nativ über einen Playstation 3 Controller realisiert. Dessen Eingaben werden von der ROS-Node "Joy Node" verarbeitet und anschließend an die Node "ardrone joystick" weitergeleitet. Dort werden die Daten entsprechend übersetzt um entweder von Gazebo und/oder der realen Drohne verwendet werden zu können. Wenn sie an den realen Quadrocopter gesendet werden sollen, müssen sie noch entsprechend vom "ardrone driver" übersetzt werden, da lediglich Bitfolgen per WLAN versendet werden. 

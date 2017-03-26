@@ -12,8 +12,8 @@
 \contentsline {subsection}{\numberline {2.2.3}ROS Nodes}{9}
 \contentsline {subsection}{\numberline {2.2.4}Software Qualit\IeC {\"a}t}{10}
 \contentsline {section}{\numberline {2.3}Simulation mit Gazebo}{10}
-\contentsline {section}{\numberline {2.4}Fuzzylogik}{12}
-\contentsline {section}{\numberline {2.5}Kinect}{12}
+\contentsline {section}{\numberline {2.4}Fuzzylogik}{13}
+\contentsline {section}{\numberline {2.5}Kinect}{13}
 \contentsline {chapter}{\numberline {3}Software Architektur}{14}
 \contentsline {section}{\numberline {3.1}Anforderungen}{14}
 \contentsline {section}{\numberline {3.2}Bildverarbeitung}{16}
