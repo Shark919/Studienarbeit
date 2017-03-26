@@ -71,7 +71,7 @@ Durch diese Modularität ist einfacher Komponenten und Funktionalitäten sowohl 
 Um die Qualität der Anwendung zu sichern wird Catkin Build anstelle des veralteten rosbuild verwendet. Bei Catkin sind Pakete der atomare Bestandteil der Anwendung.
 %TODO%http://wiki.ros.org/catkin_or_rosbuild 
 
-\section{Simulation}
+\section{Simulation mit Gazebo}
 Da es besonders beim Flug von Quadrocoptern schnell zu Schäden kommen kann und das sowohl  in langen Ausfallzeiten, als auch zu erhöhten Materialkosten führen. Speziell beim Test von autonomen Verhalten ist der Test der Features in realer Umgebung somit mit hohem Risiko verbunden. Um dies zu vermeiden ist die Simulation von Quadrocoptern und verschiedener Umgebungen unabdingbar. Ebenfalls erleichtert eine simulierte Version der Drohne die Entwicklung, da sie nicht immer physikalisch vorhanden sein muss. Dabei ist es allerdings notwendig, insbesondere
 bei Bilddaten, dass die reale Situation möglichst realitätsnah abgebildet wird, sodass
 das Verhalten im realen Umfeld entsprechend ähnlich ist. Insbesondere bei der
@@ -80,10 +80,24 @@ mit Resultaten in realen Umgebungen vergleichbar sind, da die simulierten
 Bilddaten in der Regel eher steril sind.\newline
 Durch die Integration von ROS kommt die Simulationsumgebung Gazebo als Bestandteil
 mit. Anfänglich handelte es sich um ein ROS Paket, mittlerweile ist es allerdings
-ein eigenständiges Ubuntupaket und benötigt de facto kein ROS. 
-
-%Max
-
+ein eigenständiges Ubuntupaket und benötigt de facto kein ROS.
+\newline
+Da die realistische Simulation einer Drohne sehr umfangreich ist wird das ROS Paket "tum simulator" verwendet. Es enthält eine Implementation der AR Drone 2.0 für den Gazebo Simulator. Es wurde von Hongrong Huang und Jürgen Sturm
+ aus der Computer Vision Group von der Technischen Universität München entwickelt. Die Drohne wird komplett abstrahiert, wodurch die Simulation sich ohne Veränderung mit der realen Drohne austauschen lässt. 
+ \begin{figure}[ht]
+ 	\centering
+ 	\includegraphics[scale=0.9]{Bilder/real_structure.png}
+ 	\caption[Programmstruktur mit dem realen Quadrocopter]{Programmstruktur mit dem realen Quadrocopter}
+ 	
+ \end{figure}
+ Es ist auch möglich sowohl den Quadrocopter real zu steuern, als auch gleichzeitig in der Simulation. Das ermöglicht einen direkten Vergleich zwischen simulierten und realen Ergebnisse, vorausgesetzt, dass die simulierte Umgebung der echten annähernd entspricht.
+  \begin{figure}[ht]
+  	\centering
+  	\includegraphics[scale=1.0]{Bilder/sim_structure.png}
+  	\caption[Programmstruktur unter Verwendung von Gazebo]{Programmstruktur unter Verwendung von Gazebo}
+  	
+  \end{figure} %Max
+Die Steuerung der Drohne, wird bei dem Package nativ über einen Playstation 3 Controller realisiert. Dessen Eingaben werden von der ROS-Node "Joy Node" verarbeitet und anschließend an die Node "ardrone joystick" weitergeleitet. Dort werden die Daten entsprechend übersetzt um entweder von Gazebo und/oder der realen Drohne verwendet werden zu können. Wenn sie an den realen Quadrocopter gesendet werden sollen, müssen sie noch entsprechend vom "ardrone driver" übersetzt werden, da lediglich Bitfolgen per WLAN versendet werden. 
 \section{Fuzzylogik}
 %Würde erwähnen dass wir es verwenden
 %wollen wir das überhaupt reinnehmen? haben wir ja eigentlich gar nicht gemacht und mussten wir uns auch %null mit beschäftigen
