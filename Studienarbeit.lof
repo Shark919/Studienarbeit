@@ -10,6 +10,10 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Semi-Direct Monocular Visual Odometry im Simulator}}{18}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Prinzip der Lochkamera \cite {lochkamera}}}{20}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces REMODE 3D-Modell, Flug \IeC {\"u}ber Tr\IeC {\"u}mmer \cite {remode3d}}}{23}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \IeC {\"U}bersicht zur Softwarearchitektur}}{28}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \IeC {\"U}bersicht zur Softwarearchitektur}}{30}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Beispiel einer visualisierten Punktwolke \cite {visPC}}}{31}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Approximiertes Tiefenbild durch REMODE}}{32}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Verlauf der zweiten Ableitung im LoG Algorithmus \cite {LoG}}}{34}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Correspondence Grouping mit dem PCL Algorithmus \cite {pclGrouping}}}{36}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

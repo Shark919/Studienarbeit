@@ -106,3 +106,7 @@ Die Steuerung der Drohne, wird bei dem Package nativ über einen Playstation 3 C
 \section{Kinect}
 Um Gesten des Benutzers zur erkennen und entsprechend auszuwerten wird der visuelle Sensor Microsoft Kinect verwendet. Normalerweise wird er zur Steuerung der Videospiel Konsole Xbox360/Xbox One verwendet. Das System ist in der Lage Tiefenbilder zu erstellen, besitzt sowohl eine 1080p Farbkamera, als auch einen Infrarotsensor und mithilfe mehrere Mikrofone Sprache und Bewegung im Raum zu erkennen. Anhand der verschiedenen Kameraeingaben ist es möglich den Körper von bis zu 2 Nutzern zu erkennen und auch entsprechend zu verfolgen. Für Windows stellt Microsoft ein entsprechendes Software Development Kit (SDK) zur Verfügung um die Benutzung der Funktionalität zu vereinfachen.
 %Max
+
+\section{Point Cloud Library}
+Für beide Ansätze sind komplexe mathematische Berechnungen und Bildverarbeitungskenntnisse notwendig. Für dieses Problem gibt es das OpenSource Projekt Point Cloud Library \emph{PCL}. Dabei handelt es sich um ein Open Source Projekt zur 2D und 3D Bild-, sowie Punktwolkenverarbeitung. %cite http://pointclouds.org/
+Dabei stellt die Programmbibliothek zahlreiche Algorithmen bereit, die z.B. bei der Filterung, Segmentierung und Visualisierung helfen. Dabei verfügt das Robot Operating System außerdem eine Schnittstelle zur PCL, wodurch sie sich bestens in die Projektumgebung dieser Arbeit integrieren lässt. \newline

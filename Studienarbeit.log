@@ -1,54 +1,45 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.8)  26 MAR 2017 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.1.25)  29 MAR 2017 12:29
 entering extended mode
-**Studienarbeit.tex
-(C:\Users\D062367\git\Studienarbeit\Studienarbeit.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-(C:\Users\D062367\Documents\Latex\tex\latex\koma-script\scrreprt.cls
-Document Class: scrreprt 2017/01/03 v3.22 KOMA-Script document class (report)
-(C:\Users\D062367\Documents\Latex\tex\latex\koma-script\scrkbase.sty
-Package: scrkbase 2017/01/03 v3.22 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
-
-(C:\Users\D062367\Documents\Latex\tex\latex\koma-script\scrbase.sty
-Package: scrbase 2017/01/03 v3.22 KOMA-Script package (KOMA-Script-independent 
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Studienarbeit.tex
+(./Studienarbeit.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 79 languages loaded.
+(c:/texlive/2015/texmf-dist/tex/latex/koma-script/scrreprt.cls
+Document Class: scrreprt 2015/10/03 v3.19a KOMA-Script document class (report)
+(c:/texlive/2015/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-dependent 
 basics and keyval usage)
 
-(C:\Users\D062367\Documents\Latex\tex\latex\graphics\keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(c:/texlive/2015/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(c:/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(C:\Users\D062367\Documents\Latex\tex\latex\koma-script\scrlfile.sty
-Package: scrlfile 2017/01/03 v3.22 KOMA-Script package (loading files)
+(c:/texlive/2015/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2015/10/03 v3.19a KOMA-Script package (loading files)
 
-Package scrlfile, 2017/01/03 v3.22 KOMA-Script package (loading files)
+Package scrlfile, 2015/10/03 v3.19a KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) (C:\Users\D062367\Documents\Latex\tex\latex\koma-script\tocbasic.sty
-Package: tocbasic 2017/01/03 v3.22 KOMA-Script package (handling toc-files)
-\scr@dte@tocline@numberwidth=\skip41
-\scr@dte@tocline@numbox=\box26
+))) (c:/texlive/2015/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2015/10/03 v3.19a KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `toc' on input line 132.
+(tocbasic)             for `toc' on input line 125.
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 133.
+(tocbasic)             for `lof' on input line 126.
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 134.
-Package tocbasic Info: defining new hook before heading of `' on input line 160
-7.
+(tocbasic)             for `lot' on input line 127.
+Package tocbasic Info: defining new hook before heading of `' on input line 158
+8.
 Package scrreprt Info: You've used standard option `11pt'.
 (scrreprt)             This is correct!
 (scrreprt)             Internally I'm using `fontsize=11pt'.
@@ -66,56 +57,34 @@ Class scrreprt Info: You've used standard option `oneside'.
 Class scrreprt Warning: You've used obsolete option `liststotoc'.
 (scrreprt)              Usage of this option indicates an old document
 (scrreprt)              and changes compatibility level using
-(scrreprt)              `listof=totoc,version=first,
-(scrreprt)              enabledeprecatedfontcommands' that may result
-(scrreprt)              in further warnings.
+(scrreprt)              `listof=totoc,version=first'.
 (scrreprt)              If you don't want this, you should simply
 (scrreprt)              replace option `liststotoc' by `listof=totoc'.
 
 Class scrreprt Info: Switching compatibility level to `first'.
 
-Class scrreprt Warning: deprecated option `enabledeprecatedfontcommands'.
-(scrreprt)              Note, that this option was already depreacted when
-(scrreprt)              it has been defined. Support for old font commands
-(scrreprt)              has been removed from KOMA-Script more than one
-(scrreprt)              decade ago. It is not recommended to use them any
-(scrreprt)              longer. Therefore usage of this class option also
-(scrreprt)              is not recommended.
-
-
 Class scrreprt Warning: You've used obsolete option `bibtotoc'.
 (scrreprt)              Usage of this option indicates an old document
 (scrreprt)              and changes compatibility level using
-(scrreprt)              `bibliography=totoc,version=first,
-(scrreprt)              enabledeprecatedfontcommands' that may result
-(scrreprt)              in further warnings.
+(scrreprt)              `bibliography=totoc,version=first'.
 (scrreprt)              If you don't want this, you should simply
 (scrreprt)              replace option `bibtotoc' by `bibliography=totoc'.
 
 Class scrreprt Info: Switching compatibility level to `first'.
-
-Class scrreprt Warning: deprecated option `enabledeprecatedfontcommands'.
-(scrreprt)              Note, that this option was already depreacted when
-(scrreprt)              it has been defined. Support for old font commands
-(scrreprt)              has been removed from KOMA-Script more than one
-(scrreprt)              decade ago. It is not recommended to use them any
-(scrreprt)              longer. Therefore usage of this class option also
-(scrreprt)              is not recommended.
-
 Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
-ine 2267.
-(C:\Users\D062367\Documents\Latex\tex\latex\koma-script\scrsize11pt.clo
-File: scrsize11pt.clo 2017/01/03 v3.22 KOMA-Script font size class option (11pt
+ine 2248.
+(c:/texlive/2015/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2015/10/03 v3.19a KOMA-Script font size class option (11p
+t)
 )
-)
-(C:\Users\D062367\Documents\Latex\tex\latex\koma-script\typearea.sty
-Package: typearea 2017/01/03 v3.22 KOMA-Script package (type area)
+(c:/texlive/2015/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2015/10/03 v3.19a KOMA-Script package (type area)
 
-Package typearea, 2017/01/03 v3.22 KOMA-Script package (type area)
+Package typearea, 2015/10/03 v3.19a KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
-\ta@bcor=\skip42
+\ta@bcor=\skip41
 \ta@div=\count79
 Package typearea Info: You've used standard option `a4paper'.
 (typearea)             This is correct!
@@ -129,21 +98,10 @@ Package typearea Info: You've used standard option `oneside'.
 (typearea)             If you'd like to set the option with \KOMAoptions,
 (typearea)             you'd have to use `twoside=false' there
 (typearea)             instead of `oneside', too.
-
-Package typearea Warning: You've used obsolete option `BCOR6mm'.
-(typearea)                Usage of this option indicates an old document
-(typearea)                and changes compatibility level using
-(typearea)                `BCOR=6mm,version=first,
-(typearea)                enabledeprecatedfontcommands' that may result
-(typearea)                in further warnings.
-(typearea)                If you don't want this, you should simply
-(typearea)                replace option `BCOR6mm' by `BCOR=6mm'.
-
-Package typearea Info: Switching compatibility level to `first'.
-\ta@hblk=\skip43
-\ta@vblk=\skip44
-\ta@temp=\skip45
-\footheight=\skip46
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+\footheight=\skip45
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
 (typearea)             BCOR = 17.07164pt
@@ -160,7 +118,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1583.
+(typearea)              on input line 1509.
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -169,26 +127,17 @@ Package typearea Info: These are the values describing the layout:
 \c@subsubsection=\count84
 \c@paragraph=\count85
 \c@subparagraph=\count86
-\scr@dte@part@maxnumwidth=\skip47
-\scr@dte@chapter@maxnumwidth=\skip48
-\scr@dte@section@maxnumwidth=\skip49
-\scr@dte@subsection@maxnumwidth=\skip50
-\scr@dte@subsubsection@maxnumwidth=\skip51
-\scr@dte@paragraph@maxnumwidth=\skip52
-\scr@dte@subparagraph@maxnumwidth=\skip53
-\abovecaptionskip=\skip54
-\belowcaptionskip=\skip55
-\c@pti@nb@sid@b@x=\box27
+LaTeX Info: Redefining \textsubscript on input line 4652.
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\c@pti@nb@sid@b@x=\box26
 \c@figure=\count87
 \c@table=\count88
-Class scrreprt Info: Using old \@makefntext due to compatibility level
-(scrreprt)           less than 3.22 on input line 5869.
-Class scrreprt Info: Redefining `\numberline' on input line 5881.
 \bibindent=\dimen102
-) (C:\Users\D062367\Documents\Latex\tex\latex\ucs\ucs.sty
+) (c:/texlive/2015/texmf-dist/tex/latex/ucs/ucs.sty
 Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 
-(C:\Users\D062367\Documents\Latex\tex\latex\ucs\uni-global.def
+(c:/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
 \uc@secondtry=\count89
@@ -196,62 +145,61 @@ File: uni-global.def 2013/05/13 UCS: Unicode global data
 \uc@combtoksb=\toks16
 \uc@temptokena=\toks17
 )
-(C:\Users\D062367\Documents\Latex\tex\latex\base\inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+(c:/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
 
-(C:\Users\D062367\Documents\Latex\tex\latex\ucs\utf8x.def
+(c:/texlive/2015/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
-(C:\Users\D062367\Documents\Latex\tex\generic\babel\babel.sty
-Package: babel 2008/07/08 v3.8m The Babel package
+(c:/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/01/08 3.9n The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\D062367\Documents\Latex\tex\latex\00miktex\bblopts.cfg
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-(C:\Users\D062367\Documents\Latex\tex\generic\babel\germanb.ldf
-Language: germanb 2008/06/01 v2.6m German support from the babel system
+(c:/texlive/2015/texmf-dist/tex/generic/babel-german/german.ldf
+Language: german 2014/10/10 v2.7b German support for babel (traditional orthogr
+aphy)
 
-(C:\Users\D062367\Documents\Latex\tex\generic\babel\babel.def
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+(c:/texlive/2015/texmf-dist/tex/generic/babel-german/germanb.ldf
+Language: germanb 2014/10/10 v2.7b German support for babel (traditional orthog
+raphy)
+
+(c:/texlive/2015/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/01/08 3.9n Babel common definitions
 \babel@savecnt=\count90
 \U@D=\dimen103
 )
 \l@austrian = a dialect from \language\l@german 
-Package babel Info: Making " an active character on input line 102.
-))
-(C:\Users\D062367\Documents\Latex\tex\latex\base\fontenc.sty
+Package babel Info: Making " an active character on input line 110.
+)))
+(c:/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(C:\Users\D062367\Documents\Latex\tex\latex\base\t1enc.def
+(c:/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(C:\Users\D062367\Documents\Latex\tex\latex\graphics\graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\D062367\Documents\Latex\tex\latex\graphics\graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\D062367\Documents\Latex\tex\latex\graphics\trig.sty
+(c:/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(C:\Users\D062367\Documents\Latex\tex\latex\00miktex\graphics.cfg
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(c:/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(C:\Users\D062367\Documents\Latex\tex\latex\pdftex-def\pdftex.def
+(c:/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(C:\Users\D062367\Documents\Latex\tex\generic\oberdiek\infwarerr.sty
+(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(C:\Users\D062367\Documents\Latex\tex\generic\oberdiek\ltxcmds.sty
+(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
@@ -259,11 +207,11 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(C:\Users\D062367\Documents\Latex\tex\latex\psnfss\mathpazo.sty
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
 )
-(C:\Users\D062367\Documents\Latex\tex\latex\base\textcomp.sty
+(c:/texlive/2015/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -276,77 +224,78 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             only a restricted character set as indicated.
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(C:\Users\D062367\Documents\Latex\tex\latex\base\ts1enc.def
+(c:/texlive/2015/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
-LaTeX Info: Redefining \oldstylenums on input line 266.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
 
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(C:\Users\D062367\Documents\Latex\tex\latex\listings\listings.sty
+(c:/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count92
-\lst@gtempboxa=\box28
+\lst@gtempboxa=\box27
 \lst@token=\toks20
 \lst@length=\count93
 \lst@currlwidth=\dimen106
@@ -358,39 +307,39 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 \lst@lineno=\count97
 \lst@maxwidth=\dimen109
 
-(C:\Users\D062367\Documents\Latex\tex\latex\listings\lstmisc.sty
+(c:/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count98
 \lst@skipnumbers=\count99
-\lst@framebox=\box29
+\lst@framebox=\box28
 )
-(C:\Users\D062367\Documents\Latex\tex\latex\listings\listings.cfg
+(c:/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(C:\Users\D062367\Documents\Latex\tex\latex\xcolor\xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(c:/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(C:\Users\D062367\Documents\Latex\tex\latex\00miktex\color.cfg
+(c:/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(C:\Users\D062367\Documents\Latex\tex\latex\nomencl\nomencl.sty
+(c:/texlive/2015/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
 \nomlabelwidth=\dimen110
 \nom@tempdim=\dimen111
-\nomitemsep=\skip56
+\nomitemsep=\skip48
 )
 
 Class scrreprt Warning: Usage of package `fancyhdr' together
@@ -400,45 +349,44 @@ Class scrreprt Warning: Usage of package `fancyhdr' together
 (scrreprt)              Nevertheless, using requested
 (scrreprt)              package `fancyhdr' on input line 25.
 
-(C:\Users\D062367\Documents\Latex\tex\latex\fancyhdr\fancyhdr.sty
-Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip57
-\f@ncyO@elh=\skip58
-\f@ncyO@erh=\skip59
-\f@ncyO@olh=\skip60
-\f@ncyO@orh=\skip61
-\f@ncyO@elf=\skip62
-\f@ncyO@erf=\skip63
-\f@ncyO@olf=\skip64
-\f@ncyO@orf=\skip65
+(c:/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
 )
-(C:\Users\D062367\Documents\Latex\tex\latex\listing\listing.sty
+(c:/texlive/2015/texmf-dist/tex/latex/listing/listing.sty
 Package: listing 1999/05/25
 
 Package `listing', V1.2, <1999/05/25>
 \c@listing=\count100
-) (C:\Users\D062367\Documents\Latex\tex\latex\setspace\setspace.sty
+) (c:/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(C:\Users\D062367\Documents\Latex\tex\latex\hyperref\nameref.sty
+(c:/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(C:\Users\D062367\Documents\Latex\tex\latex\oberdiek\refcount.sty
+(c:/texlive/2015/texmf-dist/tex/latex/oberdiek/refcount.sty
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 )
-(C:\Users\D062367\Documents\Latex\tex\generic\oberdiek\gettitlestring.sty
+(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 
-(C:\Users\D062367\Documents\Latex\tex\latex\oberdiek\kvoptions.sty
+(c:/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(C:\Users\D062367\Documents\Latex\tex\generic\oberdiek\kvsetkeys.sty
+(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(C:\Users\D062367\Documents\Latex\tex\generic\oberdiek\etexcmds.sty
+(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(C:\Users\D062367\Documents\Latex\tex\generic\oberdiek\ifluatex.sty
+(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -451,14 +399,14 @@ Package etexcmds Info: Could not find \expanded.
 LaTeX Info: Redefining \ref on input line 353.
 LaTeX Info: Redefining \pageref on input line 353.
 )
-(C:\Users\D062367\Documents\Latex\tex\latex\url\url.sty
+(c:/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\D062367\Documents\Latex\tex\latex\amsfonts\amssymb.sty
+(c:/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\D062367\Documents\Latex\tex\latex\amsfonts\amsfonts.sty
+(c:/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks21
 \symAMSa=\mathgroup5
@@ -467,16 +415,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 \@nomenclaturefile=\write3
+\openout3 = `Studienarbeit.nlo'.
+
 
 Writing nomenclature file Studienarbeit.nlo
-(C:\Users\D062367\git\Studienarbeit\Inhalt/abkuerzungen.tex)
-(C:\Users\D062367\git\Studienarbeit\Studienarbeit.aux
-(C:\Users\D062367\git\Studienarbeit\Inhalt/titelseite.aux)
-(C:\Users\D062367\git\Studienarbeit\Inhalt/erklaerung.aux)
-(C:\Users\D062367\git\Studienarbeit\Inhalt/abstract.aux)
-(C:\Users\D062367\git\Studienarbeit\Inhalt/einleitung.aux)
-(C:\Users\D062367\git\Studienarbeit\Inhalt/vorlagen.aux)
-(C:\Users\D062367\git\Studienarbeit\Inhalt/implementation.aux
+(./Inhalt/abkuerzungen.tex) (./Studienarbeit.aux (./Inhalt/titelseite.aux)
+(./Inhalt/erklaerung.aux) (./Inhalt/abstract.aux) (./Inhalt/einleitung.aux)
+(./Inhalt/vorlagen.aux) (./Inhalt/implementation.aux
 
 LaTeX Warning: Label `fig:radial' multiply defined.
 
@@ -489,7 +434,9 @@ LaTeX Warning: Label `fig:pinhole' multiply defined.
 
 LaTeX Warning: Label `fig:radial' multiply defined.
 
-) (C:\Users\D062367\git\Studienarbeit\Inhalt/Evaluation.aux))
+) (./Inhalt/Evaluation.aux))
+\openout1 = `Studienarbeit.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
 LaTeX Font Info:    ... okay on input line 86.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
@@ -505,23 +452,23 @@ LaTeX Font Info:    ... okay on input line 86.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 86.
 
-(C:\Users\D062367\Documents\Latex\tex\latex\base\ts1cmr.fd
-File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+(c:/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 86.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 86.
 
-(C:\Users\D062367\Documents\Latex\tex\latex\psnfss\t1ppl.fd
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-(C:\Users\D062367\Documents\Latex\tex\latex\ucs\ucsencs.def
+(c:/texlive/2015/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-(C:\Users\D062367\Documents\Latex\tex\context\base\supp-pdf.mkii
+(c:/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count102
 \scratchdimen=\dimen112
-\scratchbox=\box30
+\scratchbox=\box29
 \nofMPsegments=\count103
 \nofMParguments=\count104
 \everyMPshowfont=\toks22
@@ -530,14 +477,47 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 \MPnumerator=\count106
 \makeMPintoPDFobject=\count107
 \everyMPtoPDFconversion=\toks23
+) (c:/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(c:/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(c:/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(c:/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(c:/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 \big@size=\dimen114
 \c@lstlisting=\count108
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 90.
- (C:\Users\D062367\Documents\Latex\tex\latex\base\t1cmss.fd
-File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+
+(c:/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-(C:\Users\D062367\git\Studienarbeit\Inhalt/titelseite.tex
+\openout2 = `Inhalt/titelseite.aux'.
+
+ (./Inhalt/titelseite.tex
 <Bilder/522x294.jpg, id=1, 523.9575pt x 295.1025pt>
 File: Bilder/522x294.jpg Graphic file (type jpg)
  <use Bilder/522x294.jpg>
@@ -545,31 +525,31 @@ Package pdftex.def Info: Bilder/522x294.jpg used on input line 10.
 (pdftex.def)             Requested size: 130.98904pt x 73.77544pt.
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 13.
 
-(C:\Users\D062367\Documents\Latex\tex\latex\psnfss\ot1ppl.fd
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Try loading font information for OML+zplm on input line 13.
 
 
-(C:\Users\D062367\Documents\Latex\tex\latex\psnfss\omlzplm.fd
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Try loading font information for OMS+zplm on input line 13.
 
 
-(C:\Users\D062367\Documents\Latex\tex\latex\psnfss\omszplm.fd
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Try loading font information for OMX+zplm on input line 13.
 
 
-(C:\Users\D062367\Documents\Latex\tex\latex\psnfss\omxzplm.fd
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Try loading font information for OT1+zplm on input line 13.
 
 
-(C:\Users\D062367\Documents\Latex\tex\latex\psnfss\ot1zplm.fd
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -603,22 +583,24 @@ LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <20.74> not available
 LaTeX Font Warning: Font shape `T1/cmss/bx/sc' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 33.
 
-(C:\Users\D062367\Documents\Latex\tex\latex\ucs\uni-0.def
+(c:/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 LaTeX Font Info:    Try loading font information for TS1+cmss on input line 62.
 
 
-(C:\Users\D062367\Documents\Latex\tex\latex\base\ts1cmss.fd
-File: ts1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+(c:/texlive/2015/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [1
 
 
 
-{C:/Users/D062367/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/
-D062367/git/Studienarbeit/Bilder/522x294.jpg> <C:/Users/D062367/git/Studienarbe
-it/Bilder/logo_dhbw.jpg>]) (C:\Users\D062367\git\Studienarbeit\Inhalt/erklaerun
-g.tex
+
+{c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Bilder/522x29
+4.jpg> <./Bilder/logo_dhbw.jpg>])
+\openout2 = `Inhalt/erklaerung.aux'.
+
+ (./Inhalt/erklaerung.tex
 chapter without number
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -673,25 +655,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--40
 
  []
 
-) [2] (C:\Users\D062367\git\Studienarbeit\Inhalt/abstract.tex) [3
+) [2]
+\openout2 = `Inhalt/abstract.aux'.
+
+ (./Inhalt/abstract.tex) [3
 
 
 
-]
-(C:\Users\D062367\git\Studienarbeit\Studienarbeit.toc [4
+] (./Studienarbeit.toc [4
 
 
 ])
 \tf@toc=\write4
+\openout4 = `Studienarbeit.toc'.
+
  [5]
 No file Studienarbeit.nls.
-(C:\Users\D062367\git\Studienarbeit\Studienarbeit.lof)
+(./Studienarbeit.lof)
 \tf@lof=\write5
+\openout5 = `Studienarbeit.lof'.
+
  [6
 
 
 ]
-(C:\Users\D062367\git\Studienarbeit\Inhalt/einleitung.tex
+\openout2 = `Inhalt/einleitung.aux'.
+
+ (./Inhalt/einleitung.tex
 chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--22
@@ -701,26 +691,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--22
 [1
 
 
-] [2]) [3] [4] (C:\Users\D062367\git\Studienarbeit\Inhalt/vorlagen.tex
+] [2]) [3] [4]
+\openout2 = `Inhalt/vorlagen.aux'.
+
+ (./Inhalt/vorlagen.tex
 chapter 2.
-<Bilder/ar_drone.png, id=51, 602.25pt x 322.95656pt>
+<Bilder/ar_drone.png, id=52, 602.25pt x 322.95656pt>
 File: Bilder/ar_drone.png Graphic file (type png)
  <use Bilder/ar_drone.png>
 Package pdftex.def Info: Bilder/ar_drone.png used on input line 10.
 (pdftex.def)             Requested size: 301.12425pt x 161.47787pt.
 
-(C:\Users\D062367\Documents\Latex\tex\latex\ucs\uni-32.def
+(c:/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
 LaTeX Font Info:    Try loading font information for TS1+ppl on input line 18.
 
-(C:\Users\D062367\Documents\Latex\tex\latex\psnfss\ts1ppl.fd
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ) [5
 
 
 
- <C:/Users/D062367/git/Studienarbeit/Bilder/ar_drone.png>] [6]
+ <./Bilder/ar_drone.png>] [6]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -747,29 +740,21 @@ Overfull \hbox (27.64854pt too wide) in paragraph at lines 39--47
 ] steht, kann es so-wohl für nicht-kommerzielle
  []
 
-[7] <Bilder/pubsub1.jpg, id=68, 503.63156pt x 220.57407pt>
+[7] <Bilder/pubsub1.jpg, id=69, 503.63156pt x 220.57407pt>
 File: Bilder/pubsub1.jpg Graphic file (type jpg)
 
 <use Bilder/pubsub1.jpg>
 Package pdftex.def Info: Bilder/pubsub1.jpg used on input line 54.
 (pdftex.def)             Requested size: 352.53969pt x 154.40079pt.
  [8] [9]
-<Bilder/real_structure.png, id=75, 414.04688pt x 218.31563pt>
+<Bilder/real_structure.png, id=76, 414.04688pt x 218.31563pt>
 File: Bilder/real_structure.png Graphic file (type png)
 
 <use Bilder/real_structure.png>
 Package pdftex.def Info: Bilder/real_structure.png used on input line 89.
 (pdftex.def)             Requested size: 372.63873pt x 196.48222pt.
 
-
-LaTeX Warning: Citation `real_structure' on page 10 undefined on input line 90.
-
-
-
-LaTeX Warning: Citation `real_structure' on page 10 undefined on input line 90.
-
-
-<Bilder/sim_structure.png, id=76, 376.40625pt x 248.42813pt>
+<Bilder/sim_structure.png, id=77, 376.40625pt x 248.42813pt>
 File: Bilder/sim_structure.png Graphic file (type png)
 
 <use Bilder/sim_structure.png>
@@ -782,10 +767,22 @@ LaTeX Warning: Citation `sim_structure' on page 10 undefined on input line 97.
 
 LaTeX Warning: Citation `sim_structure' on page 10 undefined on input line 97.
 
-[10 <C:/Users/D062367/git/Studienarbeit/Bilder/pubsub1.jpg>] [11 <C:/Users/D062
-367/git/Studienarbeit/Bilder/real_structure.png>]) [12 <C:/Users/D062367/git/St
-udienarbeit/Bilder/sim_structure.png>] [13]
-(C:\Users\D062367\git\Studienarbeit\Inhalt/implementation.tex
+[10 <./Bilder/pubsub1.jpg>] [11 <./Bilder/real_structure.png>] [12 <./Bilder/si
+m_structure.png>])
+Overfull \hbox (1.30318pt too wide) in paragraph at lines 111--119
+\T1/ppl/m/n/10.95 tungs-kennt-nis-se not-wen-dig. Für die-ses Pro-blem gibt es 
+das Open-Sour-ce Pro-jekt Point
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--119
+
+ []
+
+[13]
+\openout2 = `Inhalt/implementation.aux'.
+
+ (./Inhalt/implementation.tex
 chapter 3.
 
 Overfull \hbox (14.89157pt too wide) in paragraph at lines 7--15
@@ -808,7 +805,7 @@ Overfull \hbox (0.7007pt too wide) in paragraph at lines 18--19
 ple-men-tie-run-gen be-zie-hen sich
  []
 
-<Bilder/SVO.jpg, id=98, 514.92375pt x 293.095pt>
+<Bilder/SVO.jpg, id=99, 514.92375pt x 293.095pt>
 File: Bilder/SVO.jpg Graphic file (type jpg)
  <use Bilder/SVO.jpg>
 Package pdftex.def Info: Bilder/SVO.jpg used on input line 39.
@@ -825,36 +822,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
-[18 <C:/Users/D062367/git/Studienarbeit/Bilder/SVO.jpg>]
-<Bilder/pinhole.png, id=109, 401.5pt x 274.02374pt>
+[18 <./Bilder/SVO.jpg>] <Bilder/pinhole.png, id=110, 401.5pt x 274.02374pt>
 File: Bilder/pinhole.png Graphic file (type png)
- <use Bilder/pinhole.png>
+
+<use Bilder/pinhole.png>
 Package pdftex.def Info: Bilder/pinhole.png used on input line 71.
 (pdftex.def)             Requested size: 200.7495pt x 137.01154pt.
-
-[19] <Bilder/distortion.png, id=113, 260.47313pt x 15.05624pt>
+ [19]
+<Bilder/distortion.png, id=114, 260.47313pt x 15.05624pt>
 File: Bilder/distortion.png Graphic file (type png)
 
 <use Bilder/distortion.png>
 Package pdftex.def Info: Bilder/distortion.png used on input line 82.
 (pdftex.def)             Requested size: 182.32994pt x 10.53929pt.
 
-<Bilder/radialFactors.png, id=114, 213.79875pt x 36.88782pt>
+<Bilder/radialFactors.png, id=115, 213.79875pt x 36.88782pt>
 File: Bilder/radialFactors.png Graphic file (type png)
 
 <use Bilder/radialFactors.png>
 Package pdftex.def Info: Bilder/radialFactors.png used on input line 90.
 (pdftex.def)             Requested size: 149.6581pt x 25.82127pt.
- [20 <C:/Users/D062367/git/Studienarbeit/Bilder/pinhole.png> <C:/Users/D062367/
-git/Studienarbeit/Bilder/distortion.png>]
-<Bilder/tangentialFactors.png, id=121, 222.8325pt x 37.64063pt>
+ [20 <./Bilder/pinhole.png> <./Bilder/distortion.png>] <Bilder/tangentialFactor
+s.png, id=122, 222.8325pt x 37.64063pt>
 File: Bilder/tangentialFactors.png Graphic file (type png)
 
 <use Bilder/tangentialFactors.png>
 Package pdftex.def Info: Bilder/tangentialFactors.png used on input line 99.
 (pdftex.def)             Requested size: 155.98167pt x 26.34824pt.
 
-<Bilder/matrixEquation.png, id=122, 146.04562pt x 50.43843pt>
+<Bilder/matrixEquation.png, id=123, 146.04562pt x 50.43843pt>
 File: Bilder/matrixEquation.png Graphic file (type png)
 
 <use Bilder/matrixEquation.png>
@@ -865,28 +861,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
-<Bilder/calibrationChecker.png, id=123, 772.8875pt x 560.0925pt>
+<Bilder/calibrationChecker.png, id=124, 772.8875pt x 560.0925pt>
 File: Bilder/calibrationChecker.png Graphic file (type png)
 
 <use Bilder/calibrationChecker.png>
 Package pdftex.def Info: Bilder/calibrationChecker.png used on input line 120.
 (pdftex.def)             Requested size: 309.14952pt x 224.03302pt.
- [21 <C:/Users/D062367/git/Studienarbeit/Bilder/radialFactors.png> <C:/Users/D0
-62367/git/Studienarbeit/Bilder/tangentialFactors.png> <C:/Users/D062367/git/Stu
-dienarbeit/Bilder/matrixEquation.png>]
+ [21 <./Bilder/radialFactors.png> <./Bilder/tangentialFactors.png> <./Bilder/ma
+trixEquation.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 128--135
 
  []
 
-[22 <C:/Users/D062367/git/Studienarbeit/Bilder/calibrationChecker.png>]
-<Bilder/remode_3dmodel.jpg, id=134, 1841.88126pt x 921.4425pt>
+[22 <./Bilder/calibrationChecker.png>]
+<Bilder/remode_3dmodel.jpg, id=135, 1841.88126pt x 921.4425pt>
 File: Bilder/remode_3dmodel.jpg Graphic file (type jpg)
 
 <use Bilder/remode_3dmodel.jpg>
 Package pdftex.def Info: Bilder/remode_3dmodel.jpg used on input line 138.
 (pdftex.def)             Requested size: 405.21513pt x 202.71797pt.
- [23 <C:/Users/D062367/git/Studienarbeit/Bilder/remode_3dmodel.jpg>]
-<Bilder/REMODE_overview.jpg, id=138, 338.26375pt x 263.98625pt>
+ [23 <./Bilder/remode_3dmodel.jpg>]
+<Bilder/REMODE_overview.jpg, id=139, 338.26375pt x 263.98625pt>
 File: Bilder/REMODE_overview.jpg Graphic file (type jpg)
 
 <use Bilder/REMODE_overview.jpg>
@@ -903,58 +898,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--159
 
  []
 
-[24 <C:/Users/D062367/git/Studienarbeit/Bilder/REMODE_overview.jpg>]
+[24 <./Bilder/REMODE_overview.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 166--173
 
  []
 
-[25] [26] <Bilder/architecture.jpg, id=149, 845.0772pt x 597.432pt>
+[25] [26] [27] [28] [29]
+<Bilder/architecture.jpg, id=159, 845.0772pt x 597.432pt>
 File: Bilder/architecture.jpg Graphic file (type jpg)
 
 <use Bilder/architecture.jpg>
-Package pdftex.def Info: Bilder/architecture.jpg used on input line 189.
+Package pdftex.def Info: Bilder/architecture.jpg used on input line 194.
 (pdftex.def)             Requested size: 422.53757pt x 298.71527pt.
 
-Overfull \hbox (16.23215pt too wide) in paragraph at lines 189--191
+Overfull \hbox (16.23215pt too wide) in paragraph at lines 194--196
  [][] 
  []
 
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+[30 <./Bilder/architecture.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
-[28 <C:/Users/D062367/git/Studienarbeit/Bilder/architecture.jpg>]
-<Bilder/pointcloud_1.jpg, id=156, 694.595pt x 459.7175pt>
+<Bilder/pointcloud_1.jpg, id=164, 694.595pt x 459.7175pt>
 File: Bilder/pointcloud_1.jpg Graphic file (type jpg)
 
 <use Bilder/pointcloud_1.jpg>
-Package pdftex.def Info: Bilder/pointcloud_1.jpg used on input line 210.
-(pdftex.def)             Requested size: 347.29665pt x 229.85818pt.
-LaTeX Font Info:    Try loading font information for U+fplmbb on input line 214
+Package pdftex.def Info: Bilder/pointcloud_1.jpg used on input line 215.
+(pdftex.def)             Requested size: 312.56487pt x 206.87096pt.
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 220
 .
 
-(C:\Users\D062367\Documents\Latex\tex\latex\psnfss\ufplmbb.fd
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-) [29 <C:/Users/D062367/git/Studienarbeit/Bilder/pointcloud_1.jpg>]
-<Bilder/REMODE.jpg, id=161, 516.42938pt x 289.58188pt>
+) [31 <./Bilder/pointcloud_1.jpg>] <Bilder/REMODE.jpg, id=168, 516.42938pt x 28
+9.58188pt>
 File: Bilder/REMODE.jpg Graphic file (type jpg)
- <use Bilder/REMODE.jpg>
-Package pdftex.def Info: Bilder/REMODE.jpg used on input line 222.
+
+<use Bilder/REMODE.jpg>
+Package pdftex.def Info: Bilder/REMODE.jpg used on input line 226.
 (pdftex.def)             Requested size: 258.21405pt x 144.79057pt.
 
-Overfull \hbox (1.30318pt too wide) in paragraph at lines 226--231
-\T1/ppl/m/n/10.95 tungs-kennt-nis-se not-wen-dig. Für die-ses Pro-blem gibt es 
-das Open-Sour-ce Pro-jekt Point
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--231
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-[30 <C:/Users/D062367/git/Studienarbeit/Bilder/REMODE.jpg>]) [31]
-(C:\Users\D062367\git\Studienarbeit\Inhalt/Evaluation.tex
+[32 <./Bilder/REMODE.jpg>] [33]
+<Bilder/LoG.png, id=176, 321.2pt x 320.19624pt>
+File: Bilder/LoG.png Graphic file (type png)
+ <use Bilder/LoG.png>
+Package pdftex.def Info: Bilder/LoG.png used on input line 247.
+(pdftex.def)             Requested size: 160.59961pt x 160.09772pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--260
+
+ []
+
+[34 <./Bilder/LoG.png>]
+<Bilder/pcl_grouping.jpg, id=181, 734.745pt x 465.23813pt>
+File: Bilder/pcl_grouping.jpg Graphic file (type jpg)
+
+<use Bilder/pcl_grouping.jpg>
+Package pdftex.def Info: Bilder/pcl_grouping.jpg used on input line 267.
+(pdftex.def)             Requested size: 367.3716pt x 232.61848pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--276
+
+ []
+
+[35]) [36 <./Bilder/pcl_grouping.jpg>] [37]
+\openout2 = `Inhalt/Evaluation.aux'.
+
+ (./Inhalt/Evaluation.tex
 chapter 4.
 
 Overfull \hbox (1.35762pt too wide) in paragraph at lines 12--15
@@ -962,71 +977,111 @@ Overfull \hbox (1.35762pt too wide) in paragraph at lines 12--15
 el-le, wes-halb sie für den Zweck
  []
 
-[32
+[38
 
 
 
-]) [33] (C:\Users\D062367\git\Studienarbeit\Studienarbeit.bbl
+]) [39] (./Studienarbeit.bbl
 chapter without number
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 5.
-(C:\Users\D062367\Documents\Latex\tex\latex\base\t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+(c:/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 []\T1/ppl/m/n/10.95 ``Parrot AR.Drone.'' $\T1/cmtt/m/n/10.95 https : / / www . 
-parrot . com / fr / sites / default / files /$
+parrot . com / fr / sites / default / files /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
-$\T1/cmtt/m/n/10.95 styles / product _ teaser _ hightlight / public / parrot _ 
-ar _ drone _ gps _ edition .$
+\T1/cmtt/m/n/10.95 styles / product _ teaser _ hightlight / public / parrot _ a
+r _ drone _ gps _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
+Underfull \hbox (badness 6016) in paragraph at lines 10--14
 []\T1/ppl/m/n/10.95 ``Lochkamera Prin-zip.'' $\T1/cmtt/m/n/10.95 https : / / en
- . wikipedia . org / wiki / Pinhole _ camera _$
+ . wikipedia . org / wiki / Pinhole _ camera _
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 27--31
-[]\T1/ppl/m/n/10.95 ``Realtime co-de in ROS.'' $\T1/cmtt/m/n/10.95 http : / / w
-ww . willowgarage . com / blog / 2009 / 06 / 10 /$
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
+[]\T1/ppl/m/n/10.95 ``Lochkamera Prin-zip.'' $\T1/cmtt/m/n/10.95 https : / / gi
+thub . com / uzh-[]rpg / rpg _ open _ remode /
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 38--42
-[]\T1/ppl/m/n/10.95 ``Perfomance Do-ku-men-ta-ti-on SVO.'' $\T1/cmtt/m/n/10.95 
-https : / / github . com / uzh-[]rpg / rpg _ svo /$
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
+[]\T1/ppl/m/n/10.95 ``PointCloud vi-sua-li-siert.'' $\T1/cmtt/m/n/10.95 https :
+ / / student . myvectorworks . net / public _
  []
 
-[34
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
+\T1/cmtt/m/n/10.95 newsletters / 2016 / 07 / 6 / StudenPortal-[]eNL _ Detail _ 
+content2 . html ? utm _
+ []
 
 
-])
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
+\T1/cmtt/m/n/10.95 campaign = newsletteredu & utm _ source = image & utm _ medi
+um = portal & utm _
+ []
 
-Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
-(scrreprt)              You should note, that `\appendix' is a mostly globally
-(scrreprt)              working command not an enviroment with only local
-(scrreprt)              effects. Therefore `\end{appendix}' will neither
-(scrreprt)              switch back to normal section numbering nor finish
-(scrreprt)              every other effect of `\begin{appendix}'.
-(scrreprt)              Nevertheless, some effects may end with
-(scrreprt)              `\end{appendix}' and the document may become
-(scrreprt)              inconsistent.
-(scrreprt)              Because of this, you should remove `\end{appendix}'
-(scrreprt)              and replace `\begin{appendix}' by command
-(scrreprt)              `\appendix' on input line 131.
 
-[35] (C:\Users\D062367\git\Studienarbeit\Studienarbeit.aux
-(C:\Users\D062367\git\Studienarbeit\Inhalt/titelseite.aux)
-(C:\Users\D062367\git\Studienarbeit\Inhalt/erklaerung.aux)
-(C:\Users\D062367\git\Studienarbeit\Inhalt/abstract.aux)
-(C:\Users\D062367\git\Studienarbeit\Inhalt/einleitung.aux)
-(C:\Users\D062367\git\Studienarbeit\Inhalt/vorlagen.aux)
-(C:\Users\D062367\git\Studienarbeit\Inhalt/implementation.aux)
-(C:\Users\D062367\git\Studienarbeit\Inhalt/Evaluation.aux))
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
+[]\T1/ppl/m/n/10.95 ``Marr-Hildreth-Operator.'' $\T1/cmtt/m/n/10.95 https : / /
+ de . wikipedia . org / wiki /
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 33--37
+\T1/cmtt/m/n/10.95 tutorials / correspondence _ grouping . php # correspondence
+-[]grouping$\T1/ppl/m/n/10.95 , 2017.
+ []
+
+[40
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
+[]\T1/ppl/m/n/10.95 ``Programmstruktur mit rea-ler Droh-ne.'' $\T1/cmtt/m/n/10.
+95 http : / / wiki . ros . org / tum _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
+\T1/cmtt/m/n/10.95 simulator ? action = AttachFile & do = get & target = real _
+ structure . png$\T1/ppl/m/n/10.95 , 2017.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--70
+[]\T1/ppl/m/n/10.95 ``Definition Point-Cloud.'' $\T1/cmtt/m/n/10.95 http : / / 
+whatis . techtarget . com / definition /
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 72--76
+[]\T1/ppl/m/n/10.95 ``Filter in der Bild-ver-ar-bei-tung.'' $\T1/cmtt/m/n/10.95
+ https : / / de . mathworks . com / help / images /
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 72--76
+\T1/cmtt/m/n/10.95 what-[]is-[]image-[]filtering-[]in-[]the-[]spatial-[]domain 
+. html$\T1/ppl/m/n/10.95 , 2017.  vi-si-ted:
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 83--86
+[]\T1/ppl/m/n/10.95 Shital Shah and De-ba-de-ep-ta Dey and Chris Lovett and Ash
+ish Ka-poor,
+ []
+
+) [41] (./Studienarbeit.aux (./Inhalt/titelseite.aux) (./Inhalt/erklaerung.aux)
+(./Inhalt/abstract.aux) (./Inhalt/einleitung.aux) (./Inhalt/vorlagen.aux)
+(./Inhalt/implementation.aux) (./Inhalt/Evaluation.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1038,39 +1093,36 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8629 strings out of 493921
- 134055 string characters out of 3145272
- 276292 words of memory out of 3000000
- 11677 multiletter control sequences out of 15000+200000
- 44150 words of font info for 100 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 54i,11n,66p,8898b,712s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ectt1095.pk>{C:/Users/D062367/Documents/Latex/fonts/enc/dvips/fontname/8r.enc
-} <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecsx1200.pk> <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
-en\ec\dpi600\ecsx1095.pk> <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\l
-jfour\jknappen\ec\dpi600\eccc1095.pk> <C:\Users\D062367\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsi1095.pk> <C:\Users\D062367\AppData\Loc
-al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1095.pk> <C:\Users\D062367
-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1000.pk> <C:\U
-sers\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss10
-00.pk> <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi600\ecss1095.pk> <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
-knappen\ec\dpi600\ecss1440.pk> <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecsx1728.pk> <C:\Users\D062367\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\D062367\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Users/D06
-2367/Documents/Latex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/D062367
-/Documents/Latex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/D062367/Do
-cuments/Latex/fonts/type1/public/mathpazo/fplmbb.pfb><C:/Users/D062367/Document
-s/Latex/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/D062367/Documents/Latex
-/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/D062367/Documents/Latex/fonts/ty
-pe1/urw/palatino/uplr8a.pfb><C:/Users/D062367/Documents/Latex/fonts/type1/urw/p
-alatino/uplri8a.pfb>
-Output written on Studienarbeit.pdf (42 pages, 2149125 bytes).
+ 8583 strings out of 493054
+ 126346 string characters out of 6138327
+ 252997 words of memory out of 5000000
+ 11833 multiletter control sequences out of 15000+600000
+ 44501 words of font info for 103 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 54i,11n,66p,1408b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
+ive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2015/texmf-dist/fon
+ts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2015/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/mathpazo/fpl
+mbb.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb><c:/t
+exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb><c:/texlive/201
+5/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb><c:/texlive/2015/texmf-di
+st/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2015/texmf-dist/fonts/t
+ype1/public/cm-super/sfss1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1/publi
+c/cm-super/sfss1440.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super
+/sfsx1000.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1095.
+pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/te
+xlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2015
+/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2015/texmf-dis
+t/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2015/texmf-dist/fonts/ty
+pe1/public/cm-super/sftt1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/pa
+latino/uplb8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
+fb><c:/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on Studienarbeit.pdf (48 pages, 2454882 bytes).
 PDF statistics:
- 632 PDF objects out of 1000 (max. 8388607)
+ 272 PDF objects out of 1000 (max. 8388607)
+ 171 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

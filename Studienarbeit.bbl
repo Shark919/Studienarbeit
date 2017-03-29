@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{dronepicture}
 ``{Parrot AR.Drone}.''
@@ -18,6 +18,23 @@
   2015.
 \newblock visited: 02.15.2017.
 
+\bibitem{visPC}
+``{PointCloud visualisiert}.''
+  \url{https://student.myvectorworks.net/public_newsletters/2016/07/6/StudenPortal-eNL_Detail_content2.html?utm_campaign=newsletteredu&utm_source=image&utm_medium=portal&utm_content=2},
+  July 2016.
+\newblock visited: 03.05.2017.
+
+\bibitem{LoG}
+``{Marr-Hildreth-Operator}.''
+  \url{https://de.wikipedia.org/wiki/Marr-Hildreth-Operator}, Mar. 2017.
+\newblock visited: 03.07.2017.
+
+\bibitem{pclGrouping}
+``{PCL Correspondance Grouping}.''
+  \url{http://pointclouds.org/documentation/tutorials/correspondence_grouping.php#correspondence-grouping},
+  2017.
+\newblock visited: 03.05.2017.
+
 \bibitem{drone}
 ``{Parrot AR.Drone}.'' \url{https://de.wikipedia.org/wiki/Parrot_AR.Drone},
   2016.
@@ -29,6 +46,12 @@
   2016.
 \newblock visited: 01.22.2017.
 
+\bibitem{real_structure}
+``{Programmstruktur mit realer Drohne}.''
+  \url{http://wiki.ros.org/tum_simulator?action=AttachFile&do=get&target=real_structure.png},
+  2017.
+\newblock visited: 03.22.2017.
+
 \bibitem{svo_cameracalibration}
 {Robotics and Perception Group}, ``{Camera Calibration}.''
   \url{https://github.com/uzh-rpg/rpg_svo/wiki/Camera-Calibration}, 2014.
@@ -39,6 +62,22 @@
   \url{https://github.com/uzh-rpg/rpg_svo/wiki/Obtaining-Best-Performance},
   June 2014.
 \newblock visited: 02.18.2017.
+
+\bibitem{defPC}
+``{Definition PointCloud}.''
+  \url{http://whatis.techtarget.com/definition/point-cloud}, Oct. 2016.
+\newblock visited: 03.05.2017.
+
+\bibitem{filter1}
+``{Filter in der Bildverarbeitung}.''
+  \url{https://de.mathworks.com/help/images/what-is-image-filtering-in-the-spatial-domain.html},
+  2017.
+\newblock visited: 03.06.2017.
+
+\bibitem{pclDocs}
+``{Dokumentation PCL}.''
+  \url{http://docs.pointclouds.org/trunk/classpcl_1_1_edge.html}, Mar. 2017.
+\newblock visited: 03.29.2017.
 
 \bibitem{airsim}
 {Shital Shah and Debadeepta Dey and Chris Lovett and Ashish Kapoor},

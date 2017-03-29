@@ -176,11 +176,16 @@ Diese Beobachtungen aus den Testläufen decken sich mit den Hinweisen zur Perfor
 \section{Implementierung}
 \subsection{Grundlegende Herausforderungen}
 Es bestand eine nicht modularisierte, schlecht dokumentierte C\# Dokumentation für eine Windowsumgebung. Diese galt es teilweise für ROS zu übernehmen. Für Windows existiert ein Kinect Software Development Kit, welches die Programmierung erleichtert.
+
+
+\newpage
 \subsection{Kinect}
 
 %Max
+\newpage
 \subsection{ROS Nodes}
 %Beide
+\newpage
 \subsection{Architektur}
 %Beide
 
@@ -201,37 +206,72 @@ Es bestand eine nicht modularisierte, schlecht dokumentierte C\# Dokumentation f
 Im Kapitel \ref{Bildverarbeitung} wurde der Prozess beschrieben, wie aus den monokularen Aufnahmen der Frontkamera der Drohen Tiefenbilder ermittelt werden können. Aufbauend darauf soll nun erarbeitet werden, wie man aus diesen Informationen ein grundlegendes Assistenzsystem implementieren könnte.
 
 
-\subsection{Abgrenzung}
+\subsection{Theoretische Abgrenzung}
 %Christoph
-Die Tiefenbilder die REMODE erstellt sind in Form von sogenannten Punktwolken, bzw. Point Clouds über ein ROS Topic verschickt. Diese Punktwolken sind eine Menge von Punkten in einem Vektorraum, welche jeweils durch ihre Raumkoordinaten in einem dreidimensionalen kartesischen Koordinatensystem beschrieben sind. Somit ist jedes Element im Datensatz durch die Attribute $X$, $Y$ und $Z$ gekennzeichnet. \newline
+Die Tiefenbilder die REMODE erstellt sind in Form von sogenannten Punktwolken, bzw. Point Clouds über ein ROS Topic verschickt. Diese Punktwolken sind eine Menge von Punkten in einem Vektorraum, welche jeweils durch ihre Raumkoordinaten in einem dreidimensionalen kartesischen Koordinatensystem beschrieben sind. Somit ist jedes Element im Datensatz durch die Attribute $X$, $Y$ und $Z$ gekennzeichnet. \cite{defPC}\cite{visPC}\ \newline
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[scale=0.5]{Bilder/pointcloud_1.jpg}
+	\includegraphics[scale=0.45]{Bilder/pointcloud_1.jpg}
 	\label{fig:pointcloud}
+	\caption{Beispiel einer visualisierten Punktwolke \cite{visPC}}
 \end{figure}
 
 Die Darstellung zeigt beispielhaft die Visualisierung einer Punktwolke. Dabei entscheidet die Helligkeit der Punkte über die relative Tiefe in Bezug zur Kamera. Der Vektorraum $V \in \mathbb{R}^3$ mit den entsprechenden Datenpunkten wird über ROS Topics in einem Intervall von wenigen Sekunden übertragen.\newline
-%cite https://student.myvectorworks.net/public_newsletters/2016/07/6/StudenPortal-eNL_Detail_content2.html?utm_campaign=newsletteredu&utm_source=image&utm_medium=portal&utm_content=2
-%cite http://whatis.techtarget.com/definition/point-cloud
-Wie zuvor beschrieben, ist ein einfacher Anwendungsfall das Fliegen durch Hindernisse wie offene Türen. Dabei stößt man in der Bildverarbeitung auf eine Reihe von Herausforderungen. Wie in \ref{performanceprobleme} beschrieben, sind SVO und REMODE nicht optimal für den Anwendungsfall dieser Arbeit. Dabei treten Probleme schon beidem ersten Schritt zum Assistenzsystem auf, die Analyse des Tiefenbildes. Dabei ist sowohl die niedrige Qualität der Tiefenbilder problematisch, als auch die hohe Zeit die zwischen der Bewegung der Drohne und der Berechnung der Tiefenpunktwolke vergehen kann. \newline
+Wie zuvor beschrieben, ist ein einfacher Anwendungsfall das Fliegen durch Hindernisse wie offene Türen. Dabei stößt man in der Bildverarbeitung auf eine Reihe von Herausforderungen. Wie in \ref{performanceprobleme} beschrieben, sind SVO und REMODE nicht optimal für den Anwendungsfall dieser Arbeit. Dabei treten Probleme vor allem bei der Analyse des Tiefenbildes auf. Dabei ist sowohl die niedrige Qualität der Tiefenbilder problematisch, als auch die hohe Zeit die zwischen der Bewegung der Drohne und der Berechnung der Tiefenpunktwolke vergehen kann. \newline
 Die Folgende Darstellung zeigt ein Beispiel für ein von REMODE berechnetes Bild.
 
 \begin{figure}[ht]
 	\centering
 	\includegraphics[scale=0.5]{Bilder/REMODE.jpg}
 	\label{fig:REMODE}
+	\caption{Approximiertes Tiefenbild durch REMODE}
 \end{figure}
 
-Dabei wird ersichtlich, das der grundlegende Kontext für einen menschlichen Betrachter verständlich ist - in diesem Fall sind dies zwei Häuser mit einer schmalen Lücke als Zwischenraum. Dabei sind genaue Texturen stark reduziert und teilweise verloren gegangen. Weiterhin sind Objektränder zum Teil von einem leichten hellen Schimmer umgeben, welcher in der Bildanalyse zu Problemen führen kann.
+Dabei wird ersichtlich, das der grundlegende Kontext für einen menschlichen Betrachter verständlich ist - in diesem Fall sind dies zwei Häuser mit einer schmalen Lücke als Zwischenraum. Dabei sind genaue Texturen stark reduziert und teilweise verloren gegangen. Weiterhin sind Objektränder zum Teil von einem leichten hellen Schimmer umgeben, welcher in der Bildanalyse zu Problemen führen kann. \newline
+
+
+\subsection{Lösungsansätze}
 Um an diesem Punkt ein Objekt wie eine Tür, bzw. den Zwischenraum zu erkennen, gibt es verschiedene Ansätze, um die Punktwolke zu analysieren.
-Eine Möglichkeit ist das suchen nach definierten Abmessungen, Abständen und Formen. Es ist auch möglich, die Daten mit einer Referenzpunktwolke von einem ähnlichen Objekt abzugleichen. \newline
-Für beide Ansätze sind komplexe mathematische Berechnungen und Bildverarbeitungskenntnisse notwendig. Für dieses Problem gibt es das OpenSource Projekt Point Cloud Library \emph{PCL}. Dabei handelt es sich um ein Open Source Projekt zur 2D und 3D Bild-, sowie Punktwolkenverarbeitung. %cite http://pointclouds.org/
-Dabei stellt die Programmbibliothek zahlreiche Algorithmen bereit, die z.B. bei der Filterung, Segmentierung und Visualisierung helfen. Dabei verfügt das Robot Operating System außerdem eine Schnittstelle zur PCL, wodurch sie sich bestens in die Projektumgebung dieser Arbeit integrieren lässt. \newline
 
+\subsubsection{Referenzobjekt}
+Eine Möglichkeit ist das suchen nach definierten Abmessungen, Abständen und Formen. Dabei wird das Objekt in die einzelnen Teilabschnitte aufgeteilt und die relative Beziehung dieser Teilstücke beschrieben. Am Beispiel einer Tür entspricht dies dem Rahmen, welcher aus zwei, zueinander parallelen, Geraden besteht, die rechtwinklig auf dem Untergrund aufliegen. Die beiden Geraden werden am Ende durch eine rechtwinklige Gerade miteinander verbunden. \newline
+%Bild eines rahmens mit winkeln etc
+Wie in der Darstellung \ref{fig:REMODE} erkennbar, gibt es keine klaren Kanten und Abgrenzungen. Dies erschwert einen Vergleich mit dem Referenzobjekt zusätzlich. Abhilfe für dieses Problem schaffen in der Bildverarbeitung Filter. Filtern ist eine Technik um Bilddaten zu modifizieren, oder zu in einer Art zu verbessern. Hauptsächlich wird diese Methode dafür genutzt, um hohe Frequenzen in einem Bild zu verringern, also das Bild glätten, oder niedrige Frequenzen zu verstärken, um Kanten hervorzuheben. \newline
+Filter basieren auf einer Berechnung in der Nachbarschaft von Pixeln, wobei der Wert eines gegebenen Pixels im Ausgabebild bestimmt wird, in dem Algorithmen auf Pixel in der direkten Nachbarschaft dieses Datenpunktes angewandt werden. Die Nachbarschaft um einen Pixel ist eine Menge an Pixeln, die sich durch ihre relative Distanz zu diesem auszeichnen. \cite{filter1} \newline
+Da die Tiefenbilder verwaschen und unscharf sind, müssen niedrige Frequenzen verstärkt werden. Ein Standard, um Kanten in einem Bild hervorzuheben ist der Marr-Hildreth-Operator oder auch Laplacian of Gaussian \textit{LoG} genannt. \cite{LoG} Dieser Algorithmus führt auf den Matrizen der Punktwolken des Eingangsbildes Faltungsoperationen \footnote{todo; was ist faltungsoperation} durch, um ein Ausgabebild mit verdeutlichten Kanten zu erzeugen. \newline
+Dabei sucht der LoG nicht nach Kanten, sondern nach Gebieten mit rapiden Änderungen von Pixelintensitäten. Die zweite Ableitung erzeugt eine Kurve, bei der die beiden Seiten einer Kante durch einen positiven und einen negativen Wert gekennzeichnet sind. Die eigentliche Kante liegt hierbei an dem Punkt, wo der Graph Null durchquert. Die folgende Abbildung verdeutlicht dieses Verhalten.
 
-\subsection{Implementierungsvorschlag}
-%beide
-%http://pointclouds.org/documentation/tutorials/correspondence_grouping.php
-%vielleicht könnte das einigermaßen klappen
-%falls wir nicht mehr dazu kommen wenigstens theoretische betrachtung, ob das funktionieren könnte + integration in unsere Architektur
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.5]{Bilder/LoG.png}
+	\label{fig:LoG}
+	\caption{Verlauf der zweiten Ableitung im LoG Algorithmus \cite{LoG}}
+\end{figure}
+
+Die Point Cloud Library bietet dafür mit der Methode
+\begin{center}
+	\textit{pcl::Edge< PointInT, PointOutT >::detectEdgeLoG}
+\end{center} 
+eine Implementierung von diesem Algorithmus an. \cite{pclDocs} \newline
+Nach dieser erste Schritt abgeschlossen ist, liegt ein Tiefenbild mit hervorgehobenen Kanten vor. Dies ist jedoch nicht ausreichend, um nun zuverlässig mit Hilfe eines Vergleichs mit dem Referenzobjekts z.B. Türen im Bild zu finden. \newline
+Einerseits ist das Referenzobjekt nichts anderes als ein Rechteck. Diese gibt es potentiell sehr oft im Bild, wie beispielsweise Tische, Fenster oder Bilder an Wänden. Eine geöffnete Tür zeichnet sich dabei dadurch aus, dass der Inhalt des Rahmens weiter weg ist, also in der Punktwolke tiefer ist. Im Falle von sehr genauen Tiefenbildinformationen kann man an dieser Stelle mit einer hohen Wahrscheinlichkeit durch die Veränderung der Tiefe gute Ergebnisse bei der Suche erzielen. \newline
+Wie bereits beschrieben ist das Tiefenbild jedoch sehr ungenau, da es nur durch einzelne Bilder approximiert wird. Somit ist die Verwendung eines Referenzobjektes und die Anwendung von Filtern zur Erkennung keine valide, praktisch einsetzbare Lösung. \newline
+
+\subsubsection{Referenzpunktwolke}
+Der zweite Ansatz basiert auf der Verwendung einer Referenzpunktwolke. Es wird somit kein relatives Objekt definiert, sondern man vergleicht die Punktwolke des gesamten Tiefenbildes, mit einer Punktwolke für eine Tür. \newline
+Damit könnte ein besseres Ergebnis erzielt werden, da auch die Änderung der Tiefe zwischen Türrahmen und dem Bereich innerhalb des Rahmens betrachtet wird. Die Point Cloud Library bietet dafür eine Implementation an, welche als \textit{Correspondence Grouping}, also die Gruppierung nach Übereinstimmungen bezeichnet wird.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.5]{Bilder/pcl_grouping.jpg}
+	\label{fig:pcl_grouping}
+	\caption{Correspondence Grouping mit dem PCL Algorithmus  \cite{pclGrouping}}
+\end{figure}
+
+Wie im Bild erkennbar wird mit Hilfe des Algorithmus versucht, Übereinstimmungen zwischen den Features der beiden Punktwolken zu finden. \newline
+Schwierig ist hierbei die Auswahl und Generierung der Referenzpunktwolke. Es ist nicht möglich eine Lösung zu finden, die sowohl in der Simulation, als auch mit der realen Drohne funktioniert. Die Referenz ist immer nur dann sinnvoll, wenn sie nahezu exakt die gleichen Tiefeninformationen aufweist, wie das zu vergleichende Bild. \newline
+Somit ist funktioniert die Auswertung auch nicht mehr, wenn eine leicht abgeänderte Tür verwendet wird, obwohl sich sowohl das Referenzobjekt, als auch das tatsächliche Objekt in der Simulation bzw. in der Realität befinden.
+Weiterhin lassen sich die Tiefeninformationen eines bestimmten Objekts nur sehr schwer aus dem Gesamtbild extrahieren. Um dies zu erreichen müsste bereits bekannt sein, wo sich das Objekt im Bild befindet, also ein typisches Henne-Ei Problem. \newline
+\subsubsection{Alternative Lösungen}
+Weitere Überlegungen zur Objekterkennung sind spezielle Kennzeichnungen, die künstlich hinzugefügt werden. Denkbar sind beispielsweise farbliche Markierungen, wie ein roter Türrahmen, welcher sich farblich von der Umgebung abgrenzt und somit leicht zu finden ist. Dieser Ansatz ist grundsätzlich möglich und einfach umzusetzen, jedoch ist das Tiefenbild in schwarz-weiß. Es ist denkbar für dieses Zweck das Ausgangsbild zu verwenden, welches noch alle Farbinformationen besitzt, jedoch nur zweidimensionale Informationen besitzt. Dies würde die Anforderungen an die Arbeit verletzen, da die Analyse nicht mehr auf den Tiefeninformationen basiert.
