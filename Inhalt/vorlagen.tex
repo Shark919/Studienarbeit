@@ -104,9 +104,29 @@ Die Steuerung der Drohne, wird bei dem Package nativ über einen Playstation 3 C
 
 
 \section{Kinect}
+%Max
 Um Gesten des Benutzers zur erkennen und entsprechend auszuwerten wird der visuelle Sensor Microsoft Kinect verwendet. Normalerweise wird er zur Steuerung der Videospiel Konsole Xbox360/Xbox One verwendet. Das System ist in der Lage Tiefenbilder zu erstellen, besitzt sowohl eine 1080p Farbkamera, als auch einen Infrarotsensor und mithilfe mehrere Mikrofone Sprache und Bewegung im Raum zu erkennen. Anhand der verschiedenen Kameraeingaben ist es möglich den Körper von bis zu 2 Nutzern zu erkennen und auch entsprechend zu verfolgen. Für Windows stellt Microsoft ein entsprechendes Software Development Kit (SDK) zur Verfügung um die Benutzung der Funktionalität zu vereinfachen.
 %Max
 
+\section{Punktwolken}
+\label{Punktwolken}
+%Christoph
+Die Tiefenbilder die REMODE erstellt sind in Form von sogenannten Punktwolken, bzw. Point Clouds. Diese Punktwolken sind eine Menge von Punkten in einem Vektorraum, welche jeweils durch ihre Raumkoordinaten in einem dreidimensionalen kartesischen Koordinatensystem beschrieben sind. Somit ist jedes Element im Datensatz durch die Attribute $X$, $Y$ und $Z$ gekennzeichnet. \cite{defPC}\cite{visPC}\ \newline
+Sobald ein Tiefenbild approximiert wurde, werden diese Informationen über das ROS Topic \textit{/remode/depth/pointcloud} geteilt. \newline
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.41]{Bilder/pointcloud_1.jpg}
+	\label{fig:pointcloud}
+	\caption{Beispiel einer visualisierten Punktwolke \cite{visPC}}
+\end{figure}
+
+Die Darstellung zeigt beispielhaft die Visualisierung einer Punktwolke. Dabei entscheidet die Helligkeit der Punkte über ihre relative Tiefe in Bezug zur Kamera. Der Vektorraum $V \in \mathbb{R}^3$ mit den entsprechenden Datenpunkten wird das ROS Topic in einem Intervall von wenigen Sekunden übertragen.\newline
+
 \section{Point Cloud Library}
-Für beide Ansätze sind komplexe mathematische Berechnungen und Bildverarbeitungskenntnisse notwendig. Für dieses Problem gibt es das OpenSource Projekt Point Cloud Library \emph{PCL}. Dabei handelt es sich um ein Open Source Projekt zur 2D und 3D Bild-, sowie Punktwolkenverarbeitung. %cite http://pointclouds.org/
-Dabei stellt die Programmbibliothek zahlreiche Algorithmen bereit, die z.B. bei der Filterung, Segmentierung und Visualisierung helfen. Dabei verfügt das Robot Operating System außerdem eine Schnittstelle zur PCL, wodurch sie sich bestens in die Projektumgebung dieser Arbeit integrieren lässt. \newline
+%Christoph
+
+Die Punktwolken, wie in Abschnitt \ref{Punktwolken} beschrieben, bilden die Grundlage, um essentielle Auswertungen und Analysen für das Assistenzsystem auszuführen. Da hierfür teilweise komplexe Algorithmen und mathematische Berechnungen notwendig sind, würde die eigene Implementierung den Rahmen dieser Arbeit sprengen. \newline
+Das OpenSource Projekt Point Cloud Library \emph{PCL} stellt für diesen Anwendungsfall in dessen Programmbibliothek zahlreiche Algorithmen bereit, die einfach implementiert werden können. Diese helfen bei Problemen der 2D und 3D Bildverarbeitung, sowie der Punktwolkenverarbeitung. %cite http://pointclouds.org/
+Dabei werden Anwendungen in der Bildverarbeitung bereitgestellt, wie die Filterung, Segmentierung und Visualisierung von Punktwolken. \newline
+Zusätzlich verfügt die PCL eine Schnittstelle zu ROS, wodurch sie sich bestens in die Projektumgebung integrieren lässt.

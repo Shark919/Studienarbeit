@@ -14,28 +14,29 @@
 \contentsline {section}{\numberline {2.3}Simulation mit Gazebo}{10}
 \contentsline {section}{\numberline {2.4}Fuzzylogik}{13}
 \contentsline {section}{\numberline {2.5}Kinect}{13}
-\contentsline {section}{\numberline {2.6}Point Cloud Library}{13}
-\contentsline {chapter}{\numberline {3}Software Architektur}{14}
-\contentsline {section}{\numberline {3.1}Anforderungen}{14}
-\contentsline {section}{\numberline {3.2}Bildverarbeitung}{16}
-\contentsline {subsection}{\numberline {3.2.1}Semi-Direct Monocular Visual Odometry - SVO}{16}
-\contentsline {subsection}{\numberline {3.2.2}Kamerakalibrierung}{18}
-\contentsline {subsection}{\numberline {3.2.3}Regularized Monocular Depth Estimation - REMODE}{22}
-\contentsline {subsection}{\numberline {3.2.4}Performanceprobleme}{25}
-\contentsline {section}{\numberline {3.3}Implementierung}{27}
-\contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{27}
-\contentsline {subsection}{\numberline {3.3.2}Kinect}{28}
-\contentsline {subsection}{\numberline {3.3.3}ROS Nodes}{29}
-\contentsline {subsection}{\numberline {3.3.4}Architektur}{30}
-\contentsline {section}{\numberline {3.4}Assistenzsystem}{31}
-\contentsline {subsection}{\numberline {3.4.1}Theoretische Abgrenzung}{31}
+\contentsline {section}{\numberline {2.6}Punktwolken}{13}
+\contentsline {section}{\numberline {2.7}Point Cloud Library}{14}
+\contentsline {chapter}{\numberline {3}Software Architektur}{15}
+\contentsline {section}{\numberline {3.1}Anforderungen}{15}
+\contentsline {section}{\numberline {3.2}Bildverarbeitung}{17}
+\contentsline {subsection}{\numberline {3.2.1}Semi-Direct Monocular Visual Odometry - SVO}{17}
+\contentsline {subsection}{\numberline {3.2.2}Kamerakalibrierung}{19}
+\contentsline {subsection}{\numberline {3.2.3}Regularized Monocular Depth Estimation - REMODE}{23}
+\contentsline {subsection}{\numberline {3.2.4}Performanceprobleme}{26}
+\contentsline {section}{\numberline {3.3}Implementierung}{28}
+\contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{28}
+\contentsline {subsection}{\numberline {3.3.2}Kinect}{29}
+\contentsline {subsection}{\numberline {3.3.3}ROS Nodes}{30}
+\contentsline {subsection}{\numberline {3.3.4}Architektur}{31}
+\contentsline {section}{\numberline {3.4}Assistenzsystem}{32}
+\contentsline {subsection}{\numberline {3.4.1}Problemanalyse}{32}
 \contentsline {subsection}{\numberline {3.4.2}L\IeC {\"o}sungsans\IeC {\"a}tze}{33}
 \contentsline {subsubsection}{\numberline {3.4.2.1}Referenzobjekt}{33}
-\contentsline {subsubsection}{\numberline {3.4.2.2}Referenzpunktwolke}{35}
-\contentsline {subsubsection}{\numberline {3.4.2.3}Alternative L\IeC {\"o}sungen}{36}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Referenzpunktwolke}{36}
+\contentsline {subsubsection}{\numberline {3.4.2.3}Alternative L\IeC {\"o}sungen}{37}
 \contentsline {chapter}{\numberline {4}Evaluation}{38}
 \contentsline {section}{\numberline {4.1}Ergebnis}{38}
 \contentsline {section}{\numberline {4.2}Ausblick}{39}
 \contentsline {subsection}{\numberline {4.2.1}Andere Simulatoren}{39}
-\contentsline {subsection}{\numberline {4.2.2}Assistenzsystem}{39}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{40}
+\contentsline {subsection}{\numberline {4.2.2}Assistenzsystem}{40}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{41}

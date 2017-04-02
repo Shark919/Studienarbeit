@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.1.25)  29 MAR 2017 12:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.1.25)  2 APR 2017 19:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -768,220 +768,214 @@ LaTeX Warning: Citation `sim_structure' on page 10 undefined on input line 97.
 LaTeX Warning: Citation `sim_structure' on page 10 undefined on input line 97.
 
 [10 <./Bilder/pubsub1.jpg>] [11 <./Bilder/real_structure.png>] [12 <./Bilder/si
-m_structure.png>])
-Overfull \hbox (1.30318pt too wide) in paragraph at lines 111--119
-\T1/ppl/m/n/10.95 tungs-kennt-nis-se not-wen-dig. Für die-ses Pro-blem gibt es 
-das Open-Sour-ce Pro-jekt Point
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--119
+m_structure.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
-[13]
+<Bilder/pointcloud_1.jpg, id=90, 694.595pt x 459.7175pt>
+File: Bilder/pointcloud_1.jpg Graphic file (type jpg)
+
+<use Bilder/pointcloud_1.jpg>
+Package pdftex.def Info: Bilder/pointcloud_1.jpg used on input line 119.
+(pdftex.def)             Requested size: 284.7858pt x 188.48538pt.
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 124
+.
+
+(c:/texlive/2015/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+[13]) [14 <./Bilder/pointcloud_1.jpg>]
 \openout2 = `Inhalt/implementation.aux'.
 
  (./Inhalt/implementation.tex
 chapter 3.
 
-Overfull \hbox (14.89157pt too wide) in paragraph at lines 7--15
-\T1/ppl/m/n/10.95 Ein Haupt-be-stand-teil der Ar-beit be-steht dar-in, ein Vor-
-gän-ger-pro-jekt mit ei-ner AR.Drone
+Overfull \hbox (0.50383pt too wide) in paragraph at lines 7--17
+\T1/ppl/m/n/10.95 mög-li-chen An-sät-zen und Li-mi-ta-tio-nen der Im-ple-men-ti
+e-rung ei-nes As-si-stenz-sy-stems.
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--15
-
- []
-
-[14
+[15
 
 
 
-] [15]
-Overfull \hbox (0.7007pt too wide) in paragraph at lines 18--19
+] [16]
+Overfull \hbox (0.7007pt too wide) in paragraph at lines 20--21
 \T1/ppl/m/n/10.95 fen-in-for-ma-tio-nen zu ge-win-nen. Die be-schrie-be-nen Im-
 ple-men-tie-run-gen be-zie-hen sich
  []
 
-<Bilder/SVO.jpg, id=99, 514.92375pt x 293.095pt>
+<Bilder/SVO.jpg, id=104, 514.92375pt x 293.095pt>
 File: Bilder/SVO.jpg Graphic file (type jpg)
  <use Bilder/SVO.jpg>
-Package pdftex.def Info: Bilder/SVO.jpg used on input line 39.
+Package pdftex.def Info: Bilder/SVO.jpg used on input line 38.
 (pdftex.def)             Requested size: 360.44417pt x 205.16508pt.
- [16]
-[17]
-Overfull \hbox (6.93181pt too wide) in paragraph at lines 44--47
+ [17]
+[18]
+Overfull \hbox (6.93181pt too wide) in paragraph at lines 43--46
 \T1/ppl/m/n/10.95 Die An-zahl der ak-tu-ell ge-fun-de-nen Fea-tu-res kann da-be
 i stark va-ri-ie-ren. Die-se Schwan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
-[18 <./Bilder/SVO.jpg>] <Bilder/pinhole.png, id=110, 401.5pt x 274.02374pt>
+[19 <./Bilder/SVO.jpg>] <Bilder/pinhole.png, id=115, 401.5pt x 274.02374pt>
 File: Bilder/pinhole.png Graphic file (type png)
 
 <use Bilder/pinhole.png>
-Package pdftex.def Info: Bilder/pinhole.png used on input line 71.
+Package pdftex.def Info: Bilder/pinhole.png used on input line 70.
 (pdftex.def)             Requested size: 200.7495pt x 137.01154pt.
- [19]
-<Bilder/distortion.png, id=114, 260.47313pt x 15.05624pt>
+ [20]
+<Bilder/distortion.png, id=119, 260.47313pt x 15.05624pt>
 File: Bilder/distortion.png Graphic file (type png)
 
 <use Bilder/distortion.png>
-Package pdftex.def Info: Bilder/distortion.png used on input line 82.
+Package pdftex.def Info: Bilder/distortion.png used on input line 81.
 (pdftex.def)             Requested size: 182.32994pt x 10.53929pt.
 
-<Bilder/radialFactors.png, id=115, 213.79875pt x 36.88782pt>
+<Bilder/radialFactors.png, id=120, 213.79875pt x 36.88782pt>
 File: Bilder/radialFactors.png Graphic file (type png)
 
 <use Bilder/radialFactors.png>
-Package pdftex.def Info: Bilder/radialFactors.png used on input line 90.
+Package pdftex.def Info: Bilder/radialFactors.png used on input line 89.
 (pdftex.def)             Requested size: 149.6581pt x 25.82127pt.
- [20 <./Bilder/pinhole.png> <./Bilder/distortion.png>] <Bilder/tangentialFactor
-s.png, id=122, 222.8325pt x 37.64063pt>
+ [21 <./Bilder/pinhole.png> <./Bilder/distortion.png>] <Bilder/tangentialFactor
+s.png, id=126, 222.8325pt x 37.64063pt>
 File: Bilder/tangentialFactors.png Graphic file (type png)
 
 <use Bilder/tangentialFactors.png>
-Package pdftex.def Info: Bilder/tangentialFactors.png used on input line 99.
+Package pdftex.def Info: Bilder/tangentialFactors.png used on input line 98.
 (pdftex.def)             Requested size: 155.98167pt x 26.34824pt.
 
-<Bilder/matrixEquation.png, id=123, 146.04562pt x 50.43843pt>
+<Bilder/matrixEquation.png, id=127, 146.04562pt x 50.43843pt>
 File: Bilder/matrixEquation.png Graphic file (type png)
 
 <use Bilder/matrixEquation.png>
-Package pdftex.def Info: Bilder/matrixEquation.png used on input line 107.
+Package pdftex.def Info: Bilder/matrixEquation.png used on input line 106.
 (pdftex.def)             Requested size: 102.23122pt x 35.30664pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-<Bilder/calibrationChecker.png, id=124, 772.8875pt x 560.0925pt>
+<Bilder/calibrationChecker.png, id=128, 772.8875pt x 560.0925pt>
 File: Bilder/calibrationChecker.png Graphic file (type png)
 
 <use Bilder/calibrationChecker.png>
-Package pdftex.def Info: Bilder/calibrationChecker.png used on input line 120.
+Package pdftex.def Info: Bilder/calibrationChecker.png used on input line 119.
 (pdftex.def)             Requested size: 309.14952pt x 224.03302pt.
- [21 <./Bilder/radialFactors.png> <./Bilder/tangentialFactors.png> <./Bilder/ma
+ [22 <./Bilder/radialFactors.png> <./Bilder/tangentialFactors.png> <./Bilder/ma
 trixEquation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 128--135
+Underfull \hbox (badness 10000) in paragraph at lines 127--134
 
  []
 
-[22 <./Bilder/calibrationChecker.png>]
-<Bilder/remode_3dmodel.jpg, id=135, 1841.88126pt x 921.4425pt>
+[23 <./Bilder/calibrationChecker.png>]
+<Bilder/remode_3dmodel.jpg, id=140, 1841.88126pt x 921.4425pt>
 File: Bilder/remode_3dmodel.jpg Graphic file (type jpg)
 
 <use Bilder/remode_3dmodel.jpg>
-Package pdftex.def Info: Bilder/remode_3dmodel.jpg used on input line 138.
+Package pdftex.def Info: Bilder/remode_3dmodel.jpg used on input line 137.
 (pdftex.def)             Requested size: 405.21513pt x 202.71797pt.
- [23 <./Bilder/remode_3dmodel.jpg>]
-<Bilder/REMODE_overview.jpg, id=139, 338.26375pt x 263.98625pt>
+ [24 <./Bilder/remode_3dmodel.jpg>]
+<Bilder/REMODE_overview.jpg, id=145, 338.26375pt x 263.98625pt>
 File: Bilder/REMODE_overview.jpg Graphic file (type jpg)
 
 <use Bilder/REMODE_overview.jpg>
-Package pdftex.def Info: Bilder/REMODE_overview.jpg used on input line 149.
+Package pdftex.def Info: Bilder/REMODE_overview.jpg used on input line 148.
 (pdftex.def)             Requested size: 236.78299pt x 184.78911pt.
 
-Overfull \hbox (6.08853pt too wide) in paragraph at lines 153--159
+Overfull \hbox (6.08853pt too wide) in paragraph at lines 152--158
 \T1/ppl/m/n/10.95 Die Im-ple-men-ta-ti-on setzt auf ei-ne durch-schnitt-li-che 
 Be-we-gung der Ka-me-ra von 0.0038
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--159
+Underfull \hbox (badness 10000) in paragraph at lines 152--158
 
  []
 
-[24 <./Bilder/REMODE_overview.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 166--173
+[25 <./Bilder/REMODE_overview.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 165--172
 
  []
 
-[25] [26] [27] [28] [29]
-<Bilder/architecture.jpg, id=159, 845.0772pt x 597.432pt>
+[26] [27] [28] [29] [30]
+<Bilder/architecture.jpg, id=165, 845.0772pt x 597.432pt>
 File: Bilder/architecture.jpg Graphic file (type jpg)
 
 <use Bilder/architecture.jpg>
-Package pdftex.def Info: Bilder/architecture.jpg used on input line 194.
+Package pdftex.def Info: Bilder/architecture.jpg used on input line 193.
 (pdftex.def)             Requested size: 422.53757pt x 298.71527pt.
 
-Overfull \hbox (16.23215pt too wide) in paragraph at lines 194--196
+Overfull \hbox (16.23215pt too wide) in paragraph at lines 193--195
  [][] 
  []
 
-[30 <./Bilder/architecture.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-
- []
-
-<Bilder/pointcloud_1.jpg, id=164, 694.595pt x 459.7175pt>
-File: Bilder/pointcloud_1.jpg Graphic file (type jpg)
-
-<use Bilder/pointcloud_1.jpg>
-Package pdftex.def Info: Bilder/pointcloud_1.jpg used on input line 215.
-(pdftex.def)             Requested size: 312.56487pt x 206.87096pt.
-LaTeX Font Info:    Try loading font information for U+fplmbb on input line 220
-.
-
-(c:/texlive/2015/texmf-dist/tex/latex/psnfss/ufplmbb.fd
-File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-) [31 <./Bilder/pointcloud_1.jpg>] <Bilder/REMODE.jpg, id=168, 516.42938pt x 28
-9.58188pt>
+[31 <./Bilder/architecture.jpg>]
+<Bilder/REMODE.jpg, id=169, 516.42938pt x 289.58188pt>
 File: Bilder/REMODE.jpg Graphic file (type jpg)
-
-<use Bilder/REMODE.jpg>
-Package pdftex.def Info: Bilder/REMODE.jpg used on input line 226.
+ <use Bilder/REMODE.jpg>
+Package pdftex.def Info: Bilder/REMODE.jpg used on input line 214.
 (pdftex.def)             Requested size: 258.21405pt x 144.79057pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+[32 <./Bilder/REMODE.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
-[32 <./Bilder/REMODE.jpg>] [33]
-<Bilder/LoG.png, id=176, 321.2pt x 320.19624pt>
+<Bilder/door.jpg, id=173, 430.0065pt x 322.806pt>
+File: Bilder/door.jpg Graphic file (type jpg)
+ <use Bilder/door.jpg>
+Package pdftex.def Info: Bilder/door.jpg used on input line 230.
+(pdftex.def)             Requested size: 236.5043pt x 177.54384pt.
+
+<Bilder/LoG.png, id=174, 321.2pt x 320.19624pt>
 File: Bilder/LoG.png Graphic file (type png)
  <use Bilder/LoG.png>
-Package pdftex.def Info: Bilder/LoG.png used on input line 247.
+Package pdftex.def Info: Bilder/LoG.png used on input line 242.
 (pdftex.def)             Requested size: 160.59961pt x 160.09772pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 256--260
+ [33 <./Bilder/door.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 250--254
 
  []
 
-[34 <./Bilder/LoG.png>]
-<Bilder/pcl_grouping.jpg, id=181, 734.745pt x 465.23813pt>
+[34] [35 <./Bilder/LoG.png>]
+<Bilder/pcl_grouping.jpg, id=185, 734.745pt x 465.23813pt>
 File: Bilder/pcl_grouping.jpg Graphic file (type jpg)
 
 <use Bilder/pcl_grouping.jpg>
-Package pdftex.def Info: Bilder/pcl_grouping.jpg used on input line 267.
+Package pdftex.def Info: Bilder/pcl_grouping.jpg used on input line 261.
 (pdftex.def)             Requested size: 367.3716pt x 232.61848pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--276
+Underfull \hbox (badness 10000) in paragraph at lines 266--270
 
  []
 
-[35]) [36 <./Bilder/pcl_grouping.jpg>] [37]
+[36 <./Bilder/pcl_grouping.jpg>]) [37]
 \openout2 = `Inhalt/Evaluation.aux'.
 
  (./Inhalt/Evaluation.tex
 chapter 4.
-
-Overfull \hbox (1.35762pt too wide) in paragraph at lines 12--15
-\T1/ppl/m/n/10.95 ver-an-lagt und bie-ten kei-ne pro-gram-ma-ti-sche Schnitt-st
-el-le, wes-halb sie für den Zweck
- []
-
 [38
 
 
 
-]) [39] (./Studienarbeit.bbl
+]
+Overfull \hbox (1.35762pt too wide) in paragraph at lines 13--16
+\T1/ppl/m/n/10.95 ver-an-lagt und bie-ten kei-ne pro-gram-ma-ti-sche Schnitt-st
+el-le, wes-halb sie für den Zweck
+ []
+
+[39]) [40] (./Studienarbeit.bbl
 chapter without number
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 5.
 (c:/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -999,33 +993,33 @@ r _ drone _ gps _
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 10--14
-[]\T1/ppl/m/n/10.95 ``Lochkamera Prin-zip.'' $\T1/cmtt/m/n/10.95 https : / / en
- . wikipedia . org / wiki / Pinhole _ camera _
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--20
-[]\T1/ppl/m/n/10.95 ``Lochkamera Prin-zip.'' $\T1/cmtt/m/n/10.95 https : / / gi
-thub . com / uzh-[]rpg / rpg _ open _ remode /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
 []\T1/ppl/m/n/10.95 ``PointCloud vi-sua-li-siert.'' $\T1/cmtt/m/n/10.95 https :
  / / student . myvectorworks . net / public _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
 \T1/cmtt/m/n/10.95 newsletters / 2016 / 07 / 6 / StudenPortal-[]eNL _ Detail _ 
 content2 . html ? utm _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
 \T1/cmtt/m/n/10.95 campaign = newsletteredu & utm _ source = image & utm _ medi
 um = portal & utm _
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 16--20
+[]\T1/ppl/m/n/10.95 ``Lochkamera Prin-zip.'' $\T1/cmtt/m/n/10.95 https : / / en
+ . wikipedia . org / wiki / Pinhole _ camera _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
+[]\T1/ppl/m/n/10.95 ``Lochkamera Prin-zip.'' $\T1/cmtt/m/n/10.95 https : / / gi
+thub . com / uzh-[]rpg / rpg _ open _ remode /
  []
 
 
@@ -1040,7 +1034,7 @@ Underfull \hbox (badness 7133) in paragraph at lines 33--37
 -[]grouping$\T1/ppl/m/n/10.95 , 2017.
  []
 
-[40
+[41
 
 
 ]
@@ -1056,32 +1050,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--54
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--70
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
 []\T1/ppl/m/n/10.95 ``Definition Point-Cloud.'' $\T1/cmtt/m/n/10.95 http : / / 
 whatis . techtarget . com / definition /
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 72--76
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
+[]\T1/ppl/m/n/10.95 ``Reprojektionsfehler.'' $\T1/cmtt/m/n/10.95 https : / / en
+ . wikipedia . org / wiki / Reprojection _
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 66--68
+[]\T1/ppl/m/n/10.95 ``Odometrie.'' $\T1/cmtt/m/n/10.95 https : / / en . wikiped
+ia . org / wiki / Odometry$\T1/ppl/m/n/10.95 , 2017.  vi-si-ted:
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 81--85
 []\T1/ppl/m/n/10.95 ``Filter in der Bild-ver-ar-bei-tung.'' $\T1/cmtt/m/n/10.95
  https : / / de . mathworks . com / help / images /
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 72--76
+Underfull \hbox (badness 5771) in paragraph at lines 81--85
 \T1/cmtt/m/n/10.95 what-[]is-[]image-[]filtering-[]in-[]the-[]spatial-[]domain 
 . html$\T1/ppl/m/n/10.95 , 2017.  vi-si-ted:
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 83--86
+Underfull \hbox (badness 1521) in paragraph at lines 92--95
 []\T1/ppl/m/n/10.95 Shital Shah and De-ba-de-ep-ta Dey and Chris Lovett and Ash
 ish Ka-poor,
  []
 
-) [41] (./Studienarbeit.aux (./Inhalt/titelseite.aux) (./Inhalt/erklaerung.aux)
-(./Inhalt/abstract.aux) (./Inhalt/einleitung.aux) (./Inhalt/vorlagen.aux)
-(./Inhalt/implementation.aux) (./Inhalt/Evaluation.aux))
+[42]) [43] (./Studienarbeit.aux (./Inhalt/titelseite.aux)
+(./Inhalt/erklaerung.aux) (./Inhalt/abstract.aux) (./Inhalt/einleitung.aux)
+(./Inhalt/vorlagen.aux) (./Inhalt/implementation.aux) (./Inhalt/Evaluation.aux)
+)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1093,10 +1100,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8583 strings out of 493054
- 126346 string characters out of 6138327
- 252997 words of memory out of 5000000
- 11833 multiletter control sequences out of 15000+600000
+ 8592 strings out of 493054
+ 126470 string characters out of 6138327
+ 253051 words of memory out of 5000000
+ 11841 multiletter control sequences out of 15000+600000
  44501 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,11n,66p,1408b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1119,10 +1126,10 @@ t/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2015/texmf-dist/fonts/ty
 pe1/public/cm-super/sftt1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/pa
 latino/uplb8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
 fb><c:/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Studienarbeit.pdf (48 pages, 2454882 bytes).
+Output written on Studienarbeit.pdf (50 pages, 2485143 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
+ 280 PDF objects out of 1000 (max. 8388607)
+ 176 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

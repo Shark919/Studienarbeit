@@ -6,6 +6,12 @@
   2017.
 \newblock visited: 01.22.2017.
 
+\bibitem{visPC}
+``{PointCloud visualisiert}.''
+  \url{https://student.myvectorworks.net/public_newsletters/2016/07/6/StudenPortal-eNL_Detail_content2.html?utm_campaign=newsletteredu&utm_source=image&utm_medium=portal&utm_content=2},
+  July 2016.
+\newblock visited: 03.05.2017.
+
 \bibitem{lochkamera}
 ``{Lochkamera Prinzip}.''
   \url{https://en.wikipedia.org/wiki/Pinhole_camera_model#/media/File:Pinhole-camera.svg},
@@ -17,12 +23,6 @@
   \url{https://github.com/uzh-rpg/rpg_open_remode/wiki/Run-Using-SVO}, Dec.
   2015.
 \newblock visited: 02.15.2017.
-
-\bibitem{visPC}
-``{PointCloud visualisiert}.''
-  \url{https://student.myvectorworks.net/public_newsletters/2016/07/6/StudenPortal-eNL_Detail_content2.html?utm_campaign=newsletteredu&utm_source=image&utm_medium=portal&utm_content=2},
-  July 2016.
-\newblock visited: 03.05.2017.
 
 \bibitem{LoG}
 ``{Marr-Hildreth-Operator}.''
@@ -52,6 +52,20 @@
   2017.
 \newblock visited: 03.22.2017.
 
+\bibitem{defPC}
+``{Definition PointCloud}.''
+  \url{http://whatis.techtarget.com/definition/point-cloud}, Oct. 2016.
+\newblock visited: 03.05.2017.
+
+\bibitem{repro}
+``{Reprojektionsfehler}.''
+  \url{https://en.wikipedia.org/wiki/Reprojection_error}, 2017.
+\newblock visited: 04.02.2017.
+
+\bibitem{hodor}
+``{Odometrie}.'' \url{https://en.wikipedia.org/wiki/Odometry}, 2017.
+\newblock visited: 04.02.2017.
+
 \bibitem{svo_cameracalibration}
 {Robotics and Perception Group}, ``{Camera Calibration}.''
   \url{https://github.com/uzh-rpg/rpg_svo/wiki/Camera-Calibration}, 2014.
@@ -62,11 +76,6 @@
   \url{https://github.com/uzh-rpg/rpg_svo/wiki/Obtaining-Best-Performance},
   June 2014.
 \newblock visited: 02.18.2017.
-
-\bibitem{defPC}
-``{Definition PointCloud}.''
-  \url{http://whatis.techtarget.com/definition/point-cloud}, Oct. 2016.
-\newblock visited: 03.05.2017.
 
 \bibitem{filter1}
 ``{Filter in der Bildverarbeitung}.''
