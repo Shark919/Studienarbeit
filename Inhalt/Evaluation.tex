@@ -17,5 +17,7 @@ Es existieren weiterhin andere Simulatoren, allerdings sind die meisten spieleri
 
 
 \subsection{Assistenzsystem}
-%genaue Untersuchung mit PCL algorithmen
-%svo und remode "umschreiben" bzw anpassen, sodass drehungen möglich sind etc
+Wie bereits beschrieben, konnte im Rahmen dieser Arbeit keine Lösung für ein Assistenzsystem gefunden werden. Die Bearbeitung hat jedoch diverse Erkenntnisse hervorgebracht, welche für weitere Arbeiten relevant sein können. \newline
+Eines der Hauptprobleme besteht in der Verwendung von den externen Projekten SVO und REMODE. Diese sind für eine bessere Kamera ausgerichtet, welche vor allem nach unten gerichtet ist. Es hat sich herausgestellt, dass die Software nicht funktioniert, sobald die Drohne sich um die eigene Achse dreht, oder nach vorne bzw. hinten fliegt. Um dieses Problem zu beheben, könnte entweder der Code angepasst werden, oder eine eigene Implementierung vorgenommen werden. \newline
+Weiterhin könnte es sinnvoll sein sich genauer mit den Algorithmen der Point Cloud Library zu beschäftigen. Hierbei ist hauptsächlich die Objekterkennung in den Tiefenbildern problematisch. \newline
+Insgesamt ist jedoch die Grundvoraussetzung für ein funktionierendes Assistenzsystem, dass die darauf basierenden Tiefeninformationen sowohl aktuell, als auch möglichst exakt sind. Anderenfalls ist das damit verbundene Fehlerpotential zu hoch, wodurch die Steuerung der Drohne negativ beeinflusst wird.

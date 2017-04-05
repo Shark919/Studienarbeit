@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.1.25)  2 APR 2017 19:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.1.25)  2 APR 2017 19:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -975,7 +975,13 @@ Overfull \hbox (1.35762pt too wide) in paragraph at lines 13--16
 el-le, wes-halb sie für den Zweck
  []
 
-[39]) [40] (./Studienarbeit.bbl
+[39])
+Overfull \hbox (1.58775pt too wide) in paragraph at lines 20--122
+\T1/ppl/m/n/10.95 mög-lichst ex-akt sind. An-de-ren-falls ist das da-mit ver-bu
+n-de-ne Feh-ler-po-ten-ti-al zu hoch,
+ []
+
+[40] (./Studienarbeit.bbl
 chapter without number
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 5.
 (c:/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1126,7 +1132,7 @@ t/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2015/texmf-dist/fonts/ty
 pe1/public/cm-super/sftt1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/pa
 latino/uplb8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
 fb><c:/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Studienarbeit.pdf (50 pages, 2485143 bytes).
+Output written on Studienarbeit.pdf (50 pages, 2488224 bytes).
 PDF statistics:
  280 PDF objects out of 1000 (max. 8388607)
  176 compressed objects within 2 object streams
