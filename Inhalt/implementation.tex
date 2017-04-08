@@ -179,10 +179,22 @@ Es bestand eine nicht modularisierte, schlecht dokumentierte C\# Dokumentation f
 
 \newpage
 \subsection{Kinect}
-
+Der visuelle Sensor Microsoft Kinect dient als Nutzerschnittstelle zur Bedienung, indem der Nutzer Gesten benutzt um die Drohne zu steuern. Um die Sensoreingaben richtig verwenden zu können sind 3 Schritte notwendig:
+\begin{itemize}
+	\item Korrekte Ansteuerung der Sensorhardware
+	\item Körpererkennung und Tracking
+	\item Verarbeitung der separaten Merkmale
+\end{itemize}
+Hierfür ist der erste Schritt die Hardware des Sensors richtig anzusteuern. Da die Microsoft Software nicht für Linux Systeme kompatibel ist, kommt einen Open Source Treiber zum Einsatz. Hierbei handelt es sich um OpenNI, welches auch eine Middleware bereit stellt um Körperbewegung und Gesten zur erkennen, sowie zu tracken. Die ROS-Node \grqq openni\_launch\grqq realisiert die Ansteuerung dess Kinect Sensors. Ebenfalls wird der zweite Schritt: Körpererkennung und Tracking  durch OpenNi gelöst, da die Middelware auch wie oben erwähnt dies kann. Das geschieht mithilfe der ROS-Node \grqq openni\_tracker \grqq. Für die den dritten Punkt: Verarbeitung der seperaten Merkmale ist die selbst implementierte ROS-Node "kinect\_controller" zuständig. Dort werden die durch OpenNI extrahierten Merkmale, wie zum Beispiel linke Hand, rechte Hand, Kopf, usw. als Grundlage eingegeben und Ziel ist es die entsprechenden Befehle anhand der Eingaben für den Quadrocopter zu erstellen.
 %Max
 \newpage
 \subsection{ROS Nodes}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.7]{Bilder/ros_nodes_flow.jpg}
+	\label{Zusammenspiel der verschiedenen ROS-Nodes}
+	\caption{Zusammenspiel der verschiedenen ROS-Nodes}
+\end{figure}
 %Beide
 \newpage
 \subsection{Architektur}
