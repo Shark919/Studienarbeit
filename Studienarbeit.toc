@@ -26,17 +26,19 @@
 \contentsline {section}{\numberline {3.3}Implementierung}{28}
 \contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{28}
 \contentsline {subsection}{\numberline {3.3.2}Kinect}{29}
-\contentsline {subsection}{\numberline {3.3.3}ROS Nodes}{30}
-\contentsline {subsection}{\numberline {3.3.4}Architektur}{31}
+\contentsline {subsection}{\numberline {3.3.3}Fuzzy Controller}{30}
+\contentsline {subsection}{\numberline {3.3.4}Drone Controller}{30}
+\contentsline {subsection}{\numberline {3.3.5}ROS Nodes}{30}
+\contentsline {subsection}{\numberline {3.3.6}Architektur}{31}
 \contentsline {section}{\numberline {3.4}Assistenzsystem}{32}
 \contentsline {subsection}{\numberline {3.4.1}Problemanalyse}{32}
 \contentsline {subsection}{\numberline {3.4.2}L\IeC {\"o}sungsans\IeC {\"a}tze}{33}
-\contentsline {subsubsection}{\numberline {3.4.2.1}Referenzobjekt}{33}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Referenzobjekt}{34}
 \contentsline {subsubsection}{\numberline {3.4.2.2}Referenzpunktwolke}{36}
-\contentsline {subsubsection}{\numberline {3.4.2.3}Alternative L\IeC {\"o}sungen}{37}
-\contentsline {chapter}{\numberline {4}Evaluation}{38}
-\contentsline {section}{\numberline {4.1}Ergebnis}{38}
-\contentsline {section}{\numberline {4.2}Ausblick}{39}
-\contentsline {subsection}{\numberline {4.2.1}Andere Simulatoren}{39}
-\contentsline {subsection}{\numberline {4.2.2}Assistenzsystem}{40}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{41}
+\contentsline {subsubsection}{\numberline {3.4.2.3}Alternative L\IeC {\"o}sungen}{38}
+\contentsline {chapter}{\numberline {4}Evaluation}{39}
+\contentsline {section}{\numberline {4.1}Ergebnis}{39}
+\contentsline {section}{\numberline {4.2}Ausblick}{40}
+\contentsline {subsection}{\numberline {4.2.1}Andere Simulatoren}{40}
+\contentsline {subsection}{\numberline {4.2.2}Assistenzsystem}{41}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{42}
