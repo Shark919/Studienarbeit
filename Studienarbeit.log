@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.8)  8 APR 2017 17:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.8)  9 APR 2017 16:37
 entering extended mode
 **Studienarbeit.tex
 (C:\Users\D062367\git\Studienarbeit\Studienarbeit.tex
@@ -681,13 +681,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--40
 (C:\Users\D062367\git\Studienarbeit\Studienarbeit.toc [4
 
 
-])
+] [5])
 \tf@toc=\write4
- [5]
+ [6]
 No file Studienarbeit.nls.
 (C:\Users\D062367\git\Studienarbeit\Studienarbeit.lof)
 \tf@lof=\write5
- [6
+ [7
 
 
 ]
@@ -703,7 +703,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--22
 
 ] [2]) [3] [4] (C:\Users\D062367\git\Studienarbeit\Inhalt/vorlagen.tex
 chapter 2.
-<Bilder/ar_drone.png, id=51, 602.25pt x 322.95656pt>
+<Bilder/ar_drone.png, id=54, 602.25pt x 322.95656pt>
 File: Bilder/ar_drone.png Graphic file (type png)
  <use Bilder/ar_drone.png>
 Package pdftex.def Info: Bilder/ar_drone.png used on input line 10.
@@ -747,21 +747,21 @@ Overfull \hbox (27.64854pt too wide) in paragraph at lines 39--47
 ] steht, kann es so-wohl für nicht-kommerzielle
  []
 
-[7] <Bilder/pubsub1.jpg, id=68, 503.63156pt x 220.57407pt>
+[7] <Bilder/pubsub1.jpg, id=71, 503.63156pt x 220.57407pt>
 File: Bilder/pubsub1.jpg Graphic file (type jpg)
 
 <use Bilder/pubsub1.jpg>
 Package pdftex.def Info: Bilder/pubsub1.jpg used on input line 54.
 (pdftex.def)             Requested size: 352.53969pt x 154.40079pt.
  [8] [9]
-<Bilder/real_structure.png, id=75, 414.04688pt x 218.31563pt>
+<Bilder/real_structure.png, id=78, 414.04688pt x 218.31563pt>
 File: Bilder/real_structure.png Graphic file (type png)
 
 <use Bilder/real_structure.png>
 Package pdftex.def Info: Bilder/real_structure.png used on input line 89.
 (pdftex.def)             Requested size: 372.63873pt x 196.48222pt.
 
-<Bilder/sim_structure.png, id=76, 376.40625pt x 248.42813pt>
+<Bilder/sim_structure.png, id=79, 376.40625pt x 248.42813pt>
 File: Bilder/sim_structure.png Graphic file (type png)
 
 <use Bilder/sim_structure.png>
@@ -777,28 +777,28 @@ LaTeX Warning: Citation `sim_structure' on page 10 undefined on input line 97.
 [10 <C:/Users/D062367/git/Studienarbeit/Bilder/pubsub1.jpg>] [11 <C:/Users/D062
 367/git/Studienarbeit/Bilder/real_structure.png>] [12 <C:/Users/D062367/git/Stu
 dienarbeit/Bilder/sim_structure.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 114--116
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
 
-<Bilder/pointcloud_1.jpg, id=89, 694.595pt x 459.7175pt>
+<Bilder/pointcloud_1.jpg, id=92, 694.595pt x 459.7175pt>
 File: Bilder/pointcloud_1.jpg Graphic file (type jpg)
 
 <use Bilder/pointcloud_1.jpg>
-Package pdftex.def Info: Bilder/pointcloud_1.jpg used on input line 119.
+Package pdftex.def Info: Bilder/pointcloud_1.jpg used on input line 121.
 (pdftex.def)             Requested size: 284.7858pt x 188.48538pt.
-LaTeX Font Info:    Try loading font information for U+fplmbb on input line 124
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 126
 .
 
 (C:\Users\D062367\Documents\Latex\tex\latex\psnfss\ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
 [13]) [14 <C:/Users/D062367/git/Studienarbeit/Bilder/pointcloud_1.jpg>]
-(C:\Users\D062367\git\Studienarbeit\Inhalt/implementation.tex
+[15] (C:\Users\D062367\git\Studienarbeit\Inhalt/implementation.tex
 chapter 3.
 
 Overfull \hbox (0.50383pt too wide) in paragraph at lines 7--17
@@ -806,23 +806,23 @@ Overfull \hbox (0.50383pt too wide) in paragraph at lines 7--17
 e-rung ei-nes As-si-stenz-sy-stems.
  []
 
-[15
+[16
 
 
 
-] [16]
+] [17]
 Overfull \hbox (0.7007pt too wide) in paragraph at lines 20--21
 \T1/ppl/m/n/10.95 fen-in-for-ma-tio-nen zu ge-win-nen. Die be-schrie-be-nen Im-
 ple-men-tie-run-gen be-zie-hen sich
  []
 
-<Bilder/SVO.jpg, id=103, 514.92375pt x 293.095pt>
+<Bilder/SVO.jpg, id=110, 514.92375pt x 293.095pt>
 File: Bilder/SVO.jpg Graphic file (type jpg)
  <use Bilder/SVO.jpg>
 Package pdftex.def Info: Bilder/SVO.jpg used on input line 38.
 (pdftex.def)             Requested size: 360.44417pt x 205.16508pt.
- [17]
-[18]
+ [18]
+[19]
 Overfull \hbox (6.93181pt too wide) in paragraph at lines 43--46
 \T1/ppl/m/n/10.95 Die An-zahl der ak-tu-ell ge-fun-de-nen Fea-tu-res kann da-be
 i stark va-ri-ie-ren. Die-se Schwan-
@@ -833,36 +833,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
-[19 <C:/Users/D062367/git/Studienarbeit/Bilder/SVO.jpg>]
-<Bilder/pinhole.png, id=114, 401.5pt x 274.02374pt>
+[20 <C:/Users/D062367/git/Studienarbeit/Bilder/SVO.jpg>]
+<Bilder/pinhole.png, id=120, 401.5pt x 274.02374pt>
 File: Bilder/pinhole.png Graphic file (type png)
  <use Bilder/pinhole.png>
 Package pdftex.def Info: Bilder/pinhole.png used on input line 70.
 (pdftex.def)             Requested size: 200.7495pt x 137.01154pt.
 
-[20] <Bilder/distortion.png, id=118, 260.47313pt x 15.05624pt>
+[21] <Bilder/distortion.png, id=124, 260.47313pt x 15.05624pt>
 File: Bilder/distortion.png Graphic file (type png)
 
 <use Bilder/distortion.png>
 Package pdftex.def Info: Bilder/distortion.png used on input line 81.
 (pdftex.def)             Requested size: 182.32994pt x 10.53929pt.
 
-<Bilder/radialFactors.png, id=119, 213.79875pt x 36.88782pt>
+<Bilder/radialFactors.png, id=125, 213.79875pt x 36.88782pt>
 File: Bilder/radialFactors.png Graphic file (type png)
 
 <use Bilder/radialFactors.png>
 Package pdftex.def Info: Bilder/radialFactors.png used on input line 89.
 (pdftex.def)             Requested size: 149.6581pt x 25.82127pt.
- [21 <C:/Users/D062367/git/Studienarbeit/Bilder/pinhole.png> <C:/Users/D062367/
+ [22 <C:/Users/D062367/git/Studienarbeit/Bilder/pinhole.png> <C:/Users/D062367/
 git/Studienarbeit/Bilder/distortion.png>]
-<Bilder/tangentialFactors.png, id=125, 222.8325pt x 37.64063pt>
+<Bilder/tangentialFactors.png, id=131, 222.8325pt x 37.64063pt>
 File: Bilder/tangentialFactors.png Graphic file (type png)
 
 <use Bilder/tangentialFactors.png>
 Package pdftex.def Info: Bilder/tangentialFactors.png used on input line 98.
 (pdftex.def)             Requested size: 155.98167pt x 26.34824pt.
 
-<Bilder/matrixEquation.png, id=126, 146.04562pt x 50.43843pt>
+<Bilder/matrixEquation.png, id=132, 146.04562pt x 50.43843pt>
 File: Bilder/matrixEquation.png Graphic file (type png)
 
 <use Bilder/matrixEquation.png>
@@ -873,28 +873,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-<Bilder/calibrationChecker.png, id=127, 772.8875pt x 560.0925pt>
+<Bilder/calibrationChecker.png, id=133, 772.8875pt x 560.0925pt>
 File: Bilder/calibrationChecker.png Graphic file (type png)
 
 <use Bilder/calibrationChecker.png>
 Package pdftex.def Info: Bilder/calibrationChecker.png used on input line 119.
 (pdftex.def)             Requested size: 309.14952pt x 224.03302pt.
- [22 <C:/Users/D062367/git/Studienarbeit/Bilder/radialFactors.png> <C:/Users/D0
+ [23 <C:/Users/D062367/git/Studienarbeit/Bilder/radialFactors.png> <C:/Users/D0
 62367/git/Studienarbeit/Bilder/tangentialFactors.png> <C:/Users/D062367/git/Stu
 dienarbeit/Bilder/matrixEquation.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 127--134
 
  []
 
-[23 <C:/Users/D062367/git/Studienarbeit/Bilder/calibrationChecker.png>]
-<Bilder/remode_3dmodel.jpg, id=139, 1841.88126pt x 921.4425pt>
+[24 <C:/Users/D062367/git/Studienarbeit/Bilder/calibrationChecker.png>]
+<Bilder/remode_3dmodel.jpg, id=146, 1841.88126pt x 921.4425pt>
 File: Bilder/remode_3dmodel.jpg Graphic file (type jpg)
 
 <use Bilder/remode_3dmodel.jpg>
 Package pdftex.def Info: Bilder/remode_3dmodel.jpg used on input line 137.
 (pdftex.def)             Requested size: 405.21513pt x 202.71797pt.
- [24 <C:/Users/D062367/git/Studienarbeit/Bilder/remode_3dmodel.jpg>]
-<Bilder/REMODE_overview.jpg, id=144, 338.26375pt x 263.98625pt>
+ [25 <C:/Users/D062367/git/Studienarbeit/Bilder/remode_3dmodel.jpg>]
+<Bilder/REMODE_overview.jpg, id=150, 338.26375pt x 263.98625pt>
 File: Bilder/REMODE_overview.jpg Graphic file (type jpg)
 
 <use Bilder/REMODE_overview.jpg>
@@ -911,80 +911,108 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--158
 
  []
 
-[25 <C:/Users/D062367/git/Studienarbeit/Bilder/REMODE_overview.jpg>]
+[26 <C:/Users/D062367/git/Studienarbeit/Bilder/REMODE_overview.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 165--172
 
  []
 
-[26] [27] [28]
-Overfull \hbox (3.52629pt too wide) in paragraph at lines 188--190
-\T1/ppl/m/n/10.95 Die ROS-Node open-ni_launchrealisiert die An-steue-rung des
-s Ki-nect Sen-sors. Eben-
+[27] [28]
+
+LaTeX Warning: Citation `freenect' on page 29 undefined on input line 182.
+
+
+LaTeX Warning: Citation `freenect' on page 29 undefined on input line 185.
+
+
+LaTeX Warning: Citation `opennilicense' on page 29 undefined on input line 185.
+
+
+
+LaTeX Warning: Citation `freenect' on page 29 undefined on input line 185.
+
+[29] [30]
+
+LaTeX Warning: Citation `opennilaunch' on page 31 undefined on input line 194.
+
+
+LaTeX Warning: Citation `opennitracker' on page 31 undefined on input line 194.
+
+
+
+Overfull \hbox (40.52512pt too wide) in paragraph at lines 194--196
+\T1/ppl/m/n/10.95 der se-pe-ra-ten Merk-ma-le ist die selbst im-ple-men-tier-te
+ ROS-Node "ki-nect_controllerÿuständig.
  []
 
-[29] <Bilder/ros_nodes_flow.jpg, id=160, 499.8675pt x 328.22626pt>
+
+Overfull \hbox (1.76285pt too wide) in paragraph at lines 194--196
+\T1/ppl/m/n/10.95 Dort wer-den die durch Open-NI ex-tra-hier-ten Merk-ma-le, wi
+e zum Bei-spiel lin-ke Hand,
+ []
+
+[31] <Bilder/ros_nodes_flow.jpg, id=170, 499.8675pt x 328.22626pt>
 File: Bilder/ros_nodes_flow.jpg Graphic file (type jpg)
 
 <use Bilder/ros_nodes_flow.jpg>
-Package pdftex.def Info: Bilder/ros_nodes_flow.jpg used on input line 198.
+Package pdftex.def Info: Bilder/ros_nodes_flow.jpg used on input line 206.
 (pdftex.def)             Requested size: 349.90486pt x 229.7568pt.
- [30]
-<Bilder/architecture.jpg, id=165, 845.0772pt x 597.432pt>
+ [32] [33]
+<Bilder/architecture.jpg, id=177, 845.0772pt x 597.432pt>
 File: Bilder/architecture.jpg Graphic file (type jpg)
 
 <use Bilder/architecture.jpg>
-Package pdftex.def Info: Bilder/architecture.jpg used on input line 209.
+Package pdftex.def Info: Bilder/architecture.jpg used on input line 217.
 (pdftex.def)             Requested size: 422.53757pt x 298.71527pt.
 
-Overfull \hbox (16.23215pt too wide) in paragraph at lines 209--211
+Overfull \hbox (16.23215pt too wide) in paragraph at lines 217--219
  [][] 
  []
 
-[31 <C:/Users/D062367/git/Studienarbeit/Bilder/ros_nodes_flow.jpg>] [32 <C:/Use
+[34 <C:/Users/D062367/git/Studienarbeit/Bilder/ros_nodes_flow.jpg>] [35 <C:/Use
 rs/D062367/git/Studienarbeit/Bilder/architecture.jpg>]
-<Bilder/REMODE.jpg, id=172, 516.42938pt x 289.58188pt>
+<Bilder/REMODE.jpg, id=185, 516.42938pt x 289.58188pt>
 File: Bilder/REMODE.jpg Graphic file (type jpg)
  <use Bilder/REMODE.jpg>
-Package pdftex.def Info: Bilder/REMODE.jpg used on input line 230.
+Package pdftex.def Info: Bilder/REMODE.jpg used on input line 238.
 (pdftex.def)             Requested size: 258.21405pt x 144.79057pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
-[33 <C:/Users/D062367/git/Studienarbeit/Bilder/REMODE.jpg>]
-<Bilder/door.jpg, id=176, 430.0065pt x 322.806pt>
+[36 <C:/Users/D062367/git/Studienarbeit/Bilder/REMODE.jpg>]
+<Bilder/door.jpg, id=189, 430.0065pt x 322.806pt>
 File: Bilder/door.jpg Graphic file (type jpg)
  <use Bilder/door.jpg>
-Package pdftex.def Info: Bilder/door.jpg used on input line 246.
+Package pdftex.def Info: Bilder/door.jpg used on input line 254.
 (pdftex.def)             Requested size: 236.5043pt x 177.54384pt.
 
-<Bilder/LoG.png, id=177, 321.2pt x 320.19624pt>
+<Bilder/LoG.png, id=190, 321.2pt x 320.19624pt>
 File: Bilder/LoG.png Graphic file (type png)
  <use Bilder/LoG.png>
-Package pdftex.def Info: Bilder/LoG.png used on input line 258.
+Package pdftex.def Info: Bilder/LoG.png used on input line 266.
 (pdftex.def)             Requested size: 160.59961pt x 160.09772pt.
- [34 <C:/Users/D062367/git/Studienarbeit/Bilder/door.jpg>] [35 <C:/Users/D06236
-7/git/Studienarbeit/Bilder/LoG.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 266--270
+ [37 <C:/Users/D062367/git/Studienarbeit/Bilder/door.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 274--278
 
  []
 
-<Bilder/pcl_grouping.jpg, id=185, 734.745pt x 465.23813pt>
+[38 <C:/Users/D062367/git/Studienarbeit/Bilder/LoG.png>]
+<Bilder/pcl_grouping.jpg, id=198, 734.745pt x 465.23813pt>
 File: Bilder/pcl_grouping.jpg Graphic file (type jpg)
 
 <use Bilder/pcl_grouping.jpg>
-Package pdftex.def Info: Bilder/pcl_grouping.jpg used on input line 277.
+Package pdftex.def Info: Bilder/pcl_grouping.jpg used on input line 285.
 (pdftex.def)             Requested size: 367.3716pt x 232.61848pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--286
+Underfull \hbox (badness 10000) in paragraph at lines 290--294
 
  []
 
-[36]) [37 <C:/Users/D062367/git/Studienarbeit/Bilder/pcl_grouping.jpg>]
-[38] (C:\Users\D062367\git\Studienarbeit\Inhalt/Evaluation.tex
+[39]) [40 <C:/Users/D062367/git/Studienarbeit/Bilder/pcl_grouping.jpg>]
+[41] (C:\Users\D062367\git\Studienarbeit\Inhalt/Evaluation.tex
 chapter 4.
-[39
+[42
 
 
 
@@ -994,13 +1022,13 @@ Overfull \hbox (1.35762pt too wide) in paragraph at lines 13--16
 el-le, wes-halb sie für den Zweck
  []
 
-[40])
+[43])
 Overfull \hbox (1.58775pt too wide) in paragraph at lines 20--122
 \T1/ppl/m/n/10.95 mög-lichst ex-akt sind. An-de-ren-falls ist das da-mit ver-bu
 n-de-ne Feh-ler-po-ten-ti-al zu hoch,
  []
 
-[41] (C:\Users\D062367\git\Studienarbeit\Studienarbeit.bbl
+[44] (C:\Users\D062367\git\Studienarbeit\Studienarbeit.bbl
 chapter without number
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 5.
 (C:\Users\D062367\Documents\Latex\tex\latex\base\t1cmtt.fd
@@ -1059,7 +1087,7 @@ $\T1/cmtt/m/n/10.95 tutorials / correspondence _ grouping . php # correspondenc
 e-[]grouping$\T1/ppl/m/n/10.95 , 2017.
  []
 
-[42
+[45
 
 
 ]
@@ -1092,25 +1120,456 @@ Underfull \hbox (badness 3954) in paragraph at lines 66--68
 ia . org / wiki / Odometry$\T1/ppl/m/n/10.95 , 2017.  vi-si-ted:
  []
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.85 ``{openni_
+               launch}.'' \url{http://wiki.ros.org/openni_launch}, 2017.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Underfull \hbox (badness 1127) in paragraph at lines 81--85
+! Extra }, or forgotten $.
+l.85 ``{openni_launch}
+                      .'' \url{http://wiki.ros.org/openni_launch}, 2017.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command $ invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 ``{openni_launch}.'' \url
+                              {http://wiki.ros.org/openni_launch}, 2017.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \ttfamily invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 ...'' \url{http://wiki.ros.org/openni_launch}
+                                                  , 2017.
+Please use the math alphabet \mathtt instead of the \ttfamily command. 
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.85 ...'' \url{http://wiki.ros.org/openni_launch}
+                                                  , 2017.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.85 ...'' \url{http://wiki.ros.org/openni_launch}
+                                                  , 2017.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+\Url@FormatString ...ndafter \UrlLeft \Url@String 
+                                                  \UrlRight \m@th $
+l.85 ...'' \url{http://wiki.ros.org/openni_launch}
+                                                  , 2017.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.85 ...'' \url{http://wiki.ros.org/openni_launch}
+                                                  , 2017.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.85 ...'' \url{http://wiki.ros.org/openni_launch}
+                                                  , 2017.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.85 ...'' \url{http://wiki.ros.org/openni_launch}
+                                                  , 2017.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 \bibitem{openni_tracker}
+                             
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 88
+[][]
+ []
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.88 \bibitem{openni_tracker}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.88 \bibitem{openni_tracker}
+                             
+I'm forgetting what you said and using zero instead.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.89 ``{openni_
+               tracker}.'' \url{http://wiki.ros.org/openni_tracker}, 2017.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.89 ``{openni_tracker}
+                       .'' \url{http://wiki.ros.org/openni_tracker}, 2017.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command $ invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ``{openni_tracker}.'' \url
+                               {http://wiki.ros.org/openni_tracker}, 2017.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \ttfamily invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...' \url{http://wiki.ros.org/openni_tracker}
+                                                  , 2017.
+Please use the math alphabet \mathtt instead of the \ttfamily command. 
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.89 ...' \url{http://wiki.ros.org/openni_tracker}
+                                                  , 2017.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.89 ...' \url{http://wiki.ros.org/openni_tracker}
+                                                  , 2017.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+\Url@FormatString ...ndafter \UrlLeft \Url@String 
+                                                  \UrlRight \m@th $
+l.89 ...' \url{http://wiki.ros.org/openni_tracker}
+                                                  , 2017.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.89 ...' \url{http://wiki.ros.org/openni_tracker}
+                                                  , 2017.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.89 ...' \url{http://wiki.ros.org/openni_tracker}
+                                                  , 2017.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.89 ...' \url{http://wiki.ros.org/openni_tracker}
+                                                  , 2017.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 \bibitem{fuzzylite}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 92
+[][]
+ []
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.92 \bibitem{fuzzylite}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.92 \bibitem{fuzzylite}
+                        
+I'm forgetting what you said and using zero instead.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 \bibitem{filter1}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 95
+[][]
+ []
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.95 \bibitem{filter1}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.95 \bibitem{filter1}
+                      
+I'm forgetting what you said and using zero instead.
+
+
+Overfull \hbox (222.6994pt too wide) in paragraph at lines 96--100
 []\T1/ppl/m/n/10.95 ``Filter in der Bild-ver-ar-bei-tung.'' $\T1/cmtt/m/n/10.95
- https : / / de . mathworks . com / help / images /$
+ https : / / de . mathworks . com / help / images / what-[]is-[]image-[]filteri
+ng-[]in-[]the-[]spatial-[]domain .$
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 81--85
-$\T1/cmtt/m/n/10.95 what-[]is-[]image-[]filtering-[]in-[]the-[]spatial-[]domain
- . html$\T1/ppl/m/n/10.95 , 2017.  vi-si-ted:
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 \bibitem{pclDocs}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 101
+[][]
+ []
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.101 \bibitem{pclDocs}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.101 \bibitem{pclDocs}
+                       
+I'm forgetting what you said and using zero instead.
+
+
+Overfull \hbox (3.42929pt too wide) in paragraph at lines 102--105
+[]\T1/ppl/m/n/10.95 ``Dokumentation PCL.'' $\T1/cmtt/m/n/10.95 http : / / docs 
+. pointclouds . org / trunk / classpcl _ 1 _ 1 _ edge .$
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 92--95
-[]\T1/ppl/m/n/10.95 Shital Shah and De-ba-de-ep-ta Dey and Chris Lovett and Ash
-ish Ka-poor,
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 \bibitem{airsim}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 106
+[][]
  []
 
-[43])
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.106 \bibitem{airsim}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.106 \bibitem{airsim}
+                      
+I'm forgetting what you said and using zero instead.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 \bibitem{airsimpaper}
+                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 111
+[][]
+ []
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.111 \bibitem{airsimpaper}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.111 \bibitem{airsimpaper}
+                           
+I'm forgetting what you said and using zero instead.
+
+
+! LaTeX Error: \begin{spacing} on input line 87 ended by \end{thebibliography}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{thebibliography}
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
 
 Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              You should note, that `\appendix' is a mostly globally
@@ -1125,7 +1584,35 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              and replace `\begin{appendix}' by command
 (scrreprt)              `\appendix' on input line 131.
 
-[44] (C:\Users\D062367\git\Studienarbeit\Studienarbeit.aux
+[46]
+! Extra \endgroup.
+\restore@spacing ...vskip \baselineskip \endgroup 
+                                                  \vskip -\parskip \vskip -\...
+l.136 \end{spacing}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{spacing}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 \end{spacing}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.136 \end{spacing}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+(C:\Users\D062367\git\Studienarbeit\Studienarbeit.aux
 (C:\Users\D062367\git\Studienarbeit\Inhalt/titelseite.aux)
 (C:\Users\D062367\git\Studienarbeit\Inhalt/erklaerung.aux)
 (C:\Users\D062367\git\Studienarbeit\Inhalt/abstract.aux)
@@ -1144,11 +1631,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8668 strings out of 493921
- 134762 string characters out of 3145272
- 276517 words of memory out of 3000000
- 11712 multiletter control sequences out of 15000+200000
- 44501 words of font info for 103 fonts, out of 3000000 for 9000
+ 8679 strings out of 493921
+ 134879 string characters out of 3145272
+ 276531 words of memory out of 3000000
+ 11721 multiletter control sequences out of 15000+200000
+ 44999 words of font info for 105 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  54i,11n,66p,8898b,712s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
@@ -1174,9 +1661,9 @@ s/Latex/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/D062367/Documents/Latex
 /fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/D062367/Documents/Latex/fonts/ty
 pe1/urw/palatino/uplr8a.pfb><C:/Users/D062367/Documents/Latex/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on Studienarbeit.pdf (51 pages, 2486167 bytes).
+Output written on Studienarbeit.pdf (54 pages, 2491794 bytes).
 PDF statistics:
- 685 PDF objects out of 1000 (max. 8388607)
+ 698 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -77,6 +77,21 @@
   June 2014.
 \newblock visited: 02.18.2017.
 
+\bibitem{openni}
+``{OpenNI}.'' \url{https://github.com/OpenNI/OpenNI}, 2017.
+\newblock visited: 06.04.2017.
+
+\bibitem{openni_launch}
+``{openni_launch}.'' \url{http://wiki.ros.org/openni_launch}, 2017.
+\newblock visited: 06.04.2017.
+
+\bibitem{openni_tracker}
+``{openni_tracker}.'' \url{http://wiki.ros.org/openni_tracker}, 2017.
+\newblock visited: 06.04.2017.
+
+\bibitem{fuzzylite}
+J.~Rada-Vilela, ``fuzzylite: a fuzzy logic control library,'' 2017.
+
 \bibitem{filter1}
 ``{Filter in der Bildverarbeitung}.''
   \url{https://de.mathworks.com/help/images/what-is-image-filtering-in-the-spatial-domain.html},
