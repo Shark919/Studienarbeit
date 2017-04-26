@@ -184,6 +184,30 @@ Für ROS existieren zwei Stacks für die Verwendung des Kinect Sensors:
 \end{itemize}
 Beide Implementationen liefern einen Treiber um den Sensor anzusprechen und die Kameradaten auszulesen. Allerdings gibt es auch einige Unterschieden zwischen den zwei Stacks. Der Freenect-Treiber ermöglicht es neben den Kameradaten ebenfalls die LED, einen Beschleunigungssensor, sowie die Audiodaten der Kinect zu bedienen.\cite{freenect} Dies ist mit dem Treiber von OpenNI allerdings nicht möglich. Dafür kommt auf dessen Stack noch ein Tracker mit dem es möglich ist Benutzer zu erkennen und deren Bewegungen zu tracken. Ebenfalls ermöglicht OpenNI die Segmentation der Bilddaten, Handerkennung und Gestensteuerung. Die extrahierten Merkmalspunkte können weiter verwendet werden. Beide Implementierungen sind Open Source und stehen unter der Apache2.0 Lizenz\cite{opennilicense}\cite{freenect}. Durch das Skeletontracking biete OpenNI allerdings einiges an Vorteilen für die Implementation der Steuerung, daher fällt die Wahl auf diesen Stack, da für die Usecase wesentlich besser passt.
 %\newpage
+\subsection{Architektur}
+%Beide
+Die Architektur der Anwendung wird maßgeblich durch die Verwendung des Robotic Operating System geprägt, da es eine rahmenartige Struktur bildet. Durch dieses framework-artige Verhalten bestimmt es vorrangig die Programmstruktur, welche hauptsächlich aus verschiedenen Nodes besteht. Grob betrachtet, kann man sie in 3 grundlegende Bereiche trennen:
+\begin{itemize}
+	\item Assistenzsystem
+	\item Steuerung durch Kinect
+	\item Ansteuerung der Drohne/ des Simulators
+\end{itemize}
+Die Bereiche sind alleine nutzlos, zwar können sie ihren Zweck gut erfüllen, allerdings werden die Ergebnisse nicht verwertet. Dadurch ist die Kommunikation der Bestandteile für ein optimal funktionierende Anwendung essentiell. 
+a
+a
+a
+a
+a
+a
+a
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=0.5]{Bilder/architecture.jpg}
+	\label{fig:architecture}
+	\caption{Übersicht zur Softwarearchitektur}
+\end{figure}
+
 \subsection{Kinect}
 Der visuelle Sensor Microsoft Kinect dient als Nutzerschnittstelle zur Bedienung, indem der Nutzer Gesten benutzt um die Drohne zu steuern. Um die Sensoreingaben richtig verwenden zu können sind 3 Schritte notwendig:
 \begin{itemize}
@@ -223,15 +247,7 @@ Für den Gesamten Prozess von Nutzereingabe durch den Kinectsensor bis zur Steue
 \end{figure}
 %Beide
 \newpage
-\subsection{Architektur}
-%Beide
 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[scale=0.5]{Bilder/architecture.jpg}
-	\label{fig:architecture}
-	\caption{Übersicht zur Softwarearchitektur}
-\end{figure}
 
 %Bild der Drohne http://lightspots.ch/images/ARdronebw.png
 %Bild vom Typ https://img.clipartfox.com/d02b01c31b79dd51b6c2c6a2a5db5985_stop-help-vector-art-outstretched-arm-clipart_416-416.jpeg
