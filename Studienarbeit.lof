@@ -11,13 +11,13 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Semi-Direct Monocular Visual Odometry im Simulator}}{20}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Prinzip der Lochkamera \cite {lochkamera}}}{22}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces REMODE 3D-Modell, Flug \IeC {\"u}ber Tr\IeC {\"u}mmer \cite {remode3d}}}{25}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \IeC {\"U}bersicht zur Softwarearchitektur}}{31}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Darstellung der K\IeC {\"o}rperteile in RVIZ}}{32}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces UML Klassendiagramm des Kinect Controllers}}{34}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Zusammenspiel der verschiedenen ROS-Nodes}}{36}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Approximiertes Tiefenbild durch REMODE}}{37}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Objektreferenz einer T\IeC {\"u}r}}{38}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Verlauf der zweiten Ableitung im LoG Algorithmus \cite {LoG}}}{39}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Correspondence Grouping mit dem PCL Algorithmus \cite {pclGrouping}}}{41}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \IeC {\"U}bersicht zur Softwarearchitektur}}{32}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Darstellung der K\IeC {\"o}rperteile in RVIZ}}{34}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces UML Klassendiagramm des Kinect Controllers}}{35}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Zusammenspiel der verschiedenen ROS-Nodes}}{38}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Approximiertes Tiefenbild durch REMODE}}{39}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Objektreferenz einer T\IeC {\"u}r}}{40}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Verlauf der zweiten Ableitung im LoG Algorithmus \cite {LoG}}}{41}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Correspondence Grouping mit dem PCL Algorithmus \cite {pclGrouping}}}{43}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

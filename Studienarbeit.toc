@@ -29,20 +29,20 @@
 \contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{29}
 \contentsline {subsection}{\numberline {3.3.2}FreenectStack vs OpenNI Stack}{29}
 \contentsline {subsection}{\numberline {3.3.3}Architektur}{30}
-\contentsline {subsection}{\numberline {3.3.4}Kinect}{30}
-\contentsline {subsection}{\numberline {3.3.5}Kinect Controller}{33}
-\contentsline {subsection}{\numberline {3.3.6}Fuzzy Controller}{33}
-\contentsline {subsection}{\numberline {3.3.7}Drone Controller}{34}
-\contentsline {subsection}{\numberline {3.3.8}ROS Nodes}{35}
-\contentsline {section}{\numberline {3.4}Assistenzsystem}{36}
-\contentsline {subsection}{\numberline {3.4.1}Problemanalyse}{36}
-\contentsline {subsection}{\numberline {3.4.2}L\IeC {\"o}sungsans\IeC {\"a}tze}{37}
-\contentsline {subsubsection}{\numberline {3.4.2.1}Referenzobjekt}{37}
-\contentsline {subsubsection}{\numberline {3.4.2.2}Referenzpunktwolke}{40}
-\contentsline {subsubsection}{\numberline {3.4.2.3}Alternative L\IeC {\"o}sungen}{41}
-\contentsline {chapter}{\numberline {4}Evaluation}{43}
-\contentsline {section}{\numberline {4.1}Ergebnis}{43}
-\contentsline {section}{\numberline {4.2}Ausblick}{44}
-\contentsline {subsection}{\numberline {4.2.1}Andere Simulatoren}{44}
-\contentsline {subsection}{\numberline {4.2.2}Assistenzsystem}{45}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{46}
+\contentsline {subsection}{\numberline {3.3.4}Kinect}{33}
+\contentsline {subsection}{\numberline {3.3.5}Kinect Controller}{34}
+\contentsline {subsection}{\numberline {3.3.6}Fuzzy Controller}{35}
+\contentsline {subsection}{\numberline {3.3.7}Drone Controller}{36}
+\contentsline {subsection}{\numberline {3.3.8}ROS Nodes}{36}
+\contentsline {section}{\numberline {3.4}Assistenzsystem}{38}
+\contentsline {subsection}{\numberline {3.4.1}Problemanalyse}{38}
+\contentsline {subsection}{\numberline {3.4.2}L\IeC {\"o}sungsans\IeC {\"a}tze}{39}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Referenzobjekt}{39}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Referenzpunktwolke}{42}
+\contentsline {subsubsection}{\numberline {3.4.2.3}Alternative L\IeC {\"o}sungen}{43}
+\contentsline {chapter}{\numberline {4}Evaluation}{45}
+\contentsline {section}{\numberline {4.1}Ergebnis}{45}
+\contentsline {section}{\numberline {4.2}Ausblick}{46}
+\contentsline {subsection}{\numberline {4.2.1}Andere Simulatoren}{46}
+\contentsline {subsection}{\numberline {4.2.2}Assistenzsystem}{47}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{48}

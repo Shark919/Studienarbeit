@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.8)  26 APR 2017 15:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.8)  26 APR 2017 18:07
 entering extended mode
 **Studienarbeit.tex
 (C:\Users\D062367\git\Studienarbeit\Studienarbeit.tex
@@ -915,88 +915,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--172
 
  []
 
-[27] [28] [29] <Bilder/architecture.jpg, id=164, 845.0772pt x 597.432pt>
-File: Bilder/architecture.jpg Graphic file (type jpg)
+[27] [28] [29] [30] [31] <Bilder/page01.jpg, id=170, 845.0772pt x 597.432pt>
+File: Bilder/page01.jpg Graphic file (type jpg)
 
-<use Bilder/architecture.jpg>
-Package pdftex.def Info: Bilder/architecture.jpg used on input line 206.
-(pdftex.def)             Requested size: 422.53757pt x 298.71527pt.
+<use Bilder/page01.jpg>
+Package pdftex.def Info: Bilder/page01.jpg used on input line 203.
+(pdftex.def)             Requested size: 418.52257pt x 294.70027pt.
 
-Overfull \hbox (16.23215pt too wide) in paragraph at lines 206--208
+Overfull \hbox (12.21715pt too wide) in paragraph at lines 203--205
  [][] 
  []
 
-<Bilder/skeletonmarkers.png, id=165, 1204.5pt x 877.2775pt>
+[32 <C:/Users/D062367/git/Studienarbeit/Bilder/page01.jpg>]
+<Bilder/skeletonmarkers.png, id=176, 1204.5pt x 877.2775pt>
 File: Bilder/skeletonmarkers.png Graphic file (type png)
 
 <use Bilder/skeletonmarkers.png>
-Package pdftex.def Info: Bilder/skeletonmarkers.png used on input line 221.
+Package pdftex.def Info: Bilder/skeletonmarkers.png used on input line 218.
 (pdftex.def)             Requested size: 361.35278pt x 263.18527pt.
 
-Overfull \hbox (20.67305pt too wide) in paragraph at lines 218--226
+Overfull \hbox (20.67305pt too wide) in paragraph at lines 215--223
 \T1/ppl/m/n/10.95 tung der se-pe-ra-ten Merk-ma-le ist die selbst im-ple-men-ti
 er-te ROS-Node ki-nect_controller
  []
 
-[30] [31 <C:/Users/D062367/git/Studienarbeit/Bilder/architecture.jpg>] [32 <C:/
-Users/D062367/git/Studienarbeit/Bilder/skeletonmarkers.png>]
-<Bilder/KinectController.jpg, id=176, 375.65344pt x 195.73125pt>
+[33] <Bilder/KinectController.jpg, id=180, 375.65344pt x 195.73125pt>
 File: Bilder/KinectController.jpg Graphic file (type jpg)
 
 <use Bilder/KinectController.jpg>
-Package pdftex.def Info: Bilder/KinectController.jpg used on input line 231.
+Package pdftex.def Info: Bilder/KinectController.jpg used on input line 228.
 (pdftex.def)             Requested size: 262.9556pt x 137.01093pt.
- [33] [34 <C:/Users/D062367/git/Studienarbeit/Bilder/KinectController.jpg>]
-<Bilder/ros_nodes_flow.jpg, id=183, 499.8675pt x 328.22626pt>
+ [34 <C:/Users/D062367/git/Studienarbeit/Bilder/skeletonmarkers.png>] [35 <C:/U
+sers/D062367/git/Studienarbeit/Bilder/KinectController.jpg>] <Bilder/ros_nodes_
+flow.jpg, id=189, 499.8675pt x 327.47343pt>
 File: Bilder/ros_nodes_flow.jpg Graphic file (type jpg)
 
 <use Bilder/ros_nodes_flow.jpg>
-Package pdftex.def Info: Bilder/ros_nodes_flow.jpg used on input line 244.
-(pdftex.def)             Requested size: 349.90486pt x 229.7568pt.
- [35] [36 <C:/Users/D062367/git/Studienarbeit/Bilder/ros_nodes_flow.jpg>]
-<Bilder/REMODE.jpg, id=191, 516.42938pt x 289.58188pt>
+Package pdftex.def Info: Bilder/ros_nodes_flow.jpg used on input line 241.
+(pdftex.def)             Requested size: 349.90486pt x 229.22984pt.
+ [36] [37] [38 <C:/Users/D062367/git/Studienarbeit/Bilder/ros_nodes_flow.jpg>]
+<Bilder/REMODE.jpg, id=199, 516.42938pt x 289.58188pt>
 File: Bilder/REMODE.jpg Graphic file (type jpg)
  <use Bilder/REMODE.jpg>
-Package pdftex.def Info: Bilder/REMODE.jpg used on input line 268.
+Package pdftex.def Info: Bilder/REMODE.jpg used on input line 265.
 (pdftex.def)             Requested size: 258.21405pt x 144.79057pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-[37 <C:/Users/D062367/git/Studienarbeit/Bilder/REMODE.jpg>]
-<Bilder/door.jpg, id=195, 430.0065pt x 322.806pt>
+[39 <C:/Users/D062367/git/Studienarbeit/Bilder/REMODE.jpg>]
+<Bilder/door.jpg, id=203, 430.0065pt x 322.806pt>
 File: Bilder/door.jpg Graphic file (type jpg)
  <use Bilder/door.jpg>
-Package pdftex.def Info: Bilder/door.jpg used on input line 284.
+Package pdftex.def Info: Bilder/door.jpg used on input line 281.
 (pdftex.def)             Requested size: 236.5043pt x 177.54384pt.
 
-<Bilder/LoG.png, id=196, 321.2pt x 320.19624pt>
+<Bilder/LoG.png, id=204, 321.2pt x 320.19624pt>
 File: Bilder/LoG.png Graphic file (type png)
  <use Bilder/LoG.png>
-Package pdftex.def Info: Bilder/LoG.png used on input line 296.
+Package pdftex.def Info: Bilder/LoG.png used on input line 293.
 (pdftex.def)             Requested size: 160.59961pt x 160.09772pt.
- [38 <C:/Users/D062367/git/Studienarbeit/Bilder/door.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 304--308
+ [40 <C:/Users/D062367/git/Studienarbeit/Bilder/door.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 301--305
 
  []
 
-[39 <C:/Users/D062367/git/Studienarbeit/Bilder/LoG.png>]
-<Bilder/pcl_grouping.jpg, id=204, 734.745pt x 465.23813pt>
+[41 <C:/Users/D062367/git/Studienarbeit/Bilder/LoG.png>]
+<Bilder/pcl_grouping.jpg, id=213, 734.745pt x 465.23813pt>
 File: Bilder/pcl_grouping.jpg Graphic file (type jpg)
 
 <use Bilder/pcl_grouping.jpg>
-Package pdftex.def Info: Bilder/pcl_grouping.jpg used on input line 315.
+Package pdftex.def Info: Bilder/pcl_grouping.jpg used on input line 312.
 (pdftex.def)             Requested size: 367.3716pt x 232.61848pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--324
+Underfull \hbox (badness 10000) in paragraph at lines 317--321
 
  []
 
-[40]) [41 <C:/Users/D062367/git/Studienarbeit/Bilder/pcl_grouping.jpg>]
-[42] (C:\Users\D062367\git\Studienarbeit\Inhalt/Evaluation.tex
+[42]) [43 <C:/Users/D062367/git/Studienarbeit/Bilder/pcl_grouping.jpg>]
+[44] (C:\Users\D062367\git\Studienarbeit\Inhalt/Evaluation.tex
 chapter 4.
-[43
+[45
 
 
 
@@ -1006,13 +1006,13 @@ Overfull \hbox (1.35762pt too wide) in paragraph at lines 13--16
 el-le, wes-halb sie für den Zweck
  []
 
-[44])
+[46])
 Overfull \hbox (1.58775pt too wide) in paragraph at lines 20--122
 \T1/ppl/m/n/10.95 mög-lichst ex-akt sind. An-de-ren-falls ist das da-mit ver-bu
 n-de-ne Feh-ler-po-ten-ti-al zu hoch,
  []
 
-[45] (C:\Users\D062367\git\Studienarbeit\Studienarbeit.bbl
+[47] (C:\Users\D062367\git\Studienarbeit\Studienarbeit.bbl
 chapter without number
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 5.
 (C:\Users\D062367\Documents\Latex\tex\latex\base\t1cmtt.fd
@@ -1071,7 +1071,7 @@ $\T1/cmtt/m/n/10.95 tutorials / correspondence _ grouping . php # correspondenc
 e-[]grouping$\T1/ppl/m/n/10.95 , 2017.
  []
 
-[46
+[48
 
 
 ]
@@ -1128,7 +1128,7 @@ Underfull \hbox (badness 1845) in paragraph at lines 100--103
 : / / docs . ros . org / jade / api / tf2 _ msgs /$
  []
 
-[47]
+[49]
 Underfull \hbox (badness 1127) in paragraph at lines 113--117
 []\T1/ppl/m/n/10.95 ``Filter in der Bild-ver-ar-bei-tung.'' $\T1/cmtt/m/n/10.95
  https : / / de . mathworks . com / help / images /$
@@ -1161,7 +1161,7 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              and replace `\begin{appendix}' by command
 (scrreprt)              `\appendix' on input line 131.
 
-[48] (C:\Users\D062367\git\Studienarbeit\Studienarbeit.aux
+[50] (C:\Users\D062367\git\Studienarbeit\Studienarbeit.aux
 (C:\Users\D062367\git\Studienarbeit\Inhalt/titelseite.aux)
 (C:\Users\D062367\git\Studienarbeit\Inhalt/erklaerung.aux)
 (C:\Users\D062367\git\Studienarbeit\Inhalt/abstract.aux)
@@ -1181,7 +1181,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  8689 strings out of 493921
- 135251 string characters out of 3145272
+ 135221 string characters out of 3145272
  276644 words of memory out of 3000000
  11730 multiletter control sequences out of 15000+200000
  44501 words of font info for 103 fonts, out of 3000000 for 9000
@@ -1210,9 +1210,9 @@ s/Latex/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/D062367/Documents/Latex
 /fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/D062367/Documents/Latex/fonts/ty
 pe1/urw/palatino/uplr8a.pfb><C:/Users/D062367/Documents/Latex/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on Studienarbeit.pdf (56 pages, 2604209 bytes).
+Output written on Studienarbeit.pdf (58 pages, 2838775 bytes).
 PDF statistics:
- 711 PDF objects out of 1000 (max. 8388607)
+ 720 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 127 words of extra memory for PDF output out of 10000 (max. 10000000)
 
