@@ -1,5 +1,5 @@
 % Präambel
-\documentclass[12bpt,a4paper,oneside, 
+\documentclass[12pt,a4paper,oneside, 
 liststotoc, 					% Tabellen- und Abbildungsverzeichnis ins Inhaltsverzeichnis
 bibtotoc,						% Literaturverzeichnis ins Inhaltsverzeichnis aufnehmen
 titlepage, 						% Titlepage-Umgebung statt \maketitle
@@ -20,6 +20,11 @@ BCOR6mm,						% Bindekorrektur, die den Seitenspiegel um 6mm nach rechts verschi
 \usepackage{textcomp} 			% zum Einsatz von Eurozeichen u. a. Symbolen
 \usepackage{listings}			% Datstellung von Quellcode mit den Umgebungen {lstlisting}, \lstinline und \lstinputlisting
 \usepackage{xcolor} 			% einfache Verwendung von Farben in nahezu allen Farbmodellen
+\lstset { %
+	language=C++,
+	backgroundcolor=\color{black!5}, % set backgroundcolor
+	basicstyle=\footnotesize,% basic font setting
+} %CPP Formatting for Code
 \usepackage[intoc]{nomencl} 	% zur Erstellung des Abkürzungsberzeichnisses
 \usepackage{fancyhdr}			% Zusatzpaket zur Gestaltung von Fuß und Kopfzeilen
 \usepackage{listing}

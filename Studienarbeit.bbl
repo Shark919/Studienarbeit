@@ -46,11 +46,28 @@
   2016.
 \newblock visited: 01.22.2017.
 
+\bibitem{messagebroker}
+``{Message Broker}.''
+  \url{http://www.enterpriseintegrationpatterns.com/ramblings/03_hubandspoke.html},
+  2017.
+\newblock visited: 04.11.2017.
+
+\bibitem{eventbus}
+``{Eventbus}.''
+  \url{http://timnew.me/blog/2014/12/06/typical-eventbus-design-patterns/},
+  2017.
+\newblock visited: 04.11.2017.
+
 \bibitem{real_structure}
 ``{Programmstruktur mit realer Drohne}.''
   \url{http://wiki.ros.org/tum_simulator?action=AttachFile&do=get&target=real_structure.png},
   2017.
 \newblock visited: 03.22.2017.
+
+\bibitem{fuzzylogik}
+``{Fuzzylogik}.''
+  \url{http://www.spektrum.de/magazin/prinzipien-der-fuzzy-logic/820699}, 2017.
+\newblock visited: 04.11.2017.
 
 \bibitem{defPC}
 ``{Definition PointCloud}.''
