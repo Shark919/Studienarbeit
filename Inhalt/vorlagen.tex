@@ -101,21 +101,26 @@ Die Steuerung der Drohne, wird bei dem Package nativ über einen Playstation 3 C
 \section{Fuzzylogik}
 \subsection{Allgemeines}
 Fuzzylogik, englisch fuzzy für unscharf oder verschwommen, ist eine Theorie die 1965 von Lotti Zadeh entwickelt wurde. Sie beschäftigt sich mit dem Modellierung von unscharfen Wissen und wird hauptsächlich für Kontrolltheorie,sowie künstliche Intelligenz verwendet. Im Gegensatz zur klassischen Logik, die als Ergebnis nur wahr oder falsch zulässt, kann man mit Fuzzylogik auch die Ausprägung einer Zugehörigkeit feststellen. Diese sogenannte \textit{Fuzziness} ermöglicht Zuordnungen wie \grqq stark\grqq \space oder \grqq ziemlich\grqq. Wesentliche Elemente sind linguistische Variablen, welche, was der Name impliziert, Wörter und Ausdrücke anstellen von Zahlen verwenden um diese unscharfen Mengen zu repräsentieren. Diesen wird eine Funktion zugeordnet um die jeweilige Ausprägung der Variable feststellen zu können.\cite{fuzzylogik} \newline
-
+Im folgenden werden eventuell fachspezifische Terme aus der Fuzzylogik verwendet, dafür werden nachfolgende Grundbegriffe kurz erklärt:
+\begin{itemize}
+	\item Unscharfe Menge (fuzzy set): Mathematisches Konzept zur Darstellung vager Angaben, welches teilweise Mengenzugehörigkeit erlaubt.
+	\item Unscharfe Logik (fuzzy logic): Isomorphes Konzept zur Unscharfen Menge, welches sich um den Umgang mit graduell ausgeprägten Wahrheitswerten kümmert.
+	\item Unscharfe Regel (fuzzy rule): Simple Regel, deren Prädikate unscharfe Mengen enthält.
+	\item Unscharfes Schließen (fuzzy reasoning): Formalisierung und Auswertung der unscharfen Regelbasen durch einen mathematischen Rahmen.
+	\item Unscharfe Regelung (fuzzy control): Einbindung unscharfer regelbasierter System in technischen Anwendungen, wird auch als Fuzzy Interferenz bezeichnet \cite{fuzzybook}\cite{WissensbasierteSysteme}. 
+\end{itemize}
+Das verwendete Fuzzymodell besteht insgesamt aus acht linguistischen Variablen, vier Ein- und Ausgabevariablen, von welchen jede fünf Zugehörigkeitsfunktionen besitzt. Weiterhin gibt es einen Regelblock um aus den Eingaben auf die entsprechenden Ausgaben zu schließen.
 
 \subsection{Fuzzylite}
-Für die Implementation der Fuzzylogik wird die C++ Bibliothek FuzzyLite von Juan Rada-Vilela verwendet. Es handelt sich dabei um eine gratis Opensource Libary und unterstützt alle gängigen Funktionen der Fuzzylogik.\cite{fuzzylite} Mit dem untenstehenden Code erzeugt man eine neue Engine und eine Eingabevariable mit zugehörigen Funktionen. 
+Für die Implementation der Fuzzylogik wird die C++ Bibliothek FuzzyLite von Juan Rada-Vilela verwendet. Es handelt sich dabei um eine gratis Opensource Libary und unterstützt alle gängigen Funktionen der Fuzzylogik.\cite{fuzzylite}  
 \begin{lstlisting}[caption=Beispielcode zur Erzeugung eines neuen Fuzzymodells]
 void FuzzyController::init() {
 	engine = new Engine;
 	engine->setName("input");
-	engine->setDescription("");
 	InputVariable* backward = new InputVariable;
 	backward->setName("backward");
-	backward->setDescription("");
 	backward->setEnabled(true);
 	backward->setRange(-1.000, 1.000);
-	backward->setLockValueInRange(false);
 	backward->addTerm(
 	new Trapezoid("strongForward", -1.000, -1.000, -0.800, -0.400));
 	backward->addTerm(
@@ -127,10 +132,30 @@ void FuzzyController::init() {
 	engine->addInputVariable(backward);
 }
 \end{lstlisting}
+Mit dem Code erzeugt man zunächst eine neue Engine und anschließend eine Eingabevariable. Dieser wird ein Wertebereich zugewiesen und Zugehörigkeitsfunktionen erstellt. Schlussendlich wird die Variable bei der Engine registriert. 
+\begin{lstlisting}[caption=Code zur Erzeugung von einem Regelsystem]
+RuleBlock* ruleBlock = new RuleBlock;
+ruleBlock->setEnabled(true);
+ruleBlock->setConjunction(new Minimum);
+ruleBlock->setDisjunction(new Maximum);
+ruleBlock->setImplication(new Minimum);
+ruleBlock->setActivation(new General);
+ruleBlock->addRule(Rule::parse(
+"if backward is strongForward then backwardSpeed is strongForward",
+engine));
+engine->addRuleBlock(ruleBlock);
+\end{lstlisting}
+Mit diesem Code erzeugt man ein neues Regelsystem und fügt eine beispielhafte Regel hinzu. Ein komplettes System besteht aus wesentlich mehr Regeln, da es normalerweise komplex ist.
+\begin{lstlisting}[caption=Code zur Auswertung des Regelsystems]
+backward->setValue(back);
+sideward->setValue(side);
+up->setValue(upValue);
+rotation->setValue(rotateRight);
+engine->process();
+\end{lstlisting}
+Schließlich kann man den Eingabevariablen konkrete Werte zuweisen und das System mithilfe von unscharfen Schließen auswerten.
 %Würde erwähnen dass wir es verwenden
 %wollen wir das überhaupt reinnehmen? haben wir ja eigentlich gar nicht gemacht und mussten wir uns auch %null mit beschäftigen
-
-
 \section{Kinect}
 %Max
 \subsection{Allgemeines}

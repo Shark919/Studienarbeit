@@ -69,6 +69,16 @@
   \url{http://www.spektrum.de/magazin/prinzipien-der-fuzzy-logic/820699}, 2017.
 \newblock visited: 04.11.2017.
 
+\bibitem{fuzzybook}
+L.~Zadeh, {\em Fuzzy Sets and Systems}.
+\newblock 1965.
+
+\bibitem{WissensbasierteSysteme}
+D.~S. Keller, ``Wissensbasierte systeme.'' Vorlesung, 2017.
+
+\bibitem{fuzzylite}
+J.~Rada-Vilela, ``fuzzylite: a fuzzy logic control library,'' 2017.
+
 \bibitem{defPC}
 ``{Definition PointCloud}.''
   \url{http://whatis.techtarget.com/definition/point-cloud}, Oct. 2016.
@@ -117,9 +127,6 @@
 ``{Nachrichten Typ TFMessage}.''
   \url{http://docs.ros.org/jade/api/tf2_msgs/html/msg/TFMessage.html}, 2017.
 \newblock visited: 04.11.2017.
-
-\bibitem{fuzzylite}
-J.~Rada-Vilela, ``fuzzylite: a fuzzy logic control library,'' 2017.
 
 \bibitem{studienarbeitfly}
 N.~B. D. V.~M. von Bergen, {\em Gestensteuerung eines Flugroboters im

@@ -14,36 +14,36 @@
 \contentsline {section}{\numberline {2.3}Simulation mit Gazebo}{9}
 \contentsline {section}{\numberline {2.4}Fuzzylogik}{11}
 \contentsline {subsection}{\numberline {2.4.1}Allgemeines}{11}
-\contentsline {subsection}{\numberline {2.4.2}Fuzzylite}{12}
-\contentsline {section}{\numberline {2.5}Kinect}{13}
-\contentsline {subsection}{\numberline {2.5.1}Allgemeines}{13}
-\contentsline {section}{\numberline {2.6}Punktwolken}{13}
-\contentsline {section}{\numberline {2.7}Point Cloud Library}{14}
-\contentsline {chapter}{\numberline {3}Software Architektur}{16}
-\contentsline {section}{\numberline {3.1}Anforderungen}{16}
-\contentsline {section}{\numberline {3.2}Bildverarbeitung}{18}
-\contentsline {subsection}{\numberline {3.2.1}Semi-Direct Monocular Visual Odometry - SVO}{18}
-\contentsline {subsection}{\numberline {3.2.2}Kamerakalibrierung}{20}
-\contentsline {subsection}{\numberline {3.2.3}Regularized Monocular Depth Estimation - REMODE}{24}
-\contentsline {subsection}{\numberline {3.2.4}Performanceprobleme}{27}
-\contentsline {section}{\numberline {3.3}Implementierung}{29}
-\contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{29}
-\contentsline {subsection}{\numberline {3.3.2}FreenectStack vs OpenNI Stack}{29}
-\contentsline {subsection}{\numberline {3.3.3}Architektur}{30}
-\contentsline {subsection}{\numberline {3.3.4}Kinect}{33}
-\contentsline {subsection}{\numberline {3.3.5}Kinect Controller}{34}
-\contentsline {subsection}{\numberline {3.3.6}Fuzzy Controller}{35}
-\contentsline {subsection}{\numberline {3.3.7}Drone Controller}{36}
-\contentsline {subsection}{\numberline {3.3.8}ROS Nodes}{36}
-\contentsline {section}{\numberline {3.4}Assistenzsystem}{38}
-\contentsline {subsection}{\numberline {3.4.1}Problemanalyse}{38}
-\contentsline {subsection}{\numberline {3.4.2}L\IeC {\"o}sungsans\IeC {\"a}tze}{39}
-\contentsline {subsubsection}{\numberline {3.4.2.1}Referenzobjekt}{39}
-\contentsline {subsubsection}{\numberline {3.4.2.2}Referenzpunktwolke}{42}
-\contentsline {subsubsection}{\numberline {3.4.2.3}Alternative L\IeC {\"o}sungen}{43}
-\contentsline {chapter}{\numberline {4}Evaluation}{45}
-\contentsline {section}{\numberline {4.1}Ergebnis}{45}
-\contentsline {section}{\numberline {4.2}Ausblick}{46}
-\contentsline {subsection}{\numberline {4.2.1}Andere Simulatoren}{46}
-\contentsline {subsection}{\numberline {4.2.2}Assistenzsystem}{47}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{48}
+\contentsline {subsection}{\numberline {2.4.2}Fuzzylite}{13}
+\contentsline {section}{\numberline {2.5}Kinect}{14}
+\contentsline {subsection}{\numberline {2.5.1}Allgemeines}{14}
+\contentsline {section}{\numberline {2.6}Punktwolken}{15}
+\contentsline {section}{\numberline {2.7}Point Cloud Library}{16}
+\contentsline {chapter}{\numberline {3}Software Architektur}{17}
+\contentsline {section}{\numberline {3.1}Anforderungen}{17}
+\contentsline {section}{\numberline {3.2}Bildverarbeitung}{19}
+\contentsline {subsection}{\numberline {3.2.1}Semi-Direct Monocular Visual Odometry - SVO}{19}
+\contentsline {subsection}{\numberline {3.2.2}Kamerakalibrierung}{21}
+\contentsline {subsection}{\numberline {3.2.3}Regularized Monocular Depth Estimation - REMODE}{25}
+\contentsline {subsection}{\numberline {3.2.4}Performanceprobleme}{28}
+\contentsline {section}{\numberline {3.3}Implementierung}{30}
+\contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{30}
+\contentsline {subsection}{\numberline {3.3.2}FreenectStack vs OpenNI Stack}{30}
+\contentsline {subsection}{\numberline {3.3.3}Architektur}{31}
+\contentsline {subsection}{\numberline {3.3.4}Kinect}{34}
+\contentsline {subsection}{\numberline {3.3.5}Kinect Controller}{35}
+\contentsline {subsection}{\numberline {3.3.6}Fuzzy Controller}{36}
+\contentsline {subsection}{\numberline {3.3.7}Drone Controller}{37}
+\contentsline {subsection}{\numberline {3.3.8}ROS Nodes}{37}
+\contentsline {section}{\numberline {3.4}Assistenzsystem}{39}
+\contentsline {subsection}{\numberline {3.4.1}Problemanalyse}{39}
+\contentsline {subsection}{\numberline {3.4.2}L\IeC {\"o}sungsans\IeC {\"a}tze}{40}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Referenzobjekt}{40}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Referenzpunktwolke}{43}
+\contentsline {subsubsection}{\numberline {3.4.2.3}Alternative L\IeC {\"o}sungen}{44}
+\contentsline {chapter}{\numberline {4}Evaluation}{46}
+\contentsline {section}{\numberline {4.1}Ergebnis}{46}
+\contentsline {section}{\numberline {4.2}Ausblick}{47}
+\contentsline {subsection}{\numberline {4.2.1}Andere Simulatoren}{47}
+\contentsline {subsection}{\numberline {4.2.2}Assistenzsystem}{48}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{49}
