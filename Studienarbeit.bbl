@@ -35,6 +35,11 @@
   2017.
 \newblock visited: 03.05.2017.
 
+\bibitem{airsim}
+{Shital Shah and Debadeepta Dey and Chris Lovett and Ashish Kapoor},
+  ``{Microsoft AirSim}.'' \url{https://github.com/Microsoft/AirSim}, 2017.
+\newblock visited: 03.16.2017.
+
 \bibitem{drone}
 ``{Parrot AR.Drone}.'' \url{https://de.wikipedia.org/wiki/Parrot_AR.Drone},
   2016.
@@ -45,6 +50,14 @@
   \url{http://www.willowgarage.com/blog/2009/06/10/orocos-rtt-and-ros-integrated},
   2016.
 \newblock visited: 01.22.2017.
+
+\bibitem{rosbook}
+L.~Joseph, {\em ROS Robotics Projects}.
+\newblock Packt Publishing, March 2017.
+
+\bibitem{rosconcepts}
+``{ROS Konzepte}.'' \url{http://wiki.ros.org/ROS/Concepts}, 2017.
+\newblock visited: 04.11.2017.
 
 \bibitem{messagebroker}
 ``{Message Broker}.''
@@ -61,6 +74,12 @@
 \bibitem{real_structure}
 ``{Programmstruktur mit realer Drohne}.''
   \url{http://wiki.ros.org/tum_simulator?action=AttachFile&do=get&target=real_structure.png},
+  2017.
+\newblock visited: 03.22.2017.
+
+\bibitem{sim_structure}
+``{Programmstruktur mit Simulation}.''
+  \url{http://wiki.ros.org/tum_simulator?action=AttachFile&do=get&target=sim_structure.png},
   2017.
 \newblock visited: 03.22.2017.
 
@@ -143,11 +162,6 @@ N.~B. D. V.~M. von Bergen, {\em Gestensteuerung eines Flugroboters im
 ``{Dokumentation PCL}.''
   \url{http://docs.pointclouds.org/trunk/classpcl_1_1_edge.html}, Mar. 2017.
 \newblock visited: 03.29.2017.
-
-\bibitem{airsim}
-{Shital Shah and Debadeepta Dey and Chris Lovett and Ashish Kapoor},
-  ``{Microsoft AirSim}.'' \url{https://github.com/Microsoft/AirSim}, 2017.
-\newblock visited: 03.16.2017.
 
 \bibitem{airsimpaper}
 S.~Shah, D.~Dey, C.~Lovett, and A.~Kapoor, ``{A}erial {I}nformatics and

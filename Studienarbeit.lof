@@ -2,22 +2,23 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Parrot AR.DRONE 2.0 Elite Edition \cite {dronepicture}}}{4}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Publish-Subscribe Pattern}}{9}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Programmstruktur mit dem realen Quadrocopter}}{10}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Programmstruktur unter Verwendung von Gazebo}}{11}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Beispiel einer visualisierten Punktwolke \cite {visPC}}}{15}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Parrot AR.DRONE 2.0 Elite Edition \cite {dronepicture}}}{5}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Publish-Subscribe Pattern}}{10}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Programmstruktur mit dem realen Quadrocopter}}{12}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Programmstruktur unter Verwendung von Gazebo}}{13}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Beispiel einer visualisierten Punktwolke \cite {visPC}}}{17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Semi-Direct Monocular Visual Odometry im Simulator}}{21}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Prinzip der Lochkamera \cite {lochkamera}}}{23}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces REMODE 3D-Modell, Flug \IeC {\"u}ber Tr\IeC {\"u}mmer \cite {remode3d}}}{26}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \IeC {\"U}bersicht zur Softwarearchitektur}}{33}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Darstellung der K\IeC {\"o}rperteile in RVIZ}}{35}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces UML Klassendiagramm des Kinect Controllers}}{36}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Zusammenspiel der verschiedenen ROS-Nodes}}{39}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Approximiertes Tiefenbild durch REMODE}}{40}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Objektreferenz einer T\IeC {\"u}r}}{41}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Verlauf der zweiten Ableitung im LoG Algorithmus \cite {LoG}}}{42}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Correspondence Grouping mit dem PCL Algorithmus \cite {pclGrouping}}}{44}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Semi-Direct Monocular Visual Odometry im Simulator}}{23}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Prinzip der Lochkamera \cite {lochkamera}}}{25}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces REMODE 3D-Modell, Flug \IeC {\"u}ber Tr\IeC {\"u}mmer \cite {remode3d}}}{28}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \IeC {\"U}bersicht zur Softwarearchitektur}}{35}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Darstellung der K\IeC {\"o}rperteile in RVIZ}}{37}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces UML Klassendiagramm des Kinect Controllers}}{38}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Zusammenspiel der verschiedenen ROS-Nodes}}{41}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Approximiertes Tiefenbild durch REMODE}}{42}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Objektreferenz einer T\IeC {\"u}r}}{43}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Verlauf der zweiten Ableitung im LoG Algorithmus \cite {LoG}}}{44}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Correspondence Grouping mit dem PCL Algorithmus \cite {pclGrouping}}}{46}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces AirSim von Mircosoft in Aktion\cite {airsim}}}{50}
 \addvspace {10\p@ }

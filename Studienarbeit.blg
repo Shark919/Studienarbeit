@@ -8,11 +8,6 @@ A level-1 auxiliary file: Inhalt/implementation.aux
 A level-1 auxiliary file: Inhalt/Evaluation.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
-Repeated entry---line 227 of file references.bib
- : @misc {real_structure
- :                      ,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "sim_structure"
 Warning--empty publisher in fuzzybook
 Warning--empty publisher in studienarbeitfly
-(There was 1 error message)
+(There were 2 warnings)
