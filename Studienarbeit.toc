@@ -16,7 +16,6 @@
 \contentsline {subsection}{\numberline {2.4.1}Allgemeines}{12}
 \contentsline {subsection}{\numberline {2.4.2}Fuzzylite}{14}
 \contentsline {section}{\numberline {2.5}Kinect}{16}
-\contentsline {subsection}{\numberline {2.5.1}Allgemeines}{16}
 \contentsline {section}{\numberline {2.6}Punktwolken}{16}
 \contentsline {section}{\numberline {2.7}Point Cloud Library}{17}
 \contentsline {chapter}{\numberline {3}Software Architektur}{19}
@@ -30,7 +29,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{32}
 \contentsline {subsection}{\numberline {3.3.2}FreenectStack vs OpenNI Stack}{32}
 \contentsline {subsection}{\numberline {3.3.3}Architektur}{33}
-\contentsline {subsection}{\numberline {3.3.4}Kinect}{36}
+\contentsline {subsection}{\numberline {3.3.4}Ansteuerung der Kinect}{36}
 \contentsline {subsection}{\numberline {3.3.5}Kinect Controller}{37}
 \contentsline {subsection}{\numberline {3.3.6}Fuzzy Controller}{38}
 \contentsline {subsection}{\numberline {3.3.7}Drone Controller}{39}
