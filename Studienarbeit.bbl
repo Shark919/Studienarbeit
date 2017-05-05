@@ -55,6 +55,10 @@
 L.~Joseph, {\em ROS Robotics Projects}.
 \newblock Packt Publishing, March 2017.
 
+\bibitem{rosgeneral}
+``{ROS Einführung}.'' \url{http://wiki.ros.org/ROS/Introduction}, 2017.
+\newblock visited: 04.11.2017.
+
 \bibitem{rosconcepts}
 ``{ROS Konzepte}.'' \url{http://wiki.ros.org/ROS/Concepts}, 2017.
 \newblock visited: 04.11.2017.
