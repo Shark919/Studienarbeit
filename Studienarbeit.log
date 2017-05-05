@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.8)  5 MAY 2017 19:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.8)  5 MAY 2017 20:21
 entering extended mode
 **Studienarbeit.tex
 (C:\Users\D062367\git\Studienarbeit\Studienarbeit.tex
@@ -693,9 +693,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--31
 (C:\Users\D062367\git\Studienarbeit\Studienarbeit.toc [4
 
 
-] [5])
+])
 \tf@toc=\write4
- [6]
+ [5] [6]
 No file Studienarbeit.nls.
 (C:\Users\D062367\git\Studienarbeit\Studienarbeit.lof)
 \tf@lof=\write5
@@ -731,6 +731,13 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
  <C:/Users/D062367/git/Studienarbeit/Bilder/ar_drone.png>] [6]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 39.
+
+
+LaTeX Warning: Citation `singleresp' on page 7 undefined on input line 40.
+
+
+LaTeX Warning: Citation `clientlibary' on page 7 undefined on input line 42.
+
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 46.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -744,9 +751,9 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 46.
 
-Overfull \hbox (3.20828pt too wide) in paragraph at lines 39--47
-\T1/ppl/m/n/10.95 al-so nur ei-ne kon-kre-te Auf-ga-be ha-ben. Die-ses Prin-zip
- lässt sich mit ei-ne Mikroservice-
+Overfull \hbox (0.69086pt too wide) in paragraph at lines 39--47
+\T1/ppl/m/n/10.95 [[]][[]] \T1/ppl/b/n/10.95 Werk-zeug-ba-siert: \T1/ppl/m/n/10
+.95 Da-bei han-delt es sich um ein wei-te-res grund-le-gen-des Prin-
  []
 
 
@@ -765,35 +772,38 @@ Overfull \hbox (12.406pt too wide) in paragraph at lines 39--47
 File: Bilder/pubsub1.jpg Graphic file (type jpg)
 
 <use Bilder/pubsub1.jpg>
-Package pdftex.def Info: Bilder/pubsub1.jpg used on input line 54.
+Package pdftex.def Info: Bilder/pubsub1.jpg used on input line 55.
 (pdftex.def)             Requested size: 352.53969pt x 154.40079pt.
  [8] [9]
+
+LaTeX Warning: Citation `tumsim' on page 10 undefined on input line 87.
+
 <Bilder/real_structure.png, id=77, 414.04688pt x 218.31563pt>
 File: Bilder/real_structure.png Graphic file (type png)
 
 <use Bilder/real_structure.png>
-Package pdftex.def Info: Bilder/real_structure.png used on input line 89.
+Package pdftex.def Info: Bilder/real_structure.png used on input line 90.
 (pdftex.def)             Requested size: 372.63873pt x 196.48222pt.
 
 <Bilder/sim_structure.png, id=78, 376.40625pt x 248.42813pt>
 File: Bilder/sim_structure.png Graphic file (type png)
 
 <use Bilder/sim_structure.png>
-Package pdftex.def Info: Bilder/sim_structure.png used on input line 96.
+Package pdftex.def Info: Bilder/sim_structure.png used on input line 97.
 (pdftex.def)             Requested size: 376.40532pt x 248.42752pt.
  [10 <C:/Users/D062367/git/Studienarbeit/Bilder/pubsub1.jpg>] [11] [12 <C:/User
 s/D062367/git/Studienarbeit/Bilder/real_structure.png>]
-Overfull \hbox (6.1pt too wide) in paragraph at lines 107--108
+Overfull \hbox (6.1pt too wide) in paragraph at lines 108--109
 \T1/ppl/m/n/10.95 wel-ches sich um den Um-gang mit gra-du-ell aus-ge-präg-ten W
 ahr-heits-wer-ten küm-
  []
 
 [13 <C:/Users/D062367/git/Studienarbeit/Bilder/sim_structure.png>]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 117.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 118.
  [14]
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 168--170
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
 
  []
 
@@ -801,20 +811,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--170
 File: Bilder/pointcloud_1.jpg Graphic file (type jpg)
 
 <use Bilder/pointcloud_1.jpg>
-Package pdftex.def Info: Bilder/pointcloud_1.jpg used on input line 173.
+Package pdftex.def Info: Bilder/pointcloud_1.jpg used on input line 174.
 (pdftex.def)             Requested size: 284.7858pt x 188.48538pt.
-LaTeX Font Info:    Try loading font information for U+fplmbb on input line 178
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 179
 .
 
 (C:\Users\D062367\Documents\Latex\tex\latex\psnfss\ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
-[16]) [17 <C:/Users/D062367/git/Studienarbeit/Bilder/pointcloud_1.jpg>]
-[18] (C:\Users\D062367\git\Studienarbeit\Inhalt/implementation.tex
+) [16] [17 <C:/Users/D062367/git/Studienarbeit/Bilder/pointcloud_1.jpg>]
+(C:\Users\D062367\git\Studienarbeit\Inhalt/implementation.tex
 chapter 3.
 
 Overfull \hbox (0.50383pt too wide) in paragraph at lines 7--17
@@ -822,23 +832,23 @@ Overfull \hbox (0.50383pt too wide) in paragraph at lines 7--17
 e-rung ei-nes As-si-stenz-sy-stems.
  []
 
-[19
+[18
 
 
 
-] [20]
+] [19]
 Overfull \hbox (0.7007pt too wide) in paragraph at lines 20--21
 \T1/ppl/m/n/10.95 fen-in-for-ma-tio-nen zu ge-win-nen. Die be-schrie-be-nen Im-
 ple-men-tie-run-gen be-zie-hen sich
  []
 
-<Bilder/SVO.jpg, id=118, 514.92375pt x 293.095pt>
+<Bilder/SVO.jpg, id=115, 514.92375pt x 293.095pt>
 File: Bilder/SVO.jpg Graphic file (type jpg)
  <use Bilder/SVO.jpg>
 Package pdftex.def Info: Bilder/SVO.jpg used on input line 38.
 (pdftex.def)             Requested size: 360.44417pt x 205.16508pt.
- [21]
-[22]
+ [20]
+[21]
 Overfull \hbox (6.93181pt too wide) in paragraph at lines 43--46
 \T1/ppl/m/n/10.95 Die An-zahl der ak-tu-ell ge-fun-de-nen Fea-tu-res kann da-be
 i stark va-ri-ie-ren. Die-se Schwan-
@@ -849,36 +859,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
-[23 <C:/Users/D062367/git/Studienarbeit/Bilder/SVO.jpg>]
-<Bilder/pinhole.png, id=129, 401.5pt x 274.02374pt>
+[22 <C:/Users/D062367/git/Studienarbeit/Bilder/SVO.jpg>]
+<Bilder/pinhole.png, id=125, 401.5pt x 274.02374pt>
 File: Bilder/pinhole.png Graphic file (type png)
  <use Bilder/pinhole.png>
 Package pdftex.def Info: Bilder/pinhole.png used on input line 70.
 (pdftex.def)             Requested size: 200.7495pt x 137.01154pt.
 
-[24] <Bilder/distortion.png, id=133, 260.47313pt x 15.05624pt>
+[23] <Bilder/distortion.png, id=130, 260.47313pt x 15.05624pt>
 File: Bilder/distortion.png Graphic file (type png)
 
 <use Bilder/distortion.png>
 Package pdftex.def Info: Bilder/distortion.png used on input line 81.
 (pdftex.def)             Requested size: 182.32994pt x 10.53929pt.
 
-<Bilder/radialFactors.png, id=134, 213.79875pt x 36.88782pt>
+<Bilder/radialFactors.png, id=131, 213.79875pt x 36.88782pt>
 File: Bilder/radialFactors.png Graphic file (type png)
 
 <use Bilder/radialFactors.png>
 Package pdftex.def Info: Bilder/radialFactors.png used on input line 89.
 (pdftex.def)             Requested size: 149.6581pt x 25.82127pt.
- [25 <C:/Users/D062367/git/Studienarbeit/Bilder/pinhole.png> <C:/Users/D062367/
+ [24 <C:/Users/D062367/git/Studienarbeit/Bilder/pinhole.png> <C:/Users/D062367/
 git/Studienarbeit/Bilder/distortion.png>]
-<Bilder/tangentialFactors.png, id=140, 222.8325pt x 37.64063pt>
+<Bilder/tangentialFactors.png, id=137, 222.8325pt x 37.64063pt>
 File: Bilder/tangentialFactors.png Graphic file (type png)
 
 <use Bilder/tangentialFactors.png>
 Package pdftex.def Info: Bilder/tangentialFactors.png used on input line 98.
 (pdftex.def)             Requested size: 155.98167pt x 26.34824pt.
 
-<Bilder/matrixEquation.png, id=141, 146.04562pt x 50.43843pt>
+<Bilder/matrixEquation.png, id=138, 146.04562pt x 50.43843pt>
 File: Bilder/matrixEquation.png Graphic file (type png)
 
 <use Bilder/matrixEquation.png>
@@ -889,28 +899,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-<Bilder/calibrationChecker.png, id=142, 772.8875pt x 560.0925pt>
+<Bilder/calibrationChecker.png, id=139, 772.8875pt x 560.0925pt>
 File: Bilder/calibrationChecker.png Graphic file (type png)
 
 <use Bilder/calibrationChecker.png>
 Package pdftex.def Info: Bilder/calibrationChecker.png used on input line 119.
 (pdftex.def)             Requested size: 309.14952pt x 224.03302pt.
- [26 <C:/Users/D062367/git/Studienarbeit/Bilder/radialFactors.png> <C:/Users/D0
+ [25 <C:/Users/D062367/git/Studienarbeit/Bilder/radialFactors.png> <C:/Users/D0
 62367/git/Studienarbeit/Bilder/tangentialFactors.png> <C:/Users/D062367/git/Stu
 dienarbeit/Bilder/matrixEquation.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 127--134
 
  []
 
-[27 <C:/Users/D062367/git/Studienarbeit/Bilder/calibrationChecker.png>]
-<Bilder/remode_3dmodel.jpg, id=154, 1841.88126pt x 921.4425pt>
+[26 <C:/Users/D062367/git/Studienarbeit/Bilder/calibrationChecker.png>]
+<Bilder/remode_3dmodel.jpg, id=151, 1841.88126pt x 921.4425pt>
 File: Bilder/remode_3dmodel.jpg Graphic file (type jpg)
 
 <use Bilder/remode_3dmodel.jpg>
 Package pdftex.def Info: Bilder/remode_3dmodel.jpg used on input line 137.
 (pdftex.def)             Requested size: 405.21513pt x 202.71797pt.
- [28 <C:/Users/D062367/git/Studienarbeit/Bilder/remode_3dmodel.jpg>]
-<Bilder/REMODE_overview.jpg, id=158, 338.26375pt x 263.98625pt>
+ [27 <C:/Users/D062367/git/Studienarbeit/Bilder/remode_3dmodel.jpg>]
+<Bilder/REMODE_overview.jpg, id=155, 338.26375pt x 263.98625pt>
 File: Bilder/REMODE_overview.jpg Graphic file (type jpg)
 
 <use Bilder/REMODE_overview.jpg>
@@ -927,12 +937,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--158
 
  []
 
-[29 <C:/Users/D062367/git/Studienarbeit/Bilder/REMODE_overview.jpg>]
+[28 <C:/Users/D062367/git/Studienarbeit/Bilder/REMODE_overview.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 165--172
 
  []
 
-[30] [31] [32] [33] [34] <Bilder/page01.jpg, id=178, 845.0772pt x 597.432pt>
+[29] [30] [31] [32] [33] <Bilder/page01.jpg, id=175, 845.0772pt x 597.432pt>
 File: Bilder/page01.jpg Graphic file (type jpg)
 
 <use Bilder/page01.jpg>
@@ -943,8 +953,8 @@ Overfull \hbox (12.21715pt too wide) in paragraph at lines 203--205
  [][] 
  []
 
-[35 <C:/Users/D062367/git/Studienarbeit/Bilder/page01.jpg>]
-<Bilder/skeletonmarkers.png, id=185, 1204.5pt x 877.2775pt>
+[34 <C:/Users/D062367/git/Studienarbeit/Bilder/page01.jpg>]
+<Bilder/skeletonmarkers.png, id=181, 1204.5pt x 877.2775pt>
 File: Bilder/skeletonmarkers.png Graphic file (type png)
 
 <use Bilder/skeletonmarkers.png>
@@ -956,22 +966,22 @@ Overfull \hbox (20.67305pt too wide) in paragraph at lines 215--223
 er-te ROS-Node ki-nect_controller
  []
 
-[36] <Bilder/KinectController.jpg, id=189, 375.65344pt x 195.73125pt>
+[35] <Bilder/KinectController.jpg, id=186, 375.65344pt x 195.73125pt>
 File: Bilder/KinectController.jpg Graphic file (type jpg)
 
 <use Bilder/KinectController.jpg>
 Package pdftex.def Info: Bilder/KinectController.jpg used on input line 228.
 (pdftex.def)             Requested size: 262.9556pt x 137.01093pt.
- [37 <C:/Users/D062367/git/Studienarbeit/Bilder/skeletonmarkers.png>] [38 <C:/U
+ [36 <C:/Users/D062367/git/Studienarbeit/Bilder/skeletonmarkers.png>] [37 <C:/U
 sers/D062367/git/Studienarbeit/Bilder/KinectController.jpg>] <Bilder/ros_nodes_
-flow.jpg, id=197, 499.8675pt x 327.47343pt>
+flow.jpg, id=194, 499.8675pt x 327.47343pt>
 File: Bilder/ros_nodes_flow.jpg Graphic file (type jpg)
 
 <use Bilder/ros_nodes_flow.jpg>
 Package pdftex.def Info: Bilder/ros_nodes_flow.jpg used on input line 241.
 (pdftex.def)             Requested size: 349.90486pt x 229.22984pt.
- [39] [40] [41 <C:/Users/D062367/git/Studienarbeit/Bilder/ros_nodes_flow.jpg>]
-<Bilder/REMODE.jpg, id=208, 516.42938pt x 289.58188pt>
+ [38] [39] [40 <C:/Users/D062367/git/Studienarbeit/Bilder/ros_nodes_flow.jpg>]
+<Bilder/REMODE.jpg, id=204, 516.42938pt x 289.58188pt>
 File: Bilder/REMODE.jpg Graphic file (type jpg)
  <use Bilder/REMODE.jpg>
 Package pdftex.def Info: Bilder/REMODE.jpg used on input line 265.
@@ -981,25 +991,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-[42 <C:/Users/D062367/git/Studienarbeit/Bilder/REMODE.jpg>]
-<Bilder/door.jpg, id=212, 430.0065pt x 322.806pt>
+[41 <C:/Users/D062367/git/Studienarbeit/Bilder/REMODE.jpg>]
+<Bilder/door.jpg, id=209, 430.0065pt x 322.806pt>
 File: Bilder/door.jpg Graphic file (type jpg)
  <use Bilder/door.jpg>
 Package pdftex.def Info: Bilder/door.jpg used on input line 281.
 (pdftex.def)             Requested size: 236.5043pt x 177.54384pt.
 
-<Bilder/LoG.png, id=213, 321.2pt x 320.19624pt>
+<Bilder/LoG.png, id=210, 321.2pt x 320.19624pt>
 File: Bilder/LoG.png Graphic file (type png)
  <use Bilder/LoG.png>
 Package pdftex.def Info: Bilder/LoG.png used on input line 293.
 (pdftex.def)             Requested size: 160.59961pt x 160.09772pt.
- [43 <C:/Users/D062367/git/Studienarbeit/Bilder/door.jpg>]
+ [42 <C:/Users/D062367/git/Studienarbeit/Bilder/door.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 301--305
 
  []
 
-[44 <C:/Users/D062367/git/Studienarbeit/Bilder/LoG.png>]
-<Bilder/pcl_grouping.jpg, id=221, 734.745pt x 465.23813pt>
+[43 <C:/Users/D062367/git/Studienarbeit/Bilder/LoG.png>]
+<Bilder/pcl_grouping.jpg, id=218, 734.745pt x 465.23813pt>
 File: Bilder/pcl_grouping.jpg Graphic file (type jpg)
 
 <use Bilder/pcl_grouping.jpg>
@@ -1010,14 +1020,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 317--321
 
  []
 
-[45]) [46 <C:/Users/D062367/git/Studienarbeit/Bilder/pcl_grouping.jpg>]
-[47] (C:\Users\D062367\git\Studienarbeit\Inhalt/Evaluation.tex
+[44]) [45 <C:/Users/D062367/git/Studienarbeit/Bilder/pcl_grouping.jpg>]
+[46] (C:\Users\D062367\git\Studienarbeit\Inhalt/Evaluation.tex
 chapter 4.
-[48
+[47
 
 
 
-] <Bilder/airsim.png, id=235, 1445.4pt x 813.0375pt>
+] <Bilder/airsim.png, id=232, 1445.4pt x 813.0375pt>
 File: Bilder/airsim.png Graphic file (type png)
 
 <use Bilder/airsim.png>
@@ -1029,13 +1039,13 @@ Overfull \hbox (1.35762pt too wide) in paragraph at lines 13--22
 el-le, wes-halb sie für den Zweck
  []
 
-[49])
+[48])
 Overfull \hbox (1.58775pt too wide) in paragraph at lines 26--127
 \T1/ppl/m/n/10.95 mög-lichst ex-akt sind. An-de-ren-falls ist das da-mit ver-bu
 n-de-ne Feh-ler-po-ten-ti-al zu hoch,
  []
 
-[50 <C:/Users/D062367/git/Studienarbeit/Bilder/airsim.png>] [51]
+[49 <C:/Users/D062367/git/Studienarbeit/Bilder/airsim.png>] [50]
 (C:\Users\D062367\git\Studienarbeit\Studienarbeit.bbl
 chapter without number
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 5.
@@ -1101,7 +1111,7 @@ Underfull \hbox (badness 1521) in paragraph at lines 39--42
 ish Ka-poor,
  []
 
-[52
+[51
 
 
 ]
@@ -1146,7 +1156,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--94
 um . de / magazin /$
  []
 
-[53]
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 106--109
 []\T1/ppl/m/n/10.95 ``Definition Point-Cloud.'' $\T1/cmtt/m/n/10.95 http : / / 
 whatis . techtarget . com / definition /$
@@ -1188,7 +1198,7 @@ Underfull \hbox (badness 1845) in paragraph at lines 150--153
 : / / docs . ros . org / jade / api / tf2 _ msgs /$
  []
 
-[54]
+[53]
 Underfull \hbox (badness 1127) in paragraph at lines 160--164
 []\T1/ppl/m/n/10.95 ``Filter in der Bild-ver-ar-bei-tung.'' $\T1/cmtt/m/n/10.95
  https : / / de . mathworks . com / help / images /$
@@ -1215,7 +1225,7 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              and replace `\begin{appendix}' by command
 (scrreprt)              `\appendix' on input line 136.
 
-[55] (C:\Users\D062367\git\Studienarbeit\Studienarbeit.aux
+[54] (C:\Users\D062367\git\Studienarbeit\Studienarbeit.aux
 (C:\Users\D062367\git\Studienarbeit\Inhalt/titelseite.aux)
 (C:\Users\D062367\git\Studienarbeit\Inhalt/erklaerung.aux)
 (C:\Users\D062367\git\Studienarbeit\Inhalt/abstract.aux)
@@ -1227,17 +1237,20 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9204 strings out of 493921
- 140702 string characters out of 3145272
- 295509 words of memory out of 3000000
- 12235 multiletter control sequences out of 15000+200000
+ 9207 strings out of 493921
+ 140736 string characters out of 3145272
+ 294509 words of memory out of 3000000
+ 12238 multiletter control sequences out of 15000+200000
  46761 words of font info for 108 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 54i,12n,66p,8898b,2058s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,12n,66p,8898b,1399s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\ectt1095.pk>{C:/Users/D062367/Documents/Latex/fonts/enc/dvips/fontname/8r.enc
 } <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
@@ -1261,9 +1274,9 @@ s/Latex/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/D062367/Documents/Latex
 /fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/D062367/Documents/Latex/fonts/ty
 pe1/urw/palatino/uplr8a.pfb><C:/Users/D062367/Documents/Latex/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on Studienarbeit.pdf (63 pages, 6152360 bytes).
+Output written on Studienarbeit.pdf (62 pages, 6152191 bytes).
 PDF statistics:
- 740 PDF objects out of 1000 (max. 8388607)
+ 735 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  127 words of extra memory for PDF output out of 10000 (max. 10000000)
 
