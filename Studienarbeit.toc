@@ -15,30 +15,31 @@
 \contentsline {subsection}{\numberline {2.4.1}Allgemeines}{12}
 \contentsline {subsection}{\numberline {2.4.2}Fuzzylite}{14}
 \contentsline {section}{\numberline {2.5}Kinect}{16}
-\contentsline {section}{\numberline {2.6}Punktwolken}{16}
-\contentsline {section}{\numberline {2.7}Point Cloud Library}{17}
-\contentsline {chapter}{\numberline {3}Software Architektur}{18}
-\contentsline {section}{\numberline {3.1}Anforderungen}{18}
-\contentsline {section}{\numberline {3.2}Bildverarbeitung}{20}
-\contentsline {subsection}{\numberline {3.2.1}Semi-Direct Monocular Visual Odometry - SVO}{20}
-\contentsline {subsection}{\numberline {3.2.2}Kamerakalibrierung}{22}
-\contentsline {subsection}{\numberline {3.2.3}Regularized Monocular Depth Estimation - REMODE}{26}
-\contentsline {subsection}{\numberline {3.2.4}Performanceprobleme}{29}
-\contentsline {section}{\numberline {3.3}Implementierung}{31}
-\contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{31}
-\contentsline {subsection}{\numberline {3.3.2}FreenectStack vs OpenNI Stack}{31}
-\contentsline {subsection}{\numberline {3.3.3}Architektur}{32}
-\contentsline {subsection}{\numberline {3.3.4}Ansteuerung der Kinect}{35}
-\contentsline {subsection}{\numberline {3.3.5}Kinect Controller}{36}
-\contentsline {subsection}{\numberline {3.3.6}Fuzzy Controller}{37}
-\contentsline {subsection}{\numberline {3.3.7}Drone Controller}{38}
-\contentsline {subsection}{\numberline {3.3.8}ROS Nodes}{38}
-\contentsline {section}{\numberline {3.4}Assistenzsystem}{40}
-\contentsline {subsection}{\numberline {3.4.1}Problemanalyse}{40}
-\contentsline {subsection}{\numberline {3.4.2}L\IeC {\"o}sungsans\IeC {\"a}tze}{41}
-\contentsline {subsubsection}{\numberline {3.4.2.1}Referenzobjekt}{41}
-\contentsline {subsubsection}{\numberline {3.4.2.2}Referenzpunktwolke}{44}
-\contentsline {subsubsection}{\numberline {3.4.2.3}Alternative L\IeC {\"o}sungen}{45}
+\contentsline {subsection}{\numberline {2.5.1}Allgemeines}{16}
+\contentsline {subsection}{\numberline {2.5.2}Vergleich der verschieden Stacks zur Implementation}{16}
+\contentsline {section}{\numberline {2.6}Punktwolken}{17}
+\contentsline {section}{\numberline {2.7}Point Cloud Library}{18}
+\contentsline {chapter}{\numberline {3}Software Architektur}{19}
+\contentsline {section}{\numberline {3.1}Anforderungen}{19}
+\contentsline {section}{\numberline {3.2}Bildverarbeitung}{21}
+\contentsline {subsection}{\numberline {3.2.1}Semi-Direct Monocular Visual Odometry - SVO}{21}
+\contentsline {subsection}{\numberline {3.2.2}Kamerakalibrierung}{23}
+\contentsline {subsection}{\numberline {3.2.3}Regularized Monocular Depth Estimation - REMODE}{27}
+\contentsline {subsection}{\numberline {3.2.4}Performanceprobleme}{30}
+\contentsline {section}{\numberline {3.3}Implementierung}{32}
+\contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{32}
+\contentsline {subsection}{\numberline {3.3.2}Architektur}{32}
+\contentsline {subsection}{\numberline {3.3.3}Ansteuerung der Kinect}{35}
+\contentsline {subsection}{\numberline {3.3.4}Kinect Controller}{37}
+\contentsline {subsection}{\numberline {3.3.5}Fuzzy Controller}{37}
+\contentsline {subsection}{\numberline {3.3.6}Drone Controller}{38}
+\contentsline {subsection}{\numberline {3.3.7}ROS Nodes}{39}
+\contentsline {section}{\numberline {3.4}Assistenzsystem}{41}
+\contentsline {subsection}{\numberline {3.4.1}Problemanalyse}{41}
+\contentsline {subsection}{\numberline {3.4.2}L\IeC {\"o}sungsans\IeC {\"a}tze}{42}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Referenzobjekt}{42}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Referenzpunktwolke}{45}
+\contentsline {subsubsection}{\numberline {3.4.2.3}Alternative L\IeC {\"o}sungen}{46}
 \contentsline {chapter}{\numberline {4}Evaluation}{47}
 \contentsline {section}{\numberline {4.1}Ergebnis}{47}
 \contentsline {section}{\numberline {4.2}Ausblick}{48}

@@ -176,13 +176,6 @@ Diese Beobachtungen aus den Testläufen decken sich mit den Hinweisen zur Perfor
 \subsection{Grundlegende Herausforderungen}
 Es bestand eine nicht modularisierte, schlecht dokumentierte C\# Dokumentation für eine Windowsumgebung. Diese galt es teilweise für ROS zu übernehmen. Für Windows existiert ein Kinect Software Development Kit, welches die Programmierung erleichtert. Ein weiteres generelles Problem war die Versionsinkompatibilitäten verschiedener ROS-Nodes untereinander, der ROS-Version oder mit der Betriebssystemversion. Hierbei ist es notwendig das Zusammenspiel verschiedenster Versionen zu testen und zwischen Alternativen abzuwägen. 
 
-\subsection{FreenectStack vs OpenNI Stack}
-Für ROS existieren zwei Stacks für die Verwendung des Kinect Sensors:
-\begin{itemize}
-	\item Freenect Stack\cite{freenect}
-	\item OpenNI Stack\cite{openni}
-\end{itemize}
-Beide Implementationen liefern einen Treiber um den Sensor anzusprechen und die Kameradaten auszulesen. Allerdings gibt es auch einige Unterschieden zwischen den zwei Stacks. Der Freenect-Treiber ermöglicht es neben den Kameradaten ebenfalls die LED, einen Beschleunigungssensor, sowie die Audiodaten der Kinect zu bedienen.\cite{freenect} Dies ist mit dem Treiber von OpenNI allerdings nicht möglich. Dafür kommt auf dessen Stack noch ein Tracker mit dem es möglich ist Benutzer zu erkennen und deren Bewegungen zu tracken. Ebenfalls ermöglicht OpenNI die Segmentation der Bilddaten, Handerkennung und Gestensteuerung. Die extrahierten Merkmalspunkte können weiter verwendet werden. Beide Implementierungen sind Open Source und stehen unter der Apache2.0 Lizenz\cite{opennilicense}\cite{freenect}. Durch das Skeletontracking biete OpenNI allerdings einiges an Vorteilen für die Implementation der Steuerung, daher fällt die Wahl auf diesen Stack, da für die Usecase wesentlich besser passt.
 %\newpage
 \subsection{Architektur}
 %Beide
