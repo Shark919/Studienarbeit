@@ -117,8 +117,8 @@ Um die intrinsischen Parameter der Kamera zu bestimmen, wird ein bekanntes Bild 
 	\centering
 	\includegraphics[scale=0.4]{Bilder/calibrationChecker.png}
 	\label{fig:calibrationChecker}
+	\caption{Kalibrierung mittels Schachbrettmuster \cite{cameracalibration}}
 \end{figure}
-%todo: Quelle + Titel
 Die Kalibrierung wurde mit dem frei verfügbaren ROS Node \textit{camera\_calibration} umgesetzt. Das Ergebnis ist abhängig von der Anzahl der Perspektiven und der Qualität der Aufnahmen. Aufgegeben wird dann die List der Parameter, die für das Lochkamera Modell notwendig sind.
 
 \subsection{Regularized Monocular Depth Estimation - REMODE}
@@ -144,15 +144,15 @@ Im Folgenden wird der grundsätzliche Ansatz der Implementierung skizziert. Die 
 	\centering
 	\includegraphics[scale=0.7]{Bilder/REMODE_overview.jpg}
 	\label{fig:radial}
+	\caption{Übersicht Bildtransformation \cite{Forster2014ICRA}}
 \end{figure}
-%todo: Quelle + Titel
+
 In der Übersicht sieht man die beiden Kamerapositionen $I_r$ und $I_k$ mit den zugehörigen Kamerazentren $C_r$ und $C_k$. Die Positionen im Raum dieser Kameras wurden im vorherigen Schritt mit Hilfe von SVO ermittelt. $T_k,r$ zeigt dabei die starre Transformation der Kamerabilder. \newline
 Der Punkt $r_P$ ist die aktuelle Schätzung der Position eines Punktes auf den epipolaren Flächen.
-Die Varianz der Abweichung von einem Pixel auf der epipolaren Linie durch estrich und ustrich wird berechnet mit der Gleichung tkquadr.
-Mit Hilfe der oben angesprochenen mathematischen und statistischen Auswertungen kann nun die Tiefe eines Punktes $r_P$ approximiert werden. \newline %todo : estrich und ustrich anpassen
-Das Zusammenspiel von SVO und REMODE ist für handelsüblichen Laptops mit CPU und GPU ausgelegt. Dabei führt SVO seine Berechnungen komplett auf der CPU, während REMODE die Berechnungen mithilfe des Frameworks NVIDIA CUDA \footnote{text zu CUDA} auf die Grafikeinheit des Rechners auslagert. \newline
+Die Varianz der Abweichung von einem Pixel auf der epipolaren Linie durch $e'$ und $u'$ wird berechnet mit der Gleichung $T_k^2$.
+Mit Hilfe der oben angesprochenen mathematischen und statistischen Auswertungen kann nun die Tiefe eines Punktes $r_P$ approximiert werden. \newline 
+Das Zusammenspiel von SVO und REMODE ist für handelsüblichen Laptops mit CPU und GPU ausgelegt. Dabei führt SVO seine Berechnungen komplett auf der CPU, während REMODE die Berechnungen mithilfe des Frameworks NVIDIA CUDA \footnote{CUDA ist eine von Nvidia entwickelte Programmier-Technik, mit der Programmteile durch den Grafikprozessor abgearbeitet werden können.\cite{wikiCuda}} auf die Grafikeinheit des Rechners auslagert. \newline
 Die Implementation setzt auf eine durchschnittliche Bewegung der Kamera von 0.0038 Meter pro Sekunde und einer mittleren Tiefe von einem Meter bei einer Berechnungszeit von 3.3 ms pro Bild. \newline
-%todo referenz, footnote
 
 
 \subsection{Performanceprobleme}
@@ -277,7 +277,7 @@ Eine Möglichkeit ist die gezielte Suche nach definierten Abmessungen, Abstände
 Die Abbildung \ref{fig:door} visualisiert die beschriebenen Anforderungen. \newline
 Wie in der vorherigen Darstellung \ref{fig:REMODE} erkennbar, gibt es keine klaren Kanten und Abgrenzungen. Dies erschwert einen Vergleich mit dem Referenzobjekt zusätzlich. Abhilfe für dieses Problem schaffen in der Bildverarbeitung Filter. Filtern ist eine Technik um Bilddaten zu modifizieren, oder sie in einer Art zu verbessern. Hauptsächlich wird diese Methode dafür genutzt, um hohe Frequenzen in einem Bild zu verringern, das Bild zu glätten, oder um niedrige Frequenzen zu verstärken, also um Kanten hervorzuheben. \newline
 Filter basieren auf einer Berechnung in der Nachbarschaft\footnote{Die Nachbarschaft um einen Pixel ist eine Menge an Pixeln, die sich durch ihre relative Distanz zu diesem auszeichnen. \cite{filter1}} von Pixeln, wobei der Wert eines gegebenen Pixels im Ausgabebild bestimmt wird, in dem Algorithmen auf Pixel in der direkten Nachbarschaft dieses Datenpunktes angewandt werden. \cite{filter1}   \newline
-Da die Tiefenbilder verwaschen und unscharf sind, müssen niedrige Frequenzen verstärkt werden. Ein Standard, um Kanten in einem Bild hervorzuheben ist der Marr-Hildreth-Operator oder auch Laplacian of Gaussian \textit{LoG} genannt. \cite{LoG} Dieser Algorithmus führt auf den Matrizen der Punktwolken des Eingangsbildes Faltungsoperationen \footnote{todo; was ist faltungsoperation} durch, um ein Ausgabebild mit verdeutlichten Kanten zu erzeugen. \newline
+Da die Tiefenbilder verwaschen und unscharf sind, müssen niedrige Frequenzen verstärkt werden. Ein Standard, um Kanten in einem Bild hervorzuheben ist der Marr-Hildreth-Operator oder auch Laplacian of Gaussian \textit{LoG} genannt. \cite{LoG} Dieser Algorithmus führt auf den Matrizen der Punktwolken des Eingangsbildes Faltungsoperationen durch, um ein Ausgabebild mit verdeutlichten Kanten zu erzeugen. \newline
 Dabei sucht der LoG nicht nach Kanten, sondern nach Gebieten mit rapiden Änderungen von Pixelintensitäten. Die zweite Ableitung erzeugt eine Kurve, bei der die beiden Seiten einer Kante durch einen positiven und einen negativen Wert gekennzeichnet sind. Die eigentliche Kante liegt hierbei an dem Punkt, wo der Graph Null durchquert. Die Abbildung \ref{fig:LoG} verdeutlicht dieses Verhalten.
 \begin{figure}[ht]
 	\centering

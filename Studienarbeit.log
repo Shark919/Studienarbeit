@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  8 MAY 2017 20:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  8 MAY 2017 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -622,12 +622,6 @@ LaTeX Font Warning: Font shape `T1/cmss/bx/sc' undefined
 
 (c:/texlive/2016/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
-LaTeX Font Info:    Try loading font information for TS1+cmss on input line 62.
-
-
-(c:/texlive/2016/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [1
 
 
@@ -736,13 +730,18 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 
  (./Inhalt/vorlagen.tex
 chapter 2.
-<Bilder/ar_drone.png, id=52, 602.25pt x 322.95656pt>
+<Bilder/ar_drone.png, id=49, 602.25pt x 322.95656pt>
 File: Bilder/ar_drone.png Graphic file (type png)
  <use Bilder/ar_drone.png>
 Package pdftex.def Info: Bilder/ar_drone.png used on input line 9.
 (pdftex.def)             Requested size: 301.12425pt x 161.47787pt.
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 16.
 
+Overfull \hbox (1.62007pt too wide) in paragraph at lines 5--13
+\T1/ppl/m/n/10.95 mit ei-ner mo-bi-len Ap-pli-ka-ti-on für An-dro-id und iOS Ge
+-rä-te. Da-für baut sie ein WLAN
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 16.
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ) [5
@@ -764,21 +763,21 @@ Overfull \hbox (30.64859pt too wide) in paragraph at lines 37--45
 -du-le be-lie-big lizenzieren.[[]][[]][[]] 
  []
 
-[7] [8] <Bilder/pubsub1.jpg, id=71, 503.63156pt x 220.57407pt>
+[7] [8] <Bilder/pubsub1.jpg, id=68, 503.63156pt x 220.57407pt>
 File: Bilder/pubsub1.jpg Graphic file (type jpg)
 
 <use Bilder/pubsub1.jpg>
 Package pdftex.def Info: Bilder/pubsub1.jpg used on input line 53.
 (pdftex.def)             Requested size: 352.53969pt x 154.40079pt.
  [9]
-<Bilder/real_structure.png, id=75, 414.04688pt x 218.31563pt>
+<Bilder/real_structure.png, id=72, 414.04688pt x 218.31563pt>
 File: Bilder/real_structure.png Graphic file (type png)
 
 <use Bilder/real_structure.png>
 Package pdftex.def Info: Bilder/real_structure.png used on input line 86.
 (pdftex.def)             Requested size: 372.63873pt x 196.48222pt.
 
-<Bilder/sim_structure.png, id=76, 376.40625pt x 248.42813pt>
+<Bilder/sim_structure.png, id=73, 376.40625pt x 248.42813pt>
 File: Bilder/sim_structure.png Graphic file (type png)
 
 <use Bilder/sim_structure.png>
@@ -798,7 +797,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--174
 
  []
 
-[17] <Bilder/pointcloud_1.jpg, id=104, 694.595pt x 459.7175pt>
+[17] <Bilder/pointcloud_1.jpg, id=101, 694.595pt x 459.7175pt>
 File: Bilder/pointcloud_1.jpg Graphic file (type jpg)
 
 <use Bilder/pointcloud_1.jpg>
@@ -835,7 +834,7 @@ Overfull \hbox (0.7007pt too wide) in paragraph at lines 20--21
 ple-men-tie-run-gen be-zie-hen sich
  []
 
-<Bilder/SVO.jpg, id=119, 514.92375pt x 293.095pt>
+<Bilder/SVO.jpg, id=116, 514.92375pt x 293.095pt>
 File: Bilder/SVO.jpg Graphic file (type jpg)
  <use Bilder/SVO.jpg>
 Package pdftex.def Info: Bilder/SVO.jpg used on input line 38.
@@ -857,35 +856,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
-<Bilder/pinhole.png, id=126, 401.5pt x 274.02374pt>
+<Bilder/pinhole.png, id=123, 401.5pt x 274.02374pt>
 File: Bilder/pinhole.png Graphic file (type png)
  <use Bilder/pinhole.png>
 Package pdftex.def Info: Bilder/pinhole.png used on input line 69.
 (pdftex.def)             Requested size: 200.7495pt x 137.01154pt.
 
 [24 <./Bilder/SVO.jpg>] [25]
-<Bilder/distortion.png, id=134, 260.47313pt x 15.05624pt>
+<Bilder/distortion.png, id=131, 260.47313pt x 15.05624pt>
 File: Bilder/distortion.png Graphic file (type png)
 
 <use Bilder/distortion.png>
 Package pdftex.def Info: Bilder/distortion.png used on input line 80.
 (pdftex.def)             Requested size: 182.32994pt x 10.53929pt.
 
-<Bilder/radialFactors.png, id=135, 213.79875pt x 36.88782pt>
+<Bilder/radialFactors.png, id=132, 213.79875pt x 36.88782pt>
 File: Bilder/radialFactors.png Graphic file (type png)
 
 <use Bilder/radialFactors.png>
 Package pdftex.def Info: Bilder/radialFactors.png used on input line 88.
 (pdftex.def)             Requested size: 149.6581pt x 25.82127pt.
 
-<Bilder/tangentialFactors.png, id=136, 222.8325pt x 37.64063pt>
+<Bilder/tangentialFactors.png, id=133, 222.8325pt x 37.64063pt>
 File: Bilder/tangentialFactors.png Graphic file (type png)
 
 <use Bilder/tangentialFactors.png>
 Package pdftex.def Info: Bilder/tangentialFactors.png used on input line 97.
 (pdftex.def)             Requested size: 155.98167pt x 26.34824pt.
 
-<Bilder/matrixEquation.png, id=137, 146.04562pt x 50.43843pt>
+<Bilder/matrixEquation.png, id=134, 146.04562pt x 50.43843pt>
 File: Bilder/matrixEquation.png Graphic file (type png)
 
 <use Bilder/matrixEquation.png>
@@ -897,7 +896,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-<Bilder/calibrationChecker.png, id=145, 772.8875pt x 560.0925pt>
+<Bilder/calibrationChecker.png, id=142, 772.8875pt x 560.0925pt>
 File: Bilder/calibrationChecker.png Graphic file (type png)
 
 <use Bilder/calibrationChecker.png>
@@ -910,27 +909,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--131
 
 [27 <./Bilder/tangentialFactors.png> <./Bilder/matrixEquation.png>] [28 <./Bild
 er/calibrationChecker.png>]
-<Bilder/remode_3dmodel.jpg, id=155, 1841.88126pt x 921.4425pt>
+<Bilder/remode_3dmodel.jpg, id=152, 1841.88126pt x 921.4425pt>
 File: Bilder/remode_3dmodel.jpg Graphic file (type jpg)
 
 <use Bilder/remode_3dmodel.jpg>
 Package pdftex.def Info: Bilder/remode_3dmodel.jpg used on input line 134.
 (pdftex.def)             Requested size: 405.21513pt x 202.71797pt.
  [29 <./Bilder/remode_3dmodel.jpg>]
-<Bilder/REMODE_overview.jpg, id=159, 338.26375pt x 263.98625pt>
+<Bilder/REMODE_overview.jpg, id=156, 338.26375pt x 263.98625pt>
 File: Bilder/REMODE_overview.jpg Graphic file (type jpg)
 
 <use Bilder/REMODE_overview.jpg>
 Package pdftex.def Info: Bilder/REMODE_overview.jpg used on input line 145.
 (pdftex.def)             Requested size: 236.78299pt x 184.78911pt.
 
-Overfull \hbox (6.08853pt too wide) in paragraph at lines 149--156
+Overfull \hbox (6.08853pt too wide) in paragraph at lines 150--156
 \T1/ppl/m/n/10.95 Die Im-ple-men-ta-ti-on setzt auf ei-ne durch-schnitt-li-che 
 Be-we-gung der Ka-me-ra von 0.0038
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--156
+Underfull \hbox (badness 10000) in paragraph at lines 150--156
 
  []
 
@@ -945,7 +944,7 @@ Overfull \hbox (8.82574pt too wide) in paragraph at lines 174--175
 es un-ter-ein-an-der, der ROS-Version
  []
 
-[33] [34] <Bilder/page01.jpg, id=176, 845.0772pt x 597.432pt>
+[33] [34] <Bilder/page01.jpg, id=173, 845.0772pt x 597.432pt>
 File: Bilder/page01.jpg Graphic file (type jpg)
 
 <use Bilder/page01.jpg>
@@ -956,28 +955,28 @@ Overfull \hbox (12.21715pt too wide) in paragraph at lines 193--195
  [][] 
  []
 
-[35] <Bilder/skeletonmarkers.png, id=181, 1204.5pt x 877.2775pt>
+[35] <Bilder/skeletonmarkers.png, id=178, 1204.5pt x 877.2775pt>
 File: Bilder/skeletonmarkers.png Graphic file (type png)
 
 <use Bilder/skeletonmarkers.png>
 Package pdftex.def Info: Bilder/skeletonmarkers.png used on input line 208.
 (pdftex.def)             Requested size: 361.35278pt x 263.18527pt.
  [36 <./Bilder/page01.jpg>] [37 <./Bilder/skeletonmarkers.png>]
-<Bilder/KinectController.jpg, id=191, 375.65344pt x 195.73125pt>
+<Bilder/KinectController.jpg, id=188, 375.65344pt x 195.73125pt>
 File: Bilder/KinectController.jpg Graphic file (type jpg)
 
 <use Bilder/KinectController.jpg>
 Package pdftex.def Info: Bilder/KinectController.jpg used on input line 218.
 (pdftex.def)             Requested size: 262.9556pt x 137.01093pt.
  [38] [39 <./Bilder/KinectController.jpg>]
-<Bilder/ros_nodes_flow.jpg, id=198, 499.8675pt x 327.47343pt>
+<Bilder/ros_nodes_flow.jpg, id=195, 499.8675pt x 327.47343pt>
 File: Bilder/ros_nodes_flow.jpg Graphic file (type jpg)
 
 <use Bilder/ros_nodes_flow.jpg>
 Package pdftex.def Info: Bilder/ros_nodes_flow.jpg used on input line 231.
 (pdftex.def)             Requested size: 349.90486pt x 229.22984pt.
  [40] [41 <./Bilder/ros_nodes_flow.jpg>]
-<Bilder/REMODE.jpg, id=205, 516.42938pt x 289.58188pt>
+<Bilder/REMODE.jpg, id=202, 516.42938pt x 289.58188pt>
 File: Bilder/REMODE.jpg Graphic file (type jpg)
  <use Bilder/REMODE.jpg>
 Package pdftex.def Info: Bilder/REMODE.jpg used on input line 256.
@@ -988,25 +987,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
-<Bilder/door.jpg, id=210, 430.0065pt x 322.806pt>
+<Bilder/door.jpg, id=207, 430.0065pt x 322.806pt>
 File: Bilder/door.jpg Graphic file (type jpg)
  <use Bilder/door.jpg>
 Package pdftex.def Info: Bilder/door.jpg used on input line 272.
 (pdftex.def)             Requested size: 236.5043pt x 177.54384pt.
 
-<Bilder/LoG.png, id=211, 321.2pt x 320.19624pt>
+<Bilder/LoG.png, id=208, 321.2pt x 320.19624pt>
 File: Bilder/LoG.png Graphic file (type png)
  <use Bilder/LoG.png>
 Package pdftex.def Info: Bilder/LoG.png used on input line 284.
 (pdftex.def)             Requested size: 160.59961pt x 160.09772pt.
  [43]
-[44 <./Bilder/door.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 292--296
 
  []
 
-[45 <./Bilder/LoG.png>]
-<Bilder/pcl_grouping.jpg, id=223, 734.745pt x 465.23813pt>
+[44 <./Bilder/door.jpg>] [45 <./Bilder/LoG.png>]
+<Bilder/pcl_grouping.jpg, id=220, 734.745pt x 465.23813pt>
 File: Bilder/pcl_grouping.jpg Graphic file (type jpg)
 
 <use Bilder/pcl_grouping.jpg>
@@ -1022,7 +1020,7 @@ chapter 4.
 
 
 
-] <Bilder/airsim.png, id=234, 1445.4pt x 813.0375pt>
+] <Bilder/airsim.png, id=231, 1445.4pt x 813.0375pt>
 File: Bilder/airsim.png Graphic file (type png)
 
 <use Bilder/airsim.png>
@@ -1082,184 +1080,184 @@ Underfull \hbox (badness 6016) in paragraph at lines 16--20
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 1490) in paragraph at lines 22--26
+[]\T1/ppl/m/n/10.95 ``Nividia Open-CV.'' $\T1/cmtt/m/n/10.95 http : / / docs . 
+opencv . org / 2 . 4 / doc / tutorials / calib3d /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
 []\T1/ppl/m/n/10.95 ``Lochkamera Prin-zip.'' $\T1/cmtt/m/n/10.95 https : / / gi
 thub . com / uzh-[]rpg / rpg _ open _ remode /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--31
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
 []\T1/ppl/m/n/10.95 ``Marr-Hildreth-Operator.'' $\T1/cmtt/m/n/10.95 https : / /
  de . wikipedia . org / wiki /
  []
 
 
-Underfull \hbox (badness 7133) in paragraph at lines 33--37
+Underfull \hbox (badness 7133) in paragraph at lines 44--48
 \T1/cmtt/m/n/10.95 tutorials / correspondence _ grouping . php # correspondence
 -[]grouping$\T1/ppl/m/n/10.95 , 2017.
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 39--42
-[]\T1/ppl/m/n/10.95 Shital Shah and De-ba-de-ep-ta Dey and Chris Lovett and Ash
-ish Ka-poor,
  []
 
 [52
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
+Underfull \hbox (badness 1521) in paragraph at lines 50--53
+[]\T1/ppl/m/n/10.95 Shital Shah and De-ba-de-ep-ta Dey and Chris Lovett and Ash
+ish Ka-poor,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 []\T1/ppl/m/n/10.95 ``ROS Kon-zep-te.'' $\T1/cmtt/m/n/10.95 http : / / wiki . r
 os . org / ROS / Concepts$\T1/ppl/m/n/10.95 , 2017.  vi-si-ted:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--70
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
 []\T1/ppl/m/n/10.95 ``ROS im Hei-se Ma-ga-zin.'' $\T1/cmtt/m/n/10.95 https : / 
 / www . heise . de / developer / artikel /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--75
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
 []\T1/ppl/m/n/10.95 ``Single Re-spon-si-bi-li-ty Prin-ci-ple.'' $\T1/cmtt/m/n/1
 0.95 http : / / clean-[]code-[]developer . de /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
 []\T1/ppl/m/n/10.95 ``Message Bro-ker.'' $\T1/cmtt/m/n/10.95 http : / / www . e
 nterpriseintegrationpatterns . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--92
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
 []\T1/ppl/m/n/10.95 ``Eventbus.'' $\T1/cmtt/m/n/10.95 http : / / timnew . me / 
 blog / 2014 / 12 / 06 /
  []
 
-
-Underfull \hbox (badness 4859) in paragraph at lines 94--96
+[53]
+Underfull \hbox (badness 4859) in paragraph at lines 105--107
 []\T1/ppl/m/n/10.95 ``TUM Si-mu-la-tor.'' $\T1/cmtt/m/n/10.95 http : / / wiki .
  ros . org / tum _ simulator$\T1/ppl/m/n/10.95 , no-te = vi-si-ted:
  []
 
-[53]
-Underfull \hbox (badness 10000) in paragraph at lines 98--102
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--113
 []\T1/ppl/m/n/10.95 ``Programmstruktur mit rea-ler Droh-ne.'' $\T1/cmtt/m/n/10.
 95 http : / / wiki . ros . org / tum _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--102
+Underfull \hbox (badness 10000) in paragraph at lines 109--113
 \T1/cmtt/m/n/10.95 simulator ? action = AttachFile & do = get & target = real _
  structure . png$\T1/ppl/m/n/10.95 , 2017.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
 \T1/cmtt/m/n/10.95 action = AttachFile & do = get & target = sim _ structure . 
 png$\T1/ppl/m/n/10.95 , 2017.  vi-si-ted:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--113
+Underfull \hbox (badness 10000) in paragraph at lines 121--124
 []\T1/ppl/m/n/10.95 ``Fuzzylogik.'' $\T1/cmtt/m/n/10.95 http : / / www . spektr
 um . de / magazin /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--132
+Underfull \hbox (badness 10000) in paragraph at lines 140--143
 []\T1/ppl/m/n/10.95 ``Microsoft Ki-nect .'' $\T1/cmtt/m/n/10.95 https : / / dev
 eloper . microsoft . com / de-[]de / windows /
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 139--141
+Underfull \hbox (badness 2189) in paragraph at lines 150--152
 []\T1/ppl/m/n/10.95 ``Freenect.'' $\T1/cmtt/m/n/10.95 https : / / github . com 
 / OpenKinect / libfreenect$\T1/ppl/m/n/10.95 , 2017.  vi-si-ted:
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--153
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 161--164
 []\T1/ppl/m/n/10.95 ``Definition Point-Cloud.'' $\T1/cmtt/m/n/10.95 http : / / 
 whatis . techtarget . com / definition /
  []
 
-[54]
-Underfull \hbox (badness 10000) in paragraph at lines 164--167
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--173
 []\T1/ppl/m/n/10.95 ``Reprojektionsfehler.'' $\T1/cmtt/m/n/10.95 https : / / en
  . wikipedia . org / wiki / Reprojection _
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 169--171
+Underfull \hbox (badness 3954) in paragraph at lines 175--177
 []\T1/ppl/m/n/10.95 ``Odometrie.'' $\T1/cmtt/m/n/10.95 https : / / en . wikiped
 ia . org / wiki / Odometry$\T1/ppl/m/n/10.95 , 2017.  vi-si-ted:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--186
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
 []\T1/ppl/m/n/10.95 ``Camera Ca-li-bra-ti-on.'' $\T1/cmtt/m/n/10.95 https : / /
  github . com / uzh-[]rpg / rpg _ svo / wiki /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--191
+Underfull \hbox (badness 10000) in paragraph at lines 194--197
 []\T1/ppl/m/n/10.95 ``Camera De-fects.'' $\T1/cmtt/m/n/10.95 http : / / www . a
 ishack . in / tutorials /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--197
+Underfull \hbox (badness 10000) in paragraph at lines 199--203
 []\T1/ppl/m/n/10.95 ``CMOS.'' $\T1/cmtt/m/n/10.95 https : / / de . wikipedia . 
 org / wiki / Complementary _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--203
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
 \T1/cmtt/m/n/10.95 10467 / 66885 / F3-[]DP-[]2017-[]Pahorecky-[]Petr-[]priloha-
 []ARDrone _ Developer _
  []
 
 [55]
-Underfull \hbox (badness 1490) in paragraph at lines 214--218
-[]\T1/ppl/m/n/10.95 ``Nividia Open-CV.'' $\T1/cmtt/m/n/10.95 http : / / docs . 
-opencv . org / 2 . 4 / doc / tutorials / calib3d /
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 224--228
 []\T1/ppl/m/n/10.95 ``Statistik apo-stio-ri.'' $\T1/cmtt/m/n/10.95 http : / / w
 ww . mathematik . uni-[]ulm . de / stochastik /
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 236--238
+Underfull \hbox (badness 2875) in paragraph at lines 240--242
 []\T1/ppl/m/n/10.95 ``OpenNI Launch.'' $\T1/cmtt/m/n/10.95 http : / / wiki . ro
 s . org / openni _ launch$\T1/ppl/m/n/10.95 , 2017.  vi-si-ted:
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 240--242
+Underfull \hbox (badness 1642) in paragraph at lines 244--246
 []\T1/ppl/m/n/10.95 ``OpenNI Tracker.'' $\T1/cmtt/m/n/10.95 http : / / wiki . r
 os . org / openni _ tracker$\T1/ppl/m/n/10.95 , 2017.  vi-si-ted:
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 244--247
+Underfull \hbox (badness 1845) in paragraph at lines 248--251
 []\T1/ppl/m/n/10.95 ``Nachrichten Typ TF-Mes-sa-ge.'' $\T1/cmtt/m/n/10.95 http 
 : / / docs . ros . org / jade / api / tf2 _ msgs /
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 254--258
+Underfull \hbox (badness 1127) in paragraph at lines 258--262
 []\T1/ppl/m/n/10.95 ``Filter in der Bild-ver-ar-bei-tung.'' $\T1/cmtt/m/n/10.95
  https : / / de . mathworks . com / help / images /
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 254--258
+Underfull \hbox (badness 5771) in paragraph at lines 258--262
 \T1/cmtt/m/n/10.95 what-[]is-[]image-[]filtering-[]in-[]the-[]spatial-[]domain 
 . html$\T1/ppl/m/n/10.95 , 2017.  vi-si-ted:
  []
@@ -1276,36 +1274,34 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9538 strings out of 493013
- 143806 string characters out of 6136992
+ 9515 strings out of 493013
+ 143147 string characters out of 6136992
  307192 words of memory out of 5000000
- 12792 multiletter control sequences out of 15000+600000
- 46761 words of font info for 108 fonts, out of 8000000 for 9000
+ 12773 multiletter control sequences out of 15000+600000
+ 45394 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,12n,66p,8900b,2071s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
-ive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2016/texmf-dist/fon
-ts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2016/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fpl
-mbb.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb><c:/t
-exlive/2016/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb><c:/texlive/201
-6/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb><c:/texlive/2016/texmf-di
-st/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2016/texmf-dist/fonts/t
-ype1/public/cm-super/sfss1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
-c/cm-super/sfss1440.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super
-/sfsx1000.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1095.
-pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/te
-xlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2016
-/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2016/texmf-dis
-t/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2016/texmf-dist/fonts/ty
-pe1/public/cm-super/sftt1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/pa
-latino/uplb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
-fb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Studienarbeit.pdf (64 pages, 6189446 bytes).
+ive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2016/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mat
+hpazo/fplmbb.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.
+pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb><c:/te
+xlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb><c:/texlive/2016
+/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb><c:/texlive/2016/texmf-dis
+t/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2016/texmf-dist/fonts/ty
+pe1/public/cm-super/sfsx1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public
+/cm-super/sfsx1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/
+sfsx1440.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1728.p
+fb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/tex
+live/2016/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2016/
+texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2016/texmf-dist/font
+s/type1/urw/palatino/uplr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/pal
+atino/uplri8a.pfb>
+Output written on Studienarbeit.pdf (64 pages, 6176453 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
+ 319 PDF objects out of 1000 (max. 8388607)
+ 198 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  127 words of extra memory for PDF output out of 10000 (max. 10000000)
 

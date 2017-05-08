@@ -13,36 +13,36 @@ Database file #1: references.bib
 Warning--empty publisher in fuzzybook
 Warning--empty publisher in book1234
 Warning--empty publisher in studienarbeitfly
-You've used 54 entries,
+You've used 55 entries,
             1876 wiz_defined-function locations,
-            682 strings with 9630 characters,
-and the built_in function-call counts, 6553 in all, are:
-= -- 676
-> -- 104
+            687 strings with 9723 characters,
+and the built_in function-call counts, 6669 in all, are:
+= -- 689
+> -- 105
 < -- 1
-+ -- 70
++ -- 71
 - -- 16
-* -- 264
-:= -- 752
-add.period$ -- 96
-call.type$ -- 54
-change.case$ -- 50
+* -- 268
+:= -- 764
+add.period$ -- 98
+call.type$ -- 55
+change.case$ -- 51
 chr.to.int$ -- 0
-cite$ -- 57
-duplicate$ -- 257
-empty$ -- 984
+cite$ -- 58
+duplicate$ -- 261
+empty$ -- 1002
 format.name$ -- 16
-if$ -- 1795
+if$ -- 1828
 int.to.chr$ -- 0
-int.to.str$ -- 54
+int.to.str$ -- 55
 missing$ -- 10
-newline$ -- 208
+newline$ -- 212
 num.names$ -- 11
-pop$ -- 370
+pop$ -- 377
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 161
+skip$ -- 164
 stack$ -- 0
 substring$ -- 0
 swap$ -- 7
@@ -52,6 +52,6 @@ top$ -- 0
 type$ -- 0
 warning$ -- 3
 while$ -- 11
-width$ -- 56
-write$ -- 468
+width$ -- 57
+write$ -- 477
 (There were 3 warnings)

@@ -18,11 +18,22 @@
   2017.
 \newblock visited: 03.22.2017.
 
+\bibitem{cameracalibration}
+``{Nividia OpenCV}.''
+  \url{http://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html},
+  2017.
+\newblock visited: 05.05.2017.
+
 \bibitem{remode3d}
 ``{Lochkamera Prinzip}.''
   \url{https://github.com/uzh-rpg/rpg_open_remode/wiki/Run-Using-SVO}, Dec.
   2015.
 \newblock visited: 02.15.2017.
+
+\bibitem{Forster2014ICRA}
+C.~Forster, M.~Pizzoli, and D.~Scaramuzza, ``{SVO}: Fast semi-direct monocular
+  visual odometry,'' in {\em IEEE International Conference on Robotics and
+  Automation (ICRA)}, 2014.
 
 \bibitem{LoG}
 ``{Marr-Hildreth-Operator}.''
@@ -155,11 +166,6 @@ J.~Rada-Vilela, ``fuzzylite: a fuzzy logic control library,'' 2017.
 ``{Point Cloud Libary}.'' \url{http://pointclouds.org/}, 2017.
 \newblock visited: 05.05.2017.
 
-\bibitem{Forster2014ICRA}
-C.~Forster, M.~Pizzoli, and D.~Scaramuzza, ``{SVO}: Fast semi-direct monocular
-  visual odometry,'' in {\em IEEE International Conference on Robotics and
-  Automation (ICRA)}, 2014.
-
 \bibitem{repro}
 ``{Reprojektionsfehler}.''
   \url{https://en.wikipedia.org/wiki/Reprojection_error}, 2017.
@@ -210,12 +216,6 @@ R.~S. D.~Scaramuzza, A.~Martinelli, ``A flexible technique for accurate
 ``{Nividia OpenCV}.'' \url{https://developer.nvidia.com/opencv}, 2017.
 \newblock visited: 05.05.2017.
 
-\bibitem{cameracalibration}
-``{Nividia OpenCV}.''
-  \url{http://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html},
-  2017.
-\newblock visited: 05.05.2017.
-
 \bibitem{book1234}
 R.~C. Smith, {\em On the Representation and Estimation of Spatial Uncertainty}.
 \newblock 1986.
@@ -225,6 +225,10 @@ R.~C. Smith, {\em On the Representation and Estimation of Spatial Uncertainty}.
   \url{http://www.mathematik.uni-ulm.de/stochastik/lehre/ss04/statistik1/skript/node26.html},
   2017.
 \newblock visited: 04.08.2017.
+
+\bibitem{wikiCuda}
+``{NVIDIA CUDA Wiki}.'' \url{https://de.wikipedia.org/wiki/CUDA}, 2017.
+\newblock visited: 04.18.2017.
 
 \bibitem{svodocs}
 ``{Perfomance Dokumentation SVO}.''
