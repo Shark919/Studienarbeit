@@ -63,6 +63,12 @@ L.~Joseph, {\em ROS Robotics Projects}.
 ``{ROS Konzepte}.'' \url{http://wiki.ros.org/ROS/Concepts}, 2017.
 \newblock visited: 05.01.2017.
 
+\bibitem{rosprinc}
+``{ROS im Heise Magazin}.''
+  \urlhttps://www.heise.de/developer/artikel/Einfuehrung-in-das-Robot-Operating-System-3273655.html,
+  2017.
+\newblock visited: 05.05.2017.
+
 \bibitem{singleresp}
 ``{Single Responsibility Principle}.''
   \url{http://clean-code-developer.de/die-grade/orangener-grad/}, 2017.
@@ -145,6 +151,10 @@ J.~Rada-Vilela, ``fuzzylite: a fuzzy logic control library,'' 2017.
 ``{Definition PointCloud}.''
   \url{http://whatis.techtarget.com/definition/point-cloud}, Oct. 2016.
 \newblock visited: 03.05.2017.
+
+\bibitem{pclGeneral}
+``{Point Cloud Libary}.'' \url{http://pointclouds.org/}, 2017.
+\newblock visited: 05.05.2017.
 
 \bibitem{repro}
 ``{Reprojektionsfehler}.''
