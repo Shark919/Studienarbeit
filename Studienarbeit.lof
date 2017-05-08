@@ -8,17 +8,17 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Programmstruktur unter Verwendung von Gazebo}}{13}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Beispiel einer visualisierten Punktwolke \cite {visPC}}}{18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Semi-Direct Monocular Visual Odometry im Simulator}}{23}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Prinzip der Lochkamera \cite {lochkamera}}}{25}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces REMODE 3D-Modell, Flug \IeC {\"u}ber Tr\IeC {\"u}mmer \cite {remode3d}}}{28}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \IeC {\"U}bersicht zur Softwarearchitektur}}{35}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Darstellung der K\IeC {\"o}rperteile in RVIZ}}{36}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces UML Klassendiagramm des Kinect Controllers}}{38}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Zusammenspiel der verschiedenen ROS-Nodes}}{40}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Approximiertes Tiefenbild durch REMODE}}{41}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Objektreferenz einer T\IeC {\"u}r}}{42}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Verlauf der zweiten Ableitung im LoG Algorithmus \cite {LoG}}}{44}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Correspondence Grouping mit dem PCL Algorithmus \cite {pclGrouping}}}{45}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Semi-Direct Monocular Visual Odometry im Simulator}}{24}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Prinzip der Lochkamera \cite {lochkamera}}}{26}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces REMODE 3D-Modell, Flug \IeC {\"u}ber Tr\IeC {\"u}mmer \cite {remode3d}}}{29}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \IeC {\"U}bersicht zur Softwarearchitektur}}{36}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Darstellung der K\IeC {\"o}rperteile in RVIZ}}{37}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces UML Klassendiagramm des Kinect Controllers}}{39}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Zusammenspiel der verschiedenen ROS-Nodes}}{41}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Approximiertes Tiefenbild durch REMODE}}{42}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Objektreferenz einer T\IeC {\"u}r}}{43}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Verlauf der zweiten Ableitung im LoG Algorithmus \cite {LoG}}}{45}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Correspondence Grouping mit dem PCL Algorithmus \cite {pclGrouping}}}{46}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces AirSim von Mircosoft in Aktion\cite {airsim}}}{49}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces AirSim von Mircosoft in Aktion\cite {airsim}}}{50}
 \addvspace {10\p@ }

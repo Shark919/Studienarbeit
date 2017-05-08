@@ -64,10 +64,9 @@ L.~Joseph, {\em ROS Robotics Projects}.
 \newblock visited: 05.01.2017.
 
 \bibitem{rosprinc}
-``{ROS im Heise Magazin}.''
-  \urlhttps://www.heise.de/developer/artikel/Einfuehrung-in-das-Robot-Operating-System-3273655.html,
-  2017.
-\newblock visited: 05.05.2017.
+``{ROS im Heise Magazin}.'' \url
+  {https://www.heise.de/developer/artikel/Einfuehrung-in-das-Robot-Operating-System-3273655.html},
+  note = {visited: 05.05.2017}, 2017.
 
 \bibitem{singleresp}
 ``{Single Responsibility Principle}.''
@@ -169,6 +168,43 @@ J.~Rada-Vilela, ``fuzzylite: a fuzzy logic control library,'' 2017.
 {Robotics and Perception Group}, ``{Camera Calibration}.''
   \url{https://github.com/uzh-rpg/rpg_svo/wiki/Camera-Calibration}, 2014.
 \newblock visited: 02.19.2017.
+
+\bibitem{calibration}
+``{automatic calibration and removal of distortion from scenes of structured
+  enviroments}.'' \url{https://hal.inria.fr/inria-00267247/document}, 2017.
+\newblock visited: 05.05.2017.
+
+\bibitem{calibration2}
+``{Camera Calibration}.''
+  \url{https://github.com/uzh-rpg/rpg_svo/wiki/Camera-Calibration}, 2017.
+\newblock visited: 05.05.2017.
+
+\bibitem{calibration3}
+``{Camera Defects}.''
+  \url{http://www.aishack.in/tutorials/major-physical-defects-cameras/}, 2017.
+\newblock visited: 05.05.2017.
+
+\bibitem{CMOS}
+``{CMOS}.''
+  \url{https://de.wikipedia.org/wiki/Complementary_metal-oxide-semiconductor},
+  2017.
+\newblock visited: 05.05.2017.
+
+\bibitem{developerGuide}
+``{ARDrone Developer Guide}.''
+  \url{https://dspace.cvut.cz/bitstream/handle/10467/66885/F3-DP-2017-Pahorecky-Petr-priloha-ARDrone_Developer_Guide.pdf?sequence=-1&isAllowed=y
+  }, 2017.
+\newblock visited: 05.05.2017.
+
+\bibitem{opencv}
+``{Nividia OpenCV}.'' \url{https://developer.nvidia.com/opencv}, 2017.
+\newblock visited: 05.05.2017.
+
+\bibitem{cameracalibration}
+``{Nividia OpenCV}.''
+  \url{http://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html},
+  2017.
+\newblock visited: 05.05.2017.
 
 \bibitem{svodocs}
 ``{Perfomance Dokumentation SVO}.''
