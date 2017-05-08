@@ -123,11 +123,9 @@ Die Kalibrierung wurde mit dem frei verfügbaren ROS Node \textit{camera\_calibr
 
 \subsection{Regularized Monocular Depth Estimation - REMODE}
 %Christoph
-Im vorherigen Abschnitt wurde beschrieben, wie anhand von aufeinanderfolgenden Bildern die Position der Kamera im Raum bestimmt werden kann. Dieses Problem wird seit mehr als 20 Jahren untersucht und wird als Structure From Motion \emph{SFM} in der Bildverarbeitung und Simultaneous Localization and Mapping \emph{SLAM} in der Robotik bezeichnet. \newline
-%Smith, R.C.; Cheeseman, P. (1986). "On the Representation and Estimation of Spatial Uncertainty" (PDF). The International Journal of Robotics Research. 5 (4): 56–68. 
+Im vorherigen Abschnitt wurde beschrieben, wie anhand von aufeinanderfolgenden Bildern die Position der Kamera im Raum bestimmt werden kann. Dieses Problem wird seit mehr als 20 Jahren untersucht und wird als Structure From Motion \emph{SFM} in der Bildverarbeitung und Simultaneous Localization and Mapping \emph{SLAM} in der Robotik bezeichnet.\cite{book1234} \newline
 Um den Nutzer aktiv bei der Steuerung der Drohne zu unterstützen werden jedoch Tiefeninformationen benötigt. Dazu müssen Tiefenbilder und Tiefenkarten (footnote) aus den Bildern der monokularen Kamera bestimmt werden. \newline
-Für diesen Schritt gibt es unterschiedliche Ansätze. Der State of the Art ist die Berechnung mit Hilfe des Bayes-Schätzers. Dabei handelt es sich um eine Schätzfunktion in der mathematischen Statistik, welche eventuell vorhandenes Vorwissen bei der Schätzung eines Parameters berücksichtigt. Dabei wird in der bayesschen Statistik das initiale Vorwissen mit Hilfe der A-priori-Verteilung modelliert, die bedingte Wahrscheinlichkeit des Parameters unter Betrachtung dieses Vorwissens mit der A-posteriori-Verteilung. \newline
-%http://www.mathematik.uni-ulm.de/stochastik/lehre/ss04/statistik1/skript/node26.html
+Für diesen Schritt gibt es unterschiedliche Ansätze. Der State of the Art ist die Berechnung mit Hilfe des Bayes-Schätzers. Dabei handelt es sich um eine Schätzfunktion in der mathematischen Statistik, welche eventuell vorhandenes Vorwissen bei der Schätzung eines Parameters berücksichtigt. Dabei wird in der bayesschen Statistik das initiale Vorwissen mit Hilfe der A-priori-Verteilung modelliert, die bedingte Wahrscheinlichkeit des Parameters unter Betrachtung dieses Vorwissens mit der A-posteriori-Verteilung.\cite{statistik} \newline
 Im Umfang dieser Arbeit wird die Forschung und Implementierung des Projekts Regularized Monocular Depth Estimation \emph{REMODE} genutzt. In dieser Ausarbeitung von Matia Pizzoli, et al. \cite{Forster2014ICRA} wird die bayessche Schätzung mit neusten Entwicklungen in der Konvexoptimierung verbunden. Hierbei stützen sie ihre Forschungen auf die Ergebnisse von G. Vogiatzis und C. Hernandez und ihrer Abhandlung mit dem Titel ''Video-based, real-time multi-view stereo`` von 2011. \newline
 REMODE ermöglicht mit Hilfe der gewonnenen Informationen ein dreidimensionales Modell des Raumes zu erstellen. Die Abbildung zeigt ein mögliches Anwendungsbeispiel wo Tiefeninformationen über einem Trümmerfeld gesammelt werden. \newline
 
@@ -159,7 +157,7 @@ Die Implementation setzt auf eine durchschnittliche Bewegung der Kamera von 0.00
 
 \subsection{Performanceprobleme}
 \label{performanceprobleme}
-%hier mal vollkommen auslassen über alle performanceissues
+
 
 Trotz der Nutzung neuster Methoden und Techniken zur Berechnung der Kamerapositionen und Tiefenbilder, gibt es Probleme hinsichtlich der Performance. Dabei ist das Hauptproblem die Differenz im verfolgten Ziel zwischen dieser Arbeit und der Implementierung von SVO und REMODE. \newline
 Der Hauptanwendungszweck ist ein langsamer, stetiger Flug einer Drohne über ein Gebiet. Dabei zeigt die aufnehmende Kamera nach unten und hat sowohl eine sehr hohe Qualität, als auch ein großes Sichtfeld von mehr als 110 Grad. Die Bewegungen der Drohne sind nur nach seitlich, nach vorne und nach hinten, nicht jedoch um die eigene Achse. Somit wird sicher gestellt, dass immer genügend Referenzfeatures vorhanden sind, damit zu jedem Zeitpunkt die Position der Kamera bekannt ist. \newline
@@ -177,7 +175,7 @@ Als Grundlage diente eine nicht modularisierte, schlecht dokumentierte C\# Imple
 
 %\newpage
 \subsection{Architektur}
-%Max
+\subsection*{Max Lenk}
 Die Architektur der Anwendung wird maßgeblich durch die Verwendung des Robotic Operating System geprägt, da es eine rahmenartige Struktur bildet. Durch dieses frameworkartige Verhalten bestimmt es vorrangig die Programmstruktur, welche hauptsächlich aus verschiedenen Nodes besteht. Grob betrachtet kann man sie in zwei grundlegende Bereiche trennen:
 \begin{itemize}
 	\item Assistenzsystem
@@ -245,6 +243,7 @@ Für den gesamten Prozess von Nutzereingabe, durch den Kinectsensor, bis zur Ste
 
 \newpage
 \section{Assistenzsystem}
+\subsection*{Christoph Meise}
 Im Kapitel \ref{Bildverarbeitung} wurde der Prozess beschrieben, wie aus den monokularen Aufnahmen der Frontkamera Tiefenbilder ermittelt werden können. Aufbauend darauf soll nun erarbeitet werden, wie mit Hilfe dieser Informationen die Implementation eines grundlegenden Assistenzsystems aussehen könnte.
 
 \subsection{Problemanalyse}

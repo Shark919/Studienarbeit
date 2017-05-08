@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Studienarbeit.aux
+This is BibTeX, Version 0.99d (TeX Live 2016/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Studienarbeit.aux
 A level-1 auxiliary file: Inhalt/titelseite.aux
 A level-1 auxiliary file: Inhalt/erklaerung.aux
 A level-1 auxiliary file: Inhalt/abstract.aux
@@ -9,5 +11,47 @@ A level-1 auxiliary file: Inhalt/Evaluation.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
 Warning--empty publisher in fuzzybook
+Warning--empty publisher in book1234
 Warning--empty publisher in studienarbeitfly
-(There were 2 warnings)
+You've used 54 entries,
+            1876 wiz_defined-function locations,
+            682 strings with 9630 characters,
+and the built_in function-call counts, 6553 in all, are:
+= -- 676
+> -- 104
+< -- 1
++ -- 70
+- -- 16
+* -- 264
+:= -- 752
+add.period$ -- 96
+call.type$ -- 54
+change.case$ -- 50
+chr.to.int$ -- 0
+cite$ -- 57
+duplicate$ -- 257
+empty$ -- 984
+format.name$ -- 16
+if$ -- 1795
+int.to.chr$ -- 0
+int.to.str$ -- 54
+missing$ -- 10
+newline$ -- 208
+num.names$ -- 11
+pop$ -- 370
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 161
+stack$ -- 0
+substring$ -- 0
+swap$ -- 7
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 11
+width$ -- 56
+write$ -- 468
+(There were 3 warnings)

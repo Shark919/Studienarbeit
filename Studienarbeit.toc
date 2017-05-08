@@ -1,5 +1,5 @@
 \select@language {german}
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VII}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VI}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}
 \contentsline {section}{\numberline {1.1}Motivation}{2}
 \contentsline {section}{\numberline {1.2}Aufbau}{3}
@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {2.4.2}Fuzzylite}{14}
 \contentsline {section}{\numberline {2.5}Kinect}{16}
 \contentsline {subsection}{\numberline {2.5.1}Allgemeines}{16}
-\contentsline {subsection}{\numberline {2.5.2}Vergleich der verschieden Stacks zur Implementation}{17}
+\contentsline {subsection}{\numberline {2.5.2}Vergleich der verschieden Stacks zur Implementation}{16}
 \contentsline {section}{\numberline {2.6}Punktwolken}{17}
 \contentsline {section}{\numberline {2.7}Point Cloud Library}{18}
 \contentsline {chapter}{\numberline {3}Software Architektur}{20}
@@ -29,19 +29,19 @@
 \contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{33}
 \contentsline {subsection}{\numberline {3.3.2}Architektur}{33}
 \contentsline {subsection}{\numberline {3.3.3}Ansteuerung der Kinect}{36}
-\contentsline {subsection}{\numberline {3.3.4}Kinect Controller}{37}
+\contentsline {subsection}{\numberline {3.3.4}Kinect Controller}{38}
 \contentsline {subsection}{\numberline {3.3.5}Fuzzy Controller}{38}
 \contentsline {subsection}{\numberline {3.3.6}Drone Controller}{39}
-\contentsline {subsection}{\numberline {3.3.7}ROS Nodes}{39}
-\contentsline {section}{\numberline {3.4}Assistenzsystem}{41}
-\contentsline {subsection}{\numberline {3.4.1}Problemanalyse}{41}
-\contentsline {subsection}{\numberline {3.4.2}L\IeC {\"o}sungsans\IeC {\"a}tze}{42}
-\contentsline {subsubsection}{\numberline {3.4.2.1}Referenzobjekt}{42}
-\contentsline {subsubsection}{\numberline {3.4.2.2}Referenzpunktwolke}{45}
-\contentsline {subsubsection}{\numberline {3.4.2.3}Alternative L\IeC {\"o}sungen}{46}
+\contentsline {subsection}{\numberline {3.3.7}ROS Nodes}{40}
+\contentsline {section}{\numberline {3.4}Assistenzsystem}{42}
+\contentsline {subsection}{\numberline {3.4.1}Problemanalyse}{42}
+\contentsline {subsection}{\numberline {3.4.2}L\IeC {\"o}sungsans\IeC {\"a}tze}{43}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Referenzobjekt}{43}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Referenzpunktwolke}{46}
+\contentsline {subsubsection}{\numberline {3.4.2.3}Alternative L\IeC {\"o}sungen}{47}
 \contentsline {chapter}{\numberline {4}Evaluation}{48}
 \contentsline {section}{\numberline {4.1}Ergebnis}{48}
 \contentsline {section}{\numberline {4.2}Ausblick}{49}
 \contentsline {subsection}{\numberline {4.2.1}Andere Simulatoren}{49}
-\contentsline {subsection}{\numberline {4.2.2}Assistenzsystem}{50}
+\contentsline {subsection}{\numberline {4.2.2}Assistenzsystem}{51}
 \contentsline {chapter}{\nonumberline Literaturverzeichnis}{52}
