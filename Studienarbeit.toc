@@ -1,5 +1,4 @@
 \select@language {german}
-\contentsline {chapter}{\nonumberline Erkl{\"a}rung}{I}
 \contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VII}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}
 \contentsline {section}{\numberline {1.1}Motivation}{2}
@@ -30,16 +29,16 @@
 \contentsline {subsection}{\numberline {3.3.1}Grundlegende Herausforderungen}{33}
 \contentsline {subsection}{\numberline {3.3.2}Architektur}{33}
 \contentsline {subsection}{\numberline {3.3.3}Ansteuerung der Kinect}{36}
-\contentsline {subsection}{\numberline {3.3.4}Kinect Controller}{38}
+\contentsline {subsection}{\numberline {3.3.4}Kinect Controller}{37}
 \contentsline {subsection}{\numberline {3.3.5}Fuzzy Controller}{38}
 \contentsline {subsection}{\numberline {3.3.6}Drone Controller}{39}
-\contentsline {subsection}{\numberline {3.3.7}ROS Nodes}{40}
-\contentsline {section}{\numberline {3.4}Assistenzsystem}{42}
-\contentsline {subsection}{\numberline {3.4.1}Problemanalyse}{42}
-\contentsline {subsection}{\numberline {3.4.2}L\IeC {\"o}sungsans\IeC {\"a}tze}{43}
-\contentsline {subsubsection}{\numberline {3.4.2.1}Referenzobjekt}{43}
-\contentsline {subsubsection}{\numberline {3.4.2.2}Referenzpunktwolke}{46}
-\contentsline {subsubsection}{\numberline {3.4.2.3}Alternative L\IeC {\"o}sungen}{47}
+\contentsline {subsection}{\numberline {3.3.7}ROS Nodes}{39}
+\contentsline {section}{\numberline {3.4}Assistenzsystem}{41}
+\contentsline {subsection}{\numberline {3.4.1}Problemanalyse}{41}
+\contentsline {subsection}{\numberline {3.4.2}L\IeC {\"o}sungsans\IeC {\"a}tze}{42}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Referenzobjekt}{42}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Referenzpunktwolke}{45}
+\contentsline {subsubsection}{\numberline {3.4.2.3}Alternative L\IeC {\"o}sungen}{46}
 \contentsline {chapter}{\numberline {4}Evaluation}{48}
 \contentsline {section}{\numberline {4.1}Ergebnis}{48}
 \contentsline {section}{\numberline {4.2}Ausblick}{49}
