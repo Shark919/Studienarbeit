@@ -61,7 +61,17 @@ L.~Joseph, {\em ROS Robotics Projects}.
 
 \bibitem{rosconcepts}
 ``{ROS Konzepte}.'' \url{http://wiki.ros.org/ROS/Concepts}, 2017.
-\newblock visited: 04.11.2017.
+\newblock visited: 05.01.2017.
+
+\bibitem{singleresp}
+``{Single Responsibility Principle}.''
+  \url{http://clean-code-developer.de/die-grade/orangener-grad/}, 2017.
+\newblock visited: 05.01.2017.
+
+\bibitem{clientlibary}
+``{Single Responsibility Principle}.''
+  \url{http://wiki.ros.org/Client%20Libraries}, 2017.
+\newblock visited: 05.01.2017.
 
 \bibitem{messagebroker}
 ``{Message Broker}.''
@@ -74,6 +84,10 @@ L.~Joseph, {\em ROS Robotics Projects}.
   \url{http://timnew.me/blog/2014/12/06/typical-eventbus-design-patterns/},
   2017.
 \newblock visited: 04.11.2017.
+
+\bibitem{tumsim}
+``{TUM Simulator}.'' \url{http://wiki.ros.org/tum_simulator}, note = {visited:
+  03.22.2017}, 2017.
 
 \bibitem{real_structure}
 ``{Programmstruktur mit realer Drohne}.''
@@ -102,6 +116,31 @@ D.~S. Keller, ``Wissensbasierte systeme.'' Vorlesung, 2017.
 \bibitem{fuzzylite}
 J.~Rada-Vilela, ``fuzzylite: a fuzzy logic control library,'' 2017.
 
+\bibitem{kinectgolem}
+``{Microsoft Kinect Golem}.'' \url{https://www.golem.de/1008/77265.html}, note
+  = {visited: 05.04.2017}, 2017.
+
+\bibitem{kinectms}
+``{Microsoft Kinect }.''
+  \url{https://developer.microsoft.com/de-de/windows/kinect}, note = {visited:
+  05.04.2017}, 2017.
+
+\bibitem{kinectSDK}
+``{Microsoft Kinect SDK }.''
+  \url{https://developer.microsoft.com/de-de/windows/kinect/develop}, note =
+  {visited: 05.04.2017}, 2017.
+
+\bibitem{freenect}
+``{Freenect}.'' \url{https://github.com/OpenKinect/libfreenect}, 2017.
+\newblock visited: 04.08.2017.
+
+\bibitem{openni}
+``{OpenNI}.'' \url{https://github.com/OpenNI/OpenNI}, 2017.
+\newblock visited: 04.08.2017.
+
+\bibitem{opennilicense}
+``{Licensing of OpenNI}.''
+
 \bibitem{defPC}
 ``{Definition PointCloud}.''
   \url{http://whatis.techtarget.com/definition/point-cloud}, Oct. 2016.
@@ -126,17 +165,6 @@ J.~Rada-Vilela, ``fuzzylite: a fuzzy logic control library,'' 2017.
   \url{https://github.com/uzh-rpg/rpg_svo/wiki/Obtaining-Best-Performance},
   June 2014.
 \newblock visited: 02.18.2017.
-
-\bibitem{freenect}
-``{Freenect}.'' \url{https://github.com/OpenKinect/libfreenect}, 2017.
-\newblock visited: 04.08.2017.
-
-\bibitem{openni}
-``{OpenNI}.'' \url{https://github.com/OpenNI/OpenNI}, 2017.
-\newblock visited: 04.08.2017.
-
-\bibitem{opennilicense}
-``{Licensing of OpenNI}.''
 
 \bibitem{opennilaunch}
 ``{OpenNI Launch}.'' \url{http://wiki.ros.org/openni_launch}, 2017.
