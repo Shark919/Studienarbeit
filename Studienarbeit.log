@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.8)  10 MAY 2017 14:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.8)  10 MAY 2017 14:20
 entering extended mode
 **Studienarbeit.tex
 (C:\Users\D062367\git\Studienarbeit\Studienarbeit.tex
@@ -767,30 +767,31 @@ Overfull \hbox (64.48486pt too wide) in paragraph at lines 105--106
 ahr-heits-wer-ten kümmert.[[]][[]] 
  []
 
+[14]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 115.
-[14] [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 172--174
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 116.
+ [15] [16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
 
  []
 
-[17] <Bilder/pointcloud_1.jpg, id=104, 694.595pt x 459.7175pt>
+<Bilder/pointcloud_1.jpg, id=104, 694.595pt x 459.7175pt>
 File: Bilder/pointcloud_1.jpg Graphic file (type jpg)
 
 <use Bilder/pointcloud_1.jpg>
-Package pdftex.def Info: Bilder/pointcloud_1.jpg used on input line 177.
+Package pdftex.def Info: Bilder/pointcloud_1.jpg used on input line 180.
 (pdftex.def)             Requested size: 284.7858pt x 188.48538pt.
-LaTeX Font Info:    Try loading font information for U+fplmbb on input line 182
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 185
 .
 
 (C:\Users\D062367\Documents\Latex\tex\latex\psnfss\ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
-) [18 <C:/Users/D062367/git/Studienarbeit/Bilder/pointcloud_1.jpg>] [19]
+) [18] [19 <C:/Users/D062367/git/Studienarbeit/Bilder/pointcloud_1.jpg>]
 (C:\Users\D062367\git\Studienarbeit\Inhalt/implementation.tex
 chapter 3.
 
@@ -1277,11 +1278,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  9205 strings out of 493921
  140422 string characters out of 3145272
- 300509 words of memory out of 3000000
+ 294509 words of memory out of 3000000
  12238 multiletter control sequences out of 15000+200000
  45394 words of font info for 107 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 54i,12n,66p,8898b,2059s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,11n,66p,8898b,1400s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\ectt1095.pk>{C:/Users/D062367/Documents/Latex/fonts/enc/dvips/fontname/8r.enc
 } <C:\Users\D062367\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
@@ -1301,7 +1302,7 @@ hpazo/fplmbb.pfb><C:/Users/D062367/Documents/Latex/fonts/type1/public/mathpazo/
 fplmr.pfb><C:/Users/D062367/Documents/Latex/fonts/type1/urw/palatino/uplb8a.pfb
 ><C:/Users/D062367/Documents/Latex/fonts/type1/urw/palatino/uplr8a.pfb><C:/User
 s/D062367/Documents/Latex/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Studienarbeit.pdf (66 pages, 6175733 bytes).
+Output written on Studienarbeit.pdf (66 pages, 6175962 bytes).
 PDF statistics:
  715 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

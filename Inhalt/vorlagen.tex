@@ -111,6 +111,7 @@ Das verwendete Fuzzymodell besteht insgesamt aus acht linguistischen Variablen, 
 
 \subsection{Fuzzylite}
 Für die Implementation der Fuzzylogik wird die C++ Bibliothek FuzzyLite von Juan Rada-Vilela verwendet. Es handelt sich dabei um eine freie Opensource Libary und unterstützt alle gängigen Funktionen der Fuzzylogik.\cite{fuzzylite}  %todo: schauen das Listing auf einer Seite ist
+\newpage
 \begin{lstlisting}[caption=Beispielcode zur Erzeugung eines neuen Fuzzymodells]
 void FuzzyController::init() {
 	engine = new Engine;
@@ -131,6 +132,7 @@ void FuzzyController::init() {
 }
 \end{lstlisting}
 Mit dem Code erzeugt man zunächst eine neue Engine und anschließend eine Eingabevariable. Dieser wird ein Wertebereich zugewiesen und Zugehörigkeitsfunktionen erstellt. Schlussendlich wird die Variable bei der Engine registriert. 
+\newpage
 \begin{lstlisting}[caption=Code zur Erzeugung von einem Regelsystem]
 RuleBlock* ruleBlock = new RuleBlock;
 ruleBlock->setEnabled(true);
@@ -153,6 +155,7 @@ engine->process();
 \end{lstlisting}
 Schließlich kann man den Eingabevariablen konkrete Werte zuweisen und das System mithilfe von unscharfen Schließen auswerten.
 
+\newpage
 \section{Kinect}
 %Max
 \subsection{Allgemeines}

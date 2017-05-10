@@ -15,11 +15,11 @@
 \contentsline {section}{\numberline {2.4}Fuzzylogik}{13}
 \contentsline {subsection}{\numberline {2.4.1}Allgemeines}{13}
 \contentsline {subsection}{\numberline {2.4.2}Fuzzylite}{14}
-\contentsline {section}{\numberline {2.5}Kinect}{16}
-\contentsline {subsection}{\numberline {2.5.1}Allgemeines}{16}
+\contentsline {section}{\numberline {2.5}Kinect}{17}
+\contentsline {subsection}{\numberline {2.5.1}Allgemeines}{17}
 \contentsline {subsection}{\numberline {2.5.2}Vergleich der verschieden Stacks zur Implementation}{17}
-\contentsline {section}{\numberline {2.6}Punktwolken}{17}
-\contentsline {section}{\numberline {2.7}Point Cloud Library}{18}
+\contentsline {section}{\numberline {2.6}Punktwolken}{18}
+\contentsline {section}{\numberline {2.7}Point Cloud Library}{19}
 \contentsline {chapter}{\numberline {3}Software Architektur}{20}
 \contentsline {section}{\numberline {3.1}Anforderungen}{20}
 \contentsline {section}{\numberline {3.2}Bildverarbeitung}{22}

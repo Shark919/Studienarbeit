@@ -6,7 +6,7 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Publish-Subscribe Pattern}}{10}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Programmstruktur mit dem realen Quadrocopter}}{12}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Programmstruktur unter Verwendung von Gazebo}}{13}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Beispiel einer visualisierten Punktwolke \cite {visPC}}}{18}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Beispiel einer visualisierten Punktwolke \cite {visPC}}}{19}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Semi-Direct Monocular Visual Odometry im Simulator}}{24}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Prinzip der Lochkamera \cite {lochkamera}}}{26}
