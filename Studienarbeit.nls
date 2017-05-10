@@ -1,0 +1,31 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{CPU}]\begingroup Central Processing Unit\nomeqref {0.0}
+		\nompageref{1}
+  \item [{FOV}]\begingroup Field of View\nomeqref {0.0}\nompageref{1}
+  \item [{FPS}]\begingroup Frames per Second\nomeqref {0.0}
+		\nompageref{1}
+  \item [{GPU}]\begingroup Graphics Processing Unit\nomeqref {0.0}
+		\nompageref{1}
+  \item [{IoT}]\begingroup Internet of Things\nomeqref {0.0}
+		\nompageref{1}
+  \item [{LoG}]\begingroup Laplacian of Gaussian\nomeqref {0.0}
+		\nompageref{1}
+  \item [{PCL}]\begingroup Point Cloud Libary\nomeqref {0.0}
+		\nompageref{1}
+  \item [{REMODE}]\begingroup Regularized Monocular Depth Estimation\nomeqref {0.0}
+		\nompageref{1}
+  \item [{ROS}]\begingroup Robotic Operating System\nomeqref {0.0}
+		\nompageref{1}
+  \item [{SDK}]\begingroup Software Development Kit\nomeqref {0.0}
+		\nompageref{1}
+  \item [{SFM}]\begingroup Sturcture from Motion\nomeqref {0.0}
+		\nompageref{1}
+  \item [{SLAM}]\begingroup Simultaneous Localization and Mapping\nomeqref {0.0}
+		\nompageref{1}
+  \item [{SVO}]\begingroup Semi-Direct Monocular Visual Odometry\nomeqref {0.0}
+		\nompageref{1}
+
+\end{thenomenclature}

@@ -14,7 +14,7 @@ Im Umfang der Studienarbeit wird, wie in der folgenden Abbildung \ref{fig:ardron
 Diese zeichnet sich unter anderem durch eine Frontkamera mit einer Auflösung von 1280×720 Pixeln und einer Bildrate von 30 pro Sekunde aus. Weiterhin ist sie mit einer zum Boden gerichteten QVGA Kamera ausgerüstet, welche 60 Bilder pro Sekunde aufnimmt. \newline
 Die Drohne orientiert sich beim Fliegen mit Hilfe einer Vielzahl von Sensoren. Dazu gehören ein dreiachsiges Gyroskop und ein Magnetometer. Weiterhin nutzt sie Beschleunigungs-, Ultraschall- und Luftdrucksensoren. \newline
 Der Grund für die Wahl der Drohne ist vor allem der vergleichsweise niedrige Preis von ca. 200€ und der starken Verbreitung in der Forschung. Dadurch gibt es bereits eine Vielzahl von Projekten, die dazu führen, dass die Drohne und das dazugehörige Interface zu einem großen Umfang fehlerfrei funktionieren. \newline
-Weiterhin gibt es schon ROS Nodes (siehe \ref{ROS}) und konfigurierte Modelle in Simulationsumgebungen, wobei man auf bereits implementierte Bestandteile zurückgreifen kann.
+Weiterhin gibt es schon ROS Nodes (siehe Abschnitt \ref{ROS}) und konfigurierte Modelle in Simulationsumgebungen, wobei man auf bereits implementierte Bestandteile zurückgreifen kann.
 
 
 \section{ROS}
@@ -22,7 +22,7 @@ Weiterhin gibt es schon ROS Nodes (siehe \ref{ROS}) und konfigurierte Modelle in
 \label{ROS}
 \subsection{Allgemeines}
 %Max
-Das Robotic Operating System, kurz ROS, ist eine Sammlung von Softwareframeworks für die Entwicklung von Software für persönliche Roboter. Es stellt entsprechende Bibliotheken und Werkzeuge zur Verfügung, um Entwicklern die Programmierung maximal zu vereinfachen. Dabei bietet ROS einem Betriebssystem ähnliche Funktionalitäten auf Basis eines homogenen Computercluster \footnote{text}. Dazugehören Hardwareabstraktion, low-level Steuerung, Nachrichtevermittlung zwischen verschiedenen Prozessen und Paketmanagement. Trotz der Notwendigkeit hoher Reaktivität und geringer Latenz bei der Steuerung von Robotern handelt es sich es de facto nicht um ein richtiges Betriebssystem , obwohl es durch den Namen(\grqq Operating System\grqq) suggeriert wird. Dennoch ist es möglich Echtzeitcode (\grqq realtime code\grqq) in ROS zu integrieren \cite{realtimecode}. ROS ist eins der am meisten genutzten Frameworks im Robotikumfeld und hat eine stark wachsende Gemeinschaft, was es in Kombination mit dessen Features zu einer signifikanten Technologie macht.\cite{rosbook} \cite{rosgeneral}
+Das Robotic Operating System, kurz ROS, ist eine Sammlung von Softwareframeworks für die Entwicklung von Software für persönliche Roboter. Es stellt entsprechende Bibliotheken und Werkzeuge zur Verfügung, um Entwicklern die Programmierung maximal zu vereinfachen. Dabei bietet ROS einem Betriebssystem ähnliche Funktionalitäten auf Basis eines homogenen Computercluster \footnote{Computercluster, bei dem Hardware und Betriebssystem auf allen Nodes gleich ist\cite{cluster}}. Dazugehören Hardwareabstraktion, low-level Steuerung, Nachrichtevermittlung zwischen verschiedenen Prozessen und Paketmanagement. Trotz der Notwendigkeit hoher Reaktivität und geringer Latenz bei der Steuerung von Robotern handelt es sich es de facto nicht um ein richtiges Betriebssystem , obwohl es durch den Namen(\grqq Operating System\grqq) suggeriert wird. Dennoch ist es möglich Echtzeitcode (\grqq realtime code\grqq) in ROS zu integrieren \cite{realtimecode}. ROS ist eins der am meisten genutzten Frameworks im Robotikumfeld und hat eine stark wachsende Gemeinschaft, was es in Kombination mit dessen Features zu einer signifikanten Technologie macht.\cite{rosbook} \cite{rosgeneral}
 
 
 \subsection{Design Prinzipien}
@@ -70,7 +70,7 @@ Durch diese Modularität ist einfacher Komponenten und Funktionalitäten sowohl 
 %Um die Qualität der Anwendung zu sichern wird Catkin Build anstelle des %veralteten rosbuild verwendet. Bei Catkin sind Pakete der atomare Bestandteil der Anwendung.
 %TODO%http://wiki.ros.org/catkin_or_rosbuild 
 
-\section{Simulation mit Gazebo} %todo: Erklären das Drohne in simulierter Welt
+\section{Simulation mit Gazebo}
 Da es besonders beim Flug von Quadrocoptern schnell zu Schäden kommen kann und das sowohl  in langen Ausfallzeiten resultieren kann, als auch zu erhöhten Materialkosten führt, ist es sinnvoll Testflüge in simulierte Umgebungen auszulagern. Speziell beim Test von autonomen Verhalten ist der Test der Features in realer Umgebung somit mit einem hohen Risiko verbunden. Um dies zu vermeiden ist die Simulation von Quadrocoptern in möglichst verschiedenen Umgebungen unabdingbar. Ebenfalls erleichtert eine simulierte Version der Drohne die Entwicklung, da sie nicht immer physikalisch vorhanden sein muss und somit Wetter oder andere reale Faktoren keinen Einfluss haben. In einer solchen Simulationsumgebung bewegt sich der Quadrocopter in einer simulierten Welt, die an verschiedenste Situation angepasst werden kann. Dabei ist es allerdings notwendig, insbesondere
 bei Bilddaten, dass die reale Situation möglichst realitätsnah abgebildet wird, sodass
 das Verhalten im realen Umfeld entsprechend ähnlich zu erwarten ist. Insbesondere bei der
@@ -80,7 +80,7 @@ Bilddaten in der Regel wenig texturiert sind und somit wenig Merkmale extrahiert
 Durch die Verwendung von ROS und der mitgelieferten Simulationsumgebung Gazebo wird eine optimale Integration gewährleistet. Anfänglich handelte es sich um ein ROS Paket, mittlerweile ist es allerdings
 ein eigenständiges Softwareprojekt und benötigt de facto ROS nicht zur Laufzeit.
 \newline
-Da die realistische Simulation einer Drohne sehr umfangreich ist wird das ROS Paket \grqq tum simulator" verwendet. Es enthält eine Implementation der AR Drone 2.0 für den Gazebo Simulator. Es wurde von Hongrong Huang und Jürgen Sturm aus der Computer Vision Group von der Technischen Universität München entwickelt.\cite{tumsim}  In Gazebo existieren sogenannte Welten, frei gestaltbare simulierte Umgebungen, die sich beliebig mit Objekten und Texturen auf den Anwendungsfall anpassen lassen. Die Drohne wird komplett abstrahiert, wodurch die Simulation sich ohne Veränderung mit der realen Drohne austauschen lässt. \newline
+Da die realistische Simulation einer Drohne sehr umfangreich ist wird das ROS Paket \grqq tum simulator" verwendet. Es enthält eine Implementation der AR.Drone 2.0 für den Gazebo Simulator. Es wurde von Hongrong Huang und Jürgen Sturm aus der Computer Vision Group von der Technischen Universität München entwickelt.\cite{tumsim}  In Gazebo existieren sogenannte Welten, frei gestaltbare simulierte Umgebungen, die sich beliebig mit Objekten und Texturen auf den Anwendungsfall anpassen lassen. Die Drohne wird komplett abstrahiert, wodurch die Simulation sich ohne Veränderung mit der realen Drohne austauschen lässt. \newline
  \begin{figure}[ht]
  	\centering
  	\includegraphics[scale=0.9]{Bilder/real_structure.png}

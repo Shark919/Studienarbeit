@@ -1,1 +1,13 @@
 \nomenclatureentry{aIoT@[{IoT}]\begingroup Internet of Things\nomeqref {0.0}|nompageref}{1}
+\nomenclatureentry{aROS@[{ROS}]\begingroup Robotic Operating System\nomeqref {0.0}|nompageref}{1}
+\nomenclatureentry{aREMODE@[{REMODE}]\begingroup Regularized Monocular Depth Estimation\nomeqref {0.0}|nompageref}{1}
+\nomenclatureentry{aSVO@[{SVO}]\begingroup Semi-Direct Monocular Visual Odometry\nomeqref {0.0}|nompageref}{1}
+\nomenclatureentry{aSFM@[{SFM}]\begingroup Sturcture from Motion\nomeqref {0.0}|nompageref}{1}
+\nomenclatureentry{aSLAM@[{SLAM}]\begingroup Simultaneous Localization and Mapping\nomeqref {0.0}|nompageref}{1}
+\nomenclatureentry{aCPU@[{CPU}]\begingroup Central Processing Unit\nomeqref {0.0}|nompageref}{1}
+\nomenclatureentry{aGPU@[{GPU}]\begingroup Graphics Processing Unit\nomeqref {0.0}|nompageref}{1}
+\nomenclatureentry{aFOV@[{FOV}]\begingroup Field of View\nomeqref {0.0}|nompageref}{1}
+\nomenclatureentry{aPCL@[{PCL}]\begingroup Point Cloud Libary\nomeqref {0.0}|nompageref}{1}
+\nomenclatureentry{aLoG@[{LoG}]\begingroup Laplacian of Gaussian\nomeqref {0.0}|nompageref}{1}
+\nomenclatureentry{aFPS@[{FPS}]\begingroup Frames per Second\nomeqref {0.0}|nompageref}{1}
+\nomenclatureentry{aSDK@[{SDK}]\begingroup Software Development Kit\nomeqref {0.0}|nompageref}{1}

@@ -1,6 +1,7 @@
 \select@language {german}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Parrot AR.DRONE 2.0 Elite Edition \cite {dronepicture}}}{5}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Publish-Subscribe Pattern}}{10}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Programmstruktur mit dem realen Quadrocopter}}{12}
@@ -13,13 +14,13 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces REMODE 3D-Modell, Flug \IeC {\"u}ber Tr\IeC {\"u}mmer \cite {remode3d}}}{29}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces \IeC {\"U}bersicht Bildtransformation \cite {Forster2014ICRA}}}{30}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces \IeC {\"U}bersicht zur Softwarearchitektur}}{36}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Darstellung der K\IeC {\"o}rperteile in RVIZ}}{37}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Darstellung der K\IeC {\"o}rperteile in RVIZ}}{38}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces UML Klassendiagramm des Kinect Controllers}}{39}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Zusammenspiel der verschiedenen ROS-Nodes}}{41}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Approximiertes Tiefenbild durch REMODE}}{42}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Zusammenspiel der verschiedenen ROS-Nodes}}{42}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Approximiertes Tiefenbild durch REMODE}}{43}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Objektreferenz einer T\IeC {\"u}r}}{44}
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Verlauf der zweiten Ableitung im LoG Algorithmus \cite {LoG}}}{45}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Correspondence Grouping mit dem PCL Algorithmus \cite {pclGrouping}}}{46}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Correspondence Grouping mit dem PCL Algorithmus \cite {pclGrouping}}}{47}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces AirSim von Mircosoft in Aktion\cite {airsim}}}{50}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces AirSim von Mircosoft in Aktion\cite {airsim}}}{51}
 \addvspace {10\p@ }

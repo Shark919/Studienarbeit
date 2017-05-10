@@ -56,6 +56,12 @@ C.~Forster, M.~Pizzoli, and D.~Scaramuzza, ``{SVO}: Fast semi-direct monocular
   2016.
 \newblock visited: 01.22.2017.
 
+\bibitem{cluster}
+``{Computercluster}.''
+  \url{http://www.weblearn.hs-bremen.de/risse/RST/SS99/cluster/Referat/node2.htmlW},
+  2017.
+\newblock visited: 05.10.2017.
+
 \bibitem{realtimecode}
 ``{Realtime code in ROS}.''
   \url{http://www.willowgarage.com/blog/2009/06/10/orocos-rtt-and-ros-integrated},

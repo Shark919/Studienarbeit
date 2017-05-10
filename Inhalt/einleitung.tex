@@ -22,6 +22,7 @@ Eine solche semi-autonome Assistenzfunktion könnte beispielsweise dabei helfen,
 
 
 \section{Motivation} 
+\subsection*{Max Lenk, Christoph Meise}
 Das Ziel besteht darin, dass die Drohne aktiv die Umgebung auswertet und dabei Objekte wie Türen, oder Wände erkennt. Der Unterschied zu bereits bestehenden Projekten in diesem Themengebiet besteht darin, dass nur eine einzelne monokulare\footnote{Monokular ist die Bezeichnung für Kameras mit einer einzelnen Linse} Kamera verwendet werden soll, anstatt externe Tiefenbildkameras zu montieren. \newline
 Dadurch trifft man auf eine Vielzahl von komplexen Problemen, welche im weiteren Verlauf dieser Arbeit dargestellt werden. Auf der anderen Seite könnte man dadurch teure Hardware sparen und zusätzlich die Drohne für verschiedenste Einsatzzwecke verwenden. \newline
 Anhand von durch die von der Kamera aufgenommenen Bilder soll die Drohne anschließend in der Lage sein, die Entscheidungen des Nutzers zu unterstützen und abzuändern, um somit beispielsweise Kollisionen zu vermeiden, oder gezielt durch Hindernisse zu fliegen. \newline
@@ -30,7 +31,8 @@ Für eine etwas anschaulichere Steuerung, die besonders für Nutzer mit wenig Er
 Besonders zu Gute kommt ein Assistenzsystem bei dieser etwas spielerischen Steuerung. Da die dort sich die Kontrolle in engen  Räume schwierig gestaltet oder Manöver durch Türen schwer gesteuert werden können, ist eine Hilfestellung für solche Zwecke durchaus sinnvoll um die Schadensfälle zu minimieren. 
 
 \section{Aufbau}
-Diese Studienarbeit besteht aus 3 Kapiteln. Im ersten Abschnitt der Arbeit werden die Grundlagen erklärt. Zuerst wird dabei die genutzte Drohne und deren Spezifikationen dargestellt. \newline
+\subsection*{Christoph Meise}
+Diese Studienarbeit besteht aus drei Kapiteln. Im ersten Abschnitt der Arbeit werden die Grundlagen erklärt. Zuerst wird dabei die genutzte Drohne und deren Spezifikationen dargestellt. \newline
 Anschließend wird das Software Framework Roboter Operating System \emph{(ROS)} eingeführt, welches ein Hauptbestandteil der Projektarchitektur ausmacht.\newline
 Im weiteren Verlauf wird dann die Simulationsumgebung beschrieben, in der eine simulierte Drohne geflogen werden kann. Anschließend wird die Tiefenbildkamera Kinect beschrieben, welche zur Umsetzung der Gestensteuerung genutzt wird. Im letzten Teil dieses Kapitels werden die Grundlagen zur Bildverarbeitung beschrieben, welche essentiell für das Verständnis des weiteren Verlaufs der Arbeit sind. \newline
 Der zweite Abschnitt dieser Arbeit umfasst die Software Architektur. Zuerst werden hierbei die technischen und Anforderungen an das Projekt aufgestellt. Anschließend ist das Kapitel in drei logische abgegrenzte Unterkapitel unterteilt: Bildverarbeitung, Implementierung und das Assistenzsystem. \newline
